@@ -1,0 +1,15 @@
+{
+    "data": {
+        "alexa_enabled": true,
+        "alexa_entity_configs": {},
+        "cloud_user": "ec83b52401804d79a1fb090e770e6f40",
+        "cloudhooks": {},
+        "google_enabled": true,
+        "google_entity_configs": {},
+        "google_local_webhook_id": "f5485ffc5faa2fa81379c221325adef9729b38fa211a5a32ef0d6abc35970807",
+        "google_secure_devices_pin": null,
+        "remote_enabled": false
+    },
+    "key": "cloud",
+    "version": 1
+}

@@ -1,0 +1,7 @@
+2020-02-29 04:59:26 WARNING (Thread-3) [pychromecast.socket_client] [Public Broadcast:8009] Heartbeat timeout, resetting connection
+2020-02-29 19:35:45 WARNING (Thread-5) [pychromecast.socket_client] [Living Room TV:8009] Heartbeat timeout, resetting connection
+2020-02-29 19:36:15 ERROR (Thread-5) [pychromecast.socket_client] [Living Room TV:8009] Failed to connect to service Chromecast-49593f3b05b54c5f4abce3e926c5a39f._googlecast._tcp.local., retrying in 5.0s
+2020-03-01 02:06:13 WARNING (Thread-5) [pychromecast.socket_client] [Living Room TV:8009] Heartbeat timeout, resetting connection
+2020-03-01 02:06:44 ERROR (Thread-5) [pychromecast.socket_client] [Living Room TV:8009] Failed to connect to service Chromecast-49593f3b05b54c5f4abce3e926c5a39f._googlecast._tcp.local., retrying in 5.0s
+2020-03-01 04:47:36 WARNING (Thread-3) [pychromecast.socket_client] [Public Broadcast:8009] Heartbeat timeout, resetting connection
+2020-03-01 12:02:15 WARNING (Thread-2) [pychromecast.socket_client] [Kitchen Assistant:8009] Heartbeat timeout, resetting connection

@@ -1,0 +1,28 @@
+- id: '1582894309852'
+  alias: Welcome Home
+  description: Light turns on at night when the door is unlocked
+  trigger:
+  - device_id: d6df4bef823a4c1c8a87bb41280e55ae
+    domain: lock
+    entity_id: lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
+    platform: device
+    type: unlocked
+  condition:
+  - condition: device
+    device_id: 3add7ac286464a0d9ee9f85d487a17f3
+    domain: light
+    entity_id: light.front_stoop
+    type: is_on
+  action:
+  - device_id: ed8424455097446890ebb71ac2bb91e3
+    domain: light
+    entity_id: light.hue_ambiance_lamp_1
+    type: turn_on
+  - device_id: 5da14b4aa43245d1abcf73bd8b815ade
+    domain: light
+    entity_id: light.hue_ambiance_lamp_2
+    type: turn_on
+  - device_id: d5e0ba6ff74943228c416a678112d6f2
+    domain: light
+    entity_id: light.kitchen_window
+    type: turn_on

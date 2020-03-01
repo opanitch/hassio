@@ -1,0 +1,20 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+zwave:
+  usb_path: /dev/ttyACM0
+  network_key: 0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61
+  device_config: !include zwave_device_config.yaml
