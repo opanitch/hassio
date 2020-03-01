@@ -1,4 +1,3 @@
-
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
@@ -10,9 +9,14 @@ default_config:
 tts:
   - platform: google_translate
 
+# System Settings
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+# Integrations
+device_sun_light_trigger: !include sunlight_tracker.yaml
+device_tracker: !include tracker_config.yaml
 
 zwave:
   usb_path: /dev/ttyACM0
