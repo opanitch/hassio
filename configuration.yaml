@@ -9,7 +9,6 @@ homeassistant:
 
 # Enablers
 browser:
-cloud: !include configuration/cloud.yaml
 config:
 conversation:
 discovery:
