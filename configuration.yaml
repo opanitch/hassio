@@ -26,6 +26,9 @@ system_health:
 tts:
   - platform: google_translate
 
+## House Profiles settings
+person: !include person_config.yaml
+
 ## Zones
 zone: !include zone_settings.yaml
 
