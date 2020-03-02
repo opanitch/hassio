@@ -15,8 +15,8 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 # Integrations
-# device_sun_light_trigger: !include sunlight_tracker.yaml
-device_tracker: !include tracker_config.yaml
+device_sun_light_trigger: !include sunlight_tracker.yaml
+# device_tracker: !include tracker_config.yaml
 
 zwave:
   usb_path: /dev/ttyACM0
