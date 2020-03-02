@@ -5,16 +5,16 @@ default_config:
 # http:
 #   base_url: example.duckdns.org:8123
 
-# Text to speech
+## Text to speech
 tts:
   - platform: google_translate
 
-# System Settings
+## System Settings
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
-# Integrations
+## Integrations
 # device_sun_light_trigger: !include sunlight_tracker.yaml
 device_tracker: !include tracker_config.yaml
 
