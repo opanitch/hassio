@@ -15,15 +15,8 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 # Integrations
-device_sun_light_trigger: !include sunlight_tracker.yaml
-device_tracker:
-  -platform: fios
-  host: 192.168.1.1
-  username: admin
-  password: wary540sum
-  consider_home: 0:05
-  new_device_defaults:
-    track_new_devices: false
+# device_sun_light_trigger: !include sunlight_tracker.yaml
+device_tracker: !include tracker_config.yaml
 
 zwave:
   usb_path: /dev/ttyACM0
