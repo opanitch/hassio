@@ -14,7 +14,7 @@ conversation:
 discovery:
 frontend:
   javascript_version: latest
-ios:
+# ios:
 map:
 mobile_app:
 sun:
@@ -26,23 +26,21 @@ system_health:
 tts:
   - platform: google_translate
 
-## House Profiles settings
+### House Settings
+automation: !include automations.yaml
+group: !include groups.yaml
 person: !include person_config.yaml
-
+scene: !include scenes.yaml
+script: !include scripts.yaml
 ## Zones
-zone: !include zone_settings.yaml
+zone: !include zone_config.yaml
 
-## Integrations
+### Integrations
 # device_sun_light_trigger: !include sunlight_tracker.yaml
-device_tracker: !include tracker_config.yaml
-
-## ZWave Network
+device_tracker: !include tracker_device_config.yaml
+weather: !include_dir_merge_list integrations/weather
+# ZWave Network
 zwave:
   usb_path: /dev/ttyACM0
   network_key: 0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61
-  device_config: !include zwave_device_config.yaml
-
-## System Settings
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+  device_config: !include integrations/zwave/zwave_device_config.yaml
