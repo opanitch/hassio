@@ -2,9 +2,9 @@
 # Device Tracker Settings
 ###
 - platform: quantum_gateway
-host: 192.168.1.1
-# username: admin
-password: wary540sum
-consider_home: 0:05
-new_device_defaults:
-  track_new_devices: false
+  host: 192.168.1.1
+  # username: admin
+  password: wary540sum
+  consider_home: 0:05
+  new_device_defaults:
+    track_new_devices: false
