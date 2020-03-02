@@ -1,3 +1,123 @@
 ###
 # List of Networked Devices
 ###
+
+harmony_hub:
+  hide_if_away: false
+  icon:
+  mac: 00:04:20:F4:37:C0
+  name: Harmony_Hub
+  picture:
+  track: false
+
+hue_bridge:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:23:91:28
+  name: Hue_Bridge
+  picture:
+  track: false
+
+drobo:
+  hide_if_away: false
+  icon:
+  mac: 00:1A:62:04:47:91
+  name: Drobo
+  picture:
+  track: false
+
+nest_thermostat:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:78:71:14
+  name: Nest_Thermostat
+  picture:
+  track: false
+
+pixel_3:
+  hide_if_away: false
+  icon:
+  mac: 3C:28:6D:2C:E3:5D
+  name: Pixel_3
+  picture:
+  track: false
+
+nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 7C:BB:8A:D6:C7:30
+  name: Nintendo_Switch
+  picture:
+  track: false
+
+roomba_890_maria:
+  hide_if_away: false
+  icon:
+  mac: 80:C5:F2:39:B2:64
+  name: Roomba_890_Maria
+  picture:
+  track: false
+
+comcast_mbp:
+  hide_if_away: false
+  icon:
+  mac: 8C:85:90:80:4D:DE
+  name: Comcast_MBP
+  picture:
+  track: false
+
+xbox_one_elite:
+  hide_if_away: false
+  icon:
+  mac: 98:5F:D3:90:8B:3D
+  name: Xbox_One_Elite
+  picture:
+  track: false
+
+chromecast_audio_1:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:F2:7B:74
+  name: Chromecast_Audio_1
+  picture:
+  track: false
+
+epson_printer:
+  hide_if_away: false
+  icon:
+  mac: B0:E8:92:0A:A6:45
+  name: EPSON_Printer
+  picture:
+  track: false
+
+home_assistant:
+  hide_if_away: false
+  icon:
+  mac: DC:A6:32:37:A7:D5
+  name: Home_Assistant
+  picture:
+  track: false
+
+new_host_3:
+  hide_if_away: false
+  icon:
+  mac: E0:60:66:16:20:83
+  name: new-host-3
+  picture:
+  track: false
+
+echo:
+  hide_if_away: false
+  icon:
+  mac: F0:27:2D:62:2C:47
+  name: Echo
+  picture:
+  track: false
+
+google_home:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:B4:ED:EC
+  name: Google_Home
+  picture:
+  track: false
