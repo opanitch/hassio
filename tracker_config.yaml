@@ -1,10 +1,10 @@
 ###
 # Device Tracker Settings
 ###
--platform: fios
-host: 192.168.1.1
-username: admin
-password: wary540sum
-consider_home: 0:05
-new_device_defaults:
-  track_new_devices: false
+  -platform: fios
+  host: 192.168.1.1
+  username: admin
+  password: wary540sum
+  consider_home: 0:05
+  new_device_defaults:
+    track_new_devices: false
