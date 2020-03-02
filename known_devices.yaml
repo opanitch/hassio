@@ -1,7 +1,6 @@
 ###
 # List of Networked Devices
 ###
-
 harmony_hub:
   hide_if_away: false
   icon:
@@ -40,7 +39,7 @@ pixel_3:
   mac: 3C:28:6D:2C:E3:5D
   name: Pixel_3
   picture:
-  track: false
+  track: true
 
 nintendo_switch:
   hide_if_away: false

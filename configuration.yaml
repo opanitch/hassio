@@ -2,25 +2,45 @@
 homeassistant:
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
-  elevation: 430
+  elevation: 20
   unit_system: imperial
   time_zone: America/New_York
   name: 841 N 4th
+
+# Enablers
+browser:
+cloud: !include configuration/cloud.yaml
+config:
+conversation:
+discovery:
+frontend:
+  javascript_version: latest
+ios:
+map:
+mobile_app:
+sun:
+updater:
+  include_used_components: true
+system_health:
 
 ## Text to speech
 tts:
   - platform: google_translate
 
-## System Settings
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+## Zones
+zone: !include zone_settings.yaml
 
 ## Integrations
 # device_sun_light_trigger: !include sunlight_tracker.yaml
 device_tracker: !include tracker_config.yaml
 
+## ZWave Network
 zwave:
   usb_path: /dev/ttyACM0
   network_key: 0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61
   device_config: !include zwave_device_config.yaml
+
+## System Settings
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
