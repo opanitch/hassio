@@ -1,0 +1,7 @@
+##
+# UPnP Settings
+##
+port_mapping: true
+ports:
+  hass: 8000
+  8080: 8080

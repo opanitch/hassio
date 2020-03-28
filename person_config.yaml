@@ -1,3 +1,13 @@
 ###
 # Config file for Profiles in the House
 ###
+- name: Oren
+  id: opanit001
+  user_id: e460d8e3f77f43c0a56c3295f9b61dcf
+  # device_trackers:
+  #   - device_tracker.ada
+- name: Jose
+  id: jvazque001
+  # user_id: e460d8e3f77f43c0a56c3295f9b61dcf
+  # device_trackers:
+  #   - device_tracker.ada
