@@ -1,3 +1,2 @@
-customize:
-  person.oren:
-    entity_picture: !secret oren_profile
+person.oren:
+  entity_picture: !secret oren_profile
