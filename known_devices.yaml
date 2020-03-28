@@ -120,3 +120,45 @@ google_home:
   name: Google_Home
   picture:
   track: false
+
+liz_as_iphone:
+  icon:
+  mac: 3C:2E:FF:B2:53:78
+  name: Liz-As-iPhone
+  picture:
+  track: false
+
+chromecast_1_livingroom:
+  icon:
+  mac: 54:60:09:46:34:7C
+  name: Chromecast_1_Livingroom
+  picture:
+  track: false
+
+liz_as_ipad:
+  icon:
+  mac: 78:7B:8A:46:30:22
+  name: Liz-As-iPad
+  picture:
+  track: false
+
+jose_galaxy_tab_a_8:
+  icon:
+  mac: A8:34:6A:8C:71:00
+  name: Jose_Galaxy-Tab-A-8
+  picture:
+  track: false
+
+iphone:
+  icon:
+  mac: F8:FF:C2:F1:12:9C
+  name: iPhone
+  picture:
+  track: false
+
+lizasapplewatch:
+  icon:
+  mac: F8:6F:C1:9C:36:23
+  name: LizAsAppleWatch
+  picture:
+  track: false

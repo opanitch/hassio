@@ -2,27 +2,28 @@
   alias: Welcome Home
   description: Light turns on at night when the door is unlocked
   trigger:
-  - device_id: d6df4bef823a4c1c8a87bb41280e55ae
-    domain: lock
-    entity_id: lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
-    platform: device
-    type: unlocked
-  condition:
-  - condition: device
-    device_id: 3add7ac286464a0d9ee9f85d487a17f3
-    domain: light
-    entity_id: light.front_stoop
-    type: is_on
+  - event_data:
+      domain: lock
+      service: unlock
+      service_data:
+        code: 8402837
+        node_id: 10
+    event_type: call_service
+    platform: event
+  condition: []
   action:
-  - device_id: ed8424455097446890ebb71ac2bb91e3
-    domain: light
-    entity_id: light.hue_ambiance_lamp_1
+  - condition: state
+    entity_id: switch.leviton_dz15s_1bz_decora_smart_switch_switch
+    state: 'off'
+  - device_id: 8269d212b16845b49415ddca80aa873c
+    domain: switch
+    entity_id: switch.leviton_dz15s_1bz_decora_smart_switch_switch
     type: turn_on
-  - device_id: 5da14b4aa43245d1abcf73bd8b815ade
+  - device_id: 52d632041f174aabaea7bbd57907f0da
     domain: light
-    entity_id: light.hue_ambiance_lamp_2
+    entity_id: light.kitchen_1
     type: turn_on
-  - device_id: d5e0ba6ff74943228c416a678112d6f2
+  - device_id: 378c7ac9a8ca4558882860861aa0390b
     domain: light
-    entity_id: light.kitchen_window
+    entity_id: light.kitchen_2
     type: turn_on
