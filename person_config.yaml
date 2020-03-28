@@ -6,7 +6,6 @@
   user_id: e460d8e3f77f43c0a56c3295f9b61dcf
   device_trackers:
     - device_tracker.pixel_3
-  entity_picture: !secret oren_profile
 - name: Jose
   id: jvazque001
   # user_id: e460d8e3f77f43c0a56c3295f9b61dcf

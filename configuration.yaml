@@ -30,6 +30,7 @@ tts:
 ### House Settings
 # areas: !include area_config.yaml
 automation: !include automations.yaml
+customizations: !include customizations.yaml
 # group: !include groups.yaml
 # history_graph: !include history_graph_config.yaml
 person: !include person_config.yaml
