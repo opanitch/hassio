@@ -1,6 +1,7 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 homeassistant: 
   # auth_providers: !include authentication.yaml
+  customize: !include customizations.yaml
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
   elevation: 20
@@ -30,7 +31,6 @@ tts:
 ### House Settings
 # areas: !include area_config.yaml
 automation: !include automations.yaml
-customize: !include customizations.yaml
 # group: !include groups.yaml
 # history_graph: !include history_graph_config.yaml
 person: !include person_config.yaml
