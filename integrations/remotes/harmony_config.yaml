@@ -3,5 +3,5 @@
 ##
 - platform: harmony
   host: 10.168.1.8
-  name: Harmony Hub
+  name: Harmony
   activity: Xbox One
