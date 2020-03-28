@@ -41,7 +41,7 @@ zone: !include zone_config.yaml
 ### Integrations
 # device_sun_light_trigger: !include sunlight_tracker.yaml
 device_tracker: !include tracker_device_config.yaml
-hue: !include: integrations/lights/hue_config.yaml
+hue: !include integrations/lights/hue_config.yaml
 media_player: !include_dir_merge_list integrations/media/
 # nest: !include integrations/climate_control/nest_config.yaml
 remote: !include integrations/remote/harmony_config.yaml
