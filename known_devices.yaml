@@ -97,11 +97,11 @@ home_assistant:
   picture:
   track: false
 
-new_host_3:
+vera_plus:
   hide_if_away: false
   icon:
   mac: E0:60:66:16:20:83
-  name: new-host-3
+  name: VeraPlus
   picture:
   track: false
 
@@ -149,12 +149,12 @@ jose_galaxy_tab_a_8:
   picture:
   track: false
 
-iphone:
+jose_iphone:
   icon:
   mac: F8:FF:C2:F1:12:9C
-  name: iPhone
+  name: Jose-iPhone
   picture:
-  track: false
+  track: true
 
 lizasapplewatch:
   icon:
