@@ -5,4 +5,4 @@ home-assistant.log
 pyozw.sqlite
 
 # Group Ignores
-.storage
+# .storage

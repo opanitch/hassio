@@ -48,8 +48,4 @@ media_player: !include_dir_merge_list integrations/media/
 # remote: !include integrations/remotes/harmony_config.yaml
 weather: !include_dir_merge_list integrations/weather/
 upnp: !include integrations/network/upnp_config.yaml
-# zwave: !include integrations/zwave/zwave_config.yaml
-zwave:
-  usb_path: /dev/ttyACM0
-  network_key: 0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61
-  device_config: !include integrations/zwave/zwave_device_config.yaml
+zwave: !include integrations/zwave/zwave_config.yaml
