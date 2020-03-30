@@ -40,12 +40,14 @@ person: !include person_config.yaml
 zone: !include zone_config.yaml
 
 ### Integrations
+cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include sunlight_tracker.yaml
 device_tracker: !include tracker_device_config.yaml
 hue: !include integrations/lights/hue_config.yaml
-media_player: !include_dir_merge_list integrations/media/
+media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
 # remote: !include integrations/remotes/harmony_config.yaml
+switch: !include_dir_merge_list integrations/switch/
 weather: !include_dir_merge_list integrations/weather/
 upnp: !include integrations/network/upnp_config.yaml
 zwave: !include integrations/zwave/zwave_config.yaml
