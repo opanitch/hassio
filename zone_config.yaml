@@ -2,11 +2,12 @@
 # Setting up Locations to use for presence triggers
 ###
 - name: Home
+  icon: mdi:home-circle
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
   radius: 140
 
 - name: Work
+  icon: mdi:office-building
   latitude: !secret zone_o_work_lat
   longitude: !secret zone_o_work_long
-  icon: mdi:briefcase
