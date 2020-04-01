@@ -27,3 +27,63 @@
     domain: light
     entity_id: light.kitchen_2
     type: turn_on
+- id: '1585781804427'
+  alias: Powder Room Lights On
+  description: ''
+  trigger:
+  - entity_id: sensor.aeon_labs_zw100_multisensor_6_burglar
+    from: '0'
+    platform: state
+    to: '8'
+  - entity_id: sensor.aeon_labs_zw100_multisensor_6_burglar
+    from: '3'
+    platform: state
+    to: '8'
+  condition:
+  - condition: device
+    device_id: 528e2dcab06a47d6bfa20c1c23711dcc
+    domain: light
+    entity_id: light.powder_room_1
+    type: is_off
+  - condition: device
+    device_id: 91a52e7570ca45a3a608ca286bd24bbf
+    domain: light
+    entity_id: light.powder_room_2
+    type: is_off
+  action:
+  - device_id: 528e2dcab06a47d6bfa20c1c23711dcc
+    domain: light
+    entity_id: light.powder_room_1
+    type: turn_on
+  - device_id: 91a52e7570ca45a3a608ca286bd24bbf
+    domain: light
+    entity_id: light.powder_room_2
+    type: turn_on
+- id: '1585781880464'
+  alias: Powder Room Lights Off
+  description: ''
+  trigger:
+  - entity_id: sensor.aeon_labs_zw100_multisensor_6_burglar
+    from: '8'
+    platform: state
+    to: '0'
+  condition:
+  - condition: device
+    device_id: 528e2dcab06a47d6bfa20c1c23711dcc
+    domain: light
+    entity_id: light.powder_room_1
+    type: is_on
+  - condition: device
+    device_id: 91a52e7570ca45a3a608ca286bd24bbf
+    domain: light
+    entity_id: light.powder_room_2
+    type: is_on
+  action:
+  - device_id: 528e2dcab06a47d6bfa20c1c23711dcc
+    domain: light
+    entity_id: light.powder_room_1
+    type: turn_off
+  - device_id: 91a52e7570ca45a3a608ca286bd24bbf
+    domain: light
+    entity_id: light.powder_room_2
+    type: turn_off
