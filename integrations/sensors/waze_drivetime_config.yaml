@@ -1,5 +1,4 @@
-
-  - platform: template
+- platform: template
   sensors:
      dest_address:
        value_template: >-
