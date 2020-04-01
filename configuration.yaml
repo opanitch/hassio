@@ -34,6 +34,7 @@ automation: !include automations.yaml
 # group: !include groups.yaml
 history:
 # history_graph: !include history_graph_config.yaml
+input_select: !include_dir_merge_list inputs/select/
 local_ip:
   name: localhost
 person: !include person_config.yaml
