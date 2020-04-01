@@ -58,4 +58,5 @@ switch: !include_dir_merge_list integrations/switch/
 weather: !include_dir_merge_list integrations/weather/
 upnp: !include integrations/network/upnp_config.yaml
 # vacuum: !include integrations/cleaning/roomba_config.yaml
+vera: !include integrations/zwave/vera_config.yaml
 zwave: !include integrations/zwave/zwave_config.yaml
