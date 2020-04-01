@@ -1,0 +1,4 @@
+- platform: xbox_live
+    api_key: 456433406bab1a62d2da80edfa84b87c33f004e9
+    xuid:
+      - 2621738354522540
