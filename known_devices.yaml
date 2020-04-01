@@ -3,7 +3,7 @@
 ###
 harmony_hub:
   hide_if_away: false
-  icon:
+  icon: mdi:remote
   mac: 00:04:20:F4:37:C0
   name: Harmony_Hub
   picture:
@@ -11,7 +11,7 @@ harmony_hub:
 
 hue_bridge:
   hide_if_away: false
-  icon:
+  icon: mdi:lightbulb-outline
   mac: 00:17:88:23:91:28
   name: Hue_Bridge
   picture:
@@ -19,7 +19,7 @@ hue_bridge:
 
 drobo:
   hide_if_away: false
-  icon:
+  icon: mdi:harddisk
   mac: 00:1A:62:04:47:91
   name: Drobo
   picture:
@@ -27,7 +27,7 @@ drobo:
 
 nest_thermostat:
   hide_if_away: false
-  icon:
+  icon: mdi:thermostat
   mac: 18:B4:30:78:71:14
   name: Nest_Thermostat
   picture:
@@ -35,47 +35,47 @@ nest_thermostat:
 
 pixel_3:
   hide_if_away: false
-  icon:
+  icon: mdi:cellphone-android
   mac: 3C:28:6D:2C:E3:5D
   name: Pixel_3
   picture:
   track: true
 
 nintendo_switch:
-  hide_if_away: false
-  icon:
+  hide_if_away: true
+  icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D6:C7:30
   name: Nintendo_Switch
   picture:
-  track: false
+  track: true
 
 roomba_890_maria:
   hide_if_away: false
-  icon:
+  icon: mdi:robot-vacuum
   mac: 80:C5:F2:39:B2:64
   name: Roomba_890_Maria
   picture:
   track: false
 
 comcast_mbp:
-  hide_if_away: false
-  icon:
+  hide_if_away: true
+  icon: mdi:laptop-mac
   mac: 8C:85:90:80:4D:DE
   name: Comcast_MBP
   picture:
-  track: false
+  track: true
 
 xbox_one_elite:
-  hide_if_away: false
-  icon:
+  hide_if_away: true
+  icon: mdi:xbox
   mac: 98:5F:D3:90:8B:3D
   name: Xbox_One_Elite
   picture:
-  track: false
+  track: true
 
 chromecast_audio_1:
   hide_if_away: false
-  icon:
+  icon: mdi:cast
   mac: A4:77:33:F2:7B:74
   name: Chromecast_Audio_1
   picture:
@@ -83,7 +83,7 @@ chromecast_audio_1:
 
 epson_printer:
   hide_if_away: false
-  icon:
+  icon: mdi:printer
   mac: B0:E8:92:0A:A6:45
   name: EPSON_Printer
   picture:
@@ -91,7 +91,7 @@ epson_printer:
 
 home_assistant:
   hide_if_away: false
-  icon:
+  icon: mdi:home-assistant
   mac: DC:A6:32:37:A7:D5
   name: Home_Assistant
   picture:
@@ -99,7 +99,7 @@ home_assistant:
 
 vera_plus:
   hide_if_away: false
-  icon:
+  icon: mdi:radio-tower
   mac: E0:60:66:16:20:83
   name: VeraPlus
   picture:
@@ -107,7 +107,7 @@ vera_plus:
 
 echo:
   hide_if_away: false
-  icon:
+  icon: mdi:amazon-alexa
   mac: F0:27:2D:62:2C:47
   name: Echo
   picture:
@@ -115,55 +115,62 @@ echo:
 
 google_home:
   hide_if_away: false
-  icon:
+  icon: mdi:google-home
   mac: F4:F5:D8:B4:ED:EC
   name: Google_Home
   picture:
   track: false
 
 liz_as_iphone:
-  icon:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
   mac: 3C:2E:FF:B2:53:78
   name: Liz-As-iPhone
   picture:
   track: false
 
 chromecast_1_livingroom:
-  icon:
+  hide_if_away: false
+  icon: mdi:cast
   mac: 54:60:09:46:34:7C
   name: Chromecast_1_Livingroom
   picture:
   track: false
 
 liz_as_ipad:
-  icon:
+  hide_if_away: false
+  icon: mdi:tablet-ipad
   mac: 78:7B:8A:46:30:22
   name: Liz-As-iPad
   picture:
   track: false
 
 jose_galaxy_tab_a_8:
-  icon:
+  hide_if_away: false
+  icon: mdi:tablet-android
   mac: A8:34:6A:8C:71:00
   name: Jose_Galaxy-Tab-A-8
   picture:
   track: false
 
 jose_iphone:
-  icon:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
   mac: F8:FF:C2:F1:12:9C
   name: Jose-iPhone
   picture:
   track: true
 
 lizasapplewatch:
-  icon:
+  hide_if_away: false
+  icon: mdi:watch-variant
   mac: F8:6F:C1:9C:36:23
   name: LizAsAppleWatch
   picture:
   track: false
 
 pr_lcruz_lt:
+  hide_if_away: false
   icon:
   mac: F8:16:54:DE:2F:1A
   name: PR-LCRUZ-LT
@@ -171,14 +178,16 @@ pr_lcruz_lt:
   track: false
 
 jose_iphone_2:
-  icon:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
   mac: BC:9F:EF:01:34:3A
   name: Jose_iPhone
   picture:
   track: false
 
 aj_laptop:
-  icon:
+  hide_if_away: false
+  icon: mdi:laptop-windows
   mac: AC:D1:B8:6A:58:E9
   name: AJ_Laptop
   picture:
