@@ -1,0 +1,5 @@
+- platform: steam_online
+  api_key: 4378BA96E421B1B197AE5133DB09BC17
+  accounts:
+    # oreokid200
+    - 76561197963476141

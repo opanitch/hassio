@@ -1,7 +1,6 @@
 destination:
   name: waze_destination
   options:
-    - Home
     - Ocean City
     - Parents
     - Work
