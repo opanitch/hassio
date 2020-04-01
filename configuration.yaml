@@ -52,6 +52,7 @@ hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include_dir_merge_list integrations/environment/jewish_calendar_config.yaml
 media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
+plex: !include integrations/media/plex_config.yaml
 # remote: !include integrations/remotes/harmony_config.yaml
 sensor: !include_dir_merge_list integrations/sensors/
 switch: !include_dir_merge_list integrations/switch/

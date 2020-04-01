@@ -1,0 +1,9 @@
+host: 192.168.1.3
+port: 32400
+token: sfcYrBNWZxWFKo9yYaBy
+server: Drobo5N
+ssl: true
+verify_ssl: true
+media_player:
+  use_episode_art: true
+  ignore_new_shared_users: false
