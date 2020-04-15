@@ -1,5 +1,5 @@
 - platform: roomba
-  host: 192.168.1.13
+  host: !secret roomba_host
   name: Maria
-  username: oreokid200@gmail.com
-  password: &6hNR%qWj4hcfa0Y
+  username: !secret roomba_username
+  password: !secret roomba_password

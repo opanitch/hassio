@@ -1,4 +1,4 @@
 # - platform: zestimate
-#   api_key: X1-ZWz17awca7wydn_88dza
+#   api_key: !secret zillow_api_key
 #   zpid:
-#     - 10198312
+#     - !secret zillow_home_id

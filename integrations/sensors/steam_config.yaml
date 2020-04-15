@@ -1,4 +1,4 @@
 - platform: steam_online
-  api_key: 4378BA96E421B1B197AE5133DB09BC17
+  api_key: !secret steam_api_key
   accounts:
-    - 76561197963476141
+    - !secret steam_account_opanitch

@@ -1,1 +1,1 @@
-vera_controller_url: http://192.168.1.9:3480/
+vera_controller_url: !secret vera_hub_url

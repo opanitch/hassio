@@ -1,6 +1,6 @@
-host: 192.168.1.3
-port: 32400
-token: sfcYrBNWZxWFKo9yYaBy
+host: !secret plex_server_host
+port: !secret plex_server_port
+token: !secret plex_server_token
 server: Drobo5N
 ssl: false
 verify_ssl: false

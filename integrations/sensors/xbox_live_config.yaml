@@ -1,4 +1,4 @@
 - platform: xbox_live
-  api_key: 456433406bab1a62d2da80edfa84b87c33f004e9
+  api_key: !secret xbox_api_key
   xuid:
-    - 2621738354522540
+    - !secret xbox_account_oreokid200

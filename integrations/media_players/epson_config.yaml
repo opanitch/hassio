@@ -1,3 +1,3 @@
 # - platform: epson
-#   host: 192.168.1.7
+#   host: !secret epson_printer_host
 #   name: Living Room Printer

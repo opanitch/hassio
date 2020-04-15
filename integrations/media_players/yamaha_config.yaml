@@ -2,7 +2,7 @@
 # Yamaha Receiver Config - living room
 ##
 # - platform: yamaha
-#   host: 192.168.1.26
+#   host: !secret yamaha_receiver_host
 #   source_names:
 #     HDMI1: "Xbox One"
 #     HDMI2: "Chromecast"

@@ -4,7 +4,7 @@ homeassistant:
   customize: !include customizations.yaml
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
-  elevation: 20
+  elevation: !secret zone_home_elev
   unit_system: imperial
   time_zone: America/New_York
   name: 841 N 4th

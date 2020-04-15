@@ -2,6 +2,6 @@
 # Configure Harmony Hub
 ##
 - platform: harmony
-  host: 10.168.1.8
+  host: !secret harmony_hub_host
   name: Harmony Hub
   # activity: Xbox One
