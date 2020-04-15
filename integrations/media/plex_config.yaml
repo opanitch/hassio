@@ -6,4 +6,4 @@ ssl: false
 verify_ssl: false
 media_player:
   use_episode_art: true
-  ignore_new_shared_users: true
+  ignore_new_shared_users: false
