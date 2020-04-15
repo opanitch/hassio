@@ -192,3 +192,24 @@ aj_laptop:
   name: AJ_Laptop
   picture:
   track: false
+
+iphone:
+  icon:
+  mac: A0:56:F3:80:07:04
+  name: iPhone
+  picture:
+  track: false
+
+yariv_iphone:
+  icon:
+  mac: E4:9A:DC:A3:14:34
+  name: Yariv iPhone
+  picture:
+  track: false
+
+ipad_2:
+  icon:
+  mac: F8:62:14:85:F0:64
+  name: iPad-2
+  picture:
+  track: false
