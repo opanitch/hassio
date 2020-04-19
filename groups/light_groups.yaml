@@ -1,0 +1,78 @@
+exterior_lights:
+  name: Exteriors Lights
+  entities:
+    - light.back_yard
+    - light.front_stoop
+  icon: mdi:lighthouse
+
+# front_bathroom_lights:
+#   name: Front Bathroom Lights
+#   entities:
+#     - light.
+#   icon: mdi:toilet
+
+front_bedroom_lights:
+  name: Front Bedroom Lights
+  entities:
+    - light.fr_1
+    - light.fr_2
+    - light.fr_3
+    - light.fr_4
+  icon: mdi:bed-empty
+  
+hallway_lights:
+  name: Hallway Lights
+  entities:
+    - light.stairs_1
+    - light.stairs_2
+  icon: mdi:stairs
+  
+kitchen_lights:
+  name: Kitchen Lights
+  entities:
+    - light.kitchen_1
+    - light.kitchen_2
+    - light.kitchen_window
+  icon: mdi:silverware-variant
+
+living_room_lights:
+  name: Living Room Lights
+  entities:
+    - light.lr_left_1
+    - light.lr_left_2
+    - light.lr_right_1
+    - light.lr_right_2
+    - light.lr_right_3
+    - light.living_room_lamp_1
+    - light.living_room_lamp_2
+  icon: mdi:floor-lamp
+
+master_bathroom_lights:
+  name: Master Bathroom Lights
+  entities:
+    - light.mb_1
+    - light.mb_2
+    - light.mb_3
+    - light.mb_4
+  icon: mdi:toilet
+
+master_bedroom_lights:
+  name: Master Bedroom Lights
+  entities:
+    - light.master_bedroom_1
+    - light.master_bedroom_2
+    - light.master_bedroom_3
+    - light.mb_fan_1
+    - light.mb_fan_2
+    - light.mb_fan_3
+    - light.floor_standing_1
+    - light.floor_standing_2
+    - light.floor_standing_3
+  icon: mdi:lock-outline
+
+powder_room_lights:
+  name: Powder Room Lights
+  entities:
+    - light.powder_room_1
+    - light.powder_room_2
+  icon: mdi:toilet
