@@ -11,3 +11,8 @@
   icon: mdi:office-building
   latitude: !secret zone_o_work_lat
   longitude: !secret zone_o_work_long
+
+- name: Ocean City
+  icon: mdi:beach
+  latitude: !secret zone_oc_lat
+  longitude: !secret zone_oc_long
