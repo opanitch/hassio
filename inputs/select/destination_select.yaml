@@ -1,5 +1,5 @@
-destination:
-  name: waze_destination
+waze_destination:
+  name: Waze Destination
   options:
     - Ocean City
     - Parents
