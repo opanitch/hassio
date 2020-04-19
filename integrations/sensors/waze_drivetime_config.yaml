@@ -21,7 +21,7 @@
 
 # Tracking Home to Ocean City
 - platform: waze_travel_time
-  name: Home to Destination
-  origin: zone.home
-  destination: zone.ocean_city
+  name: to Ocean City
+  origin: Home
+  destination: Ocean City
   region: 'US'
