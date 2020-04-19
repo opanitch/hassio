@@ -213,3 +213,10 @@ ipad_2:
   name: iPad-2
   picture:
   track: false
+
+drthunder:
+  icon:
+  mac: 6C:71:D9:3A:17:A1
+  name: DRThunder
+  picture:
+  track: false
