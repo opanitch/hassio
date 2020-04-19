@@ -14,7 +14,7 @@
 
 # Tracking entity to entity
 - platform: waze_travel_time
-  name: Home to _______
+  name: Home to Destination
   origin: zone.home
   destination: sensor.dest_address
   region: 'US'

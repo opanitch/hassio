@@ -31,16 +31,15 @@ tts:
 ### House Settings
 # areas: !include area_config.yaml
 automation: !include automations.yaml
-# group: !include_dir_merge_list groups.yaml
+# group: !include_dir_merge_list groups/
 history:
 # history_graph: !include history_graph_config.yaml
+input_number: !include_dir_merge_list inputs/number/
 input_select: !include_dir_merge_list inputs/select/
-local_ip:
-  name: localhost
 person: !include person_config.yaml
 # scene: !include scenes.yaml
 # script: !include scripts.yaml
-## Zones
+switch: !include_dir_merge_list integrations/switch/
 zone: !include zone_config.yaml
 
 ### Integrations
@@ -50,12 +49,13 @@ cast: !include integrations/media/google_cast.yaml
 device_tracker: !include tracker_device_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include_dir_merge_list integrations/environment/jewish_calendar_config.yaml
+local_ip:
+  name: localhost
 media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 remote: !include integrations/remotes/harmony_config.yaml
 sensor: !include_dir_merge_list integrations/sensors/
-switch: !include_dir_merge_list integrations/switch/
 # upnp: !include integrations/network/upnp_config.yaml
 # vacuum: !include integrations/cleaning/roomba_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
