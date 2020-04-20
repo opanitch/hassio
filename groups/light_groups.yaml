@@ -70,6 +70,7 @@ master_bedroom_lights:
     - light.master_bedroom_1
     - light.master_bedroom_2
     - light.master_bedroom_3
+    - light.master_bedroom_lamp
     - light.mb_fan_1
     - light.mb_fan_2
     - light.mb_fan_3
