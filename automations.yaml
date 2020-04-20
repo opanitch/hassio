@@ -2,31 +2,33 @@
   alias: Welcome Home
   description: Light turns on at night when the door is unlocked
   trigger:
-  - event_data:
-      domain: lock
-      service: unlock
-      service_data:
-        code: 8402837
-        node_id: 10
-    event_type: call_service
-    platform: event
-  condition: []
-  action:
+  - entity_id: lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
+    from: locked
+    platform: state
+    to: unlocked
+  condition:
   - condition: state
-    entity_id: switch.leviton_dz15s_1bz_decora_smart_switch_switch
-    state: 'off'
-  - device_id: 8269d212b16845b49415ddca80aa873c
-    domain: switch
-    entity_id: switch.leviton_dz15s_1bz_decora_smart_switch_switch
-    type: turn_on
-  - device_id: 52d632041f174aabaea7bbd57907f0da
-    domain: light
-    entity_id: light.kitchen_1
-    type: turn_on
-  - device_id: 378c7ac9a8ca4558882860861aa0390b
-    domain: light
-    entity_id: light.kitchen_2
-    type: turn_on
+    entity_id: sun.sun
+    state: below
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: light.downstairs
+      state: 'off'
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_type
+      state: '19'
+    - condition: or
+      conditions:
+      - condition: state
+        entity_id: sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_type
+        state: '22'
+  action:
+  - data: {}
+    entity_id: light.kitchen
+    service: light.turn_on
 - id: '1585781804427'
   alias: Powder Room Lights On
   description: ''
@@ -40,25 +42,13 @@
     platform: state
     to: '8'
   condition:
-  - condition: device
-    device_id: 528e2dcab06a47d6bfa20c1c23711dcc
-    domain: light
-    entity_id: light.powder_room_1
-    type: is_off
-  - condition: device
-    device_id: 91a52e7570ca45a3a608ca286bd24bbf
-    domain: light
-    entity_id: light.powder_room_2
-    type: is_off
+  - condition: state
+    entity_id: light.powder_room
+    state: 'off'
   action:
-  - device_id: 528e2dcab06a47d6bfa20c1c23711dcc
-    domain: light
-    entity_id: light.powder_room_1
-    type: turn_on
-  - device_id: 91a52e7570ca45a3a608ca286bd24bbf
-    domain: light
-    entity_id: light.powder_room_2
-    type: turn_on
+  - data: {}
+    entity_id: light.powder_room
+    service: light.turn_on
 - id: '1585781880464'
   alias: Powder Room Lights Off
   description: ''
@@ -68,22 +58,10 @@
     platform: state
     to: '0'
   condition:
-  - condition: device
-    device_id: 528e2dcab06a47d6bfa20c1c23711dcc
-    domain: light
-    entity_id: light.powder_room_1
-    type: is_on
-  - condition: device
-    device_id: 91a52e7570ca45a3a608ca286bd24bbf
-    domain: light
-    entity_id: light.powder_room_2
-    type: is_on
+  - condition: state
+    entity_id: light.powder_room
+    state: 'on'
   action:
-  - device_id: 528e2dcab06a47d6bfa20c1c23711dcc
-    domain: light
-    entity_id: light.powder_room_1
-    type: turn_off
-  - device_id: 91a52e7570ca45a3a608ca286bd24bbf
-    domain: light
-    entity_id: light.powder_room_2
-    type: turn_off
+  - data: {}
+    entity_id: light.powder_room
+    service: light.turn_off
