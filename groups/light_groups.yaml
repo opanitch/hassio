@@ -1,4 +1,5 @@
 exterior_lights:
+  all: false
   name: Exteriors Lights
   entities:
     - light.back_yard
@@ -6,12 +7,14 @@ exterior_lights:
   icon: mdi:lighthouse
 
 # front_bathroom_lights:
+#   all: false
 #   name: Front Bathroom Lights
 #   entities:
 #     - light.
 #   icon: mdi:toilet
 
 front_bedroom_lights:
+  all: false
   name: Front Bedroom Lights
   entities:
     - light.fr_1
@@ -21,6 +24,7 @@ front_bedroom_lights:
   icon: mdi:bed-empty
   
 hallway_lights:
+  all: false
   name: Hallway Lights
   entities:
     - light.stairs_1
@@ -28,6 +32,7 @@ hallway_lights:
   icon: mdi:stairs
   
 kitchen_lights:
+  all: false
   name: Kitchen Lights
   entities:
     - light.kitchen_1
@@ -36,6 +41,7 @@ kitchen_lights:
   icon: mdi:silverware-variant
 
 living_room_lights:
+  all: false
   name: Living Room Lights
   entities:
     - light.lr_left_1
@@ -48,6 +54,7 @@ living_room_lights:
   icon: mdi:floor-lamp
 
 master_bathroom_lights:
+  all: false
   name: Master Bathroom Lights
   entities:
     - light.mb_1
@@ -57,6 +64,7 @@ master_bathroom_lights:
   icon: mdi:toilet
 
 master_bedroom_lights:
+  all: false
   name: Master Bedroom Lights
   entities:
     - light.master_bedroom_1
@@ -71,6 +79,7 @@ master_bedroom_lights:
   icon: mdi:lock-outline
 
 powder_room_lights:
+  all: false
   name: Powder Room Lights
   entities:
     - light.powder_room_1

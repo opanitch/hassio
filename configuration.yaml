@@ -31,7 +31,7 @@ tts:
 ### House Settings
 # areas: !include area_config.yaml
 automation: !include automations.yaml
-# group: !include_dir_merge_list groups/
+group: !include_dir_merge_list groups/
 history:
 # history_graph: !include history_graph_config.yaml
 input_number: !include_dir_merge_list inputs/number/
