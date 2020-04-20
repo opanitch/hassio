@@ -31,15 +31,15 @@ tts:
 ### House Settings
 # areas: !include area_config.yaml
 automation: !include automations.yaml
-group: !include_dir_merge_list groups/
+group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml
-input_number: !include_dir_merge_list inputs/number/
-input_select: !include_dir_merge_list inputs/select/
+input_number: !include_dir_merge_named inputs/number/
+input_select: !include_dir_merge_named inputs/select/
 person: !include person_config.yaml
 # scene: !include scenes.yaml
 # script: !include scripts.yaml
-switch: !include_dir_merge_list integrations/switch/
+switch: !include_dir_merge_list switches/
 zone: !include zone_config.yaml
 
 ### Integrations
@@ -48,7 +48,7 @@ cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include sunlight_tracker.yaml
 device_tracker: !include tracker_device_config.yaml
 hue: !include integrations/lights/hue_config.yaml
-jewish_calendar: !include_dir_merge_list integrations/environment/jewish_calendar_config.yaml
+jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 local_ip:
   name: localhost
 media_player: !include_dir_merge_list integrations/media_players/
