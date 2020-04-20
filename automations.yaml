@@ -9,7 +9,7 @@
   condition:
   - condition: state
     entity_id: sun.sun
-    state: below
+    state: below_horizon
   - condition: and
     conditions:
     - condition: state
