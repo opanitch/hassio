@@ -73,9 +73,9 @@ master_bedroom_lights:
     - light.mb_fan_1
     - light.mb_fan_2
     - light.mb_fan_3
-    - light.floor_standing_1
-    - light.floor_standing_2
-    - light.floor_standing_3
+    - light.floor_lamp_1
+    - light.floor_lamp_2
+    - light.floor_lamp_3
   icon: mdi:lock-outline
 
 powder_room_lights:
