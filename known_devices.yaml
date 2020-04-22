@@ -220,3 +220,10 @@ drthunder:
   name: DRThunder
   picture:
   track: false
+
+yarivs_mbp_2:
+  icon:
+  mac: 88:E9:FE:5B:DC:F3
+  name: Yarivs-MBP-2
+  picture:
+  track: false
