@@ -13,10 +13,12 @@ homeassistant:
 browser:
 config:
 conversation:
-# discovery:
+# discovery: // prefer manual configuration
 frontend:
   javascript_version: latest
 # ios:
+lovelace:
+  mode: yaml
 map:
 mobile_app:
 sun:
