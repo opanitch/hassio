@@ -1,2 +1,3 @@
 title: 841 N 4th
-views: !include_dir_merge_list views/
+# views: !include_dir_merge_list views/
+views: !include views/overview.yaml
