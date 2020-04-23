@@ -1,42 +1,42 @@
-- path: kitchen
-  title: Kitchen
-  badges:
-    - entity: sensor.us_coronavirus_recovered
-    - entity: sensor.us_coronavirus_current
-    - entity: sensor.us_coronavirus_deaths
-    - entity: sensor.us_coronavirus_confirmed
-    - entity: sensor.jewish_calendar_holiday
-    - entity: sensor.jewish_calendar_date
-    - entity: sun.sun
-  cards:
-    - type: entities
-      entities:
-        - device_tracker.pixel_3
-        - device_tracker.jose_iphone
-      title: Presence
-      show_header_toggle: true
-    - type: entities
-      entities:
-        - input_select.waze_destination
-      title: Input select
-    - type: entities
-      entities:
-        - light.kitchen
-        - light.kitchen_1
-        - light.kitchen_2
-        - light.kitchen_window
-      title: Kitchen Lights
-    - type: entities
-      entities:
-        - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
-      title: Lock
-    - type: media-control
-      entity: media_player.first_floor
-    - type: media-control
-      entity: media_player.kitchen_assistant
-    - type: media-control
-      entity: media_player.public_broadcast
-    - type: entities
-      entities:
-        - switch.leviton_dz15s_1bz_decora_smart_switch_switch
-      title: Kitchen Light Switches
+path: kitchen
+title: Kitchen
+badges:
+- entity: sensor.us_coronavirus_recovered
+- entity: sensor.us_coronavirus_current
+- entity: sensor.us_coronavirus_deaths
+- entity: sensor.us_coronavirus_confirmed
+- entity: sensor.jewish_calendar_holiday
+- entity: sensor.jewish_calendar_date
+- entity: sun.sun
+cards:
+- type: entities
+    entities:
+    - device_tracker.pixel_3
+    - device_tracker.jose_iphone
+    title: Presence
+    show_header_toggle: true
+- type: entities
+    entities:
+    - input_select.waze_destination
+    title: Input select
+- type: entities
+    entities:
+    - light.kitchen
+    - light.kitchen_1
+    - light.kitchen_2
+    - light.kitchen_window
+    title: Kitchen Lights
+- type: entities
+    entities:
+    - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
+    title: Lock
+- type: media-control
+    entity: media_player.first_floor
+- type: media-control
+    entity: media_player.kitchen_assistant
+- type: media-control
+    entity: media_player.public_broadcast
+- type: entities
+    entities:
+    - switch.leviton_dz15s_1bz_decora_smart_switch_switch
+    title: Kitchen Light Switches

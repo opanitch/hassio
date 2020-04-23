@@ -1,4 +1,5 @@
 title: 841 N 4th
 # views: !include_dir_merge_list views/
 views:
-  !include views/overview-view.yaml views/kitchen-view.yaml
+  - !include views/overview-view.yaml
+  - !include views/kitchen-view.yaml
