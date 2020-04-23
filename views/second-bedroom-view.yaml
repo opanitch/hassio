@@ -13,12 +13,14 @@ cards:
       - device_tracker.jose_iphone
     title: Is Jose Home?
     show_header_toggle: false
+  - type: weather-forecast
+    entity: weather.dark_sky
   - type: entities
     entities:
+      - light.front_bedroom
       - light.fr_1
       - light.fr_2
       - light.fr_3
       - light.fr_4
     title: Bedroom Lights
-  - type: weather-forecast
-    entity: weather.dark_sky
+    show_header_toggle: false

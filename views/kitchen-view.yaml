@@ -11,14 +11,8 @@ badges:
 cards:
   - type: entities
     entities:
-    - device_tracker.pixel_3
-    - device_tracker.jose_iphone
-    title: Presence
-    show_header_toggle: true
-  - type: entities
-    entities:
-    - input_select.waze_destination
-    title: Input select
+    - switch.leviton_dz15s_1bz_decora_smart_switch_switch
+    title: Kitchen Light Switches
   - type: entities
     entities:
     - light.kitchen
@@ -26,10 +20,11 @@ cards:
     - light.kitchen_2
     - light.kitchen_window
     title: Kitchen Lights
+    show_header_toggle: false
   - type: entities
     entities:
     - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
-    title: Lock
+    title: Front Door Lock
   - type: media-control
     entity: media_player.first_floor
   - type: media-control
@@ -38,5 +33,7 @@ cards:
     entity: media_player.public_broadcast
   - type: entities
     entities:
-    - switch.leviton_dz15s_1bz_decora_smart_switch_switch
-    title: Kitchen Light Switches
+    - device_tracker.pixel_3
+    - device_tracker.jose_iphone
+    title: Who's home
+    show_header_toggle: false

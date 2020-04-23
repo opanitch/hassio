@@ -4,5 +4,5 @@ waze_destination:
     - Ocean City
     - Parents
     - Work
-  initial: Ocean City
+  initial: Parents
   icon: mdi:waze

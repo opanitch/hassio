@@ -11,15 +11,25 @@ badges:
 cards:
   - type: entities
     entities:
+      - switch.jasco_products_14291_in_wall_smart_switch_switch
+      - switch.jasco_products_14291_in_wall_smart_switch_switch_2
+    title: Living Room Switches
+  - type: entities
+    entities:
+      - light.living_room
       - light.lr_left_1
       - light.lr_left_2
       - light.lr_right_1
       - light.lr_right_2
       - light.lr_right_3
-      - light.living_room
       - light.living_room_lamp_1
       - light.living_room_lamp_2
     title: Living Room Lights
+    show_header_toggle: false
+  - type: entities
+    entities:
+      - switch.jasco_products_14288_duplex_receptacle_switch
+    title: Living Room Outlets
   - type: media-control
     entity: media_player.first_floor
   - type: media-control
@@ -30,12 +40,3 @@ cards:
     entities:
       - remote.harmony_hub
     title: Entertainment Hub
-  - type: entities
-    entities:
-      - switch.jasco_products_14288_duplex_receptacle_switch
-    title: Living Room Outlets
-  - type: entities
-    entities:
-      - switch.jasco_products_14291_in_wall_smart_switch_switch
-      - switch.jasco_products_14291_in_wall_smart_switch_switch_2
-    title: Living Room Switches
