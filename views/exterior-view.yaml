@@ -1,0 +1,33 @@
+path: exterior
+title: Exterior
+badges:
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_type
+  - entity: >-
+      sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_level
+  - entity: >-
+      sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_battery_level
+  - entity: sun.sun
+cards:
+  - type: entities
+    entities:
+      - light.back_yard
+      - light.front_stoop
+      - light.front_door
+      - light.garden
+    title: Exterior Lights
+  - type: entities
+    entities:
+      - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
+    title: Front Door Lock
+  - type: entities
+    entities:
+      - switch.jasco_products_unknown_type_4952_id_3135_switch
+    title: Outdoor Light Switches
+  - type: weather-forecast
+    entity: weather.841_n_4th
+  - type: weather-forecast
+    entity: weather.dark_sky

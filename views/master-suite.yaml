@@ -1,0 +1,50 @@
+path: master-suite
+title: Master Suite
+badges:
+  - entity: person.oren_2
+  - entity: sensor.home_to_destination
+  - entity: sensor.to_ocean_city
+  - entity: sensor.steam_76561197963476141
+  - entity: sensor.plex_drobo5n
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.jewish_calendar_holiday
+  - entity: sensor.jewish_calendar_date
+  - entity: sun.sun
+cards:
+  - type: entities
+    entities:
+      - device_tracker.pixel_3
+    title: Am I Home
+    show_header_toggle: false
+  - type: entities
+    entities:
+      - input_select.waze_destination
+    title: Input select
+  - type: entities
+    entities:
+      - light.floor_lamp_1
+      - light.floor_lamp_2
+      - light.floor_lamp_3
+      - light.mb_1
+      - light.mb_2
+      - light.mb_3
+      - light.mb_4
+      - light.mb_fan_1
+      - light.mb_fan_2
+      - light.mb_fan_3
+      - light.master_bathroom
+      - light.master_bedroom
+      - light.master_bedroom_1
+      - light.master_bedroom_2
+      - light.master_bedroom_3
+      - light.master_bedroom_lamp
+    title: Master Suite Lights
+  - type: media-control
+    entity: media_player.master_bedroom_tv
+  - type: media-control
+    entity: media_player.plex_plex_for_android_mobile_pixel_3
+  - type: weather-forecast
+    entity: weather.dark_sky
