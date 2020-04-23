@@ -3,11 +3,11 @@
 ###
 - name: Oren
   id: opanit001
-  user_id: c300943f016f44b9af2cf180d706fcb7
+  user_id: !secret oren_user_id
   device_trackers:
     - device_tracker.pixel_3
 - name: Jose
   id: jvazque001
-  # user_id: e460d8e3f77f43c0a56c3295f9b61dcf
+  user_id: !secret jose_user_id
   device_trackers:
     - device_tracker.jose_iphone

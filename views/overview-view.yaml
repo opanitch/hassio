@@ -1,9 +1,9 @@
 path: default_view
 title: Overview
 badges:
-  # - entity: binary_sensor.work_day
+  - entity: binary_sensor.work_day
   # - entity: binary_sensor.jewish_calendar_issur_melacha_in_effect
-  # - entity: binary_sensor.updater
+  - entity: binary_sensor.updater
   # - entity: binary_sensor.aeon_labs_zw100_multisensor_6_sensor
   - entity: person.oren_2
   - entity: person.jose

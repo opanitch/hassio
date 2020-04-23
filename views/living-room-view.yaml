@@ -14,6 +14,7 @@ cards:
       - switch.jasco_products_14291_in_wall_smart_switch_switch
       - switch.jasco_products_14291_in_wall_smart_switch_switch_2
     title: Living Room Switches
+    show_header_toggle: false
   - type: entities
     entities:
       - light.living_room
@@ -30,6 +31,7 @@ cards:
     entities:
       - switch.jasco_products_14288_duplex_receptacle_switch
     title: Living Room Outlets
+    show_header_toggle: false
   - type: media-control
     entity: media_player.first_floor
   - type: media-control
