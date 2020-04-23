@@ -29,13 +29,13 @@ cards:
   - type: entities
     entities:
       - remote.harmony_hub
-    title: Remote
+    title: Entertainment Hub
   - type: entities
     entities:
       - switch.jasco_products_14288_duplex_receptacle_switch
     title: Living Room Outlets
-    - type: entities
-      entities:
-        - switch.jasco_products_14291_in_wall_smart_switch_switch
-        - switch.jasco_products_14291_in_wall_smart_switch_switch_2
-      title: Living Room Switches
+  - type: entities
+    entities:
+      - switch.jasco_products_14291_in_wall_smart_switch_switch
+      - switch.jasco_products_14291_in_wall_smart_switch_switch_2
+    title: Living Room Switches
