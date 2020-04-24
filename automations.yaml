@@ -65,3 +65,27 @@
   - data: {}
     entity_id: light.powder_room
     service: light.turn_off
+- id: '1587610014345'
+  alias: Exterior Sunset
+  description: Automate the functionality of the exterior lights to turn on at sunset.
+  trigger:
+  - event: sunset
+    platform: sun
+  condition: []
+  action:
+  - data: {}
+    entity_id:
+    - light.back_yard
+    - light.front_stoop
+    service: light.turn_on
+- id: '1587610079072'
+  alias: Exterior Sunrise
+  description: Automate the functionality of the exterior lights to turn off at sunrise.
+  trigger:
+  - event: sunrise
+    platform: sun
+  condition: []
+  action:
+  - data: {}
+    entity_id: light.back_yard,light.front_stoop
+    service: light.turn_off
