@@ -227,3 +227,10 @@ yarivs_mbp_2:
   name: Yarivs-MBP-2
   picture:
   track: false
+
+new_host_1:
+  icon:
+  mac: 7C:BB:8A:D4:7C:2B
+  name: new-host-1
+  picture:
+  track: false
