@@ -1,7 +1,7 @@
 ###
 # Sun-Oriented Events
 ###
-light_group: group.living_room_lights
-light_profile: relax
+light_group: light.living_room
+light_profile: reading
 device_group: group.presence_devices
 disable_turn_off: false

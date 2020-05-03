@@ -228,9 +228,9 @@ yarivs_mbp_2:
   picture:
   track: false
 
-new_host_1:
-  icon:
+jacobs_switch:
+  icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D4:7C:2B
-  name: new-host-1
+  name: Jacobs-Switch
   picture:
   track: false
