@@ -1,6 +1,6 @@
 light_group: light.living_room
 light_profile: reading
-device_group: group.household
+device_group: group.person_group
 disable_turn_off: false
 
 ###
