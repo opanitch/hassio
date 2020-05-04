@@ -40,18 +40,12 @@
 #     - light.kitchen_window
 #   icon: mdi:silverware-variant
 
-# living_room_lights:
-#   all: false
-#   name: Living Room Lights
-#   entities:
-#     - light.lr_left_1
-#     - light.lr_left_2
-#     - light.lr_right_1
-#     - light.lr_right_2
-#     - light.lr_right_3
-#     - light.living_room_lamp_1
-#     - light.living_room_lamp_2
-#   icon: mdi:floor-lamp
+living_room_lights:
+  all: false
+  name: Living Room Lights
+  entities:
+    - light.living_room
+  icon: mdi:floor-lamp
 
 # master_bathroom_lights:
 #   all: false
