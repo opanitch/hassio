@@ -4,4 +4,4 @@ presence_devices:
   entities:
     - device_tracker.pixel_3
     - device_tracker.jose_iphone
-  icon: mdi:account-group
+  icon: mdi:crosshairs-gps

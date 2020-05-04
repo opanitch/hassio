@@ -1,0 +1,7 @@
+person_group:
+    all: false
+    name: Household
+    entities:
+      - person.oren_2
+      - person.jose
+    icon: mdi:account-multiple
