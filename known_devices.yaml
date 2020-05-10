@@ -234,3 +234,17 @@ jacobs_switch:
   name: Jacobs-Switch
   picture:
   track: false
+
+ipod_touch:
+  icon:
+  mac: 64:76:BA:C0:45:50
+  name: iPod-touch
+  picture:
+  track: false
+
+samuel:
+  icon:
+  mac: 44:4A:DB:A3:56:DC
+  name: Samuel
+  picture:
+  track: false
