@@ -1,5 +1,5 @@
-path: exterior
-title: Exterior
+path: hallway
+title: Hallway
 badges:
   - entity: sensor.us_coronavirus_recovered
   - entity: sensor.us_coronavirus_current
@@ -14,21 +14,17 @@ badges:
 cards:
   - type: entities
     entities:
-      - switch.jasco_products_46201_in_wall_smart_switch_switch
-      - switch.jasco_products_unknown_type_4952_id_3135_switch
-    title: Outdoor Light Switches
+      - light.jasco_products_unknown_type_4944_id_3235_level
+    title: Hallway Light Switches
     show_header_toggle: false
   - type: entities
     entities:
-      - light.back_yard
-      - light.front_stoop
-      - light.front_door
-      - light.garden
-    title: Exterior Lights
+      - light.stairs
+      - light.stairs_1
+      - light.stairs_2
+    title: Stair Lights
     show_header_toggle: false
   - type: entities
     entities:
       - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
     title: Front Door Lock
-  - type: weather-forecast
-    entity: weather.dark_sky
