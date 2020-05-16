@@ -155,6 +155,7 @@ cards:
       - switch.flux_lights
       - switch.jasco_products_14288_duplex_receptacle_switch
       - switch.jasco_products_14288_duplex_receptacle_switch_2
+      - switch.jasco_products_14288_duplex_receptacle_switch_3
       - switch.jasco_products_14291_in_wall_smart_switch_switch
       - switch.jasco_products_14291_in_wall_smart_switch_switch_2
       - switch.jasco_products_46201_in_wall_smart_switch_switch
@@ -172,6 +173,7 @@ cards:
       - zwave.aeon_labs_zw100_multisensor_6
       - zwave.jasco_products_14288_duplex_receptacle
       - zwave.jasco_products_14288_duplex_receptacle_2
+      - zwave.jasco_products_14288_duplex_receptacle_3
       - zwave.jasco_products_14291_in_wall_smart_switch
       - zwave.jasco_products_14291_in_wall_smart_switch_2
       - zwave.jasco_products_46201_in_wall_smart_switch

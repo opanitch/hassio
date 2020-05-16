@@ -20,6 +20,7 @@ cards:
   - type: entities
     entities:
       - switch.jasco_products_14288_duplex_receptacle_switch_2
+      - switch.jasco_products_14288_duplex_receptacle_switch_3
     title: Hallway Light Outlets
     show_header_toggle: false
   - type: entities
