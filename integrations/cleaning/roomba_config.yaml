@@ -1,5 +1,3 @@
-- platform: roomba
-  host: !secret roomba_host
-  name: Maria
-  username: !secret roomba_username
+- host: !secret roomba_host
+  blid: !secret roomba_username
   password: !secret roomba_password
