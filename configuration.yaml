@@ -61,7 +61,7 @@ remote: !include integrations/remotes/harmony_config.yaml
 roomba: !include integrations/cleaning/roomba_config.yaml
 sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
-# vacuum: !include integrations/cleaning/roomba_config.yaml
+vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
 weather: !include_dir_merge_list integrations/weather/
 zwave: !include integrations/zwave/zwave_config.yaml
