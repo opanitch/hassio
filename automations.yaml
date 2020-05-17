@@ -89,3 +89,35 @@
   - data: {}
     entity_id: light.back_yard,light.front_stoop
     service: light.turn_off
+- id: '1589588967075'
+  alias: Hallway Night Lights On
+  description: ''
+  trigger:
+  - event: sunset
+    platform: sun
+  condition: []
+  action:
+  - device_id: a61094cd8fda4f8dbab0b14607f8a17c
+    domain: switch
+    entity_id: switch.jasco_products_14288_duplex_receptacle_switch_3
+    type: turn_on
+  - device_id: 2ffc8973483749fea9702fa4ff756baf
+    domain: switch
+    entity_id: switch.jasco_products_14288_duplex_receptacle_switch_2
+    type: turn_on
+- id: '1589589008880'
+  alias: Hallway Nightlight Turn Off
+  description: ''
+  trigger:
+  - event: sunrise
+    platform: sun
+  condition: []
+  action:
+  - device_id: 2ffc8973483749fea9702fa4ff756baf
+    domain: switch
+    entity_id: switch.jasco_products_14288_duplex_receptacle_switch_2
+    type: turn_off
+  - device_id: a61094cd8fda4f8dbab0b14607f8a17c
+    domain: switch
+    entity_id: switch.jasco_products_14288_duplex_receptacle_switch_3
+    type: turn_off
