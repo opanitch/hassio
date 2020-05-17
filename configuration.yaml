@@ -58,7 +58,7 @@ mqtt: !include integrations/network/mqtt_config.yaml
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 remote: !include integrations/remotes/harmony_config.yaml
-roomba: !include integrations/cleaning/roomba_config.yaml
+# roomba: !include integrations/cleaning/roomba_config.yaml // Did not work, opted for 'vacuum' integration instead
 sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
 vacuum: !include integrations/cleaning/vacuum_config.yaml

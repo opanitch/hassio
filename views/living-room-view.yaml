@@ -32,6 +32,11 @@ cards:
       - switch.jasco_products_14288_duplex_receptacle_switch
     title: Living Room Outlets
     show_header_toggle: false
+  - type: entities
+    entities:
+      - vacuum.roomba
+    title: "Roomba: Maria"
+    show_header_toggle: false
   - type: media-control
     entity: media_player.first_floor
   - type: media-control

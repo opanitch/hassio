@@ -169,6 +169,10 @@ cards:
     entity: weather.dark_sky
   - type: entities
     entities:
+      - vacuum.roomba
+    title: Vacuums
+  - type: entities
+    entities:
       - zwave.aeon_labs_zw090_z_stick_gen5_us
       - zwave.aeon_labs_zw100_multisensor_6
       - zwave.jasco_products_14288_duplex_receptacle
