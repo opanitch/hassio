@@ -255,3 +255,10 @@ tvde4e582c4223:
   name: tvde4e582c4223
   picture:
   track: false
+
+new_host_2:
+  icon:
+  mac: 00:25:AE:50:06:77
+  name: new-host-2
+  picture:
+  track: false
