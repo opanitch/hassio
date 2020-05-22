@@ -1,7 +1,7 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 homeassistant: 
   auth_providers: !include authentication/default.yaml
-  auth_mfa_modules: !inlude authentication/mfa_config.yaml
+  auth_mfa_modules: !include authentication/mfa_config.yaml
   customize: !include_dir_named customizations/
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
