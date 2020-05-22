@@ -1,6 +1,7 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 homeassistant: 
-  # auth_providers: !include authentication.yaml
+  auth_providers: !include authentication/default.yaml
+  auth_mfa_modules: !inlude authentication/mfa_config.yaml
   customize: !include_dir_named customizations/
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
@@ -47,7 +48,7 @@ zone: !include zone_config.yaml
 ### Integrations
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/
 cast: !include integrations/media/google_cast.yaml
-device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml
+# device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml // Needs more customization
 device_tracker: !include tracker_device_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml

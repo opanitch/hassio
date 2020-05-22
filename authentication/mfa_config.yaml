@@ -1,0 +1,4 @@
+###
+# Homeassistant Multifactor Auth
+###
+- type: totp

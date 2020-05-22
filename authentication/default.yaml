@@ -1,0 +1,4 @@
+###
+# Default Homeassistant Auth
+###
+- type: homeassistant
