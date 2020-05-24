@@ -1,9 +1,9 @@
 ###
 # Auth Trusted Networks
 ###
-- type: trusted_networks
-  trusted_networks:
-    - 192.168.1.51-192.168.1.75
-  trusted_users:
-    - 192.168.1.52: !secret oren_user_id
-  allow_bypass_login: true
+# - type: trusted_networks
+#   trusted_networks:
+#     - 192.168.1.51-192.168.1.75
+#   trusted_users:
+#     - 192.168.1.52: !secret oren_user_id
+#   allow_bypass_login: true
