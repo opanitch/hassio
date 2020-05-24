@@ -2,6 +2,7 @@
 homeassistant: 
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
+  # http: !include authentication/http_config.yaml
   customize: !include_dir_named customizations/
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
