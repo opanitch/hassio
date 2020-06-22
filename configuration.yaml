@@ -29,8 +29,7 @@ updater:
 system_health:
 
 ## Text to speech
-tts:
-  - platform: google_translate
+tts: !include integrations/tts/tts_config.yaml
 
 ### House Settings
 # areas: !include area_config.yaml
@@ -41,7 +40,7 @@ history:
 input_number: !include_dir_merge_named inputs/number/
 input_select: !include_dir_merge_named inputs/select/
 person: !include person_config.yaml
-# scene: !include scenes.yaml
+# scene: !include scenes.yaml 
 # script: !include scripts.yaml
 switch: !include_dir_merge_list switches/
 zone: !include zone_config.yaml

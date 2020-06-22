@@ -1,3 +1,3 @@
-base_url: https://opsmart.duckdns.org:8123
+base_url: https://opsmart.duckdns.org
 ssl_certificate: /ssl/fullchain.pem
 ssl_key: /ssl/privkey.pem
