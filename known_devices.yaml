@@ -269,3 +269,10 @@ new_host_3:
   name: new-host-3
   picture:
   track: false
+
+new_host_4:
+  icon:
+  mac: D4:F0:57:9F:12:1F
+  name: new-host-4
+  picture:
+  track: false
