@@ -1,2 +1,2 @@
 - platform: google_translate
-  # base_url: !secret local_ip
+  # base_url: !secret hass_base_url

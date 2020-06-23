@@ -53,7 +53,6 @@ device_tracker: !include tracker_device_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 local_ip:
-  name: localhost
 media_player: !include_dir_merge_list integrations/media_players/
 mqtt: !include integrations/network/mqtt_config.yaml
 # nest: !include integrations/climate_control/nest_config.yaml
