@@ -181,7 +181,7 @@ jose_iphone_2:
   hide_if_away: false
   icon: mdi:cellphone-iphone
   mac: BC:9F:EF:01:34:3A
-  name: Jose_iPhone
+  name: Jose-iPhone-2
   picture:
   track: false
 
@@ -228,10 +228,10 @@ yarivs_mbp_2:
   picture:
   track: false
 
-jacobs_switch:
+nintendo_switch_2:
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D4:7C:2B
-  name: Jacobs-Switch
+  name: Nintendo-Switch-2
   picture:
   track: false
 
@@ -249,20 +249,21 @@ samuel:
   picture:
   track: false
 
-tvde4e582c4223:
+jose_sony_tv:
   icon:
   mac: 70:18:8B:D1:03:64
-  name: tvde4e582c4223
+  name: Jose-Sony-TV
   picture:
   track: false
 
-new_host_2:
+ms_zune_hd:
   icon:
   mac: 00:25:AE:50:06:77
-  name: new-host-2
+  name: Zune-HD
   picture:
   track: false
 
+# google?
 new_host_3:
   icon:
   mac: 3C:28:6D:20:7F:1F
@@ -270,10 +271,10 @@ new_host_3:
   picture:
   track: false
 
-new_host_4:
-  icon:
+nintento_switch_3:
+  icon: mdi:nintendo-switch
   mac: D4:F0:57:9F:12:1F
-  name: new-host-4
+  name: Nintendo-Switch-3
   picture:
   track: false
 
@@ -284,9 +285,10 @@ howies_iphone:
   picture:
   track: false
 
-iphone_2:
-  icon:
+jose_iphone_3:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
   mac: 88:A4:79:CC:EB:92
-  name: iPhone
+  name: Jose-iPhone-3
   picture:
-  track: false
+  track: true

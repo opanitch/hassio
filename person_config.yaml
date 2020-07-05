@@ -10,4 +10,4 @@
   id: jvazque001
   user_id: !secret jose_user_id
   device_trackers:
-    - device_tracker.jose_iphone
+    - device_tracker.jose_iphone_3
