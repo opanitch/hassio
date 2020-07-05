@@ -276,3 +276,17 @@ new_host_4:
   name: new-host-4
   picture:
   track: false
+
+howies_iphone:
+  icon:
+  mac: C4:98:80:61:71:78
+  name: Howies-iPhone
+  picture:
+  track: false
+
+iphone_2:
+  icon:
+  mac: 88:A4:79:CC:EB:92
+  name: iPhone
+  picture:
+  track: false
