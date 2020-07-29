@@ -12,6 +12,22 @@
             {
                 "id": "d9eb05e397a64ab58dac56e0c81f7bd4",
                 "name": "Bedroom"
+            },
+            {
+                "id": "5365fc54929a421e8b28703a6237d97b",
+                "name": "Powder Room"
+            },
+            {
+                "id": "5d80fa964f644c86b663078bf886cab6",
+                "name": "Hallway"
+            },
+            {
+                "id": "176526eec22a419eb9df0dd1e218c86c",
+                "name": "Exterior Front"
+            },
+            {
+                "id": "2abdb45a3b684067855d330094e9b2e7",
+                "name": "Exterior Rear"
             }
         ]
     },
