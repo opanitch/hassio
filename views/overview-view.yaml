@@ -88,7 +88,7 @@ cards:
     entities:
       - light.back_stoop
       - light.downstairs
-      - light.exterior_back
+      - light.exterior_rear
       - light.exterior_front
       - light.front_bedroom
       - light.front_room_1

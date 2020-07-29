@@ -20,7 +20,7 @@ cards:
     show_header_toggle: false
   - type: entities
     entities:
-      - light.exterior_back
+      - light.exterior_rear
       - light.back_stoop
       - light.exterior_front
       - light.front_stoop
