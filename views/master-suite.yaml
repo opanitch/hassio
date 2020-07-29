@@ -1,7 +1,7 @@
 path: master-suite
 title: Master Suite
 badges:
-  - entity: person.oren_2
+  - entity: person.oren
   - entity: sensor.home_to_destination
   - entity: sensor.to_ocean_city
   - entity: sensor.steam_76561197963476141
@@ -22,9 +22,9 @@ cards:
       - light.floor_lamp_1
       - light.floor_lamp_2
       - light.floor_lamp_3
-      - light.mb_fan_1
-      - light.mb_fan_2
-      - light.mb_fan_3
+      - light.master_bedroom_fan_1
+      - light.master_bedroom_fan_2
+      - light.master_bedroom_fan_3
       - light.master_bedroom_1
       - light.master_bedroom_2
       - light.master_bedroom_3
@@ -34,10 +34,10 @@ cards:
   - type: entities
     entities:
       - light.master_bathroom
-      - light.mb_1
-      - light.mb_2
-      - light.mb_3
-      - light.mb_4
+      - light.master_bedroom_1
+      - light.master_bedroom_2
+      - light.master_bedroom_3
+      - light.master_bedroom_4
     title: Master Bathroom Lights
     show_header_toggle: false
   - type: media-control

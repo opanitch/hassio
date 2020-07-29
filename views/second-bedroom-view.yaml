@@ -10,7 +10,7 @@ badges:
 cards:
   - type: entities
     entities:
-      - device_tracker.jose_iphone
+      - device_tracker.jose_iphone_3
     title: Is Jose Home?
     show_header_toggle: false
   - type: weather-forecast
@@ -18,9 +18,9 @@ cards:
   - type: entities
     entities:
       - light.front_bedroom
-      - light.fr_1
-      - light.fr_2
-      - light.fr_3
-      - light.fr_4
+      - light.front_room_1
+      - light.front_room_2
+      - light.front_room_3
+      - light.front_room_4
     title: Bedroom Lights
     show_header_toggle: false

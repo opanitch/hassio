@@ -4,9 +4,9 @@ badges:
   - entity: binary_sensor.work_day
   # - entity: binary_sensor.jewish_calendar_issur_melacha_in_effect
   - entity: binary_sensor.updater
-  # - entity: binary_sensor.aeon_labs_zw100_multisensor_6_sensor
-  # - entity: binary_sensor.aeon_labs_zw100_multisensor_6_sensor_2
-  - entity: person.oren_2
+  # - entity: binary_sensor.living_room_monitor
+  # - entity: binary_sensor.powder_room_monitor
+  - entity: person.oren
   - entity: person.jose
   - entity: sensor.home_to_destination
   - entity: sensor.to_ocean_city
@@ -47,31 +47,31 @@ badges:
   # - entity: sensor.verizon_fios_g1100_kib_sec_sent
   # - entity: sensor.verizon_fios_g1100_packets_received
   # - entity: sensor.verizon_fios_g1100_packets_sent
-  - entity: sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_type
+  - entity: sensor.front_door_lock_alarm_type
   - entity: >-
-      sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_alarm_level
+      sensor.front_door_lock_alarm_level
   - entity: >-
-      sensor.kwikset_spectrum_brands_touchpad_electronic_deadbolt_battery_level
+      sensor.front_door_lock_battery_level
   # Powder Room Sensor
-  - entity: sensor.aeon_labs_zw100_multisensor_6_temperature
-  - entity: sensor.aeon_labs_zw100_multisensor_6_luminance
-  - entity: sensor.aeon_labs_zw100_multisensor_6_relative_humidity
-  - entity: sensor.aeon_labs_zw100_multisensor_6_ultraviolet
-  - entity: sensor.aeon_labs_zw100_multisensor_6_sourcenodeid
-  - entity: sensor.aeon_labs_zw100_multisensor_6_burglar
-  - entity: sensor.aeon_labs_zw100_multisensor_6_alarm_type
-  - entity: sensor.aeon_labs_zw100_multisensor_6_alarm_level
-  - entity: sensor.aeon_labs_zw100_multisensor_6_battery_level
+  - entity: sensor.powder_room_monitor_temperature
+  - entity: sensor.powder_room_monitor_luminance
+  - entity: sensor.powder_room_monitor_relative_humidity
+  - entity: sensor.powder_room_monitor_ultraviolet
+  - entity: sensor.powder_room_monitor_sourcenodeid
+  - entity: sensor.powder_room_monitor_burglar
+  - entity: sensor.powder_room_monitor_alarm_type
+  - entity: sensor.powder_room_monitor_alarm_level
+  - entity: sensor.powder_room_monitor_battery_level
   # Living Room Sensor
-  - entity: sensor.aeon_labs_zw100_multisensor_6_temperature_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_luminance_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_relative_humidity_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_ultraviolet_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_sourcenodeid_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_burglar_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_alarm_type_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_alarm_level_2
-  - entity: sensor.aeon_labs_zw100_multisensor_6_battery_level_2
+  - entity: sensor.living_room_monitor_temperature
+  - entity: sensor.living_room_monitor_luminance
+  - entity: sensor.living_room_monitor_relative_humidity
+  - entity: sensor.living_room_monitor_ultraviolet
+  - entity: sensor.living_room_monitor_sourcenodeid
+  - entity: sensor.living_room_monitor_burglar
+  - entity: sensor.living_room_monitor_alarm_type
+  - entity: sensor.living_room_monitor_alarm_level
+  - entity: sensor.living_room_monitor_battery_level
   - entity: sun.sun
 cards:
   - type: entities
@@ -134,7 +134,7 @@ cards:
     title: Light
   - type: entities
     entities:
-      - lock.kwikset_spectrum_brands_touchpad_electronic_deadbolt_locked
+      - lock.front_door_lock_locked
     title: Lock
   - type: media-control
     entity: media_player.first_floor
@@ -165,15 +165,17 @@ cards:
   - type: entities
     entities:
       - switch.flux_lights
-      - switch.jasco_products_14288_duplex_receptacle_switch
-      - switch.jasco_products_14288_duplex_receptacle_switch_2
-      - switch.jasco_products_14288_duplex_receptacle_switch_3
-      - switch.jasco_products_14291_in_wall_smart_switch_switch
-      - switch.jasco_products_14291_in_wall_smart_switch_switch_2
-      - switch.jasco_products_46201_in_wall_smart_switch_switch
-      - light.jasco_products_unknown_type_4944_id_3235_level
-      - switch.jasco_products_unknown_type_4952_id_3135_switch
-      - switch.leviton_dz15s_1bz_decora_smart_switch_switch
+      - switch.back_stoop_light_switch_switch
+      - switch.front_stoop_light_switch_switch
+      - light.hallway_entry_dimmer_switch_switch
+      - switch.hallway_outlet_2_switch
+      - switch.hallway_upstairs_outlet_switch
+      - switch.kitchen_ceiling_light_switch_switch
+      - switch.living_room_left_lights_switch_switch
+      - switch.living_room_outlet_2_switch
+      - switch.living_room_right_lights_switch_switch
+      - switch.powder_room_fan_switch_switch
+      - switch.powder_room_light_switch_switch
     title: Switch
   - type: weather-forecast
     entity: weather.841_n_4th
@@ -186,16 +188,18 @@ cards:
   - type: entities
     entities:
       - zwave.aeon_labs_zw090_z_stick_gen5_us
-      - zwave.aeon_labs_zw100_multisensor_6
-      - zwave.aeon_labs_zw100_multisensor_6_2
-      - zwave.jasco_products_14288_duplex_receptacle
-      - zwave.jasco_products_14288_duplex_receptacle_2
-      - zwave.jasco_products_14288_duplex_receptacle_3
-      - zwave.jasco_products_14291_in_wall_smart_switch
-      - zwave.jasco_products_14291_in_wall_smart_switch_2
-      - zwave.jasco_products_46201_in_wall_smart_switch
-      - zwave.jasco_products_unknown_type_4944_id_3235
-      - zwave.jasco_products_unknown_type_4952_id_3135
-      - zwave.kwikset_spectrum_brands_touchpad_electronic_deadbolt
-      - zwave.leviton_dz15s_1bz_decora_smart_switch
+      - zwave.back_stoop_light_switch
+      - zwave.front_door_lock
+      - zwave.front_stoop_light_switch
+      - zwave.hallway_entry_dimmer_switch
+      - zwave.hallway_outlet_2
+      - zwave.hallway_upstairs_outlet
+      - zwave.kitchen_ceiling_light_switch
+      - zwave.living_room_left_lights_switch
+      - zwave.living_room_monitor
+      - zwave.living_room_outlet_2
+      - zwave.living_room_right_lights_switch
+      - zwave.powder_room_fan_switch
+      - zwave.powder_room_light_switch
+      - zwave.powder_room_monitor
     title: Z-Wave
