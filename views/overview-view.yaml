@@ -86,43 +86,43 @@ cards:
     title: Input select
   - type: entities
     entities:
-      - light.back_yard
+      - light.back_stoop
       - light.downstairs
-      - light.fr_1
-      - light.fr_2
-      - light.fr_3
-      - light.fr_4
-      - light.floor_lamp_1
-      - light.floor_lamp_2
-      - light.floor_lamp_3
+      - light.exterior_back
+      - light.exterior_front
       - light.front_bedroom
+      - light.front_room_1
+      - light.front_room_2
+      - light.front_room_3
+      - light.front_room_4
       - light.front_stoop
-      - light.front_door
-      - light.garden
       - light.kitchen
       - light.kitchen_1
       - light.kitchen_2
       - light.kitchen_window
-      - light.lr_left_1
-      - light.lr_left_2
-      - light.lr_right_1
-      - light.lr_right_2
-      - light.lr_right_3
       - light.living_room
+      - light.living_room_left_1
+      - light.living_room_left_2
+      - light.living_room_right_1
+      - light.living_room_right_2
+      - light.living_room_right_3
       - light.living_room_lamp_1
       - light.living_room_lamp_2
-      - light.mb_1
-      - light.mb_2
-      - light.mb_3
-      - light.mb_4
-      - light.mb_fan_1
-      - light.mb_fan_2
-      - light.mb_fan_3
       - light.master_bathroom
+      - light.master_bathroom_1
+      - light.master_bathroom_2
+      - light.master_bathroom_3
+      - light.master_bathroom_4
       - light.master_bedroom
+      - light.floor_lamp_1
+      - light.floor_lamp_2
+      - light.floor_lamp_3
       - light.master_bedroom_1
       - light.master_bedroom_2
       - light.master_bedroom_3
+      - light.master_bedroom_fan_1
+      - light.master_bedroom_fan_2
+      - light.master_bedroom_fan_3
       - light.master_bedroom_lamp
       - light.powder_room
       - light.powder_room_1

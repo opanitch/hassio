@@ -20,9 +20,9 @@ cards:
     show_header_toggle: false
   - type: entities
     entities:
-      - light.back_exterior
+      - light.exterior_back
       - light.back_stoop
-      - light.front_exterior
+      - light.exterior_front
       - light.front_stoop
     title: Exterior Lights
     show_header_toggle: false

@@ -34,10 +34,10 @@ cards:
   - type: entities
     entities:
       - light.master_bathroom
-      - light.master_bedroom_1
-      - light.master_bedroom_2
-      - light.master_bedroom_3
-      - light.master_bedroom_4
+      - light.master_bathroom_1
+      - light.master_bathroom_2
+      - light.master_bathroom_3
+      - light.master_bathroom_4
     title: Master Bathroom Lights
     show_header_toggle: false
   - type: media-control

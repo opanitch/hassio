@@ -14,7 +14,7 @@ badges:
 cards:
   - type: entities
     entities:
-      - light.hallway_entry_dimmer_switch
+      - light.hallway_entry_dimmer_switch_switch
     title: Hallway Light Switches
     show_header_toggle: false
   - type: entities
