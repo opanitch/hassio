@@ -34,6 +34,6 @@ cards:
   - type: entities
     entities:
     - device_tracker.pixel_3
-    - device_tracker.jose_iphone
+    - device_tracker.jose_iphone_3
     title: Who's home
     show_header_toggle: false

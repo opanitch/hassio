@@ -1,0 +1,119 @@
+{
+  "clients": [
+    {
+      "ipAddress": "192.168.1.3",
+      "mac": "00:1a:62:04:47:91",
+      "name": "Drobo"
+    },
+    {
+      "ipAddress": "192.168.1.4",
+      "mac": "00:17:88:23:91:28",
+      "name": "Hue_Bridge"
+    },
+    {
+      "ipAddress": "192.168.1.7",
+      "mac": "b0:e8:92:0a:a6:45",
+      "name": "EPSON_Printer"
+    },
+    {
+      "ipAddress": "192.168.1.8",
+      "mac": "00:04:20:f4:37:c0",
+      "name": "Harmony_Hub"
+    },
+    {
+      "ipAddress": "192.168.1.10",
+      "mac": "dc:a6:32:37:a7:d5",
+      "name": "Home_Assistant"
+    },
+    {
+      "ipAddress": "192.168.1.11",
+      "mac": "b8:27:eb:c3:5a:9d",
+      "name": "Raspberry_Pi_3b"
+    },
+    {
+      "ipAddress": "192.168.1.12",
+      "mac": "18:b4:30:78:71:14",
+      "name": "Nest_Thermostat"
+    },
+    {
+      "ipAddress": "192.168.1.13",
+      "mac": "80:c5:f2:39:b2:64",
+      "name": "Roomba_890_Maria"
+    },
+    {
+      "ipAddress": "192.168.1.28",
+      "mac": "54:60:09:46:34:7c",
+      "name": "Chromecast_1_Livingroom"
+    },
+    {
+      "ipAddress": "192.168.1.29",
+      "mac": "6c:ad:f8:50:32:72",
+      "name": "Chromecast_2_Office"
+    },
+    {
+      "ipAddress": "192.168.1.31",
+      "mac": "a4:77:33:f2:7b:74",
+      "name": "Chromecast_Audio_1"
+    },
+    {
+      "ipAddress": "192.168.1.34",
+      "mac": "98:5f:d3:90:8b:3d",
+      "name": "Xbox_One_Elite"
+    },
+    {
+      "ipAddress": "192.168.1.35",
+      "mac": "7c:bb:8a:d6:c7:30",
+      "name": "Nintendo_Switch"
+    },
+    {
+      "ipAddress": "192.168.1.36",
+      "mac": "f0:27:2d:62:2c:47",
+      "name": "Echo"
+    },
+    {
+      "ipAddress": "192.168.1.37",
+      "mac": "44:65:0d:31:8a:60",
+      "name": "Echo_Dot"
+    },
+    {
+      "ipAddress": "192.168.1.38",
+      "mac": "f4:f5:d8:b4:ed:ec",
+      "name": "Google_Home"
+    },
+    {
+      "ipAddress": "192.168.1.52",
+      "mac": "8c:85:90:80:4d:de",
+      "name": "Comcast_MBP"
+    },
+    {
+      "ipAddress": "192.168.1.53",
+      "mac": "3c:28:6d:2c:e3:5d",
+      "name": "Pixel_3"
+    },
+    {
+      "ipAddress": "192.168.1.76",
+      "mac": "a8:34:6a:8c:71:00",
+      "name": "Jose_Galaxy-Tab-A-8"
+    },
+    {
+      "ipAddress": "192.168.1.77",
+      "mac": "bc:9f:ef:01:34:3a",
+      "name": "Jose_iPhone"
+    },
+    {
+      "ipAddress": "192.168.1.170",
+      "mac": "e4:9a:dc:a3:14:34",
+      "name": "Yariv iPhone"
+    },
+    {
+      "ipAddress": "192.168.1.239",
+      "mac": "a0:56:f3:80:07:04",
+      "name": "iPhone"
+    },
+    {
+      "ipAddress": "192.168.1.246",
+      "mac": "e0:60:66:16:20:83",
+      "name": "VeraPlus"
+    }
+  ]
+}
