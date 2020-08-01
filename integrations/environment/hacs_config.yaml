@@ -1,6 +1,6 @@
-# HACS config
+# HACS config - https://hacs.xyz/docs/configuration/legacy
 token: !secret hacs_token
-# sidepanel_icon: 
+sidepanel_icon: mdi:store
 sidepanel_title: HACS
 appdaemon: true
 netdaemon: false
