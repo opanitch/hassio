@@ -1,0 +1,8 @@
+# HACS config
+token: !secret hacs_token
+# sidepanel_icon: 
+sidepanel_title: HACS
+appdaemon: true
+netdaemon: false
+country: US
+experimental: false
