@@ -7,7 +7,10 @@
   device_trackers:
     - device_tracker.pixel_3
 - name: Jose
-  id: jvazque001
+  id: jvazquez001
   user_id: !secret jose_user_id
   device_trackers:
     - device_tracker.jose_iphone_3
+- name: Hermes
+  id: hermes
+  user_id: !secret hermes_user_id
