@@ -171,6 +171,7 @@ cards:
       - switch.hallway_outlet_2_switch
       - switch.hallway_upstairs_outlet_switch
       - switch.kitchen_ceiling_light_switch_switch
+      - switch.kitchen_window_switch_switch
       - switch.living_room_left_lights_switch_switch
       - switch.living_room_outlet_2_switch
       - switch.living_room_right_lights_switch_switch
@@ -195,6 +196,7 @@ cards:
       - zwave.hallway_outlet_2
       - zwave.hallway_upstairs_outlet
       - zwave.kitchen_ceiling_light_switch
+      - zwave.kitchen_window_switch
       - zwave.living_room_left_lights_switch
       - zwave.living_room_monitor
       - zwave.living_room_outlet_2

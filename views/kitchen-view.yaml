@@ -12,6 +12,7 @@ cards:
   - type: entities
     entities:
     - switch.kitchen_ceiling_light_switch_switch
+    - switch.kitchen_window_switch_switch
     title: Kitchen Light Switches
   - type: entities
     entities:
