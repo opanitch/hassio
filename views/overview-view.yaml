@@ -77,7 +77,7 @@ cards:
   - type: entities
     entities:
       - device_tracker.pixel_3
-      - device_tracker.jose_iphone_3
+      - device_tracker.jose_iphone
     title: Presence
     show_header_toggle: true
   - type: entities
