@@ -50,6 +50,6 @@ cards:
     title: Select Destination
   - type: entities
     entities:
-      - device_tracker.pixel_3
+      - device_tracker.oren_pixel_3
     title: Am I Home
     show_header_toggle: false

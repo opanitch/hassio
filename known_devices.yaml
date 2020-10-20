@@ -33,7 +33,7 @@ nest_thermostat:
   picture:
   track: false
 
-pixel_3:
+oren_pixel_3:
   hide_if_away: false
   icon: mdi:cellphone-android
   mac: 3C:28:6D:2C:E3:5D
@@ -41,7 +41,7 @@ pixel_3:
   picture:
   track: true
 
-nintendo_switch:
+oren_switch:
   hide_if_away: true
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D6:C7:30
@@ -73,7 +73,7 @@ xbox_one_elite:
   picture:
   track: true
 
-chromecast_audio_1:
+livingroom_chromecast_audio:
   hide_if_away: false
   icon: mdi:cast
   mac: A4:77:33:F2:7B:74
@@ -105,7 +105,7 @@ vera_plus:
   picture:
   track: false
 
-echo:
+master_room_echo:
   hide_if_away: false
   icon: mdi:amazon-alexa
   mac: F0:27:2D:62:2C:47
@@ -113,7 +113,7 @@ echo:
   picture:
   track: false
 
-google_home:
+kitchen_google_home:
   hide_if_away: false
   icon: mdi:google-home
   mac: F4:F5:D8:B4:ED:EC
@@ -121,7 +121,7 @@ google_home:
   picture:
   track: false
 
-chromecast_1_livingroom:
+livingroom_chromecast:
   hide_if_away: false
   icon: mdi:cast
   mac: 54:60:09:46:34:7C
@@ -129,19 +129,11 @@ chromecast_1_livingroom:
   picture:
   track: false
 
-jose_galaxy_tab_a_8:
+jose_galaxy_tab:
   hide_if_away: false
   icon: mdi:tablet-android
   mac: A8:34:6A:8C:71:00
   name: Jose's Galaxy Tab
-  picture:
-  track: false
-
-aj_laptop:
-  hide_if_away: false
-  icon: mdi:laptop-windows
-  mac: AC:D1:B8:6A:58:E9
-  name: AJ's Laptop
   picture:
   track: false
 
@@ -152,7 +144,7 @@ yariv_iphone:
   picture:
   track: false
 
-ipad_2:
+yariv_ipad:
   icon: midi:tablet-ipad
   mac: F8:62:14:85:F0:64
   name: Yariv's iPad
@@ -166,21 +158,21 @@ drthunder:
   picture:
   track: false
 
-yarivs_mbp_2:
+yarivs_mbp:
   icon: midi:laptop-mac
   mac: 88:E9:FE:5B:DC:F3
   name: Yariv's MBP
   picture:
   track: false
 
-yariv_nintendo_switch:
+yariv_switch:
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D4:7C:2B
   name: Yariv's Nintendo Switch
   picture:
   track: false
 
-ipod_touch:
+livingroom_ipod:
   icon: midi:remote
   mac: 64:76:BA:C0:45:50
   name: iPod Remote
@@ -244,7 +236,7 @@ comcast_galaxy_s9:
   picture:
   track: false
 
-rachelsplewatch:
+rachel_watch:
   icon: midi:watch-variant
   mac: 10:29:59:61:23:2D
   name: Rachels Apple Watch
@@ -258,14 +250,14 @@ rachels_iphone:
   picture:
   track: false
 
-alexandtsiphone:
+alexkip_iphone:
   icon: midi:cellphone-iphone
   mac: 80:0C:67:7E:2E:71
   name: Alex Kipphut iPhone
   picture:
   track: false
 
-nathans_iphone:
+nate_iphone:
   icon: midi:cellphone-iphone
   mac: 14:87:6A:EB:21:AE
   name: Nate's iPhone
