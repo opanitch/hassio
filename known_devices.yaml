@@ -292,3 +292,87 @@ jose_iphone_3:
   name: Jose-iPhone-3
   picture:
   track: true
+
+hals_air:
+  icon:
+  mac: 38:F9:D3:B6:5D:28
+  name: Hals-Air
+  picture:
+  track: false
+
+first_felicia:
+  icon:
+  mac: 88:AE:07:65:AC:C3
+  name: First-Felicia
+  picture:
+  track: false
+
+galaxy_s9:
+  icon:
+  mac: D4:53:83:79:AF:F1
+  name: Galaxy-S9
+  picture:
+  track: false
+
+rachelsplewatch:
+  icon:
+  mac: 10:29:59:61:23:2D
+  name: RachelspleWatch
+  picture:
+  track: false
+
+rachels_iphone:
+  icon:
+  mac: 88:A4:79:62:6C:4C
+  name: Rachels-iPhone
+  picture:
+  track: false
+
+2e_34_e5_de_dd_42:
+  icon:
+  mac: 2E:34:E5:DE:DD:42
+  name: 2e_34_e5_de_dd_42
+  picture:
+  track: false
+
+'192_168_1_228':
+  icon:
+  mac: 72:0E:62:41:23:94
+  name: 192.168.1.228
+  picture:
+  track: false
+
+alexandtsiphone:
+  icon:
+  mac: 80:0C:67:7E:2E:71
+  name: AlexandtsiPhone
+  picture:
+  track: false
+
+nathans_iphone:
+  icon:
+  mac: 14:87:6A:EB:21:AE
+  name: Nathans-iPhone
+  picture:
+  track: false
+
+pa_stst_hpf705:
+  icon:
+  mac: 70:66:55:FD:67:57
+  name: PA-StSt-HPF705
+  picture:
+  track: false
+
+nathans_mbp:
+  icon:
+  mac: AC:BC:32:8E:FA:25
+  name: Nathans-MBP
+  picture:
+  track: false
+
+new_host_2:
+  icon:
+  mac: 2C:26:17:81:3D:52
+  name: new-host-2
+  picture:
+  track: false
