@@ -202,7 +202,7 @@ jose_sony_tv:
   track: false
 
 ms_zune_hd:
-  icon: midi-microsoft
+  icon: midi:microsoft
   mac: 00:25:AE:50:06:77
   name: Zune HD
   picture:
