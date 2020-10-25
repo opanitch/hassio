@@ -1,16 +1,49 @@
 ###
-# Config file for Profiles in the House
+# Config file for People tracked in the House
 ###
+- name: Hal Greenblatt
+  id: hgreenblatt001
+  device_trackers:
+    - device_tracker.hals_air
+- name: Jacob Vazquez
+  id: jvazquez002
+  device_trackers:
+    - device_tracker.jacob_ipad
+    - device_tracker.jacob_nintendo_switch
+- name: Jake Barufkin
+  id: jbarufkin001
+  device_trackers:
+    - device_tracker.jake_iphone
+- name: Jose Vazques
+  id: jvazquez001
+  user_id: !secret jose_user_id
+  device_trackers:
+    - device_tracker.jose_galaxy_tab
+    - device_tracker.jose_iphone
+    - device_tracker.jose_laptop
+    - device_tracker.jose_laptop_work
+- name: Nate Vazques
+  id: nvazquez001
+  device_trackers:
+    - device_tracker.nate_iphone
+    - device_tracker.nate_mbp
 - name: Oren
   id: opanit001
   user_id: !secret oren_user_id
   device_trackers:
-    - device_tracker.pixel_3
-- name: Jose
-  id: jvazquez001
-  user_id: !secret jose_user_id
+    - device_tracker.comcast_mbp
+    - device_tracker.oren_pixel_3
+    - device_tracker.oren_switch
+- name: Yariv Wolok
+  id: ywolok001
   device_trackers:
-    - device_tracker.jose_iphone_3
+    - device_tracker.yariv_ipad
+    - device_tracker.yariv_iphone
+    - device_tracker.yariv_mbp
+    - device_tracker.yariv_nintendo_switch
+    - device_tracker.yariv_oculus
+
+# Hermes is a System User for MQTT
 - name: Hermes
   id: hermes
   user_id: !secret hermes_user_id
