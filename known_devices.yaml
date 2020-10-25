@@ -284,3 +284,59 @@ yariv_oculus:
   name: Yariv's Oculus
   picture:
   track: false
+
+iphone:
+  icon:
+  mac: 2E:34:E5:DE:DD:42
+  name: iPhone
+  picture:
+  track: false
+
+'192_168_1_254':
+  icon:
+  mac: 72:0E:62:41:23:94
+  name: 192.168.1.254
+  picture:
+  track: false
+
+alexandtsiphone:
+  icon:
+  mac: 4A:01:52:5C:3C:31
+  name: AlexandtsiPhone
+  picture:
+  track: false
+
+aj_laptop:
+  icon:
+  mac: AC:D1:B8:6A:58:E9
+  name: AJ_Laptop
+  picture:
+  track: false
+
+nintendo_switch_3:
+  icon:
+  mac: D4:F0:57:9F:12:1F
+  name: Nintendo_Switch_3
+  picture:
+  track: false
+
+lifx_mini_d_5b4b99:
+  icon:
+  mac: D0:73:D5:5B:4B:99
+  name: LIFX-Mini-D-5B4B99
+  picture:
+  track: false
+
+lifx_mini_d_5b9aec:
+  icon:
+  mac: D0:73:D5:5B:9A:EC
+  name: LIFX-Mini-D-5B9AEC
+  picture:
+  track: false
+
+jakes_iphone:
+  icon:
+  mac: 74:9E:AF:74:EC:D8
+  name: Jakes iPhone
+  picture:
+  track: false
