@@ -1,1 +1,2 @@
 entity_picture: !secret jose_profile_home
+friendly_name: !secret jose_friendly_name

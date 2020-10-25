@@ -1,1 +1,2 @@
 entity_picture: !secret oren_profile_home
+friendly_name: !secret oren_friendly_name
