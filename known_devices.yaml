@@ -42,12 +42,11 @@ oren_pixel_3:
   track: true
 
 oren_switch:
-  hide_if_away: true
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D6:C7:30
   name: Oren's Nintendo Switch
   picture:
-  track: true
+  track: false
 
 roomba_890_maria:
   hide_if_away: false
@@ -121,11 +120,11 @@ kitchen_google_home:
   picture:
   track: false
 
-livingroom_chromecast:
+master_room_chromecast:
   hide_if_away: false
   icon: mdi:cast
   mac: 54:60:09:46:34:7C
-  name: Living Room Chromecast
+  name: Master Bedroom Room Chromecast
   picture:
   track: false
 
@@ -148,13 +147,6 @@ yariv_ipad:
   icon: midi:tablet-ipad
   mac: F8:62:14:85:F0:64
   name: Yariv's iPad
-  picture:
-  track: false
-
-drthunder:
-  icon: midi:laptop-windows
-  mac: 6C:71:D9:3A:17:A1
-  name: DRThunder
   picture:
   track: false
 
@@ -222,10 +214,10 @@ hals_air:
   picture:
   track: false
 
-first_felicia:
-  icon:
+jacob_ipad:
+  icon: midi:tablet-ipad
   mac: 88:AE:07:65:AC:C3
-  name: First-Felicia
+  name: Jacob's iPad
   picture:
   track: false
 
@@ -247,13 +239,6 @@ rachels_iphone:
   icon: midi:cellphone-iphone
   mac: 88:A4:79:62:6C:4C
   name: Rachel's iPhone
-  picture:
-  track: false
-
-alexkip_iphone:
-  icon: midi:cellphone-iphone
-  mac: 80:0C:67:7E:2E:71
-  name: Alex Kipphut iPhone
   picture:
   track: false
 
@@ -285,57 +270,43 @@ yariv_oculus:
   picture:
   track: false
 
-iphone:
-  icon:
-  mac: 2E:34:E5:DE:DD:42
-  name: iPhone
-  picture:
-  track: false
-
-'192_168_1_254':
-  icon:
-  mac: 72:0E:62:41:23:94
-  name: 192.168.1.254
-  picture:
-  track: false
-
-alexandtsiphone:
-  icon:
+alexkip_iphone:
+  icon: midi:cellphone-iphone
   mac: 4A:01:52:5C:3C:31
-  name: AlexandtsiPhone
+  name: Alex Kipphut iPhone
   picture:
   track: false
 
-aj_laptop:
-  icon:
+jose_laptop:
+  icon: midi:laptop-windows
   mac: AC:D1:B8:6A:58:E9
-  name: AJ_Laptop
+  name: Jose's Laptop
   picture:
   track: false
 
-nintendo_switch_3:
-  icon:
+jacob_nintendo_switch:
+  icon: mdi:nintendo-switch
   mac: D4:F0:57:9F:12:1F
-  name: Nintendo_Switch_3
+  name: Jacob's Nintendo Switch
   picture:
   track: false
 
-lifx_mini_d_5b4b99:
-  icon:
+front_bathroom_ceiling_2:
+  icon: midi:lightbulb
   mac: D0:73:D5:5B:4B:99
-  name: LIFX-Mini-D-5B4B99
+  name: Front Bathroom Ceiling 2
   picture:
   track: false
 
-lifx_mini_d_5b9aec:
-  icon:
+front_bathroom_ceiling_1:
+  icon: midi:lightbulb
   mac: D0:73:D5:5B:9A:EC
-  name: LIFX-Mini-D-5B9AEC
+  name: Front Bathroom Ceiling 1
   picture:
   track: false
 
 jakes_iphone:
-  icon:
+  icon: midi:cellphone-iphone
   mac: 74:9E:AF:74:EC:D8
   name: Jakes iPhone
   picture:
