@@ -39,7 +39,8 @@ history:
 # history_graph: !include history_graph_config.yaml
 input_number: !include_dir_merge_named inputs/number/
 input_select: !include_dir_merge_named inputs/select/
-person: !include person_config.yaml
+# person: !include person_config.yaml
+person: !include_dir_list people/
 # scene: !include scenes.yaml 
 # script: !include scripts.yaml
 switch: !include_dir_merge_list switches/
@@ -53,6 +54,7 @@ device_tracker: !include tracker_device_config.yaml
 hacs: !include integrations/environment/hacs_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
+lifx: !include integrations/lights/lifx_config.yaml
 local_ip:
 media_player: !include_dir_merge_list integrations/media_players/
 mqtt: !include integrations/network/mqtt_config.yaml

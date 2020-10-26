@@ -1,5 +1,6 @@
 ###
 # Config file for People tracked in the House
+# https://www.home-assistant.io/integrations/person/
 ###
 - name: Hal
   id: !secret hal_id
@@ -10,6 +11,9 @@
   device_trackers:
     - device_tracker.jacob_ipad
     - device_tracker.jacob_nintendo_switch
+- name: Hermes
+  id: !secret hermes_id
+  user_id: !secret hermes_user_id
 - name: Jake
   id: !secret jake_id
   device_trackers:
@@ -42,8 +46,3 @@
     - device_tracker.yariv_mbp
     - device_tracker.yariv_nintendo_switch
     - device_tracker.yariv_oculus
-
-# Hermes is a System User for MQTT
-- name: Hermes
-  id: !secret hermes_id
-  user_id: !secret hermes_user_id

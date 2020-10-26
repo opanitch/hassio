@@ -1,0 +1,4 @@
+name: Hal
+id: !secret hal_id
+device_trackers:
+  - device_tracker.hals_air

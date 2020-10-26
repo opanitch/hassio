@@ -1,0 +1,4 @@
+name: Jake
+id: !secret jake_id
+device_trackers:
+  - device_tracker.jake_iphone

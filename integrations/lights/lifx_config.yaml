@@ -1,0 +1,8 @@
+########
+## NOTE: not needed unless automatic config does not work
+## (https://www.home-assistant.io/integrations/lifx/#advanced-configuration)
+########
+# light:
+#   - server: IP_ADDRESS
+#     port: 56700
+#     broadcast: IP_ADDRESS
