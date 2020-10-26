@@ -2,7 +2,7 @@
 # List of Networked Devices
 ###
 harmony_hub:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:remote
   mac: 00:04:20:F4:37:C0
   name: Living Room Harmony Hub
@@ -10,7 +10,7 @@ harmony_hub:
   track: false
 
 hue_bridge:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:lightbulb-outline
   mac: 00:17:88:23:91:28
   name: Hue Bridge
@@ -18,7 +18,7 @@ hue_bridge:
   track: false
 
 drobo:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:harddisk
   mac: 00:1A:62:04:47:91
   name: Drobo 5N
@@ -26,7 +26,7 @@ drobo:
   track: false
 
 nest_thermostat:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:thermostat
   mac: 18:B4:30:78:71:14
   name: Nest Thermostat
@@ -42,14 +42,15 @@ oren_pixel_3:
   track: true
 
 oren_switch:
+  hide_if_away: false
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D6:C7:30
   name: Oren's Nintendo Switch
   picture:
-  track: false
+  track: true
 
 roomba_890_maria:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:robot-vacuum
   mac: 80:C5:F2:39:B2:64
   name: Roomba 890 Maria
@@ -57,7 +58,7 @@ roomba_890_maria:
   track: false
 
 comcast_mbp:
-  hide_if_away: true
+  hide_if_away: false
   icon: mdi:laptop-mac
   mac: 8C:85:90:80:4D:DE
   name: Comcast MBP
@@ -73,7 +74,7 @@ xbox_one_elite:
   track: true
 
 livingroom_chromecast_audio:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:cast
   mac: A4:77:33:F2:7B:74
   name: Living Room Chromecast Audio
@@ -81,7 +82,7 @@ livingroom_chromecast_audio:
   track: false
 
 epson_printer:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:printer
   mac: B0:E8:92:0A:A6:45
   name: Living Room EPSON Printer
@@ -89,7 +90,7 @@ epson_printer:
   track: false
 
 home_assistant:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:home-assistant
   mac: DC:A6:32:37:A7:D5
   name: Home Assistant Pi4
@@ -97,7 +98,7 @@ home_assistant:
   track: false
 
 vera_plus:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:radio-tower
   mac: E0:60:66:16:20:83
   name: Vera Plus Hub
@@ -105,7 +106,7 @@ vera_plus:
   track: false
 
 master_room_echo:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:amazon-alexa
   mac: F0:27:2D:62:2C:47
   name: Master Bedroom Echo
@@ -113,7 +114,7 @@ master_room_echo:
   track: false
 
 kitchen_google_home:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:google-home
   mac: F4:F5:D8:B4:ED:EC
   name: Kitchn Google Home
@@ -121,7 +122,7 @@ kitchen_google_home:
   track: false
 
 master_room_chromecast:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:cast
   mac: 54:60:09:46:34:7C
   name: Master Bedroom Room Chromecast
@@ -129,7 +130,7 @@ master_room_chromecast:
   track: false
 
 jose_galaxy_tab:
-  hide_if_away: false
+  hide_if_away: true
   icon: mdi:tablet-android
   mac: A8:34:6A:8C:71:00
   name: Jose's Galaxy Tab
@@ -137,34 +138,39 @@ jose_galaxy_tab:
   track: false
 
 yariv_iphone:
+  hide_if_away: true
   icon: mdi:cellphone-iphone
   mac: E4:9A:DC:A3:14:34
   name: Yariv's iPhone
   picture:
-  track: false
+  track: true
 
 yariv_ipad:
+  hide_if_away: true
   icon: midi:tablet-ipad
   mac: F8:62:14:85:F0:64
   name: Yariv's iPad
   picture:
-  track: false
+  track: true
 
 yarivs_mbp:
+  hide_if_away: true
   icon: midi:laptop-mac
   mac: 88:E9:FE:5B:DC:F3
   name: Yariv's MBP
   picture:
-  track: false
+  track: true
 
 yariv_switch:
+  hide_if_away: true
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D4:7C:2B
   name: Yariv's Nintendo Switch
   picture:
-  track: false
+  track: true
 
 livingroom_ipod:
+  hide_if_away: true
   icon: midi:remote
   mac: 64:76:BA:C0:45:50
   name: iPod Remote
@@ -172,6 +178,7 @@ livingroom_ipod:
   track: false
 
 samuel_iphone:
+  hide_if_away: true
   icon: mdi:cellphone-iphone
   mac: 44:4A:DB:A3:56:DC
   name: Samuel's iPhone
@@ -179,6 +186,7 @@ samuel_iphone:
   track: false
 
 jose_sony_tv:
+  hide_if_away: true
   icon: midi:television
   mac: 70:18:8B:D1:03:64
   name: Joses Sony TV
@@ -186,6 +194,7 @@ jose_sony_tv:
   track: false
 
 ms_zune_hd:
+  hide_if_away: true
   icon: midi:microsoft
   mac: 00:25:AE:50:06:77
   name: Zune HD
@@ -193,6 +202,7 @@ ms_zune_hd:
   track: false
 
 howies_iphone:
+  hide_if_away: true
   icon: mdi:cellphone-iphone
   mac: C4:98:80:61:71:78
   name: Dad's iPhone
@@ -208,20 +218,23 @@ jose_iphone:
   track: true
 
 hals_air:
+  hide_if_away: true
   icon: midi:laptop-mac
   mac: 38:F9:D3:B6:5D:28
   name: Hal's Air
   picture:
-  track: false
+  track: true
 
 jacob_ipad:
+  hide_if_away: true
   icon: midi:tablet-ipad
   mac: 88:AE:07:65:AC:C3
   name: Jacob's iPad
   picture:
-  track: false
+  track: true
 
 comcast_galaxy_s9:
+  hide_if_away: true
   icon: midi:cellphone-android
   mac: D4:53:83:79:AF:F1
   name: Work Phone (Galaxy)
@@ -229,6 +242,7 @@ comcast_galaxy_s9:
   track: false
 
 rachel_watch:
+  hide_if_away: true
   icon: midi:watch-variant
   mac: 10:29:59:61:23:2D
   name: Rachels Apple Watch
@@ -236,6 +250,7 @@ rachel_watch:
   track: false
 
 rachels_iphone:
+  hide_if_away: true
   icon: midi:cellphone-iphone
   mac: 88:A4:79:62:6C:4C
   name: Rachel's iPhone
@@ -243,20 +258,23 @@ rachels_iphone:
   track: false
 
 nate_iphone:
+  hide_if_away: true
   icon: midi:cellphone-iphone
   mac: 14:87:6A:EB:21:AE
   name: Nate's iPhone
   picture:
-  track: false
+  track: true
 
 jose_laptop_work:
+  hide_if_away: false
   icon: midi:laptop-windows
   mac: 70:66:55:FD:67:57
   name: Jose's Work Laptop
   picture:
-  track: false
+  track: true
 
 nate_mbp:
+  hide_if_away: true
   icon: midi:laptop-mac
   mac: AC:BC:32:8E:FA:25
   name: Nate's MBP
@@ -264,6 +282,7 @@ nate_mbp:
   track: false
 
 yariv_oculus:
+  hide_if_away: true
   icon: midi:virtual-reality
   mac: 2C:26:17:81:3D:52
   name: Yariv's Oculus
@@ -271,6 +290,7 @@ yariv_oculus:
   track: false
 
 alexkip_iphone:
+  hide_if_away: true
   icon: midi:cellphone-iphone
   mac: 4A:01:52:5C:3C:31
   name: Alex Kipphut iPhone
@@ -278,20 +298,23 @@ alexkip_iphone:
   track: false
 
 jose_laptop:
+  hide_if_away: false
   icon: midi:laptop-windows
   mac: AC:D1:B8:6A:58:E9
   name: Jose's Laptop
   picture:
-  track: false
+  track: true
 
 jacob_nintendo_switch:
+  hide_if_away: true
   icon: mdi:nintendo-switch
   mac: D4:F0:57:9F:12:1F
   name: Jacob's Nintendo Switch
   picture:
-  track: false
+  track: true
 
 front_bathroom_ceiling_2:
+  hide_if_away: true
   icon: midi:lightbulb
   mac: D0:73:D5:5B:4B:99
   name: Front Bathroom Ceiling 2
@@ -299,6 +322,7 @@ front_bathroom_ceiling_2:
   track: false
 
 front_bathroom_ceiling_1:
+  hide_if_away: true
   icon: midi:lightbulb
   mac: D0:73:D5:5B:9A:EC
   name: Front Bathroom Ceiling 1
@@ -306,8 +330,9 @@ front_bathroom_ceiling_1:
   track: false
 
 jakes_iphone:
+  hide_if_away: true
   icon: midi:cellphone-iphone
   mac: 74:9E:AF:74:EC:D8
   name: Jakes iPhone
   picture:
-  track: false
+  track: true
