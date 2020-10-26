@@ -18,7 +18,7 @@
                             "entity": "binary_sensor.aeon_labs_zw100_multisensor_6_sensor"
                         },
                         {
-                            "entity": "person.oren_2"
+                            "entity": "person.oren"
                         },
                         {
                             "entity": "person.jose"
