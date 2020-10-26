@@ -3064,7 +3064,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 45207,
+            "downloads": 45297,
             "first_install": false,
             "full_name": "hacs/integration",
             "installed": true,

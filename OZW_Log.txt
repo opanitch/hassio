@@ -4876,3 +4876,483 @@
 2020-10-25 21:03:47.834 Detail, Node016, Notification: ValueChanged
 2020-10-25 21:03:47.839 Detail, Node016, Notification: ValueChanged
 2020-10-25 21:03:47.845 Detail, Node016, Notification: ValueChanged
+2020-10-25 21:33:19.746 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xce, 0x29
+2020-10-25 21:33:19.747 Detail, 
+2020-10-25 21:33:19.747 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Temperature: value=71.8F
+2020-10-25 21:33:19.747 Detail, Node011, Refreshed Value: old value=71.8, new value=71.8, type=decimal
+2020-10-25 21:33:19.747 Detail, Node011, Changes to this value are not verified
+2020-10-25 21:33:19.747 Detail, Node011, Notification: ValueChanged
+2020-10-25 21:33:20.182 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2d, 0xe3
+2020-10-25 21:33:20.182 Detail, 
+2020-10-25 21:33:20.182 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Relative Humidity: value=45%
+2020-10-25 21:33:20.182 Detail, Node011, Refreshed Value: old value=45, new value=45, type=decimal
+2020-10-25 21:33:20.182 Detail, Node011, Changes to this value are not verified
+2020-10-25 21:33:20.182 Detail, Node011, Notification: ValueChanged
+2020-10-25 21:33:21.001 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x80, 0x03, 0x64, 0x1d
+2020-10-25 21:33:21.001 Detail, 
+2020-10-25 21:33:21.001 Info, Node011, Received Battery report from node 11: level=100
+2020-10-25 21:33:21.001 Detail, Node011, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-25 21:33:21.001 Detail, Node011, Changes to this value are not verified
+2020-10-25 21:33:21.001 Detail, Node011, Notification: ValueChanged
+2020-10-25 21:33:21.102 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x00, 0xc7
+2020-10-25 21:33:21.102 Detail, 
+2020-10-25 21:33:21.102 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Luminance: value=0lux
+2020-10-25 21:33:21.102 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 21:33:21.102 Detail, Node011, Changes to this value are not verified
+2020-10-25 21:33:21.102 Detail, Node011, Notification: ValueChanged
+2020-10-25 21:33:21.241 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xd0
+2020-10-25 21:33:21.241 Detail, 
+2020-10-25 21:33:21.241 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Ultraviolet: value=0
+2020-10-25 21:33:21.242 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 21:33:21.242 Detail, Node011, Changes to this value are not verified
+2020-10-25 21:33:21.242 Detail, Node011, Notification: ValueChanged
+2020-10-25 22:01:59.149 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xd6, 0x2a
+2020-10-25 22:01:59.149 Detail, 
+2020-10-25 22:01:59.149 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Temperature: value=72.6F
+2020-10-25 22:01:59.149 Detail, Node016, Refreshed Value: old value=72.5, new value=72.6, type=decimal
+2020-10-25 22:01:59.149 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:01:59.149 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:01:59.544 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2b, 0xfe
+2020-10-25 22:01:59.544 Detail, 
+2020-10-25 22:01:59.545 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Relative Humidity: value=43%
+2020-10-25 22:01:59.545 Detail, Node016, Refreshed Value: old value=42, new value=43, type=decimal
+2020-10-25 22:01:59.545 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:01:59.545 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:00.324 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x80, 0x03, 0x64, 0x06
+2020-10-25 22:02:00.324 Detail, 
+2020-10-25 22:02:00.324 Info, Node016, Received Battery report from node 16: level=100
+2020-10-25 22:02:00.324 Detail, Node016, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-25 22:02:00.324 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:00.324 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:00.384 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x0d, 0xd1
+2020-10-25 22:02:00.384 Detail, 
+2020-10-25 22:02:00.385 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Luminance: value=13lux
+2020-10-25 22:02:00.385 Detail, Node016, Refreshed Value: old value=13, new value=13, type=decimal
+2020-10-25 22:02:00.385 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:00.385 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:00.484 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xcb
+2020-10-25 22:02:00.484 Detail, 
+2020-10-25 22:02:00.484 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Ultraviolet: value=0
+2020-10-25 22:02:00.484 Detail, Node016, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 22:02:00.484 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:00.484 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:15.184 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 22:02:15.184 Detail, 
+2020-10-25 22:02:15.184 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 22:02:15.184 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:02:15.485 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 22:02:15.485 Detail, 
+2020-10-25 22:02:15.485 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 22:02:15.485 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:02:15.486 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:15.486 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:02:15.486 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:15.486 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:02:15.486 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:15.486 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 22:02:15.486 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:02:15.486 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:15.495 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:15.504 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:02:15.510 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:55.065 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 22:08:55.065 Detail, 
+2020-10-25 22:08:55.065 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 22:08:55.065 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:08:55.366 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 22:08:55.367 Detail, 
+2020-10-25 22:08:55.367 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 22:08:55.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:55.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:55.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:55.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:55.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:55.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:55.367 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 22:08:55.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:55.367 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:55.377 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:55.385 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:55.391 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:58.625 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 22:08:58.625 Detail, 
+2020-10-25 22:08:58.625 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 22:08:58.625 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:08:58.926 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 22:08:58.926 Detail, 
+2020-10-25 22:08:58.926 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 22:08:58.926 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:58.926 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:58.926 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:58.927 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:58.927 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:08:58.927 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:58.927 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 22:08:58.927 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:08:58.927 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:58.933 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:58.939 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:08:58.945 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:13:26.065 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 22:13:26.065 Detail, 
+2020-10-25 22:13:26.065 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 22:13:26.065 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:13:26.366 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 22:13:26.366 Detail, 
+2020-10-25 22:13:26.366 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 22:13:26.366 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:13:26.366 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:13:26.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:13:26.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:13:26.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:13:26.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:13:26.367 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 22:13:26.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:13:26.367 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:13:26.376 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:13:26.383 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:13:26.388 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:14:14.665 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 22:14:14.665 Detail, 
+2020-10-25 22:14:14.665 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 22:14:14.665 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:14:14.966 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 22:14:14.966 Detail, 
+2020-10-25 22:14:14.966 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 22:14:14.967 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:14:14.967 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:14:14.967 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:14:14.967 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:14:14.967 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:14:14.967 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:14:14.967 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 22:14:14.967 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:14:14.967 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:14:14.976 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:14:14.982 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:14:14.987 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:18:24.065 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 22:18:24.065 Detail, 
+2020-10-25 22:18:24.065 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 22:18:24.065 Detail, Node016, Notification: NodeEvent
+2020-10-25 22:18:24.366 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 22:18:24.366 Detail, 
+2020-10-25 22:18:24.366 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 22:18:24.366 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:18:24.366 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:18:24.366 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:18:24.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:18:24.367 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 22:18:24.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:18:24.367 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 22:18:24.367 Detail, Node016, Changes to this value are not verified
+2020-10-25 22:18:24.367 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:18:24.376 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:18:24.385 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:18:24.389 Detail, Node016, Notification: ValueChanged
+2020-10-25 22:33:21.293 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xc8, 0x2f
+2020-10-25 22:33:21.294 Detail, 
+2020-10-25 22:33:21.294 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Temperature: value=71.2F
+2020-10-25 22:33:21.294 Detail, Node011, Refreshed Value: old value=71.8, new value=71.2, type=decimal
+2020-10-25 22:33:21.294 Detail, Node011, Changes to this value are not verified
+2020-10-25 22:33:21.294 Detail, Node011, Notification: ValueChanged
+2020-10-25 22:33:21.729 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2e, 0xe0
+2020-10-25 22:33:21.729 Detail, 
+2020-10-25 22:33:21.729 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Relative Humidity: value=46%
+2020-10-25 22:33:21.729 Detail, Node011, Refreshed Value: old value=45, new value=46, type=decimal
+2020-10-25 22:33:21.729 Detail, Node011, Changes to this value are not verified
+2020-10-25 22:33:21.730 Detail, Node011, Notification: ValueChanged
+2020-10-25 22:33:22.548 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x80, 0x03, 0x64, 0x1d
+2020-10-25 22:33:22.548 Detail, 
+2020-10-25 22:33:22.549 Info, Node011, Received Battery report from node 11: level=100
+2020-10-25 22:33:22.549 Detail, Node011, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-25 22:33:22.549 Detail, Node011, Changes to this value are not verified
+2020-10-25 22:33:22.549 Detail, Node011, Notification: ValueChanged
+2020-10-25 22:33:22.649 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x00, 0xc7
+2020-10-25 22:33:22.650 Detail, 
+2020-10-25 22:33:22.650 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Luminance: value=0lux
+2020-10-25 22:33:22.650 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 22:33:22.650 Detail, Node011, Changes to this value are not verified
+2020-10-25 22:33:22.650 Detail, Node011, Notification: ValueChanged
+2020-10-25 22:33:22.789 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xd0
+2020-10-25 22:33:22.789 Detail, 
+2020-10-25 22:33:22.789 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Ultraviolet: value=0
+2020-10-25 22:33:22.789 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 22:33:22.789 Detail, Node011, Changes to this value are not verified
+2020-10-25 22:33:22.789 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:02:00.683 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xd4, 0x28
+2020-10-25 23:02:00.683 Detail, 
+2020-10-25 23:02:00.683 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Temperature: value=72.4F
+2020-10-25 23:02:00.683 Detail, Node016, Refreshed Value: old value=72.6, new value=72.4, type=decimal
+2020-10-25 23:02:00.684 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:02:00.684 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:02:01.079 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2b, 0xfe
+2020-10-25 23:02:01.079 Detail, 
+2020-10-25 23:02:01.079 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Relative Humidity: value=43%
+2020-10-25 23:02:01.079 Detail, Node016, Refreshed Value: old value=43, new value=43, type=decimal
+2020-10-25 23:02:01.079 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:02:01.079 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:02:01.858 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x80, 0x03, 0x64, 0x06
+2020-10-25 23:02:01.858 Detail, 
+2020-10-25 23:02:01.859 Info, Node016, Received Battery report from node 16: level=100
+2020-10-25 23:02:01.859 Detail, Node016, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-25 23:02:01.859 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:02:01.859 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:02:01.919 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x0c, 0xd0
+2020-10-25 23:02:01.919 Detail, 
+2020-10-25 23:02:01.919 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Luminance: value=12lux
+2020-10-25 23:02:01.919 Detail, Node016, Refreshed Value: old value=13, new value=12, type=decimal
+2020-10-25 23:02:01.919 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:02:01.919 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:02:02.018 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xcb
+2020-10-25 23:02:02.018 Detail, 
+2020-10-25 23:02:02.019 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Ultraviolet: value=0
+2020-10-25 23:02:02.019 Detail, Node016, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 23:02:02.019 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:02:02.019 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:05:53.078 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 23:05:53.078 Detail, 
+2020-10-25 23:05:53.078 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 23:05:53.078 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:05:53.379 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 23:05:53.379 Detail, 
+2020-10-25 23:05:53.379 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 23:05:53.379 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:05:53.380 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:05:53.380 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:05:53.380 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:05:53.380 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:05:53.380 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:05:53.380 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 23:05:53.380 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:05:53.380 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:05:53.387 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:05:53.393 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:05:53.401 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:10:06.600 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 23:10:06.600 Detail, 
+2020-10-25 23:10:06.600 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 23:10:06.600 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:10:06.901 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 23:10:06.901 Detail, 
+2020-10-25 23:10:06.901 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 23:10:06.901 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:10:06.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:10:06.902 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:10:06.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:10:06.902 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:10:06.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:10:06.902 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 23:10:06.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:10:06.902 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:10:06.911 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:10:06.917 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:10:06.922 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:32:02.040 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 23:32:02.040 Detail, 
+2020-10-25 23:32:02.040 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 23:32:02.040 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:32:02.341 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 23:32:02.341 Detail, 
+2020-10-25 23:32:02.341 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 23:32:02.341 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:32:02.341 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:32:02.342 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:32:02.342 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:32:02.342 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:32:02.342 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:32:02.342 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 23:32:02.342 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:32:02.342 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:32:02.351 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:32:02.360 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:32:02.370 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:33:22.837 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xd1, 0x36
+2020-10-25 23:33:22.838 Detail, 
+2020-10-25 23:33:22.838 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Temperature: value=72.1F
+2020-10-25 23:33:22.838 Detail, Node011, Refreshed Value: old value=71.2, new value=72.1, type=decimal
+2020-10-25 23:33:22.838 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:33:22.838 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:33:23.273 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2d, 0xe3
+2020-10-25 23:33:23.273 Detail, 
+2020-10-25 23:33:23.273 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Relative Humidity: value=45%
+2020-10-25 23:33:23.273 Detail, Node011, Refreshed Value: old value=46, new value=45, type=decimal
+2020-10-25 23:33:23.273 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:33:23.273 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:33:24.092 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x80, 0x03, 0x64, 0x1d
+2020-10-25 23:33:24.092 Detail, 
+2020-10-25 23:33:24.092 Info, Node011, Received Battery report from node 11: level=100
+2020-10-25 23:33:24.092 Detail, Node011, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-25 23:33:24.092 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:33:24.092 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:33:24.193 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x00, 0xc7
+2020-10-25 23:33:24.193 Detail, 
+2020-10-25 23:33:24.193 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Luminance: value=0lux
+2020-10-25 23:33:24.193 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 23:33:24.193 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:33:24.193 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:33:24.333 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xd0
+2020-10-25 23:33:24.333 Detail, 
+2020-10-25 23:33:24.333 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Ultraviolet: value=0
+2020-10-25 23:33:24.333 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-25 23:33:24.333 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:33:24.333 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:36:12.601 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 23:36:12.601 Detail, 
+2020-10-25 23:36:12.601 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 23:36:12.601 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:36:12.902 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 23:36:12.902 Detail, 
+2020-10-25 23:36:12.902 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 23:36:12.902 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:36:12.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:36:12.902 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:36:12.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:36:12.902 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:36:12.902 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:36:12.903 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 23:36:12.903 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:36:12.903 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:36:12.910 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:36:12.917 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:36:12.922 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:45:27.542 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 23:45:27.542 Detail, 
+2020-10-25 23:45:27.542 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 23:45:27.542 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:45:27.843 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 23:45:27.844 Detail, 
+2020-10-25 23:45:27.844 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 23:45:27.844 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:45:27.844 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:45:27.844 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:45:27.844 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:45:27.844 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:45:27.844 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:45:27.844 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 23:45:27.844 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:45:27.844 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:45:27.853 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:45:27.862 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:45:27.867 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:45:36.936 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x20, 0x01, 0xff, 0x24
+2020-10-25 23:45:36.937 Detail, 
+2020-10-25 23:45:36.937 Info, Node011, Received Basic set from node 11: level=255.  Sending event notification.
+2020-10-25 23:45:36.937 Detail, Node011, Notification: NodeEvent
+2020-10-25 23:45:37.280 Detail, Node011,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0b, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x6e
+2020-10-25 23:45:37.280 Detail, 
+2020-10-25 23:45:37.280 Info, Node011, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 23:45:37.280 Detail, Node011, Initial read of value
+2020-10-25 23:45:37.280 Detail, Node011, Initial read of value
+2020-10-25 23:45:37.280 Detail, Node011, Initial read of value
+2020-10-25 23:45:37.280 Detail, Node011, Initial read of value
+2020-10-25 23:45:37.280 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:45:37.289 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:45:37.298 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:45:37.303 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:49:43.602 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 23:49:43.602 Detail, 
+2020-10-25 23:49:43.602 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 23:49:43.603 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:49:43.904 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 23:49:43.904 Detail, 
+2020-10-25 23:49:43.904 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 23:49:43.904 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:49:43.904 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:49:43.904 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:49:43.904 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:49:43.904 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:49:43.904 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:49:43.904 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 23:49:43.904 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:49:43.905 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:49:43.914 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:49:43.919 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:49:43.925 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:53:37.162 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0xff, 0x3f
+2020-10-25 23:53:37.162 Detail, 
+2020-10-25 23:53:37.162 Info, Node016, Received Basic set from node 16: level=255.  Sending event notification.
+2020-10-25 23:53:37.162 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:53:37.463 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x08, 0x00, 0x00, 0x75
+2020-10-25 23:53:37.463 Detail, 
+2020-10-25 23:53:37.463 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:8, status=255
+2020-10-25 23:53:37.464 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:53:37.464 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:53:37.464 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:53:37.464 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:53:37.464 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:53:37.464 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:53:37.464 Detail, Node016, Refreshed Value: old value=0, new value=8, type=byte
+2020-10-25 23:53:37.464 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:53:37.464 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:53:37.473 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:53:37.481 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:53:37.486 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:57:42.759 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x20, 0x01, 0x00, 0xdb
+2020-10-25 23:57:42.759 Detail, 
+2020-10-25 23:57:42.760 Info, Node011, Received Basic set from node 11: level=0.  Sending event notification.
+2020-10-25 23:57:42.760 Detail, Node011, Notification: NodeEvent
+2020-10-25 23:57:43.102 Detail, Node011,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x0b, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x66
+2020-10-25 23:57:43.102 Detail, 
+2020-10-25 23:57:43.102 Info, Node011, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 23:57:43.102 Detail, Node011, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:43.102 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:57:43.102 Detail, Node011, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:43.102 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:57:43.102 Detail, Node011, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:43.102 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:57:43.103 Detail, Node011, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 23:57:43.103 Detail, Node011, Changes to this value are not verified
+2020-10-25 23:57:43.103 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:57:43.113 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:57:43.122 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:57:43.127 Detail, Node011, Notification: ValueChanged
+2020-10-25 23:57:49.602 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x20, 0x01, 0x00, 0xc0
+2020-10-25 23:57:49.602 Detail, 
+2020-10-25 23:57:49.602 Info, Node016, Received Basic set from node 16: level=0.  Sending event notification.
+2020-10-25 23:57:49.602 Detail, Node016, Notification: NodeEvent
+2020-10-25 23:57:49.903 Detail, Node016,   Received: 0x01, 0x10, 0x00, 0x04, 0x00, 0x10, 0x0a, 0x71, 0x05, 0x00, 0x00, 0x00, 0xff, 0x07, 0x00, 0x00, 0x00, 0x7d
+2020-10-25 23:57:49.903 Detail, 
+2020-10-25 23:57:49.903 Info, Node016, Received Alarm report: type=0, level=0, sensorSrcID=0, type:Burglar event:0, status=255
+2020-10-25 23:57:49.903 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:49.903 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:57:49.903 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:49.903 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:57:49.903 Detail, Node016, Refreshed Value: old value=0, new value=0, type=byte
+2020-10-25 23:57:49.903 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:57:49.903 Detail, Node016, Refreshed Value: old value=8, new value=0, type=byte
+2020-10-25 23:57:49.903 Detail, Node016, Changes to this value are not verified
+2020-10-25 23:57:49.903 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:57:49.908 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:57:49.914 Detail, Node016, Notification: ValueChanged
+2020-10-25 23:57:49.920 Detail, Node016, Notification: ValueChanged
+2020-10-26 00:02:02.222 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xdb, 0x27
+2020-10-26 00:02:02.222 Detail, 
+2020-10-26 00:02:02.222 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Temperature: value=73.1F
+2020-10-26 00:02:02.223 Detail, Node016, Refreshed Value: old value=72.4, new value=73.1, type=decimal
+2020-10-26 00:02:02.223 Detail, Node016, Changes to this value are not verified
+2020-10-26 00:02:02.223 Detail, Node016, Notification: ValueChanged
+2020-10-26 00:02:02.618 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x05, 0x01, 0x2b, 0xfe
+2020-10-26 00:02:02.618 Detail, 
+2020-10-26 00:02:02.618 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Relative Humidity: value=43%
+2020-10-26 00:02:02.618 Detail, Node016, Refreshed Value: old value=43, new value=43, type=decimal
+2020-10-26 00:02:02.618 Detail, Node016, Changes to this value are not verified
+2020-10-26 00:02:02.618 Detail, Node016, Notification: ValueChanged
+2020-10-26 00:02:03.397 Detail, Node016,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x10, 0x03, 0x80, 0x03, 0x64, 0x06
+2020-10-26 00:02:03.398 Detail, 
+2020-10-26 00:02:03.398 Info, Node016, Received Battery report from node 16: level=100
+2020-10-26 00:02:03.398 Detail, Node016, Refreshed Value: old value=100, new value=100, type=byte
+2020-10-26 00:02:03.398 Detail, Node016, Changes to this value are not verified
+2020-10-26 00:02:03.398 Detail, Node016, Notification: ValueChanged
+2020-10-26 00:02:03.458 Detail, Node016,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x10, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x04, 0xd8
+2020-10-26 00:02:03.458 Detail, 
+2020-10-26 00:02:03.458 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Luminance: value=4lux
+2020-10-26 00:02:03.458 Detail, Node016, Refreshed Value: old value=12, new value=4, type=decimal
+2020-10-26 00:02:03.458 Detail, Node016, Changes to this value are not verified
+2020-10-26 00:02:03.458 Detail, Node016, Notification: ValueChanged
+2020-10-26 00:02:03.558 Detail, Node016,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x10, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xcb
+2020-10-26 00:02:03.558 Detail, 
+2020-10-26 00:02:03.558 Info, Node016, Received SensorMultiLevel report from node 16, instance 1, Ultraviolet: value=0
+2020-10-26 00:02:03.558 Detail, Node016, Refreshed Value: old value=0, new value=0, type=decimal
+2020-10-26 00:02:03.558 Detail, Node016, Changes to this value are not verified
+2020-10-26 00:02:03.558 Detail, Node016, Notification: ValueChanged
