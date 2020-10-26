@@ -27,13 +27,13 @@
   device_trackers:
     - device_tracker.nate_iphone
     - device_tracker.nate_mbp
-# - name: Oren
-#   id: !secret oren_id
-#   user_id: !secret oren_user_id
-#   device_trackers:
-#     - device_tracker.comcast_mbp
-#     - device_tracker.oren_pixel_3
-#     - device_tracker.oren_switch
+- name: Oren
+  id: !secret oren_id
+  user_id: !secret oren_user_id
+  device_trackers:
+    - device_tracker.comcast_mbp
+    - device_tracker.oren_pixel_3
+    - device_tracker.oren_switch
 - name: Yariv
   id: !secret yariv_id
   device_trackers:
