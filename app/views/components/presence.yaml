@@ -1,0 +1,6 @@
+type: entities
+entities:
+  - device_tracker.oren_pixel_3
+  - device_tracker.jose_iphone
+title: Presence
+show_header_toggle: true
