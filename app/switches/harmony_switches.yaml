@@ -1,4 +1,4 @@
-# platform: template
+#- platform: template
 # switches:
 #   # ZONE 1 MEDIA SWITCH
 #   zone_1:
