@@ -1,0 +1,3 @@
+title: Admin Panel
+views:
+  - !include ../views/overview-view.yaml
