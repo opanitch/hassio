@@ -6,8 +6,8 @@ badges:
   # - entity: binary_sensor.updater
   # - entity: binary_sensor.living_room_monitor
   # - entity: binary_sensor.powder_room_monitor
-  # - entity: person.oren
-  # - entity: person.jose
+  - entity: person.oren
+  - entity: person.jose
   - entity: sensor.home_to_destination
   - entity: sensor.to_ocean_city
   - entity: sensor.time_online
@@ -74,7 +74,7 @@ badges:
   - entity: sensor.living_room_monitor_battery_level
   - entity: sun.sun
 cards:
-  - !include components/presence.yaml
+  - !include ../components/presence.yaml
   - type: entities
     entities:
       - input_select.waze_destination
@@ -85,11 +85,13 @@ cards:
       - light.downstairs
       - light.exterior_rear
       - light.exterior_front
-      - light.front_bedroom
-      - light.front_room_1
-      - light.front_room_2
-      - light.front_room_3
-      - light.front_room_4
+      - light.front_bathroom_ceiling_1
+      - light.front_bathroom_ceiling_2
+      # - light.front_bedroom
+      # - light.front_room_1
+      # - light.front_room_2
+      # - light.front_room_3
+      # - light.front_room_4
       - light.front_stoop
       - light.kitchen
       - light.kitchen_1

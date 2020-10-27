@@ -29,7 +29,7 @@ cards:
       - light.master_bedroom_2
       - light.master_bedroom_3
       - light.master_bedroom_lamp
-    title: Master Bedroom Lights
+    title: Bedroom Lights
     show_header_toggle: false
   - type: entities
     entities:
@@ -38,7 +38,7 @@ cards:
       - light.master_bathroom_2
       - light.master_bathroom_3
       - light.master_bathroom_4
-    title: Master Bathroom Lights
+    title: Bathroom Lights
     show_header_toggle: false
   - type: media-control
     entity: media_player.master_bedroom_tv
@@ -48,8 +48,4 @@ cards:
     entities:
       - input_select.waze_destination
     title: Select Destination
-  - type: entities
-    entities:
-      - device_tracker.oren_pixel_3
-    title: Am I Home
-    show_header_toggle: false
+  - !include ../components/presence.yaml

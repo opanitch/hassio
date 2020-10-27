@@ -14,6 +14,10 @@ badges:
 cards:
   - type: entities
     entities:
+      - lock.front_door_lock_locked
+    title: Front Door Lock
+  - type: entities
+    entities:
       - light.hallway_entry_dimmer_switch_switch
     title: Hallway Light Switches
     show_header_toggle: false
@@ -30,7 +34,3 @@ cards:
       - light.stairs_2
     title: Stair Lights
     show_header_toggle: false
-  - type: entities
-    entities:
-      - lock.front_door_lock_locked
-    title: Front Door Lock

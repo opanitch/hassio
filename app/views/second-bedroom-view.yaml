@@ -24,3 +24,9 @@ cards:
       - light.front_room_4
     title: Bedroom Lights
     show_header_toggle: false
+  - type: entities
+    entities:
+      - light.front_bathroom_ceiling_1
+      - light.front_bathroom_ceiling_2
+    title: Bathroom Lights
+    show_header_toggle: true

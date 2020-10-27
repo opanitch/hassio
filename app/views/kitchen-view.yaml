@@ -32,9 +32,4 @@ cards:
     entity: media_player.kitchen_assistant
   - type: media-control
     entity: media_player.public_broadcast
-  - type: entities
-    entities:
-    - device_tracker.oren_pixel_3
-    - device_tracker.jose_iphone
-    title: Who's home
-    show_header_toggle: false
+  - !include ../components/presence.yaml
