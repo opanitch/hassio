@@ -1,5 +1,6 @@
-mode: yaml
-title: Admin Panel
-icon: mdi:script
-show_in_sidebar: true
 filename: ../../dashboards/admin.yaml
+icon: mdi:script
+mode: yaml
+require_admin: true
+show_in_sidebar: true
+title: Admin Panel
