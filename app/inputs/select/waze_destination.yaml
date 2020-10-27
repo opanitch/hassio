@@ -1,0 +1,7 @@
+name: Waze Destination
+options:
+  - Ocean City
+  - Parents
+  - Work
+initial: Parents
+icon: mdi:waze

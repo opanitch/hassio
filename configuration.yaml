@@ -18,10 +18,11 @@ conversation:
 # discovery: // prefer manual configuration
 frontend:
   javascript_version: latest
-# ios: // only need if more than 1 iPhone user needs the app. no use case now
 # https://www.home-assistant.io/integrations/ios/
-lovelace:
-  mode: yaml
+# ios: // only need if more than 1 iPhone user needs the app. no use case now
+## UI Configuration
+# https://www.home-assistant.io/lovelace/dashboards-and-views/
+lovelace: !include app/ui-config.yaml
 map:
 mobile_app:
 sun:
@@ -38,8 +39,8 @@ automation: !include automations.yaml
 group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml
-input_number: !include_dir_merge_named inputs/number/
-input_select: !include_dir_merge_named inputs/select/
+input_number: !include_dir_named app/inputs/number/
+input_select: !include_dir_named app/inputs/select/
 ###
 # Config file for People tracked in the House
 # https://www.home-assistant.io/integrations/person/
@@ -47,20 +48,21 @@ input_select: !include_dir_merge_named inputs/select/
 person: !include_dir_list people/
 # scene: !include scenes.yaml 
 # script: !include scripts.yaml
-switch: !include_dir_merge_list switches/
-zone: !include zone_config.yaml
+switch: !include_dir_list app/switches/
+# zone: !include zone_config.yaml
+zone: !include_dir_list locations/
 
 ### Integrations
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/
 cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml // Needs more customization
-device_tracker: !include tracker_device_config.yaml
+device_tracker: !include device_tracker_config.yaml
 hacs: !include integrations/environment/hacs_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 lifx: !include integrations/lights/lifx_config.yaml
 local_ip:
-media_player: !include_dir_merge_list integrations/media_players/
+media_player: !include_dir_list integrations/media_players/
 mqtt: !include integrations/network/mqtt_config.yaml
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
@@ -70,5 +72,5 @@ sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
 vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
-weather: !include_dir_merge_list integrations/weather/
+weather: !include_dir_list integrations/weather/
 zwave: !include integrations/zwave/zwave_config.yaml

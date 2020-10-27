@@ -6,7 +6,7 @@ network_key: !secret zwave_network_key
 device_config: !include zwave_device_config.yaml
 
 ###########################
-# Kwikset 910 Z-Wave Lock #
+# Kwikset 914 Z-Wave Lock #
 ###########################
 # entity_id: sensor.front_door_lock_alarm_type
 # ## Alarm Type

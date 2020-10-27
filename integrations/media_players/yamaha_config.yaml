@@ -1,21 +1,21 @@
 ##
 # Yamaha Receiver Config - living room
 ##
-# - platform: yamaha
-#   host: !secret yamaha_receiver_host
-#   source_ignore:
-#     - AV1
-#     - AV2
-#     - AV3
-#     - AV4
-#     - AV5
-#     - AV6
-#     - Rhapsody
-#     - SiriusXM
-#     - USB
-#   source_names:
-#     HDMI1: "Xbox One"
-#     HDMI2: "Chromecast"
-#     HDMI3: "Switch"
-#     AUDIO1: "Turntable"
-#     AUDIO2: "ChromeAudio"
+# platform: yamaha
+# host: !secret yamaha_receiver_host
+# source_ignore:
+#   - AV1
+#   - AV2
+#   - AV3
+#   - AV4
+#   - AV5
+#   - AV6
+#   - Rhapsody
+#   - SiriusXM
+#   - USB
+# source_names:
+#   HDMI1: "Xbox One"
+#   HDMI2: "Chromecast"
+#   HDMI3: "Switch"
+#   AUDIO1: "Turntable"
+#   AUDIO2: "ChromeAudio"
