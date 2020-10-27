@@ -39,7 +39,10 @@ history:
 # history_graph: !include history_graph_config.yaml
 input_number: !include_dir_merge_named inputs/number/
 input_select: !include_dir_merge_named inputs/select/
-# person: !include person_config.yaml
+###
+# Config file for People tracked in the House
+# https://www.home-assistant.io/integrations/person/
+###
 person: !include_dir_list people/
 # scene: !include scenes.yaml 
 # script: !include scripts.yaml
