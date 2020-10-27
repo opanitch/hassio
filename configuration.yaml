@@ -22,7 +22,7 @@ frontend:
 # ios: // only need if more than 1 iPhone user needs the app. no use case now
 ## UI Configuration
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
-lovelace: !include app/ui-config.yaml
+lovelace: !include app/config/ui-config.yaml
 map:
 mobile_app:
 sun:
