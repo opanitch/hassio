@@ -1,3 +1,2 @@
 mode: yaml
 dashboards: !include_dir_named dashboards/
-  

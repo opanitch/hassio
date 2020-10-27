@@ -2,7 +2,6 @@ name: Jose
 id: !secret jose_id
 user_id: !secret jose_user_id
 device_trackers:
-  - device_tracker.jose_galaxy_tab
   - device_tracker.jose_iphone
   - device_tracker.jose_laptop
   - device_tracker.jose_laptop_work
