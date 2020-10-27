@@ -1,7 +1,7 @@
 ##
 # Yamaha Receiver Config - living room
 ##
-# platform: yamaha
+#- platform: yamaha
 # host: !secret yamaha_receiver_host
 # source_ignore:
 #   - AV1
