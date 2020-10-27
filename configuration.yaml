@@ -18,7 +18,8 @@ conversation:
 # discovery: // prefer manual configuration
 frontend:
   javascript_version: latest
-# ios:
+# ios: // only need if more than 1 iPhone user needs the app. no use case now
+# https://www.home-assistant.io/integrations/ios/
 lovelace:
   mode: yaml
 map:
