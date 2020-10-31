@@ -1,4 +1,4 @@
-title: Admin Panel
+title: 841 N 4th Admin Panel
 views:
   - !include ../views/overview-view.yaml
   - !include ../views/playroom-view.yaml
