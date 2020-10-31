@@ -11,7 +11,7 @@
             },
             {
                 "id": "d9eb05e397a64ab58dac56e0c81f7bd4",
-                "name": "Bedroom"
+                "name": "Master Bedroom"
             },
             {
                 "id": "5365fc54929a421e8b28703a6237d97b",
@@ -32,6 +32,14 @@
             {
                 "id": "5c718c9a190a4d3784366f90072987cf",
                 "name": "Front Bathroom"
+            },
+            {
+                "id": "7173f5ae0c1a4d7488fb11611a638975",
+                "name": "Front Bedroom"
+            },
+            {
+                "id": "8a9faefa025a4aab81473269674ffbbc",
+                "name": "Master Bathroom"
             }
         ]
     },

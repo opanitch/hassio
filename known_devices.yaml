@@ -336,3 +336,24 @@ jakes_iphone:
   name: Jakes iPhone
   picture:
   track: true
+
+lifx_mini_62c44f:
+  icon:
+  mac: D0:73:D5:62:C4:4F
+  name: LIFX-Mini-62C44F
+  picture:
+  track: false
+
+lifx_mini_62bc64:
+  icon:
+  mac: D0:73:D5:62:BC:64
+  name: LIFX-Mini-62BC64
+  picture:
+  track: false
+
+iphone:
+  icon:
+  mac: 62:84:CB:FB:66:84
+  name: iPhone
+  picture:
+  track: false
