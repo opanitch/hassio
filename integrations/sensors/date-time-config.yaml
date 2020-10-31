@@ -1,6 +1,6 @@
-- platform: time_date
-    display_options:
-      - 'time'
-      - 'date'
-      - 'date_time'
-      - 'beat'
+# - platform: time_date
+#     display_options:
+#       - 'time'
+#       - 'date'
+#       - 'date_time'
+#       - 'beat'
