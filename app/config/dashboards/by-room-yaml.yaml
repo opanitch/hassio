@@ -1,0 +1,6 @@
+filename: ../../dashboards/by-room.yaml
+icon: mdi:script
+mode: yaml
+require_admin: true
+show_in_sidebar: true
+title: House by Room
