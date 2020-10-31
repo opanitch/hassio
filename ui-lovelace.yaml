@@ -1,7 +1,0 @@
-# title: 841 N 4th
-# views:
-#   - !include app/views/exterior-view.yaml
-#   - !include app/views/living-room-view.yaml
-#   - !include app/views/kitchen-view.yaml
-#   - !include app/views/second-bedroom-view.yaml
-#   - !include app/views/hallway-view.yaml

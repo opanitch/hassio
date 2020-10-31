@@ -1,5 +1,5 @@
 title: 841 N 4th Admin Panel
 views:
-  - !include ../views/overview-view.yaml
-  - !include ../views/playroom-view.yaml
-  - !include ../views/master-suite.yaml
+  - !include app/views/overview-view.yaml
+  - !include app/views/playroom-view.yaml
+  - !include app/views/master-suite.yaml
