@@ -313,7 +313,7 @@ jacob_nintendo_switch:
   picture:
   track: true
 
-front_bathroom_ceiling_2:
+front_bathroom_ceiling_1:
   hide_if_away: true
   icon: midi:lightbulb
   mac: D0:73:D5:5B:4B:99
@@ -321,7 +321,7 @@ front_bathroom_ceiling_2:
   picture:
   track: false
 
-front_bathroom_ceiling_1:
+front_bathroom_ceiling_2:
   hide_if_away: true
   icon: midi:lightbulb
   mac: D0:73:D5:5B:9A:EC
@@ -337,23 +337,26 @@ jakes_iphone:
   picture:
   track: true
 
-lifx_mini_62c44f:
-  icon:
+front_bedroom_fan_2:
+  hide_if_away: true
+  icon: midi:lightbulb
   mac: D0:73:D5:62:C4:4F
-  name: LIFX-Mini-62C44F
+  name: Front Bedroom Fan 2
   picture:
   track: false
 
-lifx_mini_62bc64:
-  icon:
+front_bedroom_fan_1:
+  hide_if_away: true
+  icon: midi:lightbulb
   mac: D0:73:D5:62:BC:64
-  name: LIFX-Mini-62BC64
+  name: Front Bedroom Fan 1
   picture:
   track: false
 
-iphone:
-  icon:
+jose_iphone_2:
+  hide_if_away: false
+  icon: midi:cellphone-iphone
   mac: 62:84:CB:FB:66:84
-  name: iPhone
+  name: Jose's iPhone 2.4GHz
   picture:
-  track: false
+  track: true
