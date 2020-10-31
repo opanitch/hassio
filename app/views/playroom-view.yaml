@@ -1,0 +1,47 @@
+path: default_view
+title: Overview
+badges:
+  - entity: binary_sensor.work_day
+  - entity: person.oren
+  - entity: person.jose
+  - entity: sensor.home_to_destination
+  - entity: sensor.to_ocean_city
+  - entity: sensor.time_online
+  - entity: sensor.waze_dest_address
+  - entity: sensor.steam_76561197963476141
+  - entity: sensor.plex_drobo5n
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.jewish_calendar_holiday
+  - entity: sensor.jewish_calendar_date
+  - entity: sensor.localhost
+  - entity: sensor.front_door_lock_alarm_type
+  - entity: >-
+      sensor.front_door_lock_alarm_level
+  - entity: >-
+      sensor.front_door_lock_battery_level
+  # Powder Room Sensor
+  - entity: sensor.powder_room_monitor_temperature
+  - entity: sensor.powder_room_monitor_luminance
+  - entity: sensor.powder_room_monitor_relative_humidity
+  - entity: sensor.powder_room_monitor_ultraviolet
+  - entity: sensor.powder_room_monitor_sourcenodeid
+  - entity: sensor.powder_room_monitor_burglar
+  - entity: sensor.powder_room_monitor_alarm_type
+  - entity: sensor.powder_room_monitor_alarm_level
+  - entity: sensor.powder_room_monitor_battery_level
+  # Living Room Sensor
+  - entity: sensor.living_room_monitor_temperature
+  - entity: sensor.living_room_monitor_luminance
+  - entity: sensor.living_room_monitor_relative_humidity
+  - entity: sensor.living_room_monitor_ultraviolet
+  - entity: sensor.living_room_monitor_sourcenodeid
+  - entity: sensor.living_room_monitor_burglar
+  - entity: sensor.living_room_monitor_alarm_type
+  - entity: sensor.living_room_monitor_alarm_level
+  - entity: sensor.living_room_monitor_battery_level
+  - entity: sun.sun
+cards:
+  - !include ../components/status/cleaning.yaml

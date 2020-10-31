@@ -1,0 +1,11 @@
+type: entities
+# Header
+title: Household Presence
+show_header_toggle: false
+# header:
+# Body
+entities:
+  - entity: vacuum.maria
+    name: 1st Floor Vacuum'd
+    secondary-info: last-changed
+    format: datetime
