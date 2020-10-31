@@ -1,5 +1,5 @@
-path: default_view
-title: Overview
+path: admin-playroom
+title: Playroom
 badges:
   - entity: binary_sensor.work_day
   - entity: person.oren
