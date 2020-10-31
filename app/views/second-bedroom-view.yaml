@@ -22,6 +22,8 @@ cards:
       - light.front_room_2
       - light.front_room_3
       - light.front_room_4
+      - light.front_bedroom_fan_1
+      - light.front_bedroom_fan_2
     title: Bedroom Lights
     show_header_toggle: false
   - type: entities
