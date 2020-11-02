@@ -4,4 +4,4 @@
       friendly_name: Maria's Last Sweep
       device_class: timestamp
       value_template: >-
-        {{states.vacuum.maria.status.last_changed | timestamp_local}}
+        {{ states.binary_sensor.maria_vacuuming.last_changed | timestamp_local }}
