@@ -2,4 +2,5 @@
   sensors:
     maria_vacuuming:
       friendly_name: Maria is Vacuuming
-      value_template: {{ is_state('vacuum.maria', 'cleaning') }}
+      value_template: >-
+        {{ is_state('vacuum.maria', 'cleaning') }}
