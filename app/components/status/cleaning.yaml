@@ -11,3 +11,4 @@ entities:
     secondary_info: last-changed
     state_color: true
   - type: divider
+  - sensor.maria_last_clean
