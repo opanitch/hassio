@@ -1,6 +1,6 @@
 {
     "data": {
-        "archived": false,
+        "archived": true,
         "authors": [
             "@hunterjm",
             "@ericleb010",
@@ -37,15 +37,15 @@
         "last_version": null,
         "manifest_name": "Xbox One Smartglass - Media player integration",
         "new": false,
-        "open_issues": 14,
+        "open_issues": 0,
         "persistent_directory": ".keep",
         "published_tags": [],
-        "pushed_at": "2020-10-15T22:31:19",
+        "pushed_at": "2020-10-31T14:33:20",
         "releases": false,
         "render_readme": false,
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 27,
+        "stargazers_count": 26,
         "topics": [
             "custom-component",
             "hacktoberfest",
