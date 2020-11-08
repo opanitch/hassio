@@ -1,0 +1,13 @@
+- platform: mqtt
+  name: Front Door Lock (MQTT)
+  state_topic: "home-alpha/locks/frontdoor/"
+  command_topic: "home-alpha/locks/frontdoor/set"
+  payload_lock: "LOCK"
+  payload_unlock: "UNLOCK"
+  state_locked: "LOCK"
+  state_unlocked: "UNLOCK"
+  optimistic: false
+  qos: 1
+  retain: true
+  unique_id: front_lock_mqtt
+  value_template: '{{ value.x }}'

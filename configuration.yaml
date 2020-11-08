@@ -63,7 +63,6 @@ jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 lifx: !include integrations/lights/lifx_config.yaml
 local_ip:
 media_player: !include_dir_merge_list integrations/media_players/
-mqtt: !include integrations/network/mqtt_config.yaml
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 remote: !include integrations/remotes/harmony_config.yaml
@@ -74,3 +73,7 @@ vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
 weather: !include_dir_list integrations/weather/
 zwave: !include integrations/zwave/zwave_config.yaml
+
+### MQTT Config Section
+mqtt: !include integrations/network/mqtt_config.yaml
+lock: !include_dir_merge_list integrations/sensors/
