@@ -76,4 +76,4 @@ zwave: !include integrations/zwave/zwave_config.yaml
 
 ### MQTT Config Section
 mqtt: !include integrations/network/mqtt_config.yaml
-lock: !include_dir_merge_list integrations/sensors/
+lock: !include integrations/network/mqtt_lock.yaml
