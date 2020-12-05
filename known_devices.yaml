@@ -360,3 +360,59 @@ jose_iphone_2:
   name: Jose's iPhone 2.4GHz
   picture:
   track: true
+
+iphone:
+  icon:
+  mac: 2E:34:E5:DE:DD:42
+  name: iPhone
+  picture:
+  track: false
+
+'192_168_1_249':
+  icon:
+  mac: 72:0E:62:41:23:94
+  name: 192.168.1.249
+  picture:
+  track: false
+
+scarlett:
+  icon:
+  mac: 1C:1A:DF:71:C4:14
+  name: SCARLETT
+  picture:
+  track: false
+
+'192_168_1_250':
+  icon:
+  mac: 92:C8:C4:58:3E:07
+  name: 192.168.1.250
+  picture:
+  track: false
+
+stormtrooper:
+  icon:
+  mac: 6C:6A:77:E4:1B:F0
+  name: Stormtrooper
+  picture:
+  track: false
+
+rachels_iphone_2:
+  icon:
+  mac: AA:1B:34:39:09:25
+  name: Rachels-iPhone
+  picture:
+  track: false
+
+jakes_iphone_2:
+  icon:
+  mac: CE:7E:1E:60:E1:58
+  name: Jakes-iPhone
+  picture:
+  track: false
+
+samuel:
+  icon:
+  mac: FA:CE:D5:46:14:AE
+  name: Samuel
+  picture:
+  track: false
