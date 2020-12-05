@@ -3284,7 +3284,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 881,
+            "downloads": 960,
             "first_install": false,
             "full_name": "hacs/integration",
             "installed": true,
@@ -3304,7 +3304,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 1409,
+            "stars": 1410,
             "topics": [
                 "community",
                 "hacktoberfest",
