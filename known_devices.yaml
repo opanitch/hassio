@@ -1,11 +1,36 @@
-###
-# List of Networked Devices
-###
+#############################
+# List of Networked Devices #
+#############################
+##### Infrastructure #####
+drobo:
+  hide_if_away: true
+  icon: mdi:harddisk
+  mac: 00:1A:62:04:47:91
+  name: Drobo 5N
+  picture:
+  track: false
+
+epson_printer:
+  hide_if_away: true
+  icon: mdi:printer
+  mac: B0:E8:92:0A:A6:45
+  name: Living Room EPSON Printer
+  picture:
+  track: false
+
 harmony_hub:
   hide_if_away: true
   icon: mdi:remote
   mac: 00:04:20:F4:37:C0
   name: Living Room Harmony Hub
+  picture:
+  track: false
+
+home_assistant:
+  hide_if_away: true
+  icon: mdi:home-assistant
+  mac: DC:A6:32:37:A7:D5
+  name: Home Assistant Pi4
   picture:
   track: false
 
@@ -17,19 +42,268 @@ hue_bridge:
   picture:
   track: false
 
-drobo:
-  hide_if_away: true
-  icon: mdi:harddisk
-  mac: 00:1A:62:04:47:91
-  name: Drobo 5N
-  picture:
-  track: false
-
 nest_thermostat:
   hide_if_away: true
   icon: mdi:thermostat
   mac: 18:B4:30:78:71:14
   name: Nest Thermostat
+  picture:
+  track: false
+
+roomba_890_maria:
+  hide_if_away: true
+  icon: mdi:robot-vacuum
+  mac: 80:C5:F2:39:B2:64
+  name: Roomba 890 Maria
+  picture:
+  track: false
+
+livingroom_chromecast_audio:
+  hide_if_away: true
+  icon: mdi:cast
+  mac: A4:77:33:F2:7B:74
+  name: Living Room Chromecast Audio
+  picture:
+  track: false
+
+front_bathroom_ceiling_1:
+  hide_if_away: true
+  icon: midi:lightbulb
+  mac: D0:73:D5:5B:4B:99
+  name: Front Bathroom Ceiling 2
+  picture:
+  track: false
+
+front_bathroom_ceiling_2:
+  hide_if_away: true
+  icon: midi:lightbulb
+  mac: D0:73:D5:5B:9A:EC
+  name: Front Bathroom Ceiling 1
+  picture:
+  track: false
+
+front_bedroom_fan_1:
+  hide_if_away: true
+  icon: midi:lightbulb
+  mac: D0:73:D5:62:BC:64
+  name: Front Bedroom Fan 1
+  picture:
+  track: false
+
+front_bedroom_fan_2:
+  hide_if_away: true
+  icon: midi:lightbulb
+  mac: D0:73:D5:62:C4:4F
+  name: Front Bedroom Fan 2
+  picture:
+  track: false
+
+kitchen_google_home:
+  hide_if_away: true
+  icon: mdi:google-home
+  mac: F4:F5:D8:B4:ED:EC
+  name: Kitchn Google Home
+  picture:
+  track: false
+
+livingroom_ipod:
+  hide_if_away: true
+  icon: midi:remote
+  mac: 64:76:BA:C0:45:50
+  name: iPod Remote
+  picture:
+  track: false
+
+master_room_chromecast:
+  hide_if_away: true
+  icon: mdi:cast
+  mac: 54:60:09:46:34:7C
+  name: Master Bedroom Room Chromecast
+  picture:
+  track: false
+
+master_room_echo:
+  hide_if_away: true
+  icon: mdi:amazon-alexa
+  mac: F0:27:2D:62:2C:47
+  name: Master Bedroom Echo
+  picture:
+  track: false
+
+vera_plus:
+  hide_if_away: true
+  icon: mdi:radio-tower
+  mac: E0:60:66:16:20:83
+  name: Vera Plus Hub
+  picture:
+  track: false
+
+xbox_one_elite:
+  hide_if_away: true
+  icon: mdi:xbox
+  mac: 98:5F:D3:90:8B:3D
+  name: Xbox One Elite
+  picture:
+  track: true
+
+xbox_series_x:
+  hide_if_away: true
+  icon: mdi:xbox
+  mac: 1C:1A:DF:71:C4:14
+  name: Series X
+  picture:
+  track: true
+
+##### User Devices A-Z #####
+# Alex
+alexkip_iphone:
+  hide_if_away: true
+  icon: midi:cellphone-iphone
+  mac: 4A:01:52:5C:3C:31
+  name: Alex Kipphut's iPhone
+  picture:
+  track: false
+
+# Jacob
+jacob_ipad:
+  hide_if_away: true
+  icon: midi:tablet-ipad
+  mac: 88:AE:07:65:AC:C3
+  name: Jacob's iPad
+  picture:
+  track: true
+
+jacob_nintendo_switch:
+  hide_if_away: true
+  icon: mdi:nintendo-switch
+  mac: D4:F0:57:9F:12:1F
+  name: Jacob's Nintendo Switch
+  picture:
+  track: true
+
+# Jake
+jakes_iphone:
+  hide_if_away: true
+  icon: midi:cellphone-iphone
+  mac: 74:9E:AF:74:EC:D8
+  name: Jakes iPhone
+  picture:
+  track: true
+
+jakes_iphone_2:
+  hide_if_away: true
+  icon: midi:cellphone-iphone
+  mac: CE:7E:1E:60:E1:58
+  name: Jake's iPhone 2
+  picture:
+  track: true
+
+# Jose
+jose_galaxy_tab:
+  hide_if_away: true
+  icon: mdi:tablet-android
+  mac: A8:34:6A:8C:71:00
+  name: Jose's Galaxy Tab
+  picture:
+  track: false
+
+jose_iphone:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: 88:A4:79:CC:EB:92
+  name: Jose's iPhone
+  picture:
+  track: true
+
+jose_iphone_2:
+  hide_if_away: false
+  icon: midi:cellphone-iphone
+  mac: 62:84:CB:FB:66:84
+  name: Jose's iPhone 2
+  picture:
+  track: true
+
+jose_laptop:
+  hide_if_away: false
+  icon: midi:laptop-windows
+  mac: AC:D1:B8:6A:58:E9
+  name: Jose's Laptop
+  picture:
+  track: true
+
+jose_laptop_work:
+  hide_if_away: false
+  icon: midi:laptop-windows
+  mac: 70:66:55:FD:67:57
+  name: Jose's Work Laptop
+  picture:
+  track: true
+
+jose_sony_tv:
+  hide_if_away: true
+  icon: midi:television
+  mac: 70:18:8B:D1:03:64
+  name: Jose's Sony TV
+  picture:
+  track: false
+
+# Hal
+hals_air:
+  hide_if_away: true
+  icon: midi:laptop-mac
+  mac: 38:F9:D3:B6:5D:28
+  name: Hal's Air
+  picture:
+  track: true
+
+# Howie
+howies_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: C4:98:80:61:71:78
+  name: Dad's iPhone
+  picture:
+  track: false
+
+# Nate
+nate_iphone:
+  hide_if_away: true
+  icon: midi:cellphone-iphone
+  mac: 14:87:6A:EB:21:AE
+  name: Nate's iPhone
+  picture:
+  track: true
+
+nate_mbp:
+  hide_if_away: true
+  icon: midi:laptop-mac
+  mac: AC:BC:32:8E:FA:25
+  name: Nate's MBP
+  picture:
+  track: false
+
+# Oren
+comcast_galaxy_s9:
+  hide_if_away: true
+  icon: midi:cellphone-android
+  mac: D4:53:83:79:AF:F1
+  name: Work Phone (Galaxy)
+  picture:
+  track: false
+
+comcast_mbp:
+  hide_if_away: false
+  icon: mdi:laptop-mac
+  mac: 8C:85:90:80:4D:DE
+  name: Comcast MBP
+  picture:
+  track: true
+
+ms_zune_hd:
+  hide_if_away: true
+  icon: midi:microsoft
+  mac: 00:25:AE:50:06:77
+  name: Zune HD
   picture:
   track: false
 
@@ -49,195 +323,28 @@ oren_switch:
   picture:
   track: true
 
-roomba_890_maria:
-  hide_if_away: true
-  icon: mdi:robot-vacuum
-  mac: 80:C5:F2:39:B2:64
-  name: Roomba 890 Maria
-  picture:
-  track: false
-
-comcast_mbp:
+stormtrooper_wifi:
   hide_if_away: false
-  icon: mdi:laptop-mac
-  mac: 8C:85:90:80:4D:DE
-  name: Comcast MBP
+  icon: midi:desktop-tower-monitor
+  mac: 6C:6A:77:E4:1B:F0
+  name: Stormtrooper WiFi
   picture:
   track: true
 
-xbox_one_elite:
+# Rachel
+rachels_iphone:
   hide_if_away: true
-  icon: mdi:xbox
-  mac: 98:5F:D3:90:8B:3D
-  name: Xbox One Elite
-  picture:
-  track: true
-
-livingroom_chromecast_audio:
-  hide_if_away: true
-  icon: mdi:cast
-  mac: A4:77:33:F2:7B:74
-  name: Living Room Chromecast Audio
+  icon: midi:cellphone-iphone
+  mac: 88:A4:79:62:6C:4C
+  name: Rachel's iPhone
   picture:
   track: false
 
-epson_printer:
+rachels_iphone_2:
   hide_if_away: true
-  icon: mdi:printer
-  mac: B0:E8:92:0A:A6:45
-  name: Living Room EPSON Printer
-  picture:
-  track: false
-
-home_assistant:
-  hide_if_away: true
-  icon: mdi:home-assistant
-  mac: DC:A6:32:37:A7:D5
-  name: Home Assistant Pi4
-  picture:
-  track: false
-
-vera_plus:
-  hide_if_away: true
-  icon: mdi:radio-tower
-  mac: E0:60:66:16:20:83
-  name: Vera Plus Hub
-  picture:
-  track: false
-
-master_room_echo:
-  hide_if_away: true
-  icon: mdi:amazon-alexa
-  mac: F0:27:2D:62:2C:47
-  name: Master Bedroom Echo
-  picture:
-  track: false
-
-kitchen_google_home:
-  hide_if_away: true
-  icon: mdi:google-home
-  mac: F4:F5:D8:B4:ED:EC
-  name: Kitchn Google Home
-  picture:
-  track: false
-
-master_room_chromecast:
-  hide_if_away: true
-  icon: mdi:cast
-  mac: 54:60:09:46:34:7C
-  name: Master Bedroom Room Chromecast
-  picture:
-  track: false
-
-jose_galaxy_tab:
-  hide_if_away: true
-  icon: mdi:tablet-android
-  mac: A8:34:6A:8C:71:00
-  name: Jose's Galaxy Tab
-  picture:
-  track: false
-
-yariv_iphone:
-  hide_if_away: true
-  icon: mdi:cellphone-iphone
-  mac: E4:9A:DC:A3:14:34
-  name: Yariv's iPhone
-  picture:
-  track: true
-
-yariv_ipad:
-  hide_if_away: true
-  icon: midi:tablet-ipad
-  mac: F8:62:14:85:F0:64
-  name: Yariv's iPad
-  picture:
-  track: true
-
-yarivs_mbp:
-  hide_if_away: true
-  icon: midi:laptop-mac
-  mac: 88:E9:FE:5B:DC:F3
-  name: Yariv's MBP
-  picture:
-  track: true
-
-yariv_switch:
-  hide_if_away: true
-  icon: mdi:nintendo-switch
-  mac: 7C:BB:8A:D4:7C:2B
-  name: Yariv's Nintendo Switch
-  picture:
-  track: true
-
-livingroom_ipod:
-  hide_if_away: true
-  icon: midi:remote
-  mac: 64:76:BA:C0:45:50
-  name: iPod Remote
-  picture:
-  track: false
-
-samuel_iphone:
-  hide_if_away: true
-  icon: mdi:cellphone-iphone
-  mac: 44:4A:DB:A3:56:DC
-  name: Samuel's iPhone
-  picture:
-  track: false
-
-jose_sony_tv:
-  hide_if_away: true
-  icon: midi:television
-  mac: 70:18:8B:D1:03:64
-  name: Joses Sony TV
-  picture:
-  track: false
-
-ms_zune_hd:
-  hide_if_away: true
-  icon: midi:microsoft
-  mac: 00:25:AE:50:06:77
-  name: Zune HD
-  picture:
-  track: false
-
-howies_iphone:
-  hide_if_away: true
-  icon: mdi:cellphone-iphone
-  mac: C4:98:80:61:71:78
-  name: Dad's iPhone
-  picture:
-  track: false
-
-jose_iphone:
-  hide_if_away: false
-  icon: mdi:cellphone-iphone
-  mac: 88:A4:79:CC:EB:92
-  name: Jose's 3rd iPhone
-  picture:
-  track: true
-
-hals_air:
-  hide_if_away: true
-  icon: midi:laptop-mac
-  mac: 38:F9:D3:B6:5D:28
-  name: Hal's Air
-  picture:
-  track: true
-
-jacob_ipad:
-  hide_if_away: true
-  icon: midi:tablet-ipad
-  mac: 88:AE:07:65:AC:C3
-  name: Jacob's iPad
-  picture:
-  track: true
-
-comcast_galaxy_s9:
-  hide_if_away: true
-  icon: midi:cellphone-android
-  mac: D4:53:83:79:AF:F1
-  name: Work Phone (Galaxy)
+  icon: midi:cellphone-iphone
+  mac: AA:1B:34:39:09:25
+  name: Rachel's iPhone 2
   picture:
   track: false
 
@@ -249,37 +356,39 @@ rachel_watch:
   picture:
   track: false
 
-rachels_iphone:
+# Samuel
+samuel_iphone:
   hide_if_away: true
-  icon: midi:cellphone-iphone
-  mac: 88:A4:79:62:6C:4C
-  name: Rachel's iPhone
+  icon: mdi:cellphone-iphone
+  mac: FA:CE:D5:46:14:AE
+  name: Samuel's iPhone
   picture:
   track: false
 
-nate_iphone:
+# Yariv
+yariv_ipad:
   hide_if_away: true
-  icon: midi:cellphone-iphone
-  mac: 14:87:6A:EB:21:AE
-  name: Nate's iPhone
+  icon: midi:tablet-ipad
+  mac: F8:62:14:85:F0:64
+  name: Yariv's iPad
   picture:
   track: true
 
-jose_laptop_work:
-  hide_if_away: false
-  icon: midi:laptop-windows
-  mac: 70:66:55:FD:67:57
-  name: Jose's Work Laptop
+yariv_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: E4:9A:DC:A3:14:34
+  name: Yariv's iPhone
   picture:
   track: true
 
-nate_mbp:
+yarivs_mbp:
   hide_if_away: true
   icon: midi:laptop-mac
-  mac: AC:BC:32:8E:FA:25
-  name: Nate's MBP
+  mac: 88:E9:FE:5B:DC:F3
+  name: Yariv's MBP
   picture:
-  track: false
+  track: true
 
 yariv_oculus:
   hide_if_away: true
@@ -289,130 +398,13 @@ yariv_oculus:
   picture:
   track: false
 
-alexkip_iphone:
-  hide_if_away: true
-  icon: midi:cellphone-iphone
-  mac: 4A:01:52:5C:3C:31
-  name: Alex Kipphut iPhone
-  picture:
-  track: false
-
-jose_laptop:
-  hide_if_away: false
-  icon: midi:laptop-windows
-  mac: AC:D1:B8:6A:58:E9
-  name: Jose's Laptop
-  picture:
-  track: true
-
-jacob_nintendo_switch:
+yariv_switch:
   hide_if_away: true
   icon: mdi:nintendo-switch
-  mac: D4:F0:57:9F:12:1F
-  name: Jacob's Nintendo Switch
+  mac: 7C:BB:8A:D4:7C:2B
+  name: Yariv's Nintendo Switch
   picture:
   track: true
-
-front_bathroom_ceiling_1:
-  hide_if_away: true
-  icon: midi:lightbulb
-  mac: D0:73:D5:5B:4B:99
-  name: Front Bathroom Ceiling 2
-  picture:
-  track: false
-
-front_bathroom_ceiling_2:
-  hide_if_away: true
-  icon: midi:lightbulb
-  mac: D0:73:D5:5B:9A:EC
-  name: Front Bathroom Ceiling 1
-  picture:
-  track: false
-
-jakes_iphone:
-  hide_if_away: true
-  icon: midi:cellphone-iphone
-  mac: 74:9E:AF:74:EC:D8
-  name: Jakes iPhone
-  picture:
-  track: true
-
-front_bedroom_fan_2:
-  hide_if_away: true
-  icon: midi:lightbulb
-  mac: D0:73:D5:62:C4:4F
-  name: Front Bedroom Fan 2
-  picture:
-  track: false
-
-front_bedroom_fan_1:
-  hide_if_away: true
-  icon: midi:lightbulb
-  mac: D0:73:D5:62:BC:64
-  name: Front Bedroom Fan 1
-  picture:
-  track: false
-
-jose_iphone_2:
-  hide_if_away: false
-  icon: midi:cellphone-iphone
-  mac: 62:84:CB:FB:66:84
-  name: Jose's iPhone 2.4GHz
-  picture:
-  track: true
-
-iphone:
-  icon:
-  mac: 2E:34:E5:DE:DD:42
-  name: iPhone
-  picture:
-  track: false
-
-'192_168_1_249':
-  icon:
-  mac: 72:0E:62:41:23:94
-  name: 192.168.1.249
-  picture:
-  track: false
-
-scarlett:
-  icon:
-  mac: 1C:1A:DF:71:C4:14
-  name: SCARLETT
-  picture:
-  track: false
-
-'192_168_1_250':
-  icon:
-  mac: 92:C8:C4:58:3E:07
-  name: 192.168.1.250
-  picture:
-  track: false
-
-stormtrooper:
-  icon:
-  mac: 6C:6A:77:E4:1B:F0
-  name: Stormtrooper
-  picture:
-  track: false
-
-rachels_iphone_2:
-  icon:
-  mac: AA:1B:34:39:09:25
-  name: Rachels-iPhone
-  picture:
-  track: false
-
-jakes_iphone_2:
-  icon:
-  mac: CE:7E:1E:60:E1:58
-  name: Jakes-iPhone
-  picture:
-  track: false
-
-samuel:
-  icon:
-  mac: FA:CE:D5:46:14:AE
-  name: Samuel
-  picture:
-  track: false
+################
+# Last Updated #
+################
