@@ -68,7 +68,7 @@ livingroom_chromecast_audio:
 
 front_bathroom_ceiling_1:
   hide_if_away: true
-  icon: midi:lightbulb
+  icon: mdi:lightbulb
   mac: D0:73:D5:5B:4B:99
   name: Front Bathroom Ceiling 2
   picture:
@@ -76,7 +76,7 @@ front_bathroom_ceiling_1:
 
 front_bathroom_ceiling_2:
   hide_if_away: true
-  icon: midi:lightbulb
+  icon: mdi:lightbulb
   mac: D0:73:D5:5B:9A:EC
   name: Front Bathroom Ceiling 1
   picture:
@@ -84,7 +84,7 @@ front_bathroom_ceiling_2:
 
 front_bedroom_fan_1:
   hide_if_away: true
-  icon: midi:lightbulb
+  icon: mdi:lightbulb
   mac: D0:73:D5:62:BC:64
   name: Front Bedroom Fan 1
   picture:
@@ -92,7 +92,7 @@ front_bedroom_fan_1:
 
 front_bedroom_fan_2:
   hide_if_away: true
-  icon: midi:lightbulb
+  icon: mdi:lightbulb
   mac: D0:73:D5:62:C4:4F
   name: Front Bedroom Fan 2
   picture:
@@ -108,7 +108,7 @@ kitchen_google_home:
 
 livingroom_ipod:
   hide_if_away: true
-  icon: midi:remote
+  icon: mdi:remote
   mac: 64:76:BA:C0:45:50
   name: iPod Remote
   picture:
@@ -158,16 +158,34 @@ xbox_series_x:
 # Alex
 alexkip_iphone:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: 4A:01:52:5C:3C:31
   name: Alex Kipphut's iPhone
+  picture:
+  track: false
+
+# Hal
+hals_air:
+  hide_if_away: true
+  icon: mdi:laptop-mac
+  mac: 38:F9:D3:B6:5D:28
+  name: Hal's Air
+  picture:
+  track: true
+
+# Howie
+howies_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: C4:98:80:61:71:78
+  name: Dad's iPhone
   picture:
   track: false
 
 # Jacob
 jacob_ipad:
   hide_if_away: true
-  icon: midi:tablet-ipad
+  icon: mdi:tablet-ipad
   mac: 88:AE:07:65:AC:C3
   name: Jacob's iPad
   picture:
@@ -182,19 +200,19 @@ jacob_nintendo_switch:
   track: true
 
 # Jake
-jakes_iphone:
+jakes_iphone_24g:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: 74:9E:AF:74:EC:D8
-  name: Jakes iPhone
+  name: Jakes iPhone 24g
   picture:
   track: true
 
-jakes_iphone_2:
+jakes_iphone_5g:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: CE:7E:1E:60:E1:58
-  name: Jake's iPhone 2
+  name: Jake's iPhone 5g
   picture:
   track: true
 
@@ -217,7 +235,7 @@ jose_iphone:
 
 jose_iphone_2:
   hide_if_away: false
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: 62:84:CB:FB:66:84
   name: Jose's iPhone 2
   picture:
@@ -225,7 +243,7 @@ jose_iphone_2:
 
 jose_laptop:
   hide_if_away: false
-  icon: midi:laptop-windows
+  icon: mdi:laptop-windows
   mac: AC:D1:B8:6A:58:E9
   name: Jose's Laptop
   picture:
@@ -233,7 +251,7 @@ jose_laptop:
 
 jose_laptop_work:
   hide_if_away: false
-  icon: midi:laptop-windows
+  icon: mdi:laptop-windows
   mac: 70:66:55:FD:67:57
   name: Jose's Work Laptop
   picture:
@@ -241,34 +259,16 @@ jose_laptop_work:
 
 jose_sony_tv:
   hide_if_away: true
-  icon: midi:television
+  icon: mdi:television
   mac: 70:18:8B:D1:03:64
   name: Jose's Sony TV
-  picture:
-  track: false
-
-# Hal
-hals_air:
-  hide_if_away: true
-  icon: midi:laptop-mac
-  mac: 38:F9:D3:B6:5D:28
-  name: Hal's Air
-  picture:
-  track: true
-
-# Howie
-howies_iphone:
-  hide_if_away: true
-  icon: mdi:cellphone-iphone
-  mac: C4:98:80:61:71:78
-  name: Dad's iPhone
   picture:
   track: false
 
 # Nate
 nate_iphone:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: 14:87:6A:EB:21:AE
   name: Nate's iPhone
   picture:
@@ -276,7 +276,7 @@ nate_iphone:
 
 nate_mbp:
   hide_if_away: true
-  icon: midi:laptop-mac
+  icon: mdi:laptop-mac
   mac: AC:BC:32:8E:FA:25
   name: Nate's MBP
   picture:
@@ -285,7 +285,7 @@ nate_mbp:
 # Oren
 comcast_galaxy_s9:
   hide_if_away: true
-  icon: midi:cellphone-android
+  icon: mdi:cellphone-android
   mac: D4:53:83:79:AF:F1
   name: Work Phone (Galaxy)
   picture:
@@ -301,7 +301,7 @@ comcast_mbp:
 
 ms_zune_hd:
   hide_if_away: true
-  icon: midi:microsoft
+  icon: mdi:microsoft
   mac: 00:25:AE:50:06:77
   name: Zune HD
   picture:
@@ -325,7 +325,7 @@ oren_switch:
 
 stormtrooper_wifi:
   hide_if_away: false
-  icon: midi:desktop-tower-monitor
+  icon: mdi:desktop-tower-monitor
   mac: 6C:6A:77:E4:1B:F0
   name: Stormtrooper WiFi
   picture:
@@ -334,23 +334,23 @@ stormtrooper_wifi:
 # Rachel
 rachels_iphone:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: 88:A4:79:62:6C:4C
   name: Rachel's iPhone
   picture:
   track: false
 
-rachels_iphone_2:
+rachels_iphone_24g:
   hide_if_away: true
-  icon: midi:cellphone-iphone
+  icon: mdi:cellphone-iphone
   mac: AA:1B:34:39:09:25
-  name: Rachel's iPhone 2
+  name: Rachel's iPhone 24g
   picture:
   track: false
 
 rachel_watch:
   hide_if_away: true
-  icon: midi:watch-variant
+  icon: mdi:watch-variant
   mac: 10:29:59:61:23:2D
   name: Rachels Apple Watch
   picture:
@@ -368,7 +368,7 @@ samuel_iphone:
 # Yariv
 yariv_ipad:
   hide_if_away: true
-  icon: midi:tablet-ipad
+  icon: mdi:tablet-ipad
   mac: F8:62:14:85:F0:64
   name: Yariv's iPad
   picture:
@@ -384,7 +384,7 @@ yariv_iphone:
 
 yarivs_mbp:
   hide_if_away: true
-  icon: midi:laptop-mac
+  icon: mdi:laptop-mac
   mac: 88:E9:FE:5B:DC:F3
   name: Yariv's MBP
   picture:
@@ -392,7 +392,7 @@ yarivs_mbp:
 
 yariv_oculus:
   hide_if_away: true
-  icon: midi:virtual-reality
+  icon: mdi:virtual-reality
   mac: 2C:26:17:81:3D:52
   name: Yariv's Oculus
   picture:
