@@ -2,8 +2,8 @@ path: master-suite
 title: Master Suite
 badges:
   - entity: person.oren
-  - entity: sensor.home_to_destination
-  - entity: sensor.to_ocean_city
+  # - entity: sensor.home_to_destination
+  # - entity: sensor.to_ocean_city
   - entity: sensor.steam_76561197963476141
   - entity: sensor.plex_drobo5n
   - entity: sensor.us_coronavirus_recovered

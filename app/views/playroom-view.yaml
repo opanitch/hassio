@@ -4,10 +4,10 @@ badges:
   - entity: binary_sensor.work_day
   - entity: person.oren
   - entity: person.jose
-  - entity: sensor.home_to_destination
-  - entity: sensor.to_ocean_city
+  # - entity: sensor.home_to_destination
+  # - entity: sensor.to_ocean_city
   - entity: sensor.time_online
-  - entity: sensor.waze_dest_address
+  # - entity: sensor.waze_dest_address
   - entity: sensor.steam_76561197963476141
   - entity: sensor.plex_drobo5n
   - entity: sensor.us_coronavirus_recovered
