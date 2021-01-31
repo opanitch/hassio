@@ -408,3 +408,52 @@ yariv_switch:
 ################
 # Last Updated #
 ################
+
+iphone:
+  icon:
+  mac: 2E:34:E5:DE:DD:42
+  name: iPhone
+  picture:
+  track: false
+
+libmb0190:
+  icon:
+  mac: 3C:22:FB:27:3E:28
+  name: LIBMB0190
+  picture:
+  track: false
+
+virginiosiphone:
+  icon:
+  mac: 9A:BB:59:7A:17:46
+  name: VIRGINIOsiPhone
+  picture:
+  track: false
+
+josesapplewatch:
+  icon:
+  mac: FE:CC:BB:46:AF:76
+  name: JosesAppleWatch
+  picture:
+  track: false
+
+ipad:
+  icon:
+  mac: DE:A0:A2:2F:D6:2E
+  name: iPad
+  picture:
+  track: false
+
+yarivsaplewatch:
+  icon:
+  mac: 60:9A:C1:0D:11:B1
+  name: YarivsApleWatch
+  picture:
+  track: false
+
+jakes_air:
+  icon:
+  mac: A4:83:E7:89:9F:B4
+  name: Jakes-Air
+  picture:
+  track: false
