@@ -7,10 +7,10 @@
   longitude: !secret zone_home_long
   radius: 140
 
-- name: Work
-  icon: mdi:office-building
-  latitude: !secret zone_o_work_lat
-  longitude: !secret zone_o_work_long
+# - name: Work
+#   icon: mdi:office-building
+#   latitude: !secret zone_o_work_lat
+#   longitude: !secret zone_o_work_long
 
 - name: Ocean City
   icon: mdi:beach
