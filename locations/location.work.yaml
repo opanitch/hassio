@@ -1,4 +1,0 @@
-# name: Work
-# icon: mdi:office-building
-# latitude: !secret zone_o_work_lat
-# longitude: !secret zone_o_work_long
