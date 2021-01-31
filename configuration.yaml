@@ -1,5 +1,5 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
-homeassistant: 
+homeassistant:
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
   # http: !include authentication/http_config.yaml
@@ -17,7 +17,6 @@ config:
 conversation:
 # discovery: // prefer manual configuration
 frontend:
-  javascript_version: latest
 # https://www.home-assistant.io/integrations/ios/
 # ios: // only need if more than 1 iPhone user needs the app. no use case now
 ## UI Configuration
@@ -46,7 +45,7 @@ input_select: !include_dir_named app/inputs/select/
 # https://www.home-assistant.io/integrations/person/
 ###
 person: !include_dir_list people/
-# scene: !include scenes.yaml 
+# scene: !include scenes.yaml
 # script: !include scripts.yaml
 switch: !include_dir_merge_list app/switches/
 # zone: !include zone_config.yaml
@@ -66,10 +65,10 @@ media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 remote: !include integrations/remotes/harmony_config.yaml
-# roomba: !include integrations/cleaning/roomba_config.yaml // Did not work, opted for 'vacuum' integration instead
+roomba: !include integrations/cleaning/roomba_config.yaml # Did not work, opted for 'vacuum' integration instead
 sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
-vacuum: !include integrations/cleaning/vacuum_config.yaml
+# vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
 weather: !include_dir_list integrations/weather/
 zwave: !include integrations/zwave/zwave_config.yaml

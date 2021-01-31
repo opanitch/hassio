@@ -291,14 +291,6 @@ comcast_galaxy_s9:
   picture:
   track: false
 
-comcast_mbp:
-  hide_if_away: false
-  icon: mdi:laptop-mac
-  mac: 8C:85:90:80:4D:DE
-  name: Comcast MBP
-  picture:
-  track: true
-
 ms_zune_hd:
   hide_if_away: true
   icon: mdi:microsoft

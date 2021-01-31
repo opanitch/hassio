@@ -1,4 +1,4 @@
-- platform: zestimate
-  api_key: !secret zillow_api_key
-  zpid:
-    - !secret zillow_home_id
+# - platform: zestimate
+#   api_key: !secret zillow_api_key
+#   zpid:
+#     - !secret zillow_home_id
