@@ -4,6 +4,7 @@ home-assistant_v2.db
 home-assistant.log
 pyozw.sqlite
 secrets.yaml
+.storage/core.config_entries
 
 # Group Ignores
 # .storage
