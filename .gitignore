@@ -1,6 +1,6 @@
 # Individual File Ignores
 .HA_VERSION
-home-assistant_v2.db
+home-assistant_v2.db*
 home-assistant.log
 pyozw.sqlite
 secrets.yaml
