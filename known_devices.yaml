@@ -449,3 +449,108 @@ jakes_air:
   name: Jakes-Air
   picture:
   track: false
+
+iphone_2:
+  name: iPhone
+  mac: 46:74:F2:DB:94:88
+  icon:
+  picture:
+  track: false
+
+orens_mbp:
+  name: Orens-MBP
+  mac: 88:66:5A:0A:9D:14
+  icon:
+  picture:
+  track: false
+
+sauceys_iphone:
+  name: Sauceys-iPhone
+  mac: 6E:CE:1B:CD:0F:C3
+  icon:
+  picture:
+  track: false
+
+jakes_ipad:
+  name: Jakes-iPad
+  mac: 6C:4A:85:92:63:C9
+  icon:
+  picture:
+  track: false
+
+iphone_3:
+  name: iPhone
+  mac: C6:8F:DA:26:26:21
+  icon:
+  picture:
+  track: false
+
+damonpratt:
+  name: damonpratt
+  mac: 82:BD:E4:DB:9F:A7
+  icon:
+  picture:
+  track: false
+
+iphone_4:
+  name: iPhone
+  mac: 22:2A:36:34:8B:55
+  icon:
+  picture:
+  track: false
+
+rachelsplewatch:
+  name: RachelspleWatch
+  mac: DA:53:C5:ED:0D:43
+  icon:
+  picture:
+  track: false
+
+iphone_5:
+  name: iPhone
+  mac: E2:C6:75:3F:F4:76
+  icon:
+  picture:
+  track: false
+
+nathans_iphone:
+  name: Nathans-iPhone
+  mac: CA:46:E8:15:05:2C
+  icon:
+  picture:
+  track: false
+
+rachaelplewatch:
+  name: RachaelpleWatch
+  mac: 1A:1F:EE:D0:DF:D6
+  icon:
+  picture:
+  track: false
+
+rachaeltsiphone:
+  name: RachaeltsiPhone
+  mac: AE:BE:E9:59:EC:E7
+  icon:
+  picture:
+  track: false
+
+howies_iphone_2:
+  name: Howies-iPhone
+  mac: FE:C3:2B:B3:FC:D1
+  icon:
+  picture:
+  track: false
+
+howardsplewatch:
+  name: HowardspleWatch
+  mac: 56:C9:D6:CE:32:D9
+  icon:
+  picture:
+  track: false
+
+juliansplewatch:
+  name: JulianspleWatch
+  mac: 6E:60:2B:12:6E:61
+  icon:
+  picture:
+  track: false
