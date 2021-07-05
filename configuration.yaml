@@ -52,14 +52,13 @@ zone: !include_dir_list locations/
 
 ### Integrations
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/
-cast: !include integrations/media/google_cast.yaml
+# cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
 device_tracker: !include device_tracker_config.yaml
-hacs: !include integrations/environment/hacs_config.yaml
+# hacs: !include integrations/environment/hacs_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 lifx: !include integrations/lights/lifx_config.yaml
-local_ip:
 media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
