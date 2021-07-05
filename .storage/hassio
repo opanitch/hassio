@@ -1,7 +1,7 @@
 {
-    "data": {
-        "hassio_user": "9ec139de72ea48acbc149f5c336fd9e1"
-    },
+    "version": 1,
     "key": "hassio",
-    "version": 1
+    "data": {
+        "hassio_user": "5b0a2c45846149d596cab85fd5d32d22"
+    }
 }

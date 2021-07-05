@@ -200,6 +200,14 @@ jacob_nintendo_switch:
   track: true
 
 # Jake
+jakes_ipad:
+  hide_if_away: true
+  name: Jakes-iPad
+  mac: 6C:4A:85:92:63:C9
+  icon: mdi:tablet-ipad
+  picture:
+  track: false
+
 jakes_iphone:
   hide_if_away: true
   icon: mdi:cellphone-iphone
@@ -212,7 +220,7 @@ jakes_air:
   hide_if_away: true
   icon: mdi:laptop
   mac: A4:83:E7:89:9F:B4
-  name: Jakes-Air
+  name: Jake's MB Air
   picture:
   track: false
 
@@ -299,6 +307,14 @@ oren_pixel_3:
   picture:
   track: true
 
+orens_mbp:
+  hide_if_away: true
+  name: StarTree MBP
+  mac: 88:66:5A:0A:9D:14
+  icon: mdi:laptop
+  picture:
+  track: false
+
 oren_switch:
   hide_if_away: false
   icon: mdi:nintendo-switch
@@ -336,7 +352,15 @@ rachel_watch:
   hide_if_away: true
   icon: mdi:watch-variant
   mac: 10:29:59:61:23:2D
-  name: Rachels Apple Watch
+  name: Rachel's Apple Watch
+  picture:
+  track: false
+
+rachel_watch_2:
+  hide_if_away: true
+  name: Rachel's Watch 2
+  mac: DA:53:C5:ED:0D:43
+  icon: mdi:watch-variant
   picture:
   track: false
 
@@ -430,5 +454,82 @@ ipad:
   icon:
   mac: DE:A0:A2:2F:D6:2E
   name: iPad
+  picture:
+  track: false
+
+iphone_2:
+  name: iPhone
+  mac: 46:74:F2:DB:94:88
+  icon:
+  picture:
+  track: false
+
+sauceys_iphone:
+  name: Sauceys-iPhone
+  mac: 6E:CE:1B:CD:0F:C3
+  icon:
+  picture:
+  track: false
+
+iphone_3:
+  name: iPhone
+  mac: C6:8F:DA:26:26:21
+  icon:
+  picture:
+  track: false
+
+damonpratt:
+  name: damonpratt
+  mac: 82:BD:E4:DB:9F:A7
+  icon:
+  picture:
+  track: false
+
+iphone_5:
+  name: iPhone
+  mac: E2:C6:75:3F:F4:76
+  icon:
+  picture:
+  track: false
+
+nathans_iphone:
+  name: Nathans-iPhone
+  mac: CA:46:E8:15:05:2C
+  icon:
+  picture:
+  track: false
+
+rachaelplewatch:
+  name: RachaelpleWatch
+  mac: 1A:1F:EE:D0:DF:D6
+  icon:
+  picture:
+  track: false
+
+rachaeltsiphone:
+  name: RachaeltsiPhone
+  mac: AE:BE:E9:59:EC:E7
+  icon:
+  picture:
+  track: false
+
+howies_iphone_2:
+  name: Howies-iPhone
+  mac: FE:C3:2B:B3:FC:D1
+  icon:
+  picture:
+  track: false
+
+howardsplewatch:
+  name: HowardspleWatch
+  mac: 56:C9:D6:CE:32:D9
+  icon:
+  picture:
+  track: false
+
+juliansplewatch:
+  name: JulianspleWatch
+  mac: 6E:60:2B:12:6E:61
+  icon:
   picture:
   track: false
