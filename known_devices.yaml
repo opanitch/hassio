@@ -171,7 +171,7 @@ hals_air:
   mac: 38:F9:D3:B6:5D:28
   name: Hal's Air
   picture:
-  track: true
+  track: false
 
 # Howie
 howies_iphone:
@@ -200,21 +200,21 @@ jacob_nintendo_switch:
   track: true
 
 # Jake
-jakes_iphone_24g:
-  hide_if_away: true
-  icon: mdi:cellphone-iphone
-  mac: 74:9E:AF:74:EC:D8
-  name: Jakes iPhone 24g
-  picture:
-  track: true
-
-jakes_iphone_5g:
+jakes_iphone:
   hide_if_away: true
   icon: mdi:cellphone-iphone
   mac: CE:7E:1E:60:E1:58
-  name: Jake's iPhone 5g
+  name: Jake's iPhone
   picture:
   track: true
+
+jakes_air:
+  hide_if_away: true
+  icon: mdi:laptop
+  mac: A4:83:E7:89:9F:B4
+  name: Jakes-Air
+  picture:
+  track: false
 
 # Jose
 jose_galaxy_tab:
@@ -228,16 +228,8 @@ jose_galaxy_tab:
 jose_iphone:
   hide_if_away: false
   icon: mdi:cellphone-iphone
-  mac: 88:A4:79:CC:EB:92
-  name: Jose's iPhone
-  picture:
-  track: true
-
-jose_iphone_2:
-  hide_if_away: false
-  icon: mdi:cellphone-iphone
   mac: 62:84:CB:FB:66:84
-  name: Jose's iPhone 2
+  name: Jose's iPhone
   picture:
   track: true
 
@@ -255,7 +247,7 @@ jose_laptop_work:
   mac: 70:66:55:FD:67:57
   name: Jose's Work Laptop
   picture:
-  track: true
+  track: false
 
 jose_sony_tv:
   hide_if_away: true
@@ -264,6 +256,14 @@ jose_sony_tv:
   name: Jose's Sony TV
   picture:
   track: false
+
+jose_watch:
+  hide_if_away: true
+  icon: mdi:watch-variant
+  mac: FE:CC:BB:46:AF:76
+  name: Jose's Apple Watch
+  picture:
+  track: true
 
 # Nate
 nate_iphone:
@@ -283,14 +283,6 @@ nate_mbp:
   track: false
 
 # Oren
-comcast_galaxy_s9:
-  hide_if_away: true
-  icon: mdi:cellphone-android
-  mac: D4:53:83:79:AF:F1
-  name: Work Phone (Galaxy)
-  picture:
-  track: false
-
 ms_zune_hd:
   hide_if_away: true
   icon: mdi:microsoft
@@ -357,6 +349,15 @@ samuel_iphone:
   picture:
   track: false
 
+# Virg
+virg_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 9A:BB:59:7A:17:46
+  name: Virg's iPhone
+  picture:
+  track: false
+
 # Yariv
 yariv_ipad:
   hide_if_away: true
@@ -369,7 +370,7 @@ yariv_ipad:
 yariv_iphone:
   hide_if_away: true
   icon: mdi:cellphone-iphone
-  mac: E4:9A:DC:A3:14:34
+  mac: 22:2A:36:34:8B:55
   name: Yariv's iPhone
   picture:
   track: true
@@ -397,11 +398,19 @@ yariv_switch:
   name: Yariv's Nintendo Switch
   picture:
   track: true
+
+yarivs_watch:
+  icon: mdi:watch-variant
+  mac: 60:9A:C1:0D:11:B1
+  name: Yariv's Apple Watch
+  picture:
+  track: false
 ################
 # Last Updated #
 ################
 
 iphone:
+  hide_if_away: true
   icon:
   mac: 2E:34:E5:DE:DD:42
   name: iPhone
@@ -409,43 +418,17 @@ iphone:
   track: false
 
 libmb0190:
+  hide_if_away: true
   icon:
   mac: 3C:22:FB:27:3E:28
   name: LIBMB0190
   picture:
   track: false
 
-virginiosiphone:
-  icon:
-  mac: 9A:BB:59:7A:17:46
-  name: VIRGINIOsiPhone
-  picture:
-  track: false
-
-josesapplewatch:
-  icon:
-  mac: FE:CC:BB:46:AF:76
-  name: JosesAppleWatch
-  picture:
-  track: false
-
 ipad:
+  hide_if_away: true
   icon:
   mac: DE:A0:A2:2F:D6:2E
   name: iPad
-  picture:
-  track: false
-
-yarivsaplewatch:
-  icon:
-  mac: 60:9A:C1:0D:11:B1
-  name: YarivsApleWatch
-  picture:
-  track: false
-
-jakes_air:
-  icon:
-  mac: A4:83:E7:89:9F:B4
-  name: Jakes-Air
   picture:
   track: false
