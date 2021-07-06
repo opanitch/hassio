@@ -1,2 +1,2 @@
-entity_picture: !secret julian_profile_home
-friendly_name: !secret julian_friendly_name
+entity_picture: !secret juju_profile_home
+friendly_name: !secret juju_friendly_name
