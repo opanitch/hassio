@@ -1,5 +1,3 @@
-name: Drama
+name: Jacob Vazquez
 id: !secret drama_id
 device_trackers:
-  - device_tracker.jacob_ipad
-  - device_tracker.jacob_nintendo_switch

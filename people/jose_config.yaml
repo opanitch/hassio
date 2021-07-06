@@ -1,4 +1,4 @@
-name: Jose
+name: Jose Vazquez
 id: !secret jose_id
 user_id: !secret jose_user_id
 device_trackers:

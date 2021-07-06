@@ -1,4 +1,3 @@
-name: Hal
+name: Hal Greenblatt
 id: !secret hal_id
 device_trackers:
-  - device_tracker.hals_air

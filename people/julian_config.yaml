@@ -1,0 +1,3 @@
+name: Julian Vazquez
+id: !secret juju_id
+device_trackers:

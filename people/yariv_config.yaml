@@ -1,4 +1,4 @@
-name: Yariv
+name: Yariv Wolok
 id: !secret yariv_id
 device_trackers:
   - device_tracker.yariv_ipad

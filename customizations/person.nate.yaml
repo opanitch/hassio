@@ -1,0 +1,2 @@
+entity_picture: !secret nate_profile_home
+friendly_name: !secret nate_friendly_name

@@ -1,3 +1,3 @@
 name: Hermes
 id: !secret hermes_id
-user_id: !secret hermes_user_id
+# user_id: !secret hermes_user_id

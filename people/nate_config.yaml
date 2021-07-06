@@ -1,4 +1,4 @@
-name: Nate
+name: Nate Vazquez
 id: !secret nate_id
 device_trackers:
   - device_tracker.nate_iphone
