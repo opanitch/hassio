@@ -182,6 +182,22 @@ howies_iphone:
   picture:
   track: false
 
+howies_iphone_2:
+  hide_if_away: true
+  name: Howies iPhone
+  mac: FE:C3:2B:B3:FC:D1
+  icon: mdi:cellphone-iphone
+  picture:
+  track: false
+
+howies_watch:
+  hide_if_away: true
+  name: Howard's Watch
+  mac: 56:C9:D6:CE:32:D9
+  icon: mdi:watch-variant
+  picture:
+  track: false
+
 # Jacob
 jacob_ipad:
   hide_if_away: true
@@ -273,6 +289,15 @@ jose_watch:
   picture:
   track: true
 
+# Juju
+julian_watch:
+  hide_if_away: true
+  name: Julian's Watch
+  mac: 6E:60:2B:12:6E:61
+  icon: mdi:watch-variant
+  picture:
+  track: false
+
 # Nate
 nate_iphone:
   hide_if_away: true
@@ -281,6 +306,14 @@ nate_iphone:
   name: Nate's iPhone
   picture:
   track: true
+
+nathans_iphone:
+  hide_if_away: true
+  name: Nathans iPhone
+  mac: CA:46:E8:15:05:2C
+  icon: mdi:cellphone-iphone
+  picture:
+  track: false
 
 nate_mbp:
   hide_if_away: true
@@ -492,13 +525,6 @@ iphone_5:
   picture:
   track: false
 
-nathans_iphone:
-  name: Nathans-iPhone
-  mac: CA:46:E8:15:05:2C
-  icon:
-  picture:
-  track: false
-
 rachaelplewatch:
   name: RachaelpleWatch
   mac: 1A:1F:EE:D0:DF:D6
@@ -509,27 +535,6 @@ rachaelplewatch:
 rachaeltsiphone:
   name: RachaeltsiPhone
   mac: AE:BE:E9:59:EC:E7
-  icon:
-  picture:
-  track: false
-
-howies_iphone_2:
-  name: Howies-iPhone
-  mac: FE:C3:2B:B3:FC:D1
-  icon:
-  picture:
-  track: false
-
-howardsplewatch:
-  name: HowardspleWatch
-  mac: 56:C9:D6:CE:32:D9
-  icon:
-  picture:
-  track: false
-
-juliansplewatch:
-  name: JulianspleWatch
-  mac: 6E:60:2B:12:6E:61
   icon:
   picture:
   track: false
