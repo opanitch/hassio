@@ -7,9 +7,27 @@
 <latency></latency>
 <codec>flac</codec>
 <artwork></artwork>
+<drift>0</drift>
+<metadata>1</metadata>
+<flush>1</flush>
 </common>
 <main_log>info</main_log>
 <cast_log>info</cast_log>
 <util_log>warn</util_log>
 <log_limit>-1</log_limit>
+<max_players>32</max_players>
+<ports>0:0</ports>
+<binding>?</binding>
+<device>
+<udn>432ee75289437dd3dc7d480878b504d2</udn>
+<name>Public Broadcast+</name>
+<mac>cc:cc:33:f2:7b:74</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>715dd807e9d6fa2eb42ed10538f23cb3</udn>
+<name>Kitchen Assistant+</name>
+<mac>cc:cc:d8:b4:ed:ec</mac>
+<enabled>1</enabled>
+</device>
 </aircast>
