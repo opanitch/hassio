@@ -3,14 +3,6 @@
     "key": "person",
     "data": {
         "items": [
-            {
-                "name": "Oren",
-                "user_id": "d321b8f6f85e4c89878cef0ee934f4a6",
-                "device_trackers": [
-                    "device_tracker.pixel_3"
-                ],
-                "id": "oren"
-            }
         ]
     }
 }
