@@ -140,7 +140,7 @@ vera_plus:
 
 xbox_one_elite:
   hide_if_away: true
-  icon: mdi:xbox
+  icon: mdi:microsoft-xbox
   mac: 98:5F:D3:90:8B:3D
   name: Xbox One Elite
   picture:
@@ -148,7 +148,7 @@ xbox_one_elite:
 
 xbox_series_x:
   hide_if_away: true
-  icon: mdi:xbox
+  icon: mdi:microsoft-xbox
   mac: 1C:1A:DF:71:C4:14
   name: Series X
   picture:
@@ -313,7 +313,7 @@ nathans_iphone:
   mac: CA:46:E8:15:05:2C
   icon: mdi:cellphone-iphone
   picture:
-  track: false
+  track: true
 
 nate_mbp:
   hide_if_away: true
@@ -340,19 +340,19 @@ oren_pixel_3:
   picture:
   track: true
 
-orens_mbp:
-  hide_if_away: true
-  name: StarTree MBP
-  mac: 88:66:5A:0A:9D:14
-  icon: mdi:laptop
-  picture:
-  track: false
-
 oren_switch:
   hide_if_away: false
   icon: mdi:nintendo-switch
   mac: 7C:BB:8A:D6:C7:30
   name: Oren's Nintendo Switch
+  picture:
+  track: true
+
+startree_mbp:
+  hide_if_away: true
+  name: StarTree MBP
+  mac: 88:66:5A:0A:9D:14
+  icon: mdi:laptop
   picture:
   track: true
 
