@@ -4,7 +4,8 @@
     "data": {
         "language": {
             "language": "en",
-            "number_format": "language"
+            "number_format": "language",
+            "time_format": "language"
         },
         "core": {
             "showAdvanced": true
