@@ -281,7 +281,7 @@ jose_sony_tv:
   picture:
   track: false
 
-jose_watch:
+JosesAppleWatch:
   hide_if_away: true
   icon: mdi:watch-variant
   mac: FE:CC:BB:46:AF:76
