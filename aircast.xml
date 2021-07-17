@@ -19,6 +19,12 @@
 <ports>0:0</ports>
 <binding>?</binding>
 <device>
+<udn>90ff9ee1675c5260ddf3671057faf5a1</udn>
+<name>Master Bedroom TV+</name>
+<mac>cc:cc:09:46:34:7c</mac>
+<enabled>1</enabled>
+</device>
+<device>
 <udn>432ee75289437dd3dc7d480878b504d2</udn>
 <name>Public Broadcast+</name>
 <mac>cc:cc:33:f2:7b:74</mac>
