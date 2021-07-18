@@ -10,6 +10,7 @@ secrets.yaml
 .storage/core.entity_registry
 .storage/mobile_app
 .storage/core.restore_state
+tts/*.mp3
 
 # Group Ignores
 # .storage
