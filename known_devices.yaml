@@ -1,0 +1,35 @@
+
+jose_iphone:
+  name: jose_iphone
+  mac:
+  icon:
+  picture:
+  track: false
+
+oren_pixel_3:
+  name: oren_pixel_3
+  mac:
+  icon:
+  picture:
+  track: false
+
+roomba_890_maria:
+  name: roomba_890_maria
+  mac:
+  icon:
+  picture:
+  track: false
+
+test_iphone_8:
+  name: test_iphone_8
+  mac:
+  icon:
+  picture:
+  track: false
+
+jose_iwatch:
+  name: jose_iwatch
+  mac:
+  icon:
+  picture:
+  track: false
