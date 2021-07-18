@@ -10,10 +10,10 @@
     track_new_devices: false
 - platform: ping
   hosts:
-    jose-iphone: !secret jphone_host
-    jose-iwatch: !secret jwatch_host
-    oren-pixel-3: !secret ophone_host
+    jose_iphone: !secret jphone_host
+    jose_iwatch: !secret jwatch_host
+    oren_pixel_3: !secret ophone_host
     roomba_890_maria: !secret roomba_host
-    test-iphone-8: !secret test_iphone_host
-    # yariv-iphone: !secret yphone_host
-    # yariv-iwatch: !secret ywatch_host
+    test_iphone_8: !secret test_iphone_host
+    # yariv_iphone: !secret yphone_host
+    # yariv_iwatch: !secret ywatch_host
