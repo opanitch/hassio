@@ -54,7 +54,7 @@ zone: !include_dir_list locations/
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/
 # cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
-device_tracker: !include device_tracker_config.yaml
+# device_tracker: !include device_tracker_config.yaml
 # hacs: !include integrations/environment/hacs_config.yaml
 hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
