@@ -8,3 +8,12 @@
   consider_home: 0:05
   new_device_defaults:
     track_new_devices: false
+- platform: ping
+  hosts:
+    jose-iphone: !secret jphone_host
+    jose-iwatch: !secret jwatch_host
+    oren-pixel-3: !secret ophone_host
+    roomba_890_maria: !secret roomba_host
+    test-iphone-8: !secret test_iphone_host
+    # yariv-iphone: !secret yphone_host
+    # yariv-iwatch: !secret ywatch_host
