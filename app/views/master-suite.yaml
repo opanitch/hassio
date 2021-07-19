@@ -16,36 +16,36 @@ badges:
 cards:
   - type: weather-forecast
     entity: weather.dark_sky
-  - type: entities
-    entities:
-      - light.master_bedroom
-      - light.floor_lamp_1
-      - light.floor_lamp_2
-      - light.floor_lamp_3
-      - light.master_bedroom_fan_1
-      - light.master_bedroom_fan_2
-      - light.master_bedroom_fan_3
-      - light.master_bedroom_1
-      - light.master_bedroom_2
-      - light.master_bedroom_3
-      - light.master_bedroom_lamp
-    title: Bedroom Lights
-    show_header_toggle: false
-  - type: entities
-    entities:
-      - light.master_bathroom
-      - light.master_bathroom_1
-      - light.master_bathroom_2
-      - light.master_bathroom_3
-      - light.master_bathroom_4
-    title: Bathroom Lights
-    show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.master_bedroom
+  #     - light.floor_lamp_1
+  #     - light.floor_lamp_2
+  #     - light.floor_lamp_3
+  #     - light.master_bedroom_fan_1
+  #     - light.master_bedroom_fan_2
+  #     - light.master_bedroom_fan_3
+  #     - light.master_bedroom_1
+  #     - light.master_bedroom_2
+  #     - light.master_bedroom_3
+  #     - light.master_bedroom_lamp
+  #   title: Bedroom Lights
+  #   show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.master_bathroom
+  #     - light.master_bathroom_1
+  #     - light.master_bathroom_2
+  #     - light.master_bathroom_3
+  #     - light.master_bathroom_4
+  #   title: Bathroom Lights
+  #   show_header_toggle: false
   - type: media-control
     entity: media_player.master_bedroom_tv
-  - type: media-control
-    entity: media_player.plex_plex_for_android_mobile_pixel_3
+  # - type: media-control
+  #   entity: media_player.plex_plex_for_android_mobile_pixel_3
   - type: entities
     entities:
       - input_select.waze_destination
     title: Select Destination
-  - !include ../components/presence.yaml
+  # - !include ../components/presence.yaml

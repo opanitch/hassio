@@ -13,7 +13,7 @@ badges:
   - entity: sensor.time_online
   # - entity: sensor.waze_dest_address
   - entity: sensor.steam_76561197963476141
-  - entity: sensor.plex_drobo5n
+  # - entity: sensor.plex_drobo5n
   - entity: sensor.us_coronavirus_recovered
   - entity: sensor.us_coronavirus_current
   - entity: sensor.us_coronavirus_deaths
@@ -38,7 +38,7 @@ badges:
   # - entity: sensor.jewish_calendar_upcoming_candle_lighting
   # - entity: sensor.jewish_calendar_upcoming_havdalah
   - entity: sensor.jewish_calendar_date
-  - entity: sensor.localhost
+  - entity: sensor.local_ip
   # - entity: sensor.verizon_fios_g1100_kib_sec_received
   # - entity: sensor.verizon_fios_g1100_bytes_sent
   # - entity: sensor.verizon_fios_g1100_packets_sec_sent
@@ -52,7 +52,7 @@ badges:
   - entity: >-
       sensor.front_door_lock_alarm_level
   - entity: >-
-      sensor.front_door_lock_battery_level
+      sensor.front_door_lock_power_management
   # Powder Room Sensor
   - entity: sensor.powder_room_temperature
   - entity: sensor.powder_room_luminance
@@ -62,7 +62,7 @@ badges:
   - entity: sensor.powder_room_burglar
   - entity: sensor.powder_room_alarm_type
   - entity: sensor.powder_room_alarm_level
-  - entity: sensor.powder_room_battery_level
+  - entity: sensor.powder_room_power_management
   # Living Room Sensor
   - entity: sensor.living_room_temperature
   - entity: sensor.living_room_luminance
@@ -72,7 +72,7 @@ badges:
   - entity: sensor.living_room_burglar
   - entity: sensor.living_room_alarm_type
   - entity: sensor.living_room_alarm_level
-  - entity: sensor.living_room_battery_level
+  - entity: sensor.living_room_power_management
   - entity: sun.sun
 cards:
   - !include ../components/presence.yaml
