@@ -43,28 +43,30 @@
     to: '8'
   condition:
   - condition: state
-    entity_id: light.powder_room
+    entity_id: switch.powder_room_switch_1
     state: 'off'
   action:
-  - data: {}
-    entity_id: light.powder_room
-    service: light.turn_on
+  - service: switch.turn_on
+    target:
+      device_id: 28703b5969711ef4fe7136c4edeb4cfb
+  mode: single
 - id: '1585781880464'
   alias: Powder Room Lights Off
   description: ''
   trigger:
-  - entity_id: sensor.powder_room_monitor_burglar
+  - entity_id: sensor.powder_room_burglar
     from: '8'
     platform: state
     to: '0'
   condition:
   - condition: state
-    entity_id: light.powder_room
+    entity_id: switch.powder_room_switch_1
     state: 'on'
   action:
-  - data: {}
-    entity_id: light.powder_room
-    service: light.turn_off
+  - service: switch.turn_off
+    target:
+      device_id: 28703b5969711ef4fe7136c4edeb4cfb
+  mode: single
 - id: '1587610014345'
   alias: Exterior Sunset
   description: Automate the functionality of the exterior lights to turn on at sunset.
@@ -73,9 +75,12 @@
     platform: sun
   condition: []
   action:
-  - data: {}
-    entity_id: light.exterior_rear,light.exterior_front
-    service: light.turn_on
+  - service: switch.turn_on
+    target:
+      device_id:
+      - f44c88cfa452208c7c5c3d24e586d7ef
+      - 32006187b361064b5de53bfb683dc24b
+  mode: single
 - id: '1587610079072'
   alias: Exterior Sunrise
   description: Automate the functionality of the exterior lights to turn off at sunrise.
@@ -84,9 +89,12 @@
     platform: sun
   condition: []
   action:
-  - data: {}
-    entity_id: light.exterior_rear,light.exterior_front
-    service: light.turn_off
+  - service: switch.turn_off
+    target:
+      device_id:
+      - 32006187b361064b5de53bfb683dc24b
+      - f44c88cfa452208c7c5c3d24e586d7ef
+  mode: single
 - id: '1589588967075'
   alias: Hallway Night Lights On
   description: ''
@@ -95,14 +103,12 @@
     platform: sun
   condition: []
   action:
-  - device_id: a61094cd8fda4f8dbab0b14607f8a17c
-    domain: switch
-    entity_id: switch.hallway_upstairs_outlet_switch
-    type: turn_on
-  - device_id: 2ffc8973483749fea9702fa4ff756baf
-    domain: switch
-    entity_id: switch.hallway_outlet_2_switch
-    type: turn_on
+  - service: switch.turn_on
+    target:
+      device_id:
+      - 7b0b4fe6b9c656f4c0e67ca65f5a26ca
+      - c264b09466926376bfa7d2860feec206
+  mode: single
 - id: '1589589008880'
   alias: Hallway Nightlight Turn Off
   description: ''
@@ -111,11 +117,9 @@
     platform: sun
   condition: []
   action:
-  - device_id: 2ffc8973483749fea9702fa4ff756baf
-    domain: switch
-    entity_id: switch.hallway_outlet_2_switch
-    type: turn_off
-  - device_id: a61094cd8fda4f8dbab0b14607f8a17c
-    domain: switch
-    entity_id: switch.hallway_upstairs_outlet_switch
-    type: turn_off
+  - service: switch.turn_off
+    target:
+      device_id:
+      - 7b0b4fe6b9c656f4c0e67ca65f5a26ca
+      - c264b09466926376bfa7d2860feec206
+  mode: single
