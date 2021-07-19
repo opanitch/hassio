@@ -2,7 +2,7 @@ path: living-room
 title: Living Room
 badges:
   - entity: sensor.steam_76561197963476141
-  - entity: sensor.plex_drobo5n
+  # - entity: sensor.plex_drobo5n
   - entity: sensor.us_coronavirus_recovered
   - entity: sensor.us_coronavirus_current
   - entity: sensor.us_coronavirus_deaths
