@@ -15,17 +15,17 @@ cards:
     show_header_toggle: false
   - type: weather-forecast
     entity: weather.dark_sky
-  - type: entities
-    entities:
-      - light.front_bedroom
-      - light.front_room_1
-      - light.front_room_2
-      - light.front_room_3
-      - light.front_room_4
-      - light.front_bedroom_fan_1
-      - light.front_bedroom_fan_2
-    title: Bedroom Lights
-    show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.front_bedroom
+  #     - light.front_room_1
+  #     - light.front_room_2
+  #     - light.front_room_3
+  #     - light.front_room_4
+  #     - light.front_bedroom_fan_1
+  #     - light.front_bedroom_fan_2
+  #   title: Bedroom Lights
+  #   show_header_toggle: false
   - type: entities
     entities:
       - light.front_bathroom_ceiling_1

@@ -11,20 +11,20 @@ badges:
 cards:
   - type: entities
     entities:
-    - switch.kitchen_ceiling_light_switch_switch
-    - switch.kitchen_window_switch_switch
+      - switch.kitchen_switch_1
+      - switch.kitchen_switch_2
     title: Kitchen Light Switches
+  # - type: entities
+  #   entities:
+  #   - light.kitchen
+  #   - light.kitchen_1
+  #   - light.kitchen_2
+  #   - light.kitchen_window
+  #   title: Kitchen Lights
+  #   show_header_toggle: false
   - type: entities
     entities:
-    - light.kitchen
-    - light.kitchen_1
-    - light.kitchen_2
-    - light.kitchen_window
-    title: Kitchen Lights
-    show_header_toggle: false
-  - type: entities
-    entities:
-    - lock.front_door_lock_locked
+      - lock.front_door_lock
     title: Front Door Lock
   - type: media-control
     entity: media_player.first_floor
@@ -32,4 +32,4 @@ cards:
     entity: media_player.kitchen_assistant
   - type: media-control
     entity: media_player.public_broadcast
-  - !include ../components/presence.yaml
+  # - !include ../components/presence.yaml

@@ -9,28 +9,28 @@ badges:
   - entity: >-
       sensor.front_door_lock_alarm_level
   - entity: >-
-      sensor.front_door_lock_battery_level
+      sensor.front_door_lock_power_management
   - entity: sun.sun
 cards:
   - type: entities
     entities:
-      - lock.front_door_lock_locked
+      - lock.front_door_lock
     title: Front Door Lock
   - type: entities
     entities:
-      - light.hallway_entry_dimmer_switch_switch
+      - light.hallway_switch_1
     title: Hallway Light Switches
     show_header_toggle: false
   - type: entities
     entities:
-      - switch.hallway_outlet_2_switch
-      - switch.hallway_upstairs_outlet_switch
+      - switch.hallway_outlet_2
+      - switch.hallway_outlet_3
     title: Hallway Light Outlets
     show_header_toggle: false
-  - type: entities
-    entities:
-      - light.stairs
-      - light.stairs_1
-      - light.stairs_2
-    title: Stair Lights
-    show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.stairs
+  #     - light.stairs_1
+  #     - light.stairs_2
+  #   title: Stair Lights
+  #   show_header_toggle: false

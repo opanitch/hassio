@@ -11,25 +11,25 @@ badges:
 cards:
   - type: entities
     entities:
-      - switch.living_room_left_lights_switch_switch
-      - switch.living_room_right_lights_switch_switch
+      - switch.living_room_switch_2
+      - switch.living_room_switch_3
     title: Living Room Switches
     show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.living_room
+  #     - light.living_room_left_1
+  #     - light.living_room_left_2
+  #     - light.living_room_right_1
+  #     - light.living_room_right_2
+  #     - light.living_room_right_3
+  #     - light.living_room_lamp_1
+  #     - light.living_room_lamp_2
+  #   title: Living Room Lights
+  #   show_header_toggle: false
   - type: entities
     entities:
-      - light.living_room
-      - light.living_room_left_1
-      - light.living_room_left_2
-      - light.living_room_right_1
-      - light.living_room_right_2
-      - light.living_room_right_3
-      - light.living_room_lamp_1
-      - light.living_room_lamp_2
-    title: Living Room Lights
-    show_header_toggle: false
-  - type: entities
-    entities:
-      - switch.living_room_outlet_2_switch
+      - switch.living_room_outlet_1
     title: Living Room Outlets
     show_header_toggle: false
   - type: entities
@@ -39,11 +39,11 @@ cards:
     show_header_toggle: false
   - type: media-control
     entity: media_player.first_floor
-  - type: media-control
-    entity: media_player.plex_plex_for_xbox_one_oneelite
+  # - type: media-control
+  #   entity: media_player.plex_plex_for_xbox_one_oneelite
   - type: media-control
     entity: media_player.public_broadcast
-  - type: entities
-    entities:
-      - remote.harmony_hub
-    title: Entertainment Hub
+  # - type: entities
+  #   entities:
+  #     - remote.harmony_hub
+  #   title: Entertainment Hub
