@@ -188,7 +188,7 @@ cards:
     entities:
       - zwave.aeon_labs_zw090_z_stick_gen5_us
       - zwave.living_room_switch_1_status
-      - zwave.front_door_lock_status
+      - zwave.front_door_lock_sensor_status
       - zwave.hallway_switch_2_status
       - zwave.hallway_switch_1_status
       - zwave.hallway_outlet_2_status
