@@ -22,7 +22,7 @@
 #     - light.fr_3
 #     - light.fr_4
 #   icon: mdi:bed-empty
-  
+
 # hallway_lights:
 #   all: false
 #   name: Hallway Lights
@@ -30,7 +30,7 @@
 #     - light.stairs_1
 #     - light.stairs_2
 #   icon: mdi:stairs
-  
+
 # kitchen_lights:
 #   all: false
 #   name: Kitchen Lights
@@ -40,12 +40,12 @@
 #     - light.kitchen_window
 #   icon: mdi:silverware-variant
 
-living_room_lights:
-  all: false
-  name: Living Room Lights
-  entities:
-    - light.living_room
-  icon: mdi:floor-lamp
+# living_room_lights:
+#   all: false
+#   name: Living Room Lights
+#   entities:
+#     - light.living_room
+#   icon: mdi:floor-lamp
 
 # master_bathroom_lights:
 #   all: false
