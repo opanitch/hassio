@@ -31,7 +31,7 @@ badges:
   - entity: sensor.powder_room_monitor_burglar
   - entity: sensor.powder_room_monitor_alarm_type
   - entity: sensor.powder_room_monitor_alarm_level
-  - entity: sensor.powder_room_monitor_power_management
+  - entity: sensor.powder_room_monitor_battery_level
   # Living Room Sensor
   - entity: sensor.living_room_monitor_temperature
   - entity: sensor.living_room_monitor_luminance
@@ -41,7 +41,7 @@ badges:
   - entity: sensor.living_room_monitor_burglar
   - entity: sensor.living_room_monitor_alarm_type
   - entity: sensor.living_room_monitor_alarm_level
-  - entity: sensor.living_room_monitor_power_management
+  - entity: sensor.living_room_monitor_battery_level
   - entity: sun.sun
 cards:
   - !include ../components/status/cleaning.yaml
