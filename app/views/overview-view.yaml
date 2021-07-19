@@ -54,25 +54,25 @@ badges:
   - entity: >-
       sensor.front_door_lock_power_management
   # Powder Room Sensor
-  - entity: sensor.powder_room_temperature
-  - entity: sensor.powder_room_luminance
-  - entity: sensor.powder_room_relative_humidity
-  - entity: sensor.powder_room_ultraviolet
-  - entity: sensor.powder_room_sourcenodeid
-  - entity: sensor.powder_room_burglar
-  - entity: sensor.powder_room_alarm_type
-  - entity: sensor.powder_room_alarm_level
-  - entity: sensor.powder_room_power_management
+  - entity: sensor.powder_room_monitor_temperature
+  - entity: sensor.powder_room_monitor_luminance
+  - entity: sensor.powder_room_monitor_relative_humidity
+  - entity: sensor.powder_room_monitor_ultraviolet
+  - entity: sensor.powder_room_monitor_sourcenodeid
+  - entity: sensor.powder_room_monitor_burglar
+  - entity: sensor.powder_room_monitor_alarm_type
+  - entity: sensor.powder_room_monitor_alarm_level
+  - entity: sensor.powder_room_monitor_power_management
   # Living Room Sensor
-  - entity: sensor.living_room_temperature
-  - entity: sensor.living_room_luminance
-  - entity: sensor.living_room_relative_humidity
-  - entity: sensor.living_room_ultraviolet
-  - entity: sensor.living_room_sourcenodeid
-  - entity: sensor.living_room_burglar
-  - entity: sensor.living_room_alarm_type
-  - entity: sensor.living_room_alarm_level
-  - entity: sensor.living_room_power_management
+  - entity: sensor.living_room_monitor_temperature
+  - entity: sensor.living_room_monitor_luminance
+  - entity: sensor.living_room_monitor_relative_humidity
+  - entity: sensor.living_room_monitor_ultraviolet
+  - entity: sensor.living_room_monitor_sourcenodeid
+  - entity: sensor.living_room_monitor_burglar
+  - entity: sensor.living_room_monitor_alarm_type
+  - entity: sensor.living_room_monitor_alarm_level
+  - entity: sensor.living_room_monitor_power_management
   - entity: sun.sun
 cards:
   - !include ../components/presence.yaml
