@@ -47,31 +47,32 @@ badges:
   # - entity: sensor.verizon_fios_g1100_kib_sec_sent
   # - entity: sensor.verizon_fios_g1100_packets_received
   # - entity: sensor.verizon_fios_g1100_packets_sent
-  - entity: sensor.front_door_lock_alarm_type
+  - entity: >-
+      sensor.front_door_lock_alarm_type
   - entity: >-
       sensor.front_door_lock_alarm_level
   - entity: >-
       sensor.front_door_lock_battery_level
   # Powder Room Sensor
-  - entity: sensor.powder_room_monitor_temperature
-  - entity: sensor.powder_room_monitor_luminance
-  - entity: sensor.powder_room_monitor_relative_humidity
-  - entity: sensor.powder_room_monitor_ultraviolet
-  - entity: sensor.powder_room_monitor_sourcenodeid
-  - entity: sensor.powder_room_monitor_burglar
-  - entity: sensor.powder_room_monitor_alarm_type
-  - entity: sensor.powder_room_monitor_alarm_level
-  - entity: sensor.powder_room_monitor_battery_level
+  - entity: sensor.powder_room_temperature
+  - entity: sensor.powder_room_luminance
+  - entity: sensor.powder_room_relative_humidity
+  - entity: sensor.powder_room_ultraviolet
+  - entity: sensor.powder_room_sourcenodeid
+  - entity: sensor.powder_room_burglar
+  - entity: sensor.powder_room_alarm_type
+  - entity: sensor.powder_room_alarm_level
+  - entity: sensor.powder_room_battery_level
   # Living Room Sensor
-  - entity: sensor.living_room_monitor_temperature
-  - entity: sensor.living_room_monitor_luminance
-  - entity: sensor.living_room_monitor_relative_humidity
-  - entity: sensor.living_room_monitor_ultraviolet
-  - entity: sensor.living_room_monitor_sourcenodeid
-  - entity: sensor.living_room_monitor_burglar
-  - entity: sensor.living_room_monitor_alarm_type
-  - entity: sensor.living_room_monitor_alarm_level
-  - entity: sensor.living_room_monitor_battery_level
+  - entity: sensor.living_room_temperature
+  - entity: sensor.living_room_luminance
+  - entity: sensor.living_room_relative_humidity
+  - entity: sensor.living_room_ultraviolet
+  - entity: sensor.living_room_sourcenodeid
+  - entity: sensor.living_room_burglar
+  - entity: sensor.living_room_alarm_type
+  - entity: sensor.living_room_alarm_level
+  - entity: sensor.living_room_battery_level
   - entity: sun.sun
 cards:
   - !include ../components/presence.yaml
@@ -79,59 +80,59 @@ cards:
     entities:
       - input_select.waze_destination
     title: Input select
+  # - type: entities
+  #   entities:
+  #     - light.back_stoop
+  #     - light.downstairs
+  #     - light.exterior_rear
+  #     - light.exterior_front
+  #     - light.front_bathroom_ceiling_1
+  #     - light.front_bathroom_ceiling_2
+  #     # - light.front_bedroom
+  #     # - light.front_room_1
+  #     # - light.front_room_2
+  #     # - light.front_room_3
+  #     # - light.front_room_4
+  #     - light.front_stoop
+  #     - light.kitchen
+  #     - light.kitchen_1
+  #     - light.kitchen_2
+  #     - light.kitchen_window
+  #     - light.living_room
+  #     - light.living_room_left_1
+  #     - light.living_room_left_2
+  #     - light.living_room_right_1
+  #     - light.living_room_right_2
+  #     - light.living_room_right_3
+  #     - light.living_room_lamp_1
+  #     - light.living_room_lamp_2
+  #     - light.master_bathroom
+  #     - light.master_bathroom_1
+  #     - light.master_bathroom_2
+  #     - light.master_bathroom_3
+  #     - light.master_bathroom_4
+  #     - light.master_bedroom
+  #     - light.floor_lamp_1
+  #     - light.floor_lamp_2
+  #     - light.floor_lamp_3
+  #     - light.master_bedroom_1
+  #     - light.master_bedroom_2
+  #     - light.master_bedroom_3
+  #     - light.master_bedroom_fan_1
+  #     - light.master_bedroom_fan_2
+  #     - light.master_bedroom_fan_3
+  #     - light.master_bedroom_lamp
+  #     - light.powder_room
+  #     - light.powder_room_1
+  #     - light.powder_room_2
+  #     - light.stairs
+  #     - light.stairs_1
+  #     - light.stairs_2
+  #     - light.upstairs
+  #   title: Light
   - type: entities
     entities:
-      - light.back_stoop
-      - light.downstairs
-      - light.exterior_rear
-      - light.exterior_front
-      - light.front_bathroom_ceiling_1
-      - light.front_bathroom_ceiling_2
-      # - light.front_bedroom
-      # - light.front_room_1
-      # - light.front_room_2
-      # - light.front_room_3
-      # - light.front_room_4
-      - light.front_stoop
-      - light.kitchen
-      - light.kitchen_1
-      - light.kitchen_2
-      - light.kitchen_window
-      - light.living_room
-      - light.living_room_left_1
-      - light.living_room_left_2
-      - light.living_room_right_1
-      - light.living_room_right_2
-      - light.living_room_right_3
-      - light.living_room_lamp_1
-      - light.living_room_lamp_2
-      - light.master_bathroom
-      - light.master_bathroom_1
-      - light.master_bathroom_2
-      - light.master_bathroom_3
-      - light.master_bathroom_4
-      - light.master_bedroom
-      - light.floor_lamp_1
-      - light.floor_lamp_2
-      - light.floor_lamp_3
-      - light.master_bedroom_1
-      - light.master_bedroom_2
-      - light.master_bedroom_3
-      - light.master_bedroom_fan_1
-      - light.master_bedroom_fan_2
-      - light.master_bedroom_fan_3
-      - light.master_bedroom_lamp
-      - light.powder_room
-      - light.powder_room_1
-      - light.powder_room_2
-      - light.stairs
-      - light.stairs_1
-      - light.stairs_2
-      - light.upstairs
-    title: Light
-  - type: entities
-    entities:
-      - lock.front_door_lock_locked
+      - lock.front_door_lock
     title: Lock
   - type: media-control
     entity: media_player.first_floor
@@ -139,44 +140,44 @@ cards:
     entity: media_player.kitchen_assistant
   - type: media-control
     entity: media_player.master_bedroom_tv
-  - type: media-control
-    entity: media_player.plex_jennyfretta_plex_for_lg_lg_65uk6300pue
-  - type: media-control
-    entity: media_player.plex_plex_for_android_mobile_pixel_3
-  - type: media-control
-    entity: media_player.plex_plex_for_xbox_one_oneelite
-  - type: media-control
-    entity: media_player.plex_daveyayoh_plex_for_xbox_one_xboxone
-  - type: media-control
-    entity: >-
-      media_player.plex_gregory_sparer_gmail_com_plex_for_roku_roku_streaming_stick
-  - type: media-control
-    entity: >-
-      media_player.plex_gregory_sparer_gmail_com_plex_for_samsung_tv_un60js6700
+  # - type: media-control
+  #   entity: media_player.plex_jennyfretta_plex_for_lg_lg_65uk6300pue
+  # - type: media-control
+  #   entity: media_player.plex_plex_for_android_mobile_pixel_3
+  # - type: media-control
+  #   entity: media_player.plex_plex_for_xbox_one_oneelite
+  # - type: media-control
+  #   entity: media_player.plex_daveyayoh_plex_for_xbox_one_xboxone
+  # - type: media-control
+  #   entity: >-
+  #     media_player.plex_gregory_sparer_gmail_com_plex_for_roku_roku_streaming_stick
+  # - type: media-control
+  #   entity: >-
+  #     media_player.plex_gregory_sparer_gmail_com_plex_for_samsung_tv_un60js6700
   - type: media-control
     entity: media_player.public_broadcast
-  - type: entities
-    entities:
-      - remote.harmony_hub
-    title: Remote
+  # - type: entities
+  #   entities:
+  #     - remote.harmony_hub
+  #   title: Remote
   - type: entities
     entities:
       - switch.flux_lights
-      - switch.back_stoop_light_switch_switch
-      - switch.front_stoop_light_switch_switch
-      - light.hallway_entry_dimmer_switch_switch
-      - switch.hallway_outlet_2_switch
-      - switch.hallway_upstairs_outlet_switch
-      - switch.kitchen_ceiling_light_switch_switch
-      - switch.kitchen_window_switch_switch
-      - switch.living_room_left_lights_switch_switch
-      - switch.living_room_outlet_2_switch
-      - switch.living_room_right_lights_switch_switch
-      - switch.powder_room_fan_switch_switch
-      - switch.powder_room_light_switch_switch
+      - switch.living_room_switch_1
+      - switch.hallway_switch_2
+      - light.hallway_switch_1
+      - switch.hallway_outlet_3
+      - switch.hallway_outlet_2
+      - switch.kitchen_switch_1
+      - switch.kitchen_switch_2
+      - switch.living_room_switch_2
+      - switch.living_room_outlet_1
+      - switch.living_room_switch_3
+      - switch.powder_room_switch_2
+      - switch.powder_room_switch_1
     title: Switch
-  - type: weather-forecast
-    entity: weather.841_n_4th
+  # - type: weather-forecast
+  #   entity: weather.841_n_4th
   - type: weather-forecast
     entity: weather.dark_sky
   - type: entities
@@ -186,19 +187,19 @@ cards:
   - type: entities
     entities:
       - zwave.aeon_labs_zw090_z_stick_gen5_us
-      - zwave.back_stoop_light_switch
-      - zwave.front_door_lock
-      - zwave.front_stoop_light_switch
-      - zwave.hallway_entry_dimmer_switch
-      - zwave.hallway_outlet_2
-      - zwave.hallway_upstairs_outlet
-      - zwave.kitchen_ceiling_light_switch
-      - zwave.kitchen_window_switch
-      - zwave.living_room_left_lights_switch
-      - zwave.living_room_monitor
-      - zwave.living_room_outlet_2
-      - zwave.living_room_right_lights_switch
-      - zwave.powder_room_fan_switch
-      - zwave.powder_room_light_switch
-      - zwave.powder_room_monitor
+      - zwave.living_room_switch_1_status
+      - zwave.front_door_lock_status
+      - zwave.hallway_switch_2_status
+      - zwave.hallway_switch_1_status
+      - zwave.hallway_outlet_2_status
+      - zwave.hallway_outlet_3_status
+      - zwave.kitchen_switch_1_status
+      - zwave.kitchen_switch_2_status
+      - zwave.living_room_switch_2_status
+      - zwave.living_room_multi_sensor_status
+      - zwave.living_room_outlet_1_status
+      - zwave.living_room_switch_3_status
+      - zwave.powder_room_switch_2_status
+      - zwave.powder_room_switch_1_status
+      - zwave.powder_room_multi_sensor_status
     title: Z-Wave
