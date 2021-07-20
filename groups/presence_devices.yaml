@@ -2,7 +2,8 @@ presence_devices:
   all: false
   name: Presence
   entities:
+    - device_tracker.pixel_3_app
     - device_tracker.oren_pixel_3
     - device_tracker.jose_iphone
-    - device_tracker.JosesAppleWatch
+    - device_tracker.jose_iwatch
   icon: mdi:crosshairs-gps
