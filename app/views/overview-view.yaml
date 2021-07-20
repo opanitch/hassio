@@ -78,11 +78,9 @@ cards:
   - !include ../components/presence.yaml
   - type: picture-glance
     entity: person.oren
-    # entities:
-    #   - entity: device_tracker.smartphone_david_wifi
-    #     icon: mdi:cellphone-wireless
-    #   - entity: device_tracker.smartphone_david_bt
-    #     icon: mdi:bluetooth
+    entities:
+      - entity: device_tracker.pixel_3_app
+        icon: mdi:cellphone-android
     state_image:
       "home": !secret oren_profile_home
       "not_home": !secret oren_profile_away
