@@ -205,10 +205,10 @@ cards:
       - zwave.kitchen_switch_1_status
       - zwave.kitchen_switch_2_status
       - zwave.living_room_switch_2_status
-      - zwave.living_room_multi_sensor_status
+      - zwave.living_room_monitor_status
       - zwave.living_room_outlet_1_status
       - zwave.living_room_switch_3_status
       - zwave.powder_room_switch_2_status
       - zwave.powder_room_switch_1_status
-      - zwave.powder_room_multi_sensor_status
+      - zwave.powder_room_monitor_status
     title: Z-Wave
