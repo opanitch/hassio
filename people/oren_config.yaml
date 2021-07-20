@@ -2,4 +2,5 @@ name: Oren
 id: !secret oren_id
 user_id: !secret oren_user_id
 device_trackers:
+  - device_tracker.pixel_3_app
   - device_tracker.oren_pixel_3
