@@ -2,8 +2,7 @@
   host: !secret epson_printer_host
   monitored_conditions:
     - black
-    - photoblack
-    - yellow
-    - magenta
-    - cyan
     - clean
+    - cyan
+    - magenta
+    - yellow
