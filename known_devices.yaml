@@ -109,14 +109,6 @@ nest_thermostat:
   picture:
   track: false
 
-oren_switch:
-  hide_if_away: false
-  icon: mdi:nintendo-switch
-  mac: 7C:BB:8A:D6:C7:30
-  name: Oren's Nintendo Switch
-  picture:
-  track: true
-
 roomba_890_maria:
   hide_if_away: true
   icon: mdi:robot-vacuum
@@ -163,6 +155,40 @@ jose_laptop_work:
   icon: mdi:laptop-windows
   mac: 70:66:55:FD:67:57
   name: Jose's Work Laptop
+  picture:
+  track: false
+
+# Juju
+julian_watch:
+  hide_if_away: true
+  name: Julian's Watch
+  mac: 6E:60:2B:12:6E:61
+  icon: mdi:watch-variant
+  picture:
+  track: false
+
+# Nate
+nate_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 14:87:6A:EB:21:AE
+  name: Nate's iPhone
+  picture:
+  track: true
+
+nathans_iphone:
+  hide_if_away: true
+  name: Nathans iPhone
+  mac: CA:46:E8:15:05:2C
+  icon: mdi:cellphone-iphone
+  picture:
+  track: true
+
+nate_mbp:
+  hide_if_away: true
+  icon: mdi:laptop-mac
+  mac: AC:BC:32:8E:FA:25
+  name: Nate's MBP
   picture:
   track: false
 
@@ -213,3 +239,63 @@ test_iphone_8:
   icon:
   picture:
   track: false
+
+# Virg
+virg_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 9A:BB:59:7A:17:46
+  name: Virg's iPhone
+  picture:
+  track: false
+
+# Yariv
+yariv_ipad:
+  hide_if_away: true
+  icon: mdi:tablet-ipad
+  mac: F8:62:14:85:F0:64
+  name: Yariv's iPad
+  picture:
+  track: true
+
+yariv_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 22:2A:36:34:8B:55
+  name: Yariv's iPhone
+  picture:
+  track: true
+
+yarivs_mbp:
+  hide_if_away: true
+  icon: mdi:laptop-mac
+  mac: 88:E9:FE:5B:DC:F3
+  name: Yariv's MBP
+  picture:
+  track: true
+
+yariv_oculus:
+  hide_if_away: true
+  icon: mdi:virtual-reality
+  mac: 2C:26:17:81:3D:52
+  name: Yariv's Oculus
+  picture:
+  track: false
+
+yariv_switch:
+  hide_if_away: true
+  icon: mdi:nintendo-switch
+  mac: 7C:BB:8A:D4:7C:2B
+  name: Yariv's Nintendo Switch
+  picture:
+  track: true
+
+yarivs_watch:
+  icon: mdi:watch-variant
+  mac: 60:9A:C1:0D:11:B1
+  name: Yariv's Apple Watch
+  picture:
+  track: false
+################
+# Last Updated #
+################
