@@ -11,6 +11,7 @@ secrets.yaml
 .storage/mobile_app
 .storage/core.restore_state
 tts/*.mp3
+* copy.*
 
 # Group Ignores
 # .storage
