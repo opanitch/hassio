@@ -32,3 +32,157 @@ jose_iwatch:
   icon:
   picture:
   track: false
+
+g3100_myfiosgateway_com:
+  name: G3100.myfiosgateway.com
+  mac: 3C:BD:C5:02:A8:F1
+  icon:
+  picture:
+  track: true
+
+00_1a_62_04_47_91:
+  name: 00_1a_62_04_47_91
+  mac: 00:1A:62:04:47:91
+  icon:
+  picture:
+  track: true
+
+n_4th:
+  name: N-4th
+  mac: 00:17:88:23:91:28
+  icon:
+  picture:
+  track: true
+
+epson0aa645:
+  name: EPSON0AA645
+  mac: B0:E8:92:0A:A6:45
+  icon:
+  picture:
+  track: true
+
+harmonyhub:
+  name: HarmonyHub
+  mac: 00:04:20:F4:37:C0
+  icon:
+  picture:
+  track: true
+
+18_b4_30_78_71_14:
+  name: 18_b4_30_78_71_14
+  mac: 18:B4:30:78:71:14
+  icon:
+  picture:
+  track: true
+
+roomba_3164010851316620:
+  name: Roomba-3164010851316620
+  mac: 80:C5:F2:39:B2:64
+  icon:
+  picture:
+  track: true
+
+chromecast:
+  name: Chromecast
+  mac: 54:60:09:46:34:7C
+  icon:
+  picture:
+  track: true
+
+chromecast_audio:
+  name: Chromecast-Audio
+  mac: A4:77:33:F2:7B:74
+  icon:
+  picture:
+  track: true
+
+oneelite:
+  name: ONEELITE
+  mac: 98:5F:D3:90:8B:3D
+  icon:
+  picture:
+  track: true
+
+7c_bb_8a_d6_c7_30:
+  name: 7c_bb_8a_d6_c7_30
+  mac: 7C:BB:8A:D6:C7:30
+  icon:
+  picture:
+  track: true
+
+f0_27_2d_62_2c_47:
+  name: f0_27_2d_62_2c_47
+  mac: F0:27:2D:62:2C:47
+  icon:
+  picture:
+  track: true
+
+google_home:
+  name: Google-Home
+  mac: F4:F5:D8:B4:ED:EC
+  icon:
+  picture:
+  track: true
+
+xbox:
+  name: XBOX
+  mac: 1C:1A:DF:71:C4:14
+  icon:
+  picture:
+  track: true
+
+stormtrooper:
+  name: Stormtrooper
+  mac: 6C:6A:77:E4:1B:F0
+  icon:
+  picture:
+  track: true
+
+pa_stst_hpf705:
+  name: PA-StSt-HPF705
+  mac: 70:66:55:FD:67:57
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6cee8c:
+  name: LIFX-Nightvision-6CEE8C
+  mac: D0:73:D5:6C:EE:8D
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6cef5f:
+  name: LIFX-Nightvision-6CEF5F
+  mac: D0:73:D5:6C:EF:60
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6b4d6c:
+  name: LIFX-Nightvision-6B4D6C
+  mac: D0:73:D5:6B:4D:6D
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6c8d4a:
+  name: LIFX-Nightvision-6C8D4A
+  mac: D0:73:D5:6C:8D:4B
+  icon:
+  picture:
+  track: true
+
+iphone:
+  name: iPhone
+  mac: 62:84:CB:FB:66:84
+  icon:
+  picture:
+  track: true
+
+josesapplewatch:
+  name: JosesAppleWatch
+  mac: FE:CC:BB:46:AF:76
+  icon:
+  picture:
+  track: true
