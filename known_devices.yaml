@@ -300,3 +300,45 @@ yarivs_watch:
 # Last Updated #
 ################
 
+
+jose_iwatch:
+  name: jose_iwatch
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_jose_iphone:
+  name: ping_jose_iphone
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_jose_iwatch:
+  name: ping_jose_iwatch
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_roomba_890_maria:
+  name: ping_roomba_890_maria
+  mac:
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b4b99:
+  name: LIFX-Mini-D-5B4B99
+  mac: D0:73:D5:5B:4B:99
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b9aec:
+  name: LIFX-Mini-D-5B9AEC
+  mac: D0:73:D5:5B:9A:EC
+  icon:
+  picture:
+  track: true
