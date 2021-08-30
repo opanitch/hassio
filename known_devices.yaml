@@ -342,3 +342,24 @@ lifx_mini_d_5b9aec:
   icon:
   picture:
   track: true
+
+ping_oren_pixel_3:
+  name: ping_oren_pixel_3
+  mac:
+  icon:
+  picture:
+  track: true
+
+d4_f0_57_9f_12_1f:
+  name: d4_f0_57_9f_12_1f
+  mac: D4:F0:57:9F:12:1F
+  icon:
+  picture:
+  track: true
+
+jacob:
+  name: Jacob
+  mac: 7E:07:B7:48:F8:D7
+  icon:
+  picture:
+  track: true
