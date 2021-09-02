@@ -1,3 +1,8 @@
-base_url: https://opsmart.duckdns.org
-ssl_certificate: /ssl/fullchain.pem
-ssl_key: /ssl/privkey.pem
+cors_allowed_origins:
+  - https://google.com
+  - https://www.home-assistant.io
+ip_ban_enabled: true
+login_attempts_threshold: 5
+server_port: !secret server_port
+ssl_certificate: !secret ssl_certificate
+ssl_key: !secret ssl_key
