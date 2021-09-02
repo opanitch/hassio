@@ -3,6 +3,8 @@ homeassistant:
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
   customize: !include_dir_named customizations/
+  external_url: !secret external_url
+  internal_url: !secret internal_url
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
   elevation: !secret zone_home_elev
@@ -13,8 +15,6 @@ homeassistant:
 # External
 duckdns: !include authentication/duckdns_config.yaml
 http: !include authentication/http_config.yaml
-external_url: !secret external_url
-internal_url: !secret internal_url
 
 # Enablers
 browser:
