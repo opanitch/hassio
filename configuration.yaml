@@ -1,0 +1,33 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+homeassistant:
+  external_url: https://ocsmart.duckdns.org
+  internal_url: http://192.168.1.10:8123
+
+http:
+  cors_allowed_origins:
+    - https://google.com
+    - https://www.home-assistant.io
+  ip_ban_enabled: true
+  login_attempts_threshold: 5
+  server_port: 8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# Custom Integrations
+# samsungtv:
+#  - host: 192.168.1.31
+#    name: Samsung TV (Master Bedroom)
+#  - host: 192.168.1.32
+#    name: Samsung TV (Back Bedroom)

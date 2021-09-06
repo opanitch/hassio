@@ -1,0 +1,6 @@
+.HA_VERSION
+*.log
+home-assistant*
+secrets.yaml
+.storage/
+tts/
