@@ -1,8 +1,10 @@
-
-lyric_00fbbd:
-  name: Lyric-00FBBD
+##################
+# Infrastructure #
+##################
+honeywell_lyric:
+  name: Honeywell Thermostat
   mac: B8:2C:A0:00:FB:BD
-  icon:
+  icon: mdi:thermostat-box
   picture:
   track: false
 
@@ -16,21 +18,21 @@ lyric_00fbbd:
 homeassistant:
   name: homeassistant
   mac: DC:A6:32:7F:C4:BF
-  icon:
+  icon: mdi:home-assistant
   picture:
   track: false
 
-cl_16976:
-  name: CL-16976
+yamaha_receiver:
+  name: Living Room Receiver
   mac: 00:A0:DE:71:69:76
-  icon:
+  icon: mdi:audio-video
   picture:
   track: false
 
-00_04_4b_cd_1d_de:
-  name: 00:04:4B:CD:1D:DE
+nvidia_shield:
+  name: Nvidia Shield
   mac: 00:04:4B:CD:1D:DE
-  icon:
+  icon: mdi:television-shimmer
   picture:
   track: false
 
@@ -42,22 +44,22 @@ chromecast:
   track: false
 
 harmonyhub:
-  name: HarmonyHub
+  name: Harmony Hub
   mac: C8:DB:26:0A:7F:EC
-  icon:
+  icon: mdi:remote-tv
   picture:
   track: false
 
-14_c1_4e_67_27_71:
-  name: 14:C1:4E:67:27:71
+mary_pixel_3:
+  name: Mom's Pixel 3
   mac: 14:C1:4E:67:27:71
-  icon:
+  icon: mdi:cellphone
   picture:
   track: false
 
-laptop_oddgqlks:
-  name: LAPTOP-ODDGQLKS
+mary_laptop:
+  name: Mom's Lenovo
   mac: 84:5C:F3:3C:D0:66
-  icon:
+  icon: mdi:laptop
   picture:
   track: false
