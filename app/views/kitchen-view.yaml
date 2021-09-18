@@ -1,0 +1,35 @@
+path: kitchen
+title: Kitchen
+badges:
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.jewish_calendar_holiday
+  - entity: sensor.jewish_calendar_date
+  - entity: sun.sun
+cards:
+  - type: entities
+    entities:
+      - switch.kitchen_switch_1
+      - switch.kitchen_switch_2
+    title: Kitchen Light Switches
+  # - type: entities
+  #   entities:
+  #   - light.kitchen
+  #   - light.kitchen_1
+  #   - light.kitchen_2
+  #   - light.kitchen_window
+  #   title: Kitchen Lights
+  #   show_header_toggle: false
+  - type: entities
+    entities:
+      - lock.front_door_lock
+    title: Front Door Lock
+  - type: media-control
+    entity: media_player.first_floor
+  - type: media-control
+    entity: media_player.kitchen_assistant
+  - type: media-control
+    entity: media_player.public_broadcast
+  # - !include ../components/presence.yaml

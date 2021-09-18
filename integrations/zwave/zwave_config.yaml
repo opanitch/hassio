@@ -1,0 +1,24 @@
+###
+# ZWave Network config
+###
+usb_path: /dev/ttyACM0
+network_key: !secret zwave_network_key
+device_config: !include zwave_device_config.yaml
+
+###########################
+# Kwikset 914 Z-Wave Lock #
+###########################
+# entity_id: sensor.front_door_lock_alarm_type
+# ## Alarm Type
+# 18: Keypad Lock
+# 19: Keypad Unlock
+# 21: Manual Lock
+# 22: Manual Unlock
+# 24: ZWave Lock
+# 25: ZWave Unlock
+# 27: Auto Lock
+# 112: Master Code Chaged or User Added
+# ###############
+# ## Alarm Level
+# Set to the User Code that Unlocked the Door (Alarm Type 19)
+# Set to the User Code that was added (Alarm Type 112)

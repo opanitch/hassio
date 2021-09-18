@@ -1,0 +1,5 @@
+###
+# Dark Sky Weather config
+###
+platform: darksky
+api_key: !secret darksky_key

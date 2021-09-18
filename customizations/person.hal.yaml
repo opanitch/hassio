@@ -1,0 +1,2 @@
+entity_picture: !secret hal_profile_home
+friendly_name: !secret hal_friendly_name

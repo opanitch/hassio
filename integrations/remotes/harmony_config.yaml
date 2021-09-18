@@ -1,0 +1,7 @@
+##
+# Configure Harmony Hub
+##
+- platform: harmony
+  host: !secret harmony_hub_host
+  name: Harmony Hub
+  # activity: Xbox One

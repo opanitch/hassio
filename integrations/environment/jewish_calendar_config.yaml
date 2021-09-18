@@ -1,0 +1,6 @@
+candle_lighting_minutes_before_sunset: 18
+diaspora: true
+havdalah_minutes_after_sunset: 50
+language: english
+latitude: !secret zone_home_lat
+longitude: !secret zone_home_long

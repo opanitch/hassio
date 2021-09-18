@@ -1,0 +1,14 @@
+type: entities
+# Header
+title: House Cleaning Status
+show_header_toggle: false
+# header:
+# Body
+entities:
+  - entity: vacuum.maria
+    name: 1st Floor Vacuum Status
+    format: datetime
+    secondary_info: last-changed
+    state_color: true
+  - type: divider
+  - sensor.maria_last_clean

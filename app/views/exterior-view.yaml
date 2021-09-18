@@ -1,0 +1,34 @@
+path: exterior
+title: Exterior
+badges:
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.front_door_lock_alarm_type
+  - entity: >-
+      sensor.front_door_lock_alarm_level
+  - entity: >-
+      sensor.front_door_lock_power_management
+  - entity: sun.sun
+cards:
+  - type: entities
+    entities:
+      - lock.front_door_lock
+    title: Front Door Lock
+  - type: entities
+    entities:
+      - switch.living_room_switch_1
+      - switch.hallway_switch_2
+    title: Outdoor Light Switches
+    show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.exterior_rear
+  #     - light.back_stoop
+  #     - light.exterior_front
+  #     - light.front_stoop
+  #   title: Exterior Lights
+  #   show_header_toggle: false
+  - type: weather-forecast
+    entity: weather.dark_sky

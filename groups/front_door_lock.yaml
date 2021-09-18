@@ -1,0 +1,15 @@
+# front_door_lock:
+#   name: Front Door Lock
+#   entities:
+#     - lock.front_door_lock_locked
+#     - sensor.front_door_lock_status        
+#     - sensor.front_door_lock_battery
+#     - sensor.front_door_lock_alarm_level
+#     - sensor.front_door_lock_alarm_type
+#   icon: mdi:lock-outline
+#   icon_template: >-
+#     {% if is_state("lock.front_door_lock_locked","Unlocked") %}
+#       mdi:lock-open-outline
+#     {% else %}
+#       mdi:lock-outline
+#     {% endif %}

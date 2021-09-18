@@ -1,0 +1,36 @@
+path: hallway
+title: Hallway
+badges:
+  - entity: sensor.us_coronavirus_recovered
+  - entity: sensor.us_coronavirus_current
+  - entity: sensor.us_coronavirus_deaths
+  - entity: sensor.us_coronavirus_confirmed
+  - entity: sensor.front_door_lock_alarm_type
+  - entity: >-
+      sensor.front_door_lock_alarm_level
+  - entity: >-
+      sensor.front_door_lock_power_management
+  - entity: sun.sun
+cards:
+  - type: entities
+    entities:
+      - lock.front_door_lock
+    title: Front Door Lock
+  - type: entities
+    entities:
+      - light.hallway_switch_1
+    title: Hallway Light Switches
+    show_header_toggle: false
+  - type: entities
+    entities:
+      - switch.hallway_outlet_2
+      - switch.hallway_outlet_3
+    title: Hallway Light Outlets
+    show_header_toggle: false
+  # - type: entities
+  #   entities:
+  #     - light.stairs
+  #     - light.stairs_1
+  #     - light.stairs_2
+  #   title: Stair Lights
+  #   show_header_toggle: false

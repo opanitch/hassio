@@ -1,0 +1,365 @@
+#############################
+# List of Networked Devices #
+#############################
+##### Infrastructure #####
+drobo:
+  hide_if_away: true
+  icon: mdi:harddisk
+  mac: 00:1A:62:04:47:91
+  name: Drobo 5N
+  picture:
+  track: false
+
+epson_printer:
+  hide_if_away: true
+  icon: mdi:printer
+  mac: B0:E8:92:0A:A6:45
+  name: Living Room EPSON Printer
+  picture:
+  track: false
+
+fb-br30-1:
+  name: LIFX-Nightvision-6CEE8C
+  mac: D0:73:D5:6C:EE:8D
+  icon:
+  picture:
+  track: true
+
+fb-br30-2:
+  name: LIFX-Nightvision-6CEF5F
+  mac: D0:73:D5:6C:EF:60
+  icon:
+  picture:
+  track: true
+
+fb-br30-3:
+  name: LIFX-Nightvision-6B4D6C
+  mac: D0:73:D5:6B:4D:6D
+  icon:
+  picture:
+  track: true
+
+fb-br30-4:
+  name: LIFX-Nightvision-6C8D4A
+  mac: D0:73:D5:6C:8D:4B
+  icon:
+  picture:
+  track: true
+
+g3100_fiosgateway:
+  name: G3100.myfiosgateway.com
+  mac: 3C:BD:C5:02:A8:F1
+  icon: mdi:router-wireless
+  picture:
+  track: false
+
+harmony_hub:
+  hide_if_away: true
+  icon: mdi:remote
+  mac: 00:04:20:F4:37:C0
+  name: Living Room Harmony Hub
+  picture:
+  track: false
+
+hue_bridge:
+  hide_if_away: true
+  icon: mdi:lightbulb-outline
+  mac: 00:17:88:23:91:28
+  name: Hue Bridge
+  picture:
+  track: false
+
+kitchen_google_home:
+  hide_if_away: true
+  icon: mdi:google-home
+  mac: F4:F5:D8:B4:ED:EC
+  name: Kitchn Google Home
+  picture:
+  track: false
+
+livingroom_chromecast_audio:
+  hide_if_away: true
+  icon: mdi:cast
+  mac: A4:77:33:F2:7B:74
+  name: Living Room Chromecast Audio
+  picture:
+  track: false
+
+master_room_chromecast:
+  hide_if_away: true
+  icon: mdi:cast
+  mac: 54:60:09:46:34:7C
+  name: Master Bedroom Room Chromecast
+  picture:
+  track: false
+
+master_room_echo:
+  hide_if_away: true
+  icon: mdi:amazon-alexa
+  mac: F0:27:2D:62:2C:47
+  name: Master Bedroom Echo
+  picture:
+  track: false
+
+nest_thermostat:
+  hide_if_away: true
+  icon: mdi:thermostat
+  mac: 18:B4:30:78:71:14
+  name: Nest Thermostat
+  picture:
+  track: false
+
+roomba_890_maria:
+  hide_if_away: true
+  icon: mdi:robot-vacuum
+  mac: 80:C5:F2:39:B2:64
+  name: Roomba 890 Maria
+  picture:
+  track: false
+
+xbox_one_elite:
+  hide_if_away: true
+  icon: mdi:microsoft-xbox
+  mac: 98:5F:D3:90:8B:3D
+  name: Xbox One Elite
+  picture:
+  track: true
+
+xbox_series_x:
+  hide_if_away: true
+  icon: mdi:microsoft-xbox
+  mac: 1C:1A:DF:71:C4:14
+  name: Series X
+  picture:
+  track: true
+
+# Jose
+jose_apple_watch:
+  hide_if_away: true
+  icon: mdi:watch-variant
+  mac: FE:CC:BB:46:AF:76
+  name: Jose's Apple Watch
+  picture:
+  track: true
+
+jose_iphone:
+  hide_if_away: false
+  icon: mdi:cellphone-iphone
+  mac: 62:84:CB:FB:66:84
+  name: Jose's iPhone
+  picture:
+  track: true
+
+jose_laptop_work:
+  hide_if_away: false
+  icon: mdi:laptop-windows
+  mac: 70:66:55:FD:67:57
+  name: Jose's Work Laptop
+  picture:
+  track: false
+
+# Juju
+julian_watch:
+  hide_if_away: true
+  name: Julian's Watch
+  mac: 6E:60:2B:12:6E:61
+  icon: mdi:watch-variant
+  picture:
+  track: false
+
+# Nate
+nate_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 14:87:6A:EB:21:AE
+  name: Nate's iPhone
+  picture:
+  track: true
+
+nathans_iphone:
+  hide_if_away: true
+  name: Nathans iPhone
+  mac: CA:46:E8:15:05:2C
+  icon: mdi:cellphone-iphone
+  picture:
+  track: true
+
+nate_mbp:
+  hide_if_away: true
+  icon: mdi:laptop-mac
+  mac: AC:BC:32:8E:FA:25
+  name: Nate's MBP
+  picture:
+  track: false
+
+# Oren
+ms_zune_hd:
+  hide_if_away: true
+  icon: mdi:microsoft
+  mac: 00:25:AE:50:06:77
+  name: Zune HD
+  picture:
+  track: false
+
+oren_pixel_3:
+  hide_if_away: false
+  icon: mdi:cellphone-android
+  mac: 3C:28:6D:2C:E3:5D
+  name: Oren's Pixel 3
+  picture:
+  track: true
+
+oren_switch:
+  hide_if_away: false
+  icon: mdi:nintendo-switch
+  mac: 7C:BB:8A:D6:C7:30
+  name: Oren's Nintendo Switch
+  picture:
+  track: true
+
+startree_mbp:
+  hide_if_away: true
+  name: StarTree MBP
+  mac: 88:66:5A:0A:9D:14
+  icon: mdi:laptop
+  picture:
+  track: true
+
+stormtrooper_wifi:
+  hide_if_away: false
+  icon: mdi:desktop-tower-monitor
+  mac: 6C:6A:77:E4:1B:F0
+  name: Stormtrooper WiFi
+  picture:
+  track: true
+
+test_iphone_8:
+  name: test_iphone_8
+  mac:
+  icon:
+  picture:
+  track: false
+
+# Virg
+virg_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 9A:BB:59:7A:17:46
+  name: Virg's iPhone
+  picture:
+  track: false
+
+# Yariv
+yariv_ipad:
+  hide_if_away: true
+  icon: mdi:tablet-ipad
+  mac: F8:62:14:85:F0:64
+  name: Yariv's iPad
+  picture:
+  track: true
+
+yariv_iphone:
+  hide_if_away: true
+  icon: mdi:cellphone-iphone
+  mac: 22:2A:36:34:8B:55
+  name: Yariv's iPhone
+  picture:
+  track: true
+
+yarivs_mbp:
+  hide_if_away: true
+  icon: mdi:laptop-mac
+  mac: 88:E9:FE:5B:DC:F3
+  name: Yariv's MBP
+  picture:
+  track: true
+
+yariv_oculus:
+  hide_if_away: true
+  icon: mdi:virtual-reality
+  mac: 2C:26:17:81:3D:52
+  name: Yariv's Oculus
+  picture:
+  track: false
+
+yariv_switch:
+  hide_if_away: true
+  icon: mdi:nintendo-switch
+  mac: 7C:BB:8A:D4:7C:2B
+  name: Yariv's Nintendo Switch
+  picture:
+  track: true
+
+yarivs_watch:
+  icon: mdi:watch-variant
+  mac: 60:9A:C1:0D:11:B1
+  name: Yariv's Apple Watch
+  picture:
+  track: false
+################
+# Last Updated #
+################
+
+
+jose_iwatch:
+  name: jose_iwatch
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_jose_iphone:
+  name: ping_jose_iphone
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_jose_iwatch:
+  name: ping_jose_iwatch
+  mac:
+  icon:
+  picture:
+  track: true
+
+ping_roomba_890_maria:
+  name: ping_roomba_890_maria
+  mac:
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b4b99:
+  name: LIFX-Mini-D-5B4B99
+  mac: D0:73:D5:5B:4B:99
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b9aec:
+  name: LIFX-Mini-D-5B9AEC
+  mac: D0:73:D5:5B:9A:EC
+  icon:
+  picture:
+  track: true
+
+ping_oren_pixel_3:
+  name: ping_oren_pixel_3
+  mac:
+  icon:
+  picture:
+  track: true
+
+d4_f0_57_9f_12_1f:
+  name: d4_f0_57_9f_12_1f
+  mac: D4:F0:57:9F:12:1F
+  icon:
+  picture:
+  track: true
+
+jacob:
+  name: Jacob
+  mac: 7E:07:B7:48:F8:D7
+  icon:
+  picture:
+  track: true

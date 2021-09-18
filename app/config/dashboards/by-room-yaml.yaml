@@ -1,0 +1,6 @@
+mode: yaml
+filename: ui-by-room.yaml
+title: House by Room
+icon: mdi:script
+require_admin: false
+show_in_sidebar: true

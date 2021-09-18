@@ -1,0 +1,9 @@
+light_group: group.living_room_lights
+light_profile: reading
+device_group: group.person_group
+disable_turn_off: false
+
+###
+# Presence-based Lights
+# https://www.home-assistant.io/integrations/device_sun_light_trigger/
+###

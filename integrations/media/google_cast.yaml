@@ -1,0 +1,8 @@
+cast:
+  media_player:
+    - host: !secret cast_host_1
+    - host: !secret cast_host_2
+    - host: !secret cast_host_3
+    - host: !secret cast_host_4
+    - host: !secret cast_host_5
+    - host: !secret cast_host_6
