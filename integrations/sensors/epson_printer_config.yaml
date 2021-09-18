@@ -1,8 +1,8 @@
-- platform: epsonworkforce
-  host: !secret epson_printer_host
-  monitored_conditions:
-    - black
-    - clean
-    - cyan
-    - magenta
-    - yellow
+# - platform: epsonworkforce
+#   host: !secret epson_printer_host
+#   monitored_conditions:
+#     - black
+#     - clean
+#     - cyan
+#     - magenta
+#     - yellow

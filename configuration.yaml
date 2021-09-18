@@ -1,33 +1,81 @@
-
 # Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
-
 homeassistant:
-  external_url: https://ocsmart.duckdns.org
-  internal_url: http://192.168.1.10:8123
+  auth_providers: !include authentication/default.yaml
+  auth_mfa_modules: !include authentication/mfa_config.yaml
+  customize: !include_dir_named customizations/
+  external_url: !secret external_url
+  internal_url: !secret internal_url
+  latitude: !secret zone_home_lat
+  longitude: !secret zone_home_long
+  elevation: !secret zone_home_elev
+  unit_system: imperial
+  time_zone: America/New_York
+  name: 827 Pennlyn
 
-http:
-  cors_allowed_origins:
-    - https://google.com
-    - https://www.home-assistant.io
-  ip_ban_enabled: true
-  login_attempts_threshold: 5
-  server_port: 8123
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
+# External
+duckdns: !include authentication/duckdns_config.yaml
+http: !include authentication/http_config.yaml
 
-# Text to speech
-tts:
-  - platform: google_translate
+# Enablers
+browser:
+config:
+conversation:
+# discovery: // prefer manual configuration
+frontend:
+# https://www.home-assistant.io/integrations/ios/
+# ios: // only need if more than 1 iPhone user needs the app. no use case now
+## UI Configuration
+# https://www.home-assistant.io/lovelace/dashboards-and-views/
+lovelace: !include app/config/ui-config.yaml
+map:
+mobile_app:
+sun:
+updater:
+  include_used_components: true
+system_health:
 
-group: !include groups.yaml
+## Text to speech
+tts: !include integrations/tts/tts_config.yaml
+
+### House Settings
+# areas: !include area_config.yaml
 automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
+group: !include_dir_merge_named groups/
+history:
+# history_graph: !include history_graph_config.yaml
+input_number: !include_dir_named app/inputs/number/
+input_select: !include_dir_named app/inputs/select/
+###
+# Config file for People tracked in the House
+# https://www.home-assistant.io/integrations/person/
+###
+person: !include_dir_list people/
+scene: !include_dir_merge_list scenes/
+# script: !include scripts.yaml
+switch: !include_dir_merge_list app/switches/
+zone: !include_dir_list locations/
 
-# Custom Integrations
+### Integrations
+binary_sensor: !include_dir_merge_list integrations/binary_sensors/
+# cast: !include integrations/media/google_cast.yaml
+# device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
+device_tracker: !include device_tracker_config.yaml
+# hacs: !include integrations/environment/hacs_config.yaml
+# hue: !include integrations/lights/hue_config.yaml
+jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
+# lifx: !include integrations/lights/lifx_config.yaml
+# lyric: !include integrations/climate_control/lyric_config.yaml
+media_player: !include_dir_merge_list integrations/media_players/
+remote: !include integrations/remotes/harmony_config.yaml
+# roomba: !include integrations/cleaning/roomba_config.yaml # Did not work, opted for 'vacuum' integration instead
 # samsungtv:
 #  - host: 192.168.1.31
 #    name: Samsung TV (Master Bedroom)
 #  - host: 192.168.1.32
 #    name: Samsung TV (Back Bedroom)
+sensor: !include_dir_merge_list integrations/sensors/
+# upnp: !include integrations/network/upnp_config.yaml
+# vacuum: !include integrations/cleaning/vacuum_config.yaml
+# vera: !include integrations/zwave/vera_config.yaml
+weather: !include_dir_list integrations/weather/
+

@@ -1,0 +1,6 @@
+###
+# Nest Thermostat Config
+###
+client_id: !secret lyric_id
+client_secret: !secret lyric_secret
+

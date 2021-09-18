@@ -1,6 +1,0 @@
-name: Nate
-id: !secret nate_id
-device_trackers:
-  - device_tracker.nate_iphone
-  - device_tracker.nathans_iphone
-  - device_tracker.nate_mbp

@@ -1,3 +1,0 @@
-name: Hal
-id: !secret hal_id
-device_trackers:

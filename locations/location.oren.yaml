@@ -1,0 +1,4 @@
+name: Oren's Place
+icon: mdi:beach
+latitude: !secret zone_oren_lat
+longitude: !secret zone_oren_long

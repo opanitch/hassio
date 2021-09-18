@@ -1,4 +1,0 @@
-name: Julian
-id: !secret juju_id
-device_trackers:
-  - device_tracker.julian_watch

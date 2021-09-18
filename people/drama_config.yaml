@@ -1,3 +1,0 @@
-name: Drama
-id: !secret drama_id
-device_trackers:

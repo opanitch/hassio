@@ -1,2 +1,2 @@
-- platform: lifx_cloud
-  token: !secret lifx_api_token
+# - platform: lifx_cloud
+#   token: !secret lifx_api_token

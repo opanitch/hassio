@@ -1,0 +1,6 @@
+name: Mary
+id: !secret mary_id
+user_id: !secret mary_user_id
+device_trackers:
+  - device_tracker.mary_3_app
+  - device_tracker.mary_pixel_3

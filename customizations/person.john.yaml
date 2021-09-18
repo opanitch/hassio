@@ -1,0 +1,2 @@
+entity_picture: !secret john_profile_home
+friendly_name: !secret john_friendly_name
