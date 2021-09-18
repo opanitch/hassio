@@ -1,3 +1,4 @@
+.DS_Store
 .HA_VERSION
 *.log
 home-assistant*
