@@ -1,0 +1,63 @@
+
+lyric_00fbbd:
+  name: Lyric-00FBBD
+  mac: B8:2C:A0:00:FB:BD
+  icon:
+  picture:
+  track: false
+
+88665a10b547:
+  name: 88665A10B547
+  mac: 88:66:5A:10:B5:47
+  icon:
+  picture:
+  track: false
+
+homeassistant:
+  name: homeassistant
+  mac: DC:A6:32:7F:C4:BF
+  icon:
+  picture:
+  track: false
+
+cl_16976:
+  name: CL-16976
+  mac: 00:A0:DE:71:69:76
+  icon:
+  picture:
+  track: false
+
+00_04_4b_cd_1d_de:
+  name: 00:04:4B:CD:1D:DE
+  mac: 00:04:4B:CD:1D:DE
+  icon:
+  picture:
+  track: false
+
+chromecast:
+  name: Chromecast
+  mac: A4:77:33:01:B2:5B
+  icon:
+  picture:
+  track: false
+
+harmonyhub:
+  name: HarmonyHub
+  mac: C8:DB:26:0A:7F:EC
+  icon:
+  picture:
+  track: false
+
+14_c1_4e_67_27_71:
+  name: 14:C1:4E:67:27:71
+  mac: 14:C1:4E:67:27:71
+  icon:
+  picture:
+  track: false
+
+laptop_oddgqlks:
+  name: LAPTOP-ODDGQLKS
+  mac: 84:5C:F3:3C:D0:66
+  icon:
+  picture:
+  track: false
