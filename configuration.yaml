@@ -66,7 +66,7 @@ jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 # lifx: !include integrations/lights/lifx_config.yaml
 # lyric: !include integrations/climate_control/lyric_config.yaml
 media_player: !include_dir_merge_list integrations/media_players/
-remote: !include integrations/remotes/harmony_config.yaml
+# remote: !include integrations/remotes/harmony_config.yaml
 # roomba: !include integrations/cleaning/roomba_config.yaml # Did not work, opted for 'vacuum' integration instead
 # samsungtv:
 #  - host: 192.168.1.31

@@ -63,3 +63,17 @@ mary_laptop:
   icon: mdi:laptop
   picture:
   track: false
+
+howies_iphone:
+  name: Howies-iPhone
+  mac: 42:25:F9:69:97:0E
+  icon:
+  picture:
+  track: false
+
+pixel_3:
+  name: Pixel-3
+  mac: EE:81:BD:5E:97:7D
+  icon:
+  picture:
+  track: false
