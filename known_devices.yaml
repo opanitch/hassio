@@ -8,10 +8,10 @@ honeywell_lyric:
   picture:
   track: false
 
-88665a10b547:
-  name: 88665A10B547
+apple_device:
+  name: Unknown Apple Device
   mac: 88:66:5A:10:B5:47
-  icon:
+  icon: mdi:apple
   picture:
   track: false
 
@@ -39,7 +39,7 @@ nvidia_shield:
 chromecast:
   name: Chromecast
   mac: A4:77:33:01:B2:5B
-  icon:
+  icon: mdi:google-chrome
   picture:
   track: false
 
@@ -50,10 +50,10 @@ harmonyhub:
   picture:
   track: false
 
-mary_pixel_3:
-  name: Mom's Pixel 3
+chromecast_2:
+  name: Chromecast 2
   mac: 14:C1:4E:67:27:71
-  icon: mdi:cellphone
+  icon: mdi:google-chrome
   picture:
   track: false
 
@@ -65,15 +65,15 @@ mary_laptop:
   track: false
 
 howies_iphone:
-  name: Howies-iPhone
+  name: Howies iPhone
   mac: 42:25:F9:69:97:0E
   icon:
   picture:
   track: false
 
-pixel_3:
-  name: Pixel-3
+mary_pixel_3:
+  name: Mom's Pixel 3
   mac: EE:81:BD:5E:97:7D
-  icon:
+  icon: mdi:cellphone
   picture:
   track: false
