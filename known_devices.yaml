@@ -77,3 +77,17 @@ mary_pixel_3:
   icon: mdi:cellphone
   picture:
   track: false
+
+amazon_devices:
+  name: Amazon Device
+  mac: 08:84:9D:D9:4A:F9
+  icon: mdi:aws
+  picture:
+  track: false
+
+lgwebostv:
+  name: LGwebOSTV
+  mac: 18:82:8C:45:37:C6
+  icon:
+  picture:
+  track: false
