@@ -33,6 +33,11 @@ sun:
 updater:
   include_used_components: true
 system_health:
+logger:
+  default: info
+  logs:
+    pynetgear: debug
+    homeassistant.components.device_tracker: debug
 
 ## Text to speech
 tts: !include integrations/tts/tts_config.yaml

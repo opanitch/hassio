@@ -91,3 +91,45 @@ lgwebostv:
   icon:
   picture:
   track: false
+
+b6_d2_e4_cd_8b_55:
+  name: B6:D2:E4:CD:8B:55
+  mac: B6:D2:E4:CD:8B:55
+  icon:
+  picture:
+  track: true
+
+jackiesplewatch:
+  name: JackiespleWatch
+  mac: 10:CE:E9:DB:34:EA
+  icon:
+  picture:
+  track: true
+
+52_19_3f_0f_9f_47:
+  name: 52:19:3F:0F:9F:47
+  mac: 52:19:3F:0F:9F:47
+  icon:
+  picture:
+  track: true
+
+c4_14_11_79_f0_62:
+  name: C4:14:11:79:F0:62
+  mac: C4:14:11:79:F0:62
+  icon:
+  picture:
+  track: true
+
+ec_ad_b8_62_42_10:
+  name: EC:AD:B8:62:42:10
+  mac: EC:AD:B8:62:42:10
+  icon:
+  picture:
+  track: true
+
+2a_41_93_5b_3a_e7:
+  name: 2A:41:93:5B:3A:E7
+  mac: 2A:41:93:5B:3A:E7
+  icon:
+  picture:
+  track: true

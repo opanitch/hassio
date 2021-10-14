@@ -7,7 +7,8 @@
   password: !secret router_password
   consider_home: 0:05
   new_device_defaults:
-    track_new_devices: false
+    track_new_devices: true
+#    hide_if_away: true
 
 #- platform: ping
 #  hosts:
