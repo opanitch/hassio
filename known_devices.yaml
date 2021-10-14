@@ -99,12 +99,12 @@ b6_d2_e4_cd_8b_55:
   picture:
   track: true
 
-jackiesplewatch:
-  name: JackiespleWatch
+jackieswatch:
+  name: Jackies Apple Watch
   mac: 10:CE:E9:DB:34:EA
-  icon:
+  icon: mid:watch
   picture:
-  track: true
+  track: false
 
 52_19_3f_0f_9f_47:
   name: 52:19:3F:0F:9F:47
