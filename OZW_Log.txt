@@ -7382,3 +7382,33 @@
 2021-12-07 10:12:45.425 Detail, Node016, Notification: ValueChanged
 2021-12-07 10:12:45.430 Detail, Node016, Notification: ValueChanged
 2021-12-07 10:12:45.435 Detail, Node016, Notification: ValueChanged
+2021-12-07 10:42:42.367 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x01, 0x2a, 0x02, 0xb1, 0x56
+2021-12-07 10:42:42.367 Detail, 
+2021-12-07 10:42:42.369 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Temperature: value=68.9F
+2021-12-07 10:42:42.370 Detail, Node011, Refreshed Value: old value=71.6, new value=68.9, type=decimal
+2021-12-07 10:42:42.370 Detail, Node011, Changes to this value are not verified
+2021-12-07 10:42:42.370 Detail, Node011, Notification: ValueChanged
+2021-12-07 10:42:42.762 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x05, 0x01, 0x20, 0xee
+2021-12-07 10:42:42.763 Detail, 
+2021-12-07 10:42:42.763 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Relative Humidity: value=32%
+2021-12-07 10:42:42.763 Detail, Node011, Refreshed Value: old value=30, new value=32, type=decimal
+2021-12-07 10:42:42.763 Detail, Node011, Changes to this value are not verified
+2021-12-07 10:42:42.763 Detail, Node011, Notification: ValueChanged
+2021-12-07 10:42:43.542 Detail, Node011,   Received: 0x01, 0x09, 0x00, 0x04, 0x00, 0x0b, 0x03, 0x80, 0x03, 0x64, 0x1d
+2021-12-07 10:42:43.542 Detail, 
+2021-12-07 10:42:43.542 Info, Node011, Received Battery report from node 11: level=100
+2021-12-07 10:42:43.542 Detail, Node011, Refreshed Value: old value=100, new value=100, type=byte
+2021-12-07 10:42:43.542 Detail, Node011, Changes to this value are not verified
+2021-12-07 10:42:43.542 Detail, Node011, Notification: ValueChanged
+2021-12-07 10:42:43.602 Detail, Node011,   Received: 0x01, 0x0c, 0x00, 0x04, 0x00, 0x0b, 0x06, 0x31, 0x05, 0x03, 0x0a, 0x00, 0x00, 0xc7
+2021-12-07 10:42:43.603 Detail, 
+2021-12-07 10:42:43.603 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Luminance: value=0lux
+2021-12-07 10:42:43.603 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2021-12-07 10:42:43.603 Detail, Node011, Changes to this value are not verified
+2021-12-07 10:42:43.603 Detail, Node011, Notification: ValueChanged
+2021-12-07 10:42:43.702 Detail, Node011,   Received: 0x01, 0x0b, 0x00, 0x04, 0x00, 0x0b, 0x05, 0x31, 0x05, 0x1b, 0x01, 0x00, 0xd0
+2021-12-07 10:42:43.702 Detail, 
+2021-12-07 10:42:43.702 Info, Node011, Received SensorMultiLevel report from node 11, instance 1, Ultraviolet: value=0
+2021-12-07 10:42:43.702 Detail, Node011, Refreshed Value: old value=0, new value=0, type=decimal
+2021-12-07 10:42:43.702 Detail, Node011, Changes to this value are not verified
+2021-12-07 10:42:43.703 Detail, Node011, Notification: ValueChanged

@@ -1,0 +1,433 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "0fcc267287eccaaddf0a1db0f1956fb1",
+                "version": 1,
+                "domain": "hassio",
+                "title": "Supervisor",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "system",
+                "unique_id": "hassio",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9eb0f4d1eb2a0c82cb9d34f8803d8d21",
+                "version": 1,
+                "domain": "local_ip",
+                "title": "local_ip",
+                "data": {
+                    "name": "local_ip"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "6b6645fd226fcc0a41dadbf5764c2aa4",
+                "version": 1,
+                "domain": "zwave",
+                "title": "Z-Wave (import from configuration.yaml)",
+                "data": {
+                    "usb_path": "/dev/ttyACM0",
+                    "network_key": "0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e5135cd1d4c1c8df50bda4b23359ce6d",
+                "version": 1,
+                "domain": "lifx",
+                "title": "LIFX",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d7a79084aa65080d6b208a380754564b",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [
+                        "192.168.1.28",
+                        "192.168.1.31",
+                        "192.168.1.38"
+                    ],
+                    "uuid": [],
+                    "user_id": "c3644d153db942369f93d205dc5371e7"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "3c4f3136ddb881a13cc93046ff245516",
+                "version": 1,
+                "domain": "rpi_power",
+                "title": "Raspberry Pi Power Supply Checker",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "2ca0a18ece03acfb92b98a6491e2b95c",
+                "version": 1,
+                "domain": "coronavirus",
+                "title": "US",
+                "data": {
+                    "country": "US"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "US",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "33ad9a5a794e255d57ad694b6595d70a",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Pixel 3",
+                "data": {
+                    "device_name": "Pixel 3",
+                    "app_version": "1.3.1",
+                    "manufacturer": "Google",
+                    "model": "Pixel 3",
+                    "os_version": "11",
+                    "app_data": {
+                        "push_token": "eMhcsGUF338:APA91bFbfcBD_E3ZtWCWPpQfI5ybVlwbCpkhRjGAsh4h4_uouLyBFVPwk29DQHix8bv0P9z65RxlzBcLg5F4DTQf4hXIHcy3Nu57bq-sjg3WYmLgW-_8tP8zn7iQcZh6HsvPIblHBCFN",
+                        "push_url": "https://us-central1-ha-client-c73c4.cloudfunctions.net/pushNotifyV3"
+                    },
+                    "app_id": "ha_client",
+                    "app_name": "HA Client",
+                    "os_name": "Android",
+                    "supports_encryption": false,
+                    "webhook_id": "b735a5bff2e257932b4befff0f46a3e0cf63b42770159c5b4f7110f5362618cd",
+                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6",
+                    "device_id": "072a4300939a4de6b408e4eccacc0ac2"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "acc5f26c48a62e9ce4c91cc99869c118",
+                "version": 1,
+                "domain": "plex",
+                "title": "Drobo Plex",
+                "data": {
+                    "server": "Drobo5N",
+                    "server_id": "ee473620272b159af58784480e80a684dc5aaadf",
+                    "server_config": {
+                        "url": "http://192.168.1.3:32400",
+                        "client_id": "61b83dcf-4dfe-4746-b6bb-ed3971759e41",
+                        "token": "53-eodtEQo9DpHBYxuD6"
+                    }
+                },
+                "options": {
+                    "media_player": {
+                        "use_episode_art": true,
+                        "ignore_new_shared_users": false,
+                        "ignore_plex_web_clients": false,
+                        "monitored_users": {
+                            "abarufkin@gmail.com": {
+                                "enabled": true
+                            },
+                            "drgzs2101@gmail.com": {
+                                "enabled": true
+                            },
+                            "panitchCast": {
+                                "enabled": true
+                            },
+                            "Stand_Up_Penguin": {
+                                "enabled": true
+                            },
+                            "Mike.kelley88": {
+                                "enabled": true
+                            },
+                            "aanderson921@gmail.com": {
+                                "enabled": true
+                            },
+                            "rpanitch": {
+                                "enabled": true
+                            },
+                            "Lawstyle": {
+                                "enabled": true
+                            },
+                            "vickcath@gmail.com": {
+                                "enabled": true
+                            },
+                            "ottingerb1@gmail.com": {
+                                "enabled": true
+                            },
+                            "gregory.sparer@gmail.com": {
+                                "enabled": true
+                            },
+                            "chroniclesofler": {
+                                "enabled": true
+                            },
+                            "jena.jenofsky@gmail.com": {
+                                "enabled": true
+                            },
+                            "Ustuss": {
+                                "enabled": true
+                            },
+                            "jdyankee5": {
+                                "enabled": true
+                            },
+                            "tub79385@temple.edu": {
+                                "enabled": true
+                            },
+                            "daveyayoh": {
+                                "enabled": true
+                            },
+                            "virg71@gmail.com": {
+                                "enabled": true
+                            },
+                            "sneuman86@me.com": {
+                                "enabled": true
+                            },
+                            "andrewbezden@gmail.com": {
+                                "enabled": true
+                            },
+                            "JennyFretta": {
+                                "enabled": true
+                            },
+                            "jmpastor73@yahoo.com": {
+                                "enabled": true
+                            },
+                            "rachelbradley55@gmail.com": {
+                                "enabled": true
+                            },
+                            "halman1321": {
+                                "enabled": true
+                            },
+                            "ben.olen.25@gmail.com": {
+                                "enabled": true
+                            },
+                            "miss.alexis.teague@gmail.com": {
+                                "enabled": true
+                            },
+                            "stephanie.dottaviano@gmail.com": {
+                                "enabled": true
+                            },
+                            "mark.d.baskin@gmail.com": {
+                                "enabled": true
+                            },
+                            "adkipphut": {
+                                "enabled": true
+                            },
+                            "jbarufkin": {
+                                "enabled": true
+                            },
+                            "jules.salkind@gmail.com": {
+                                "enabled": true
+                            },
+                            "jroconnor317@gmail.com": {
+                                "enabled": true
+                            },
+                            "ywolok": {
+                                "enabled": true
+                            },
+                            "opanitch": {
+                                "enabled": true
+                            },
+                            "scottweiss": {
+                                "enabled": true
+                            },
+                            "rowehe2010@gmail.com": {
+                                "enabled": true
+                            }
+                        }
+                    }
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "ee473620272b159af58784480e80a684dc5aaadf",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "722f60d99596005e1c4a87fcf556da38",
+                "version": 1,
+                "domain": "hue",
+                "title": "841 N 4th",
+                "data": {
+                    "host": "192.168.1.4",
+                    "username": "qk9AJ94QliFtjMpjNLm7ymViTw1MVBi7Sg4Dvmod"
+                },
+                "options": {
+                    "allow_hue_groups": false,
+                    "allow_unreachable": true
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "001788239128",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "4af94022c62f60aa09197033da923527",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPhone",
+                "data": {
+                    "device_name": "iPhone",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "os_version": "14.8",
+                    "app_name": "Home Assistant",
+                    "supports_encryption": true,
+                    "app_data": {
+                        "push_token": "dwrnpSQX_kLPtNoZuYXnbP:APA91bGP_v7Ec6Ks_RF1yPciIOK-lggt0yOuUd5PR8mHSwNyRLPokbq0sxJJamrh7gfmNAHLQy1OK89RYaW-tozwyLZAwKJZLPlG932XNtsx3erhsDC5IV3s9oy8OvbgxvKTh-XAbv1X",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_version": "2021.8 (2021.216)",
+                    "model": "iPhone10,1",
+                    "device_id": "767C79AF-7FBB-4106-B44C-5CD205739004",
+                    "os_name": "iOS",
+                    "webhook_id": "ea90056b96a0fea5e74f9e953464c29c80557f90b25d5d37c16a50c9a55e16f3",
+                    "secret": "b1a3ab8839adc5372d1d2b8df06896a18a2f05c28f8f8e2b3434c0cf3d626117",
+                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-767C79AF-7FBB-4106-B44C-5CD205739004",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "dfea4fa697f8fe8f78a816913de41dea",
+                "version": 1,
+                "domain": "ifttt",
+                "title": "IFTTT Webhook",
+                "data": {
+                    "webhook_id": "7e010fd350d6845228e6db4eb88ce74ec3794d0d0a9891e64b7202220315d1c4",
+                    "cloudhook": false
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "bf072dbf8df9ee0438b9da47fdd3f6b6",
+                "version": 1,
+                "domain": "roomba",
+                "title": "Maria",
+                "data": {
+                    "host": "192.168.1.13",
+                    "blid": "3164010851316620",
+                    "password": ":1:1546578714:uOi8zc9g2YrhDiJq",
+                    "continuous": true,
+                    "delay": 1
+                },
+                "options": {
+                    "continuous": true,
+                    "delay": 1
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "3164010851316620",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5a0089ff6903c09d730f330c96b23ecf",
+                "version": 1,
+                "domain": "profiler",
+                "title": "Profiler",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "a187dd3d88a27978c6ad6670bf7433b1",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Fios Router",
+                "data": {
+                    "udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+                    "hostname": "192.168.1.1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "52d212366a349613aab5e27fddd6f663",
+                "version": 1,
+                "domain": "harmony",
+                "title": "841 Home",
+                "data": {
+                    "name": "841 Home",
+                    "host": "192.168.1.8"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "17519306",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "36dfcd17e79f04383f1398aa63b62d1a",
+                "version": 1,
+                "domain": "dlna_dmr",
+                "title": "ONEELITE",
+                "data": {
+                    "url": "http://192.168.1.34:2869/upnphost/udhisapi.dll?content=uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
+                    "device_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
+                    "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
+                "disabled_by": null
+            }
+        ]
+    }
+}
