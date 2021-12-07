@@ -61,6 +61,13 @@ harmony_hub:
   picture:
   track: false
 
+homeassistant:
+  name: homeassistant
+  mac: DC:A6:32:37:A7:D5
+  icon:
+  picture:
+  track: false
+
 hue_bridge:
   hide_if_away: true
   icon: mdi:lightbulb-outline
@@ -133,6 +140,20 @@ xbox_series_x:
   picture:
   track: true
 
+lifx_mini_d_5b4b99:
+  name: LIFX-Mini-D-5B4B99
+  mac: D0:73:D5:5B:4B:99
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b9aec:
+  name: LIFX-Mini-D-5B9AEC
+  mac: D0:73:D5:5B:9A:EC
+  icon:
+  picture:
+  track: true
+
 # Jose
 jose_apple_watch:
   hide_if_away: true
@@ -166,6 +187,13 @@ julian_watch:
   icon: mdi:watch-variant
   picture:
   track: false
+
+julians_mbp:
+  name: Julians-MBP
+  mac: F0:18:98:38:FB:3F
+  icon:
+  picture:
+  track: true
 
 # Nate
 nate_iphone:
@@ -209,14 +237,6 @@ oren_pixel_3:
   picture:
   track: true
 
-oren_switch:
-  hide_if_away: false
-  icon: mdi:nintendo-switch
-  mac: 7C:BB:8A:D6:C7:30
-  name: Oren's Nintendo Switch
-  picture:
-  track: true
-
 startree_mbp:
   hide_if_away: true
   name: StarTree MBP
@@ -230,6 +250,14 @@ stormtrooper_wifi:
   icon: mdi:desktop-tower-monitor
   mac: 6C:6A:77:E4:1B:F0
   name: Stormtrooper WiFi
+  picture:
+  track: true
+
+oren_switch:
+  hide_if_away: falce
+  icon: mdi:nintendo-switch
+  mac: 80:D2:E5:69:CE:BA
+  name: Oren's Nintendo Switch OLED
   picture:
   track: true
 
@@ -285,8 +313,8 @@ yariv_oculus:
 yariv_switch:
   hide_if_away: true
   icon: mdi:nintendo-switch
-  mac: 7C:BB:8A:D4:7C:2B
-  name: Yariv's Nintendo Switch
+  mac: 7C:BB:8A:D6:C7:30
+  name: Yariv's Nintendo Switch OLED
   picture:
   track: true
 
@@ -296,80 +324,6 @@ yarivs_watch:
   name: Yariv's Apple Watch
   picture:
   track: false
-################
-# Last Updated #
-################
-
-
-jose_iwatch:
-  name: jose_iwatch
-  mac:
-  icon:
-  picture:
-  track: true
-
-ping_jose_iphone:
-  name: ping_jose_iphone
-  mac:
-  icon:
-  picture:
-  track: true
-
-ping_jose_iwatch:
-  name: ping_jose_iwatch
-  mac:
-  icon:
-  picture:
-  track: true
-
-ping_roomba_890_maria:
-  name: ping_roomba_890_maria
-  mac:
-  icon:
-  picture:
-  track: true
-
-lifx_mini_d_5b4b99:
-  name: LIFX-Mini-D-5B4B99
-  mac: D0:73:D5:5B:4B:99
-  icon:
-  picture:
-  track: true
-
-lifx_mini_d_5b9aec:
-  name: LIFX-Mini-D-5B9AEC
-  mac: D0:73:D5:5B:9A:EC
-  icon:
-  picture:
-  track: true
-
-ping_oren_pixel_3:
-  name: ping_oren_pixel_3
-  mac:
-  icon:
-  picture:
-  track: true
-
-d4_f0_57_9f_12_1f:
-  name: d4_f0_57_9f_12_1f
-  mac: D4:F0:57:9F:12:1F
-  icon:
-  picture:
-  track: true
-
-jacob:
-  name: Jacob
-  mac: 7E:07:B7:48:F8:D7
-  icon:
-  picture:
-  track: true
-
-julians_mbp:
-  name: Julians-MBP
-  mac: F0:18:98:38:FB:3F
-  icon:
-  picture:
-  track: true
 
 iphone:
   name: iPhone
@@ -377,24 +331,6 @@ iphone:
   icon:
   picture:
   track: true
-
-ping_test_iphone_8:
-  name: ping_test_iphone_8
-  mac:
-  icon:
-  picture:
-  track: true
-
-homeassistant:
-  name: homeassistant
-  mac: DC:A6:32:37:A7:D5
-  icon:
-  picture:
-  track: false
-
-unknown_80_d2_e5_69_ce_ba:
-  name: unknown_80:d2:e5:69:ce:ba
-  mac: 80:D2:E5:69:CE:BA
-  icon:
-  picture:
-  track: false
+################
+# Last Updated #
+################
