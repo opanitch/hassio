@@ -363,3 +363,24 @@ jacob:
   icon:
   picture:
   track: true
+
+julians_mbp:
+  name: Julians-MBP
+  mac: F0:18:98:38:FB:3F
+  icon:
+  picture:
+  track: true
+
+iphone:
+  name: iPhone
+  mac: E2:C6:75:3F:F4:76
+  icon:
+  picture:
+  track: true
+
+ping_test_iphone_8:
+  name: ping_test_iphone_8
+  mac:
+  icon:
+  picture:
+  track: true
