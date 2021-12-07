@@ -1,6 +1,6 @@
 type: entities
 entities:
-  - device_tracker.oren_pixel_3
-  - device_tracker.jose_iphone
+  # - device_tracker.oren_pixel_3
+  # - device_tracker.jose_iphone
 title: Household Presence
 show_header_toggle: false

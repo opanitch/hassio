@@ -1,8 +1,8 @@
 name: Yariv
 id: !secret yariv_id
 device_trackers:
-  - device_tracker.yariv_ipad
-  - device_tracker.yariv_iphone
-  - device_tracker.yariv_mbp
-  - device_tracker.yariv_nintendo_switch
-  - device_tracker.yariv_oculus
+  # - device_tracker.yariv_ipad
+  # - device_tracker.yariv_iphone
+  # - device_tracker.yariv_mbp
+  # - device_tracker.yariv_nintendo_switch
+  # - device_tracker.yariv_oculus

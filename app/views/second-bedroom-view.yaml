@@ -10,7 +10,7 @@ badges:
 cards:
   - type: entities
     entities:
-      - device_tracker.jose_iphone
+      # - device_tracker.jose_iphone
     title: Is Jose Home?
     show_header_toggle: false
   - type: weather-forecast

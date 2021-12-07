@@ -1,10 +1,10 @@
 ###
 # Device Tracker Settings
 ###
-- platform: quantum_gateway
-  host: !secret router_host
-  # username: !secret router_user
-  password: !secret router_password
-  consider_home: 0:05
-  new_device_defaults:
-    track_new_devices: false
+# - platform: quantum_gateway
+#   host: !secret router_host
+#   # username: !secret router_user
+#   password: !secret router_password
+#   consider_home: 0:05
+#   new_device_defaults:
+#     track_new_devices: false
