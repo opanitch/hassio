@@ -46,11 +46,6 @@
       "name": "Chromecast_1_Livingroom"
     },
     {
-      "ipAddress": "192.168.1.29",
-      "mac": "6c:ad:f8:50:32:72",
-      "name": "Chromecast_2_Office"
-    },
-    {
       "ipAddress": "192.168.1.31",
       "mac": "a4:77:33:f2:7b:74",
       "name": "Chromecast_Audio_1"
@@ -62,7 +57,7 @@
     },
     {
       "ipAddress": "192.168.1.35",
-      "mac": "7c:bb:8a:d6:c7:30",
+      "mac": "80:d2:e5:69:ce:ba",
       "name": "Nintendo_Switch"
     },
     {
@@ -82,8 +77,8 @@
     },
     {
       "ipAddress": "192.168.1.52",
-      "mac": "8c:85:90:80:4d:de",
-      "name": "Comcast_MBP"
+      "mac": "88:66:5a:0a:9d:14",
+      "name": "StarTree-MBP"
     },
     {
       "ipAddress": "192.168.1.53",
@@ -97,23 +92,13 @@
     },
     {
       "ipAddress": "192.168.1.77",
-      "mac": "bc:9f:ef:01:34:3a",
-      "name": "Jose_iPhone"
+      "mac": "62:84:cb:fb:66:84",
+      "name": "JosesiPhone"
     },
     {
-      "ipAddress": "192.168.1.170",
-      "mac": "e4:9a:dc:a3:14:34",
-      "name": "Yariv iPhone"
-    },
-    {
-      "ipAddress": "192.168.1.239",
-      "mac": "a0:56:f3:80:07:04",
-      "name": "iPhone"
-    },
-    {
-      "ipAddress": "192.168.1.246",
-      "mac": "e0:60:66:16:20:83",
-      "name": "VeraPlus"
+      "ipAddress": "192.168.1.81",
+      "mac": "fe:cc:bb:46:af:76",
+      "name": "JosesAppleWatch"
     }
   ]
 }
