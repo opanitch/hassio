@@ -67,15 +67,12 @@ lifx: !include integrations/lights/lifx_config.yaml
 media_player: !include_dir_merge_list integrations/media_players/
 # nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
-remote: !include integrations/remotes/harmony_config.yaml
-# roomba: !include integrations/cleaning/roomba_config.yaml # Did not work, opted for 'vacuum' integration instead
+# roomba: !include integrations/cleaning/roomba_config.yaml # Used Automatic Installation
 sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
-vacuum: !include integrations/cleaning/vacuum_config.yaml
-# vera: !include integrations/zwave/vera_config.yaml
+# vacuum: !include integrations/cleaning/vacuum_config.yaml # Used Automatic Installation
 weather: !include_dir_list integrations/weather/
 zwave: !include integrations/zwave/zwave_config.yaml
-
 ### MQTT Config Section
-mqtt: !include integrations/network/mqtt_config.yaml
-lock: !include integrations/network/mqtt_lock.yaml
+# mqtt: !include integrations/network/mqtt_config.yaml
+# lock: !include integrations/network/mqtt_lock.yaml
