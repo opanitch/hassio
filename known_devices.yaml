@@ -391,3 +391,10 @@ homeassistant:
   icon:
   picture:
   track: false
+
+unknown_80_d2_e5_69_ce_ba:
+  name: unknown_80:d2:e5:69:ce:ba
+  mac: 80:D2:E5:69:CE:BA
+  icon:
+  picture:
+  track: false
