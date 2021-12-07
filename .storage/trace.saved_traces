@@ -2,40 +2,40 @@
     "version": 1,
     "key": "trace.saved_traces",
     "data": {
-        "automation.1585781804427": [
+        "automation.1589589008880": [
             {
                 "extended_dict": {
                     "last_step": "action/0",
-                    "run_id": "0c094d67fc594a689a846c92d6c94268",
+                    "run_id": "c55d12c2b0d563c492cd1ab58f1ec89c",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2021-12-07T04:21:17.578744+00:00",
-                        "finish": "2021-12-07T04:21:17.597243+00:00"
+                        "start": "2021-12-07T12:08:19.079805+00:00",
+                        "finish": "2021-12-07T12:08:19.107403+00:00"
                     },
                     "domain": "automation",
-                    "item_id": "1585781804427",
-                    "trigger": "state of sensor.powder_room_monitor_burglar",
+                    "item_id": "1589589008880",
+                    "trigger": "sunrise",
                     "trace": {
                         "trigger/0": [
                             {
                                 "path": "trigger/0",
-                                "timestamp": "2021-12-07T04:21:17.578999+00:00",
+                                "timestamp": "2021-12-07T12:08:19.079995+00:00",
                                 "changed_variables": {
                                     "this": {
-                                        "entity_id": "automation.powder_room_lights_on",
+                                        "entity_id": "automation.hallway_nightlight_turn_off",
                                         "state": "on",
                                         "attributes": {
-                                            "last_triggered": "2021-12-07T03:58:54.919664+00:00",
+                                            "last_triggered": "2021-12-06T12:07:25.426598+00:00",
                                             "mode": "single",
                                             "current": 0,
-                                            "id": "1585781804427",
-                                            "friendly_name": "Powder Room Lights On"
+                                            "id": "1589589008880",
+                                            "friendly_name": "Hallway Nightlight Turn Off"
                                         },
-                                        "last_changed": "2021-12-07T04:19:03.772449+00:00",
-                                        "last_updated": "2021-12-07T04:19:03.772449+00:00",
+                                        "last_changed": "2021-12-07T04:35:16.316534+00:00",
+                                        "last_updated": "2021-12-07T04:35:16.316534+00:00",
                                         "context": {
-                                            "id": "c6442932c20d9602618851240932e348",
+                                            "id": "db24f12ccaabf848d8ff42d1a6c1bb2c",
                                             "parent_id": null,
                                             "user_id": null
                                         }
@@ -43,92 +43,37 @@
                                     "trigger": {
                                         "id": "0",
                                         "idx": "0",
-                                        "platform": "state",
-                                        "entity_id": "sensor.powder_room_monitor_burglar",
-                                        "from_state": {
-                                            "entity_id": "sensor.powder_room_monitor_burglar",
-                                            "state": "0",
-                                            "attributes": {
-                                                "node_id": 11,
-                                                "value_index": 10,
-                                                "value_instance": 1,
-                                                "value_id": "72057594228523169",
-                                                "unit_of_measurement": "",
-                                                "friendly_name": "Powder Room Monitor Burglar"
-                                            },
-                                            "last_changed": "2021-12-07T04:19:15.346095+00:00",
-                                            "last_updated": "2021-12-07T04:19:15.346095+00:00",
-                                            "context": {
-                                                "id": "d3c120a858d321600d304ad004d8956e",
-                                                "parent_id": null,
-                                                "user_id": null
-                                            }
+                                        "platform": "sun",
+                                        "event": "sunrise",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": 0.0
                                         },
-                                        "to_state": {
-                                            "entity_id": "sensor.powder_room_monitor_burglar",
-                                            "state": "8",
-                                            "attributes": {
-                                                "node_id": 11,
-                                                "value_index": 10,
-                                                "value_instance": 1,
-                                                "value_id": "72057594228523169",
-                                                "unit_of_measurement": "",
-                                                "friendly_name": "Powder Room Monitor Burglar"
-                                            },
-                                            "last_changed": "2021-12-07T04:21:17.571292+00:00",
-                                            "last_updated": "2021-12-07T04:21:17.571292+00:00",
-                                            "context": {
-                                                "id": "57cb4b47113319eaaa9bdf43e4e1e78b",
-                                                "parent_id": null,
-                                                "user_id": null
-                                            }
-                                        },
-                                        "for": null,
-                                        "attribute": null,
-                                        "description": "state of sensor.powder_room_monitor_burglar"
+                                        "description": "sunrise"
                                     }
-                                }
-                            }
-                        ],
-                        "condition/0": [
-                            {
-                                "path": "condition/0",
-                                "timestamp": "2021-12-07T04:21:17.579183+00:00",
-                                "result": {
-                                    "result": true
-                                }
-                            }
-                        ],
-                        "condition/0/entity_id/0": [
-                            {
-                                "path": "condition/0/entity_id/0",
-                                "timestamp": "2021-12-07T04:21:17.579288+00:00",
-                                "result": {
-                                    "result": true,
-                                    "state": "off",
-                                    "wanted_state": "off"
                                 }
                             }
                         ],
                         "action/0": [
                             {
                                 "path": "action/0",
-                                "timestamp": "2021-12-07T04:21:17.581889+00:00",
+                                "timestamp": "2021-12-07T12:08:19.085190+00:00",
                                 "changed_variables": {
                                     "context": {
-                                        "id": "189f000666260e16081fcf560645b587",
-                                        "parent_id": "57cb4b47113319eaaa9bdf43e4e1e78b",
+                                        "id": "04a0d3b1b85fb0b4708365f7ddc48a81",
+                                        "parent_id": null,
                                         "user_id": null
                                     }
                                 },
                                 "result": {
                                     "params": {
                                         "domain": "switch",
-                                        "service": "turn_on",
+                                        "service": "turn_off",
                                         "service_data": {},
                                         "target": {
                                             "device_id": [
-                                                "28703b5969711ef4fe7136c4edeb4cfb"
+                                                "7b0b4fe6b9c656f4c0e67ca65f5a26ca",
+                                                "c264b09466926376bfa7d2860feec206"
                                             ]
                                         }
                                     },
@@ -139,35 +84,24 @@
                         ]
                     },
                     "config": {
-                        "id": "1585781804427",
-                        "alias": "Powder Room Lights On",
+                        "id": "1589589008880",
+                        "alias": "Hallway Nightlight Turn Off",
                         "description": "",
                         "trigger": [
                             {
-                                "entity_id": "sensor.powder_room_monitor_burglar",
-                                "from": "0",
-                                "platform": "state",
-                                "to": "8"
-                            },
-                            {
-                                "entity_id": "sensor.powder_room_monitor_burglar",
-                                "from": "3",
-                                "platform": "state",
-                                "to": "8"
+                                "event": "sunrise",
+                                "platform": "sun"
                             }
                         ],
-                        "condition": [
-                            {
-                                "condition": "state",
-                                "entity_id": "switch.powder_room_switch_1",
-                                "state": "off"
-                            }
-                        ],
+                        "condition": [],
                         "action": [
                             {
-                                "service": "switch.turn_on",
+                                "service": "switch.turn_off",
                                 "target": {
-                                    "device_id": "28703b5969711ef4fe7136c4edeb4cfb"
+                                    "device_id": [
+                                        "7b0b4fe6b9c656f4c0e67ca65f5a26ca",
+                                        "c264b09466926376bfa7d2860feec206"
+                                    ]
                                 }
                             }
                         ],
@@ -175,23 +109,150 @@
                     },
                     "blueprint_inputs": null,
                     "context": {
-                        "id": "189f000666260e16081fcf560645b587",
-                        "parent_id": "57cb4b47113319eaaa9bdf43e4e1e78b",
+                        "id": "04a0d3b1b85fb0b4708365f7ddc48a81",
+                        "parent_id": null,
                         "user_id": null
                     }
                 },
                 "short_dict": {
                     "last_step": "action/0",
-                    "run_id": "0c094d67fc594a689a846c92d6c94268",
+                    "run_id": "c55d12c2b0d563c492cd1ab58f1ec89c",
                     "state": "stopped",
                     "script_execution": "finished",
                     "timestamp": {
-                        "start": "2021-12-07T04:21:17.578744+00:00",
-                        "finish": "2021-12-07T04:21:17.597243+00:00"
+                        "start": "2021-12-07T12:08:19.079805+00:00",
+                        "finish": "2021-12-07T12:08:19.107403+00:00"
                     },
                     "domain": "automation",
-                    "item_id": "1585781804427",
-                    "trigger": "state of sensor.powder_room_monitor_burglar"
+                    "item_id": "1589589008880",
+                    "trigger": "sunrise"
+                }
+            }
+        ],
+        "automation.1587610079072": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "839ee4b640642d955a7a1ac3fca1f69c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-07T12:08:19.080944+00:00",
+                        "finish": "2021-12-07T12:08:19.114379+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1587610079072",
+                    "trigger": "sunrise",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-07T12:08:19.081039+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.exterior_sunrise",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-06T12:07:25.427286+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1587610079072",
+                                            "friendly_name": "Exterior Sunrise"
+                                        },
+                                        "last_changed": "2021-12-07T04:35:16.315735+00:00",
+                                        "last_updated": "2021-12-07T04:35:16.315735+00:00",
+                                        "context": {
+                                            "id": "2ced2c7c870ce12d533e770cf03bd8f5",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "sun",
+                                        "event": "sunrise",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": 0.0
+                                        },
+                                        "description": "sunrise"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-07T12:08:19.086231+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "c54d9a56f88766c3ba1ce0def90d7ceb",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "switch",
+                                        "service": "turn_off",
+                                        "service_data": {},
+                                        "target": {
+                                            "device_id": [
+                                                "32006187b361064b5de53bfb683dc24b",
+                                                "f44c88cfa452208c7c5c3d24e586d7ef"
+                                            ]
+                                        }
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1587610079072",
+                        "alias": "Exterior Sunrise",
+                        "description": "Automate the functionality of the exterior lights to turn off at sunrise.",
+                        "trigger": [
+                            {
+                                "event": "sunrise",
+                                "platform": "sun"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "switch.turn_off",
+                                "target": {
+                                    "device_id": [
+                                        "32006187b361064b5de53bfb683dc24b",
+                                        "f44c88cfa452208c7c5c3d24e586d7ef"
+                                    ]
+                                }
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "c54d9a56f88766c3ba1ce0def90d7ceb",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "839ee4b640642d955a7a1ac3fca1f69c",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-07T12:08:19.080944+00:00",
+                        "finish": "2021-12-07T12:08:19.114379+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1587610079072",
+                    "trigger": "sunrise"
                 }
             }
         ]

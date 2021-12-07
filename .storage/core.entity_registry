@@ -5498,7 +5498,7 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "841 Home Activities",
-                "original_icon": "mdi:remote-tv",
+                "original_icon": "mdi:remote-tv-off",
                 "entity_category": null
             },
             {
