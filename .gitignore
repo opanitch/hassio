@@ -6,9 +6,9 @@ pyozw.sqlite
 secrets.yaml
 .storage/auth*
 .storage/core.config*
-.storage/core.device_registry
-.storage/core.entity_registry
-.storage/mobile_app
+# .storage/core.device_registry
+# .storage/core.entity_registry
+# .storage/mobile_app
 .storage/core.restore_state
 tts/*.mp3
 * copy.*
