@@ -42,8 +42,8 @@ automation: !include automations.yaml
 group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml
-input_number: !include_dir_named app/inputs/number/
-input_select: !include_dir_named app/inputs/select/
+# input_number: !include_dir_named app/inputs/number/
+# input_select: !include_dir_named app/inputs/select/
 ###
 # Config file for People tracked in the House
 # https://www.home-assistant.io/integrations/person/
