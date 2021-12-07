@@ -1,5 +1,199 @@
 {
     "version": 1,
     "key": "trace.saved_traces",
-    "data": {}
+    "data": {
+        "automation.1585781804427": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "0c094d67fc594a689a846c92d6c94268",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-07T04:21:17.578744+00:00",
+                        "finish": "2021-12-07T04:21:17.597243+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1585781804427",
+                    "trigger": "state of sensor.powder_room_monitor_burglar",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2021-12-07T04:21:17.578999+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.powder_room_lights_on",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2021-12-07T03:58:54.919664+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1585781804427",
+                                            "friendly_name": "Powder Room Lights On"
+                                        },
+                                        "last_changed": "2021-12-07T04:19:03.772449+00:00",
+                                        "last_updated": "2021-12-07T04:19:03.772449+00:00",
+                                        "context": {
+                                            "id": "c6442932c20d9602618851240932e348",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "state",
+                                        "entity_id": "sensor.powder_room_monitor_burglar",
+                                        "from_state": {
+                                            "entity_id": "sensor.powder_room_monitor_burglar",
+                                            "state": "0",
+                                            "attributes": {
+                                                "node_id": 11,
+                                                "value_index": 10,
+                                                "value_instance": 1,
+                                                "value_id": "72057594228523169",
+                                                "unit_of_measurement": "",
+                                                "friendly_name": "Powder Room Monitor Burglar"
+                                            },
+                                            "last_changed": "2021-12-07T04:19:15.346095+00:00",
+                                            "last_updated": "2021-12-07T04:19:15.346095+00:00",
+                                            "context": {
+                                                "id": "d3c120a858d321600d304ad004d8956e",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "to_state": {
+                                            "entity_id": "sensor.powder_room_monitor_burglar",
+                                            "state": "8",
+                                            "attributes": {
+                                                "node_id": 11,
+                                                "value_index": 10,
+                                                "value_instance": 1,
+                                                "value_id": "72057594228523169",
+                                                "unit_of_measurement": "",
+                                                "friendly_name": "Powder Room Monitor Burglar"
+                                            },
+                                            "last_changed": "2021-12-07T04:21:17.571292+00:00",
+                                            "last_updated": "2021-12-07T04:21:17.571292+00:00",
+                                            "context": {
+                                                "id": "57cb4b47113319eaaa9bdf43e4e1e78b",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "for": null,
+                                        "attribute": null,
+                                        "description": "state of sensor.powder_room_monitor_burglar"
+                                    }
+                                }
+                            }
+                        ],
+                        "condition/0": [
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2021-12-07T04:21:17.579183+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "condition/0/entity_id/0": [
+                            {
+                                "path": "condition/0/entity_id/0",
+                                "timestamp": "2021-12-07T04:21:17.579288+00:00",
+                                "result": {
+                                    "result": true,
+                                    "state": "off",
+                                    "wanted_state": "off"
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2021-12-07T04:21:17.581889+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "189f000666260e16081fcf560645b587",
+                                        "parent_id": "57cb4b47113319eaaa9bdf43e4e1e78b",
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "switch",
+                                        "service": "turn_on",
+                                        "service_data": {},
+                                        "target": {
+                                            "device_id": [
+                                                "28703b5969711ef4fe7136c4edeb4cfb"
+                                            ]
+                                        }
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1585781804427",
+                        "alias": "Powder Room Lights On",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "entity_id": "sensor.powder_room_monitor_burglar",
+                                "from": "0",
+                                "platform": "state",
+                                "to": "8"
+                            },
+                            {
+                                "entity_id": "sensor.powder_room_monitor_burglar",
+                                "from": "3",
+                                "platform": "state",
+                                "to": "8"
+                            }
+                        ],
+                        "condition": [
+                            {
+                                "condition": "state",
+                                "entity_id": "switch.powder_room_switch_1",
+                                "state": "off"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "service": "switch.turn_on",
+                                "target": {
+                                    "device_id": "28703b5969711ef4fe7136c4edeb4cfb"
+                                }
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "189f000666260e16081fcf560645b587",
+                        "parent_id": "57cb4b47113319eaaa9bdf43e4e1e78b",
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "0c094d67fc594a689a846c92d6c94268",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2021-12-07T04:21:17.578744+00:00",
+                        "finish": "2021-12-07T04:21:17.597243+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1585781804427",
+                    "trigger": "state of sensor.powder_room_monitor_burglar"
+                }
+            }
+        ]
+    }
 }
