@@ -384,3 +384,10 @@ ping_test_iphone_8:
   icon:
   picture:
   track: true
+
+homeassistant:
+  name: homeassistant
+  mac: DC:A6:32:37:A7:D5
+  icon:
+  picture:
+  track: false
