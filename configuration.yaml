@@ -30,8 +30,6 @@ lovelace: !include app/config/ui-config.yaml
 map:
 mobile_app:
 sun:
-updater:
-  include_used_components: true
 system_health:
 logger:
   default: info
@@ -83,4 +81,3 @@ sensor: !include_dir_merge_list integrations/sensors/
 # vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
 weather: !include_dir_list integrations/weather/
-
