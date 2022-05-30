@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 3,
     "key": "core.device_registry",
     "data": {
         "devices": [
@@ -18,6 +19,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "Git pull",
                 "sw_version": "7.13.1",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "b55b4a17d20501348ff11ff0d8215bc4",
                 "via_device_id": null,
@@ -40,7 +42,8 @@
                 "manufacturer": "Home Assistant",
                 "model": "Home Assistant Operating System",
                 "name": "Home Assistant Operating System",
-                "sw_version": "6.6",
+                "sw_version": "8.1",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "2e376cb32fc15153b2eb6d04c4cbb10e",
                 "via_device_id": null,
@@ -64,6 +67,7 @@
                 "model": "Google Home",
                 "name": "Kitchen Assistant",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "50038fc88112a71afee42724c7f665db",
                 "via_device_id": null,
@@ -87,6 +91,7 @@
                 "model": "Chromecast Audio",
                 "name": "Public Broadcast",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "46d90cd35dabd6605513cd703761c999",
                 "via_device_id": null,
@@ -110,6 +115,7 @@
                 "model": "Chromecast",
                 "name": "Master Bedroom TV",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "10fbf3f1e45454c8897838277ba16ca1",
                 "via_device_id": null,
@@ -133,6 +139,7 @@
                 "model": "ZW090 Z-Stick Gen5 US",
                 "name": "AEON Labs ZW090 Z-Stick Gen5 US",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "34a0f3697eb32fd82bd28442dea81369",
                 "via_device_id": null,
@@ -156,6 +163,7 @@
                 "model": "Unknown: type=4952, id=3135",
                 "name": "Jasco Products Unknown: type=4952, id=3135",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "32006187b361064b5de53bfb683dc24b",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -179,6 +187,7 @@
                 "model": "14291 In-Wall Smart Switch",
                 "name": "Jasco Products 14291 In-Wall Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "b98130e22bb5469e2ff1df6425758659",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -202,6 +211,7 @@
                 "model": "14288 Duplex Receptacle",
                 "name": "Jasco Products 14288 Duplex Receptacle",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "281f6149d9a231587d3e767319043bd3",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -225,6 +235,7 @@
                 "model": "DZ15S-1BZ Decora Smart Switch",
                 "name": "Leviton DZ15S-1BZ Decora Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "dec92850d43b5604e907bf5373aa7df4",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -248,6 +259,7 @@
                 "model": "ZW100 MultiSensor 6",
                 "name": "AEON Labs ZW100 MultiSensor 6",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "28b349929830d568dd9eada3f22cf16d",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -271,6 +283,7 @@
                 "model": "46201 In-Wall Smart Switch",
                 "name": "Jasco Products 46201 In-Wall Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "f44c88cfa452208c7c5c3d24e586d7ef",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -294,6 +307,7 @@
                 "model": "14288 Duplex Receptacle",
                 "name": "Jasco Products 14288 Duplex Receptacle",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "c264b09466926376bfa7d2860feec206",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -317,6 +331,7 @@
                 "model": "14288 Duplex Receptacle",
                 "name": "Jasco Products 14288 Duplex Receptacle",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "7b0b4fe6b9c656f4c0e67ca65f5a26ca",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -340,6 +355,7 @@
                 "model": "ZW100 MultiSensor 6",
                 "name": "AEON Labs ZW100 MultiSensor 6",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "b07f3c6bb68d284d61c5a72b456a14c3",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -363,6 +379,7 @@
                 "model": "46201 In-Wall Smart Switch",
                 "name": "Jasco Products 46201 In-Wall Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "6ebac9eae82ce603cec808ea95548349",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -386,6 +403,7 @@
                 "model": "SmartCode 914 Z-Wave Plus",
                 "name": "Kwikset (Spectrum Brands) SmartCode 914 Z-Wave Plus",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "b74e8bd539c973ec801269fedb6ba031",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -408,7 +426,8 @@
                 "manufacturer": "Official add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "Terminal & SSH",
-                "sw_version": "9.2.1",
+                "sw_version": "9.3.0",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "ef9e84bf833c9f57800eda2f722e69c5",
                 "via_device_id": null,
@@ -437,6 +456,7 @@
                 "model": "LIFX Mini White to Warm",
                 "name": "Front Bathroom Ceiling 2",
                 "sw_version": "3.60",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ab40cdbc27c8e76264154e1a88b6e098",
                 "via_device_id": null,
@@ -465,6 +485,7 @@
                 "model": "LIFX Mini White to Warm",
                 "name": "Front Bathroom Ceiling 1",
                 "sw_version": "3.60",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "2c16e30f0553a5752f408ae31d7656f1",
                 "via_device_id": null,
@@ -487,7 +508,8 @@
                 "manufacturer": "Google",
                 "model": "Pixel 3",
                 "name": "Pixel 3",
-                "sw_version": "11",
+                "sw_version": "12",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "4c7c40d9f4c18373a8988cd53bb392f1",
                 "via_device_id": null,
@@ -511,6 +533,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "Z-Wave JS",
                 "sw_version": "0.1.36",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "d51b86e42b774b91dc74ded44330db53",
                 "via_device_id": null,
@@ -533,7 +556,8 @@
                 "manufacturer": "Official add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "NGINX Home Assistant SSL proxy",
-                "sw_version": "3.0.2",
+                "sw_version": "3.1.1",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "bd9f9bbe64a2837f41ff13e67b7288d1",
                 "via_device_id": null,
@@ -557,6 +581,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "Mosquitto broker",
                 "sw_version": "6.0.1",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "8d999f99a7c4b8176be085c559dfcf16",
                 "via_device_id": null,
@@ -578,8 +603,9 @@
                 ],
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
-                "name": "AppDaemon 4",
-                "sw_version": "0.6.2",
+                "name": "AppDaemon",
+                "sw_version": "0.8.2",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "d0eb2453f7044be40f0595a6c9e70f71",
                 "via_device_id": null,
@@ -603,6 +629,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "Z-Wave JS to MQTT",
                 "sw_version": "0.23.5",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "0ae7f4409cfa549782863fbe4f118bdc",
                 "via_device_id": null,
@@ -625,7 +652,8 @@
                 "manufacturer": "Home Assistant Community Add-ons",
                 "model": "Home Assistant Add-on",
                 "name": "AirCast",
-                "sw_version": "3.2.0",
+                "sw_version": "3.3.0",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "30c18b9d18f8629b49a76ddd523db51d",
                 "via_device_id": null,
@@ -649,6 +677,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "SSH & Web Terminal",
                 "sw_version": "9.1.1",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "13c991e9e40f8afc90b619940bb6d806",
                 "via_device_id": null,
@@ -677,6 +706,7 @@
                 "model": "LIFX Mini Color",
                 "name": "Front Bedroom Fan 1",
                 "sw_version": 3.6,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "e2a96fcfc04833d4b540b0cf07df5d5f",
                 "via_device_id": null,
@@ -700,6 +730,7 @@
                 "model": "46201 In-Wall Smart Switch",
                 "name": "Jasco Products 46201 In-Wall Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "436cd11b41807c486456f21b7ed1eb39",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -723,6 +754,7 @@
                 "model": "46201 In-Wall Smart Switch",
                 "name": "Jasco Products 46201 In-Wall Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "28703b5969711ef4fe7136c4edeb4cfb",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -746,6 +778,7 @@
                 "model": "Unknown: type=4944, id=3235",
                 "name": "Jasco Products Unknown: type=4944, id=3235",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "55130f13254b30007b513b8ad6498869",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -769,6 +802,7 @@
                 "model": "DZ15S-1BZ Decora Smart Switch",
                 "name": "Leviton DZ15S-1BZ Decora Smart Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "7dfe5932b53a350a6d81a9d1914fe5cd",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -792,6 +826,7 @@
                 "model": "Unknown: type=0037, id=0002",
                 "name": "Leviton Unknown: type=0037, id=0002",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "612e62f3f7d2befd5233cbb72901c711",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
@@ -820,6 +855,7 @@
                 "model": "LIFX Mini Color",
                 "name": "LIFX Mini 3A3C40",
                 "sw_version": 3.6,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "2a532b4dbcd94ac0ae576d4f087bb2da",
                 "via_device_id": null,
@@ -836,6 +872,10 @@
                     [
                         "mac",
                         "d0:73:d5:6c:ee:8c"
+                    ],
+                    [
+                        "mac",
+                        "d0:73:d5:6c:ee:8d"
                     ]
                 ],
                 "identifiers": [
@@ -847,7 +887,8 @@
                 "manufacturer": "LIFX",
                 "model": "LIFX BR30 Night Vision",
                 "name": "Front Bedroom 1",
-                "sw_version": 3.7,
+                "sw_version": "3.70",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "bf736129a62605b51b8ee8352bbc28d9",
                 "via_device_id": null,
@@ -863,6 +904,10 @@
                 "connections": [
                     [
                         "mac",
+                        "d0:73:d5:6b:4d:6d"
+                    ],
+                    [
+                        "mac",
                         "d0:73:d5:6b:4d:6c"
                     ]
                 ],
@@ -875,7 +920,8 @@
                 "manufacturer": "LIFX",
                 "model": "LIFX BR30 Night Vision",
                 "name": "Front Bedroom 3",
-                "sw_version": 3.7,
+                "sw_version": "3.70",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "eac4fd030065a46659e71f278c6aeb2a",
                 "via_device_id": null,
@@ -892,6 +938,10 @@
                     [
                         "mac",
                         "d0:73:d5:6c:ef:5f"
+                    ],
+                    [
+                        "mac",
+                        "d0:73:d5:6c:ef:60"
                     ]
                 ],
                 "identifiers": [
@@ -903,7 +953,8 @@
                 "manufacturer": "LIFX",
                 "model": "LIFX BR30 Night Vision",
                 "name": "Front Bedroom 2",
-                "sw_version": 3.7,
+                "sw_version": "3.70",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "c8c3e10d92a998f1912a00795a19d9ab",
                 "via_device_id": null,
@@ -920,6 +971,10 @@
                     [
                         "mac",
                         "d0:73:d5:6c:8d:4a"
+                    ],
+                    [
+                        "mac",
+                        "d0:73:d5:6c:8d:4b"
                     ]
                 ],
                 "identifiers": [
@@ -931,7 +986,8 @@
                 "manufacturer": "LIFX",
                 "model": "LIFX BR30 Night Vision",
                 "name": "Front Bedroom 4",
-                "sw_version": 3.7,
+                "sw_version": "3.70",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "45667a05272fa604eff45f2fed996e20",
                 "via_device_id": null,
@@ -954,7 +1010,8 @@
                 "manufacturer": "Plex",
                 "model": "Plex Media Server",
                 "name": "Drobo5N",
-                "sw_version": "1.24.3.5033-757abe6b4",
+                "sw_version": "1.25.8.5663-e071c3d62",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "1e466a5e51b31587b35f837d70d92336",
                 "via_device_id": null,
@@ -978,6 +1035,7 @@
                 "model": "Plex for Android (TV)",
                 "name": "Plex (JennyFretta - Plex for Android (TV) - AFTT)",
                 "sw_version": "8.21.1.27073",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "42b0f1159d5d67a01cd3855baac5740e",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1000,7 +1058,8 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Plex for Xbox - ONEELITE)",
-                "sw_version": "5.28.2",
+                "sw_version": "5.34.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "855adb58b7f160ae274add3fbeaa6cf2",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1024,6 +1083,7 @@
                 "model": "Plex Cast",
                 "name": "Plex (daveyayoh - Plex Cast - Chromecast)",
                 "sw_version": "4.54.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "9fdddd8733585b6471d019e214b124f8",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1045,8 +1105,9 @@
                 ],
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
-                "name": "Plex (Stand_Up_Penguin - Plex for Android (TV) - Chromecast)",
-                "sw_version": "8.23.1.28053",
+                "name": "Plex (Stand_Up_Penguin - Plex for Android (TV) - Chromecast Google TV)",
+                "sw_version": "9.2.1.32664",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "d5414d4b1e46e5c03fffda3dd6bf5cfb",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1069,7 +1130,8 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Stand_Up_Penguin - Plex for Xbox - XBOXONE)",
-                "sw_version": "5.23.1",
+                "sw_version": "5.38.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5366d0f114c4b8266610c618bf3df677",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1085,19 +1147,28 @@
                 "connections": [
                     [
                         "mac",
+                        "00:17:88:01:01:63:91:28"
+                    ],
+                    [
+                        "mac",
                         "00:17:88:23:91:28"
                     ]
                 ],
                 "identifiers": [
                     [
                         "hue",
-                        "001788FFFE239128"
+                        "001788fffe239128"
+                    ],
+                    [
+                        "hue",
+                        "7b70e68f-4305-43dd-85d9-b38050f458a8"
                     ]
                 ],
-                "manufacturer": "Signify",
+                "manufacturer": "Signify Netherlands B.V.",
                 "model": "BSB002",
                 "name": "841 N 4th",
-                "sw_version": "1948086000",
+                "sw_version": "1.51.1951086030",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5e2e3ebdd9c58092565e741d5a39e6cb",
                 "via_device_id": null,
@@ -1110,17 +1181,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:46:6c:0f"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:46:6c:0f-0b"
+                        "d4f6b605-be59-411c-83da-8849cb65801e"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWB006)",
                 "name": "Powder Room 1",
-                "sw_version": "5.130.1.30000",
+                "sw_version": "130.1.30000",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "d0ecb560ff75cbfc25cac75403b36e52",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1133,17 +1210,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:30:bf:e4"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:30:bf:e4-0b"
+                        "2588f9b0-a6bb-4448-aec5-c353b833f85b"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWB006)",
                 "name": "Powder Room 2",
-                "sw_version": "5.130.1.30000",
+                "sw_version": "130.1.30000",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5295319a041d40dfbc690f9e04ea9fd1",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1156,17 +1239,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:50:63:ba"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:50:63:ba-0b"
+                        "79456329-b550-43c0-9618-66db92b695d4"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWB006)",
                 "name": "Master Bedroom Lamp",
-                "sw_version": "5.130.1.30000",
+                "sw_version": "130.1.30000",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "cf87d3543d55b2885f14b6131e415d2f",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1179,17 +1268,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:57:34:d2"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:57:34:d2-0b"
+                        "b35ea0ba-74ed-4e41-9c38-2ca8f7f77402"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWB006)",
                 "name": "Master Bathroom 4",
-                "sw_version": "5.130.1.30000",
+                "sw_version": "130.1.30000",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "e6a18dbebab5006c35838c3a74e21ca0",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1202,17 +1297,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:44:a8:36"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:44:a8:36-0b"
+                        "c2c8cdcb-4dfa-4308-8632-b7d35f6c7fe8"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color lamp",
+                "model": "Hue color lamp (LCT007)",
                 "name": "Master Bathroom 2",
                 "sw_version": "67.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "3b57c02fe8c6daca460475f984fe8453",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1225,17 +1326,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:41:d4:09"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:41:d4:09-0b"
+                        "32586d25-651d-449d-aed0-25b8c9b0a615"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color lamp",
+                "model": "Hue color lamp (LCT007)",
                 "name": "Master Bedroom 1",
                 "sw_version": "67.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "7824899e626e56a39d1c8f166035f5c1",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1248,17 +1355,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3e:47"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3e:47-0b"
+                        "b8793654-f620-45b2-bc9b-93a55f89eac0"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Living Room Right 2",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "2b2f38e6d78f0014dcfe49d6c7fc6a5a",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1271,17 +1384,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:56:f4:f2"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:56:f4:f2-0b"
+                        "92524cfa-24a1-453f-a9df-25085cd115b7"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color lamp",
+                "model": "Hue color lamp (LCT007)",
                 "name": "Master Bedroom 3",
                 "sw_version": "67.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ba36e7ade05a1b4e69e93a15bd570b14",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1294,17 +1413,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:10:44:13:38"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:10:44:13:38-0b"
+                        "13b5d5ff-5e8d-4f54-a199-08d64fc5552a"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color lamp",
+                "model": "Hue color lamp (LCT007)",
                 "name": "Master Bedroom 2",
                 "sw_version": "67.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ac5f326435ec79fb498736d084b98368",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1317,17 +1442,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3e:fa"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3e:fa-0b"
+                        "fc5bdeac-2d56-490e-a26d-67e486846269"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Living Room Right 3",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5eb3433c98589530bdf29162178bb4c1",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1340,17 +1471,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3a:15"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3a:15-0b"
+                        "c292de51-db48-4f1f-a388-a78045bfcef6"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Living Room Left 2",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "3570cec02347ff0d97aa7670a3718ab7",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1363,17 +1500,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3e:6c"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3e:6c-0b"
+                        "b527696d-50db-4aed-a2a3-3e214c5038d6"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Living Room Right 1",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "0f38288280abf4d5172664ff18a5483c",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1386,17 +1529,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3c:4e"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3c:4e-0b"
+                        "f13369a7-a8a5-4197-9fa0-2d78f66effb0"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Living Room Left 1",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "11c988e18475a1b92a2d43d019718b34",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1409,17 +1558,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:02:76:3d:d3"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:02:76:3d:d3-0b"
+                        "d7c0ceed-f9b2-4438-b1f1-338e2c7de511"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance downlight",
+                "model": "Hue ambiance downlight (LTW011)",
                 "name": "Kitchen Window",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "7c25e7d82e13a4b2120842370e27879b",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1432,17 +1587,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:04:44:f1:87"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:04:44:f1:87-0b"
+                        "737fad6a-d738-4383-975f-94cd832fcf46"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Master Bedroom Fan 1",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "52c53a0df08d39bcec19f3d23d451b8f",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1455,17 +1616,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:03:9f:6c:e3"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:03:9f:6c:e3-0b"
+                        "a2ab81c9-e324-49b7-b7c4-dbdc76b8eddd"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Master Bedroom Fan 2",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "65c6a27a8280b9164b8fa0772690bc6e",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1478,17 +1645,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:04:44:f3:80"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:04:44:f3:80-0b"
+                        "d53ce4e3-99ed-41e6-a0d3-fba2d36a5b3f"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Master Bedroom Fan 3",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "be1c1678f5992e0b6255e4eabe8ac714",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1501,17 +1674,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:75:e8:a4"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:08:75:e8:a4-0b"
+                        "fa62d686-53a2-46b6-aebf-5571b5fadaac"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white Lamp",
+                "model": "Hue white Lamp (LWA007)",
                 "name": "Master Bathroom 3",
-                "sw_version": "1.88.2",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "8ff07de3e3cadd1006de05521d9c51d0",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1524,17 +1703,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:c0:2d:fd"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:c0:2d:fd-0b"
+                        "b90a917f-4201-4a58-b281-5f38f7a16350"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue filament bulb",
+                "model": "Hue filament bulb (LWA005)",
                 "name": "Living Room Lamp 1",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "487b1921e673eac8b31e3064b4c37283",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1547,17 +1732,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:c0:5d:13"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:c0:5d:13-0b"
+                        "959b237d-f2f7-4843-b095-55e704d0168b"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue filament bulb",
+                "model": "Hue filament bulb (LWA005)",
                 "name": "Living Room Lamp 2",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "a8b9ed0d6d32f2a10bdca741e8bd46f4",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1570,17 +1761,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:75:fc:0e"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:08:75:fc:0e-0b"
+                        "f3a94d03-b477-4274-8ce4-f87586a94d0a"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white Lamp",
+                "model": "Hue white Lamp (LWA007)",
                 "name": "Master Bathroom 1",
-                "sw_version": "1.88.2",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "872028076586e9c100a8afd9745cf4d0",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1593,17 +1790,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:da:78:19"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:da:78:19-0b"
+                        "fbe8494c-c29a-4a27-8c63-042c95957482"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWA002)",
                 "name": "Back Stoop",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "e72bb4040c082ba0dd083ac4ae5eb12e",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1616,17 +1819,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:a9:f2:74"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:a9:f2:74-0b"
+                        "7ec81a72-cb60-4f4d-be42-41490270036a"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue white lamp",
+                "model": "Hue white lamp (LWA002)",
                 "name": "Front Stoop",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5ff1104372fd3dd1059beecaf386a322",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1639,17 +1848,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:5c:1b:46"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:5c:1b:46-0b"
+                        "c62f8c58-94fa-43f3-8407-f954f8c32d2c"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance lamp",
+                "model": "Hue ambiance lamp (LTA002)",
                 "name": "Kitchen 1",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "3906238a43011beba05c78f741e739af",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1662,17 +1877,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:3a:ec:de"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:3a:ec:de-0b"
+                        "a3a9c752-bc3b-451c-ae06-90fc91811f93"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue ambiance lamp",
+                "model": "Hue ambiance lamp (LTA002)",
                 "name": "Kitchen 2",
-                "sw_version": "1.90.1",
+                "sw_version": "1.93.7",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "c3f9518557bbc14870db3defe1f67108",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1685,17 +1906,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:06:ef:a0:0e"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:06:ef:a0:0e-0b"
+                        "d0cde6c0-73b7-4894-967a-b44728eb36ab"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Floor Lamp 1",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "5f14307099406bc211546a3bfe0dd75b",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1708,17 +1935,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:69:14:8a"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:08:69:14:8a-0b"
+                        "459e8d07-2e8a-4b35-b67a-99cd0b89100c"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Floor Lamp 3",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "262f22da86e406f73aa88e8843dffe04",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1731,17 +1964,23 @@
                 "config_entries": [
                     "722f60d99596005e1c4a87fcf556da38"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:01:08:69:19:f3"
+                    ]
+                ],
                 "identifiers": [
                     [
                         "hue",
-                        "00:17:88:01:08:69:19:f3-0b"
+                        "43b9bb05-790b-4a1c-a760-3e9af4ae4251"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "Hue color candle",
+                "model": "Hue color candle (LCT012)",
                 "name": "Floor Lamp 2",
                 "sw_version": "1.88.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "22406fc4e5a6c2a430bde3c691c0f1a2",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1764,7 +2003,8 @@
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
-                "sw_version": "8.22.0.27533",
+                "sw_version": "9.0.6.31998",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ee2dcb9e401347e26d2e3eccc2b99625",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1787,7 +2027,8 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (daveyayoh - Plex for Xbox - XBOXONE)",
-                "sw_version": "5.23.1",
+                "sw_version": "5.29.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "504c4c44940b2f99bb5c2435599ef779",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1811,6 +2052,7 @@
                 "model": "Plex Clients",
                 "name": "Plex Client Service",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "cc75d87e41fca026228b11d4c09aa741",
                 "via_device_id": null,
@@ -1832,8 +2074,9 @@
                 ],
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
-                "name": "Plex (tub79385@temple.edu - Plex for Android (TV) - BRAVIA 4K GB)",
+                "name": "Plex (tub74 - Plex for Android (TV) - BRAVIA 4K GB)",
                 "sw_version": "8.14.0.23432",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "393cb2fc88a07703cea63d09e8afef60",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1857,6 +2100,7 @@
                 "model": "Plex for LG",
                 "name": "Plex (jdyankee5 - Plex for LG - LG 65UK6300PUE)",
                 "sw_version": "5.23.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "b9237887a0c13c6689de1e06e8fc94f3",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1880,6 +2124,7 @@
                 "model": "Plex for LG",
                 "name": "Plex (Plex for LG - LG 55NANO85UNA)",
                 "sw_version": "5.23.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "d762891cf9bc9018d15887fc2d86ed96",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1903,6 +2148,7 @@
                 "model": "Plex Media Player",
                 "name": "Plex (jbarufkin - Plex Media Player - DESKTOP-4RRV510)",
                 "sw_version": "4.29.2",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "62608d59a94abd56f098d2c8d98f153c",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1926,6 +2172,7 @@
                 "model": "Home Assistant Add-on",
                 "name": "Duck DNS",
                 "sw_version": "1.14.0",
+                "hw_version": null,
                 "entry_type": "service",
                 "id": "7656852a440d806c0cd20ef511ff8794",
                 "via_device_id": null,
@@ -1948,7 +2195,8 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Plex for Xbox - XBOX)",
-                "sw_version": "5.22.1",
+                "sw_version": "5.36.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "c15626feec7be131def2b0601ed7eab9",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -1972,6 +2220,7 @@
                 "model": "iPhone10,1",
                 "name": "iPhone",
                 "sw_version": "14.8",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ca218aac54ea1d18d97e7167cf833c29",
                 "via_device_id": null,
@@ -1994,7 +2243,8 @@
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (rpanitch - Plex for Android (TV) - AFTR)",
-                "sw_version": "8.22.0.27533",
+                "sw_version": "9.2.0.32520",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "b528665b7970efec99e58cd7156690e0",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2017,7 +2267,8 @@
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (panitchCast - Plex for Android (TV) - BRAVIA 4K GB ATV3)",
-                "sw_version": "8.22.0.27533",
+                "sw_version": "8.29.0.30433",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "8926d5a762b6dadf591f3591ff220c98",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2041,6 +2292,7 @@
                 "model": "Plex Cast",
                 "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
                 "sw_version": "4.54.1",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "f226e12ad33eca100a8a7f50618536bc",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2064,6 +2316,7 @@
                 "model": "Plex for Windows",
                 "name": "Plex (Plex for Windows - Stormtrooper)",
                 "sw_version": "3.2.20.0",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "f25736ee91b003b9e9c1253341837591",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2086,7 +2339,8 @@
                 "manufacturer": "Plex",
                 "model": "Plex for Android (Mobile)",
                 "name": "Plex (Plex for Android (Mobile) - Pixel 3)",
-                "sw_version": "8.23.1.28053",
+                "sw_version": "9.1.0.32210",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "03ac9838f7e3970b7f4fca7b61905870",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2110,10 +2364,11 @@
                 "model": "ZW116 Nano Switch",
                 "name": "AEON Labs ZW116 Nano Switch",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "cb66660999596f80cf526eda038259bd",
                 "via_device_id": "34a0f3697eb32fd82bd28442dea81369",
-                "area_id": null,
+                "area_id": "97e7a51c924a49339cf6c2ce75f79f87",
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
@@ -2138,10 +2393,11 @@
                 "model": "R890020",
                 "name": "Maria",
                 "sw_version": "3.5.62+95",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "1a743b337583a7606213ba0fe3ffba16",
                 "via_device_id": null,
-                "area_id": null,
+                "area_id": "b07e933677b74f6e8297b7447ea52bc5",
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
@@ -2159,13 +2415,14 @@
                 "identifiers": [
                     [
                         "upnp",
-                        "uuid:46dd8b89-a2c4-453e-8357-96098263dadc"
+                        "uuid:46dd8b89-a2c4-453e-8357-96098263dadc::urn:schemas-upnp-org:device:InternetGatewayDevice:2"
                     ]
                 ],
                 "manufacturer": "Verizon",
                 "model": "G3100",
                 "name": "Fios Router",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "96c53bfd213ec2a5dfb6a63a24978029",
                 "via_device_id": null,
@@ -2188,14 +2445,15 @@
                 "manufacturer": "Logitech",
                 "model": "Harmony Hub",
                 "name": "841 Home",
-                "sw_version": "4.15.290",
+                "sw_version": "4.15.307",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "ce7f90f4d2e6f1ae6a0d6e2795c14bd6",
                 "via_device_id": null,
                 "area_id": "b07e933677b74f6e8297b7447ea52bc5",
                 "name_by_user": null,
                 "disabled_by": null,
-                "configuration_url": null
+                "configuration_url": "https://www.logitech.com/en-us/my-account"
             },
             {
                 "config_entries": [
@@ -2217,6 +2475,7 @@
                 "model": "Xbox One",
                 "name": "ONEELITE",
                 "sw_version": null,
+                "hw_version": null,
                 "entry_type": null,
                 "id": "76bfd9d4ea902aed84d9de899dd95583",
                 "via_device_id": null,
@@ -2240,6 +2499,7 @@
                 "model": "Plex for Android (TV)",
                 "name": "Plex (ywolok - Plex for Android (TV) - BRAVIA 4K GB)",
                 "sw_version": "8.26.2.29389",
+                "hw_version": null,
                 "entry_type": null,
                 "id": "64672494080a8ed98e37168b8a6088fe",
                 "via_device_id": "1e466a5e51b31587b35f837d70d92336",
@@ -2247,6 +2507,966 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "krp5k3rk42srofseq7c1331l"
+                    ]
+                ],
+                "manufacturer": "PlayStation",
+                "model": "Plex for PlayStation 5",
+                "name": "Plex (ywolok - Plex for PlayStation 5 - PS5-YarivWolok)",
+                "sw_version": "5.37.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "54c904fa91788629b0e2bf2b16a6147e",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "e3dmxsj2vbmmpbmmzepogwmx"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (ywolok - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4b483a9c71a80feb75b11709a9df7968",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "6356ae88a7a451c15c5292230a77e3aa"
+                    ]
+                ],
+                "manufacturer": "Roku",
+                "model": "Plex for Roku",
+                "name": "Plex (stephanie.dottaviano@gmail.com - Plex for Roku - Steph and Ameen TV)",
+                "sw_version": "6.9.12.7411-08dc87cc9-Plex",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f0f8f46dd04a4eaa778e7eeb99cdcfb0",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "6fa106c8da41e901fe4b8e9725919d63"
+                    ]
+                ],
+                "manufacturer": "Roku",
+                "model": "Plex for Roku",
+                "name": "Plex (halman1321 - Plex for Roku - Roku Ultra)",
+                "sw_version": "7.0.9.7701-ae32f86af-Plex",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "cf318718897940a824b2937a4d7bca99",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "y8fybwizk3pt4y8ttoudsobi"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (Stand_Up_Penguin - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5a60921d5d7211e97c3bf6635e04c699",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "D5BAA5BF-5B58-4B66-8D0D-68472144A4FC"
+                    ]
+                ],
+                "manufacturer": "iOS",
+                "model": "Plex for iOS",
+                "name": "Plex (jbarufkin - Plex for iOS - Jake\u2019s iPad)",
+                "sw_version": "8.2",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "79314407ddea71c37a9ed5aba95b4794",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "ggu433v99kvqc5zsv07ax341"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "555bcffef3e4b74f6a0159e55383b492",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "hb4wqwhcswfnf8c9atdrelxu"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b4ba15e60b06ad38abee34e082fbf89c",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "bezwbkt49zm3ophyna168y9l"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5837be8f603481663a5963a093085053",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "e8c8ga0p0in5yeggztppitzf"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1fde101151118293f59080a439b39c82",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "m6jqhdc9c4htfhnxo2im3qwx"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (jdyankee5 - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "937e34605ea2464c79c76aa14fa0a630",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "0e6ojmizrqtf6mswabsx3tbk"
+                    ]
+                ],
+                "manufacturer": "webOS",
+                "model": "Plex for LG",
+                "name": "Plex (gregory238 - Plex for LG - LG OLED65G1PUA)",
+                "sw_version": "5.36.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4018ba2347006d3116fb8715c7414604",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "qoozb9hzix8o6bi4w6cnjwfy"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (ben.olen.25@gmail.com - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ccf1e99d5d70a1360fff0bdb668c3670",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "1627D861-1DCF-406D-94C5-3D24F8B10562"
+                    ]
+                ],
+                "manufacturer": "tvOS",
+                "model": "Plex for Apple TV",
+                "name": "Plex (jmpas0 - Plex for Apple TV - Smoother AppTV)",
+                "sw_version": "8.3",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "38907faaaf62bf6e6a0f97c6426a4381",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "D1BA8BFB-5DD8-4E83-ADFC-FCFD0D29989E"
+                    ]
+                ],
+                "manufacturer": "iOS",
+                "model": "Plex for iOS",
+                "name": "Plex (jbarufkin - Plex for iOS - Jake\u2019s iPhone (2))",
+                "sw_version": "8.2",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "fc72cf4fd2ee3e39c1acf962effb63f5",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "9u7741v6lx3pwv9r5q152q8b"
+                    ]
+                ],
+                "manufacturer": "Xbox",
+                "model": "Plex for Xbox",
+                "name": "Plex (daveyayoh - Plex for Xbox - XBOX)",
+                "sw_version": "5.37.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f6a97efcb5bef7a01e86fccd7335bf13",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "8bc0dee706e23ed4-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Android",
+                "model": "Plex for Android (Mobile)",
+                "name": "Plex (ben.olen.25@gmail.com - Plex for Android (Mobile) - SM-G991U)",
+                "sw_version": "8.29.0.30433",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9867b90ff33db579224da9f5dd43b6e9",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "119BA4B4-9E71-48AB-896A-68FBD01D1839"
+                    ]
+                ],
+                "manufacturer": "iOS",
+                "model": "Plex for iOS",
+                "name": "Plex (jdyankee5 - Plex for iOS - John Fretta\u2019s iPad)",
+                "sw_version": "7.27",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d8d18ac6b986c3cb2003f575f6e8ddc7",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "70f545ac5deeee54-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Android",
+                "model": "Plex for Android (TV)",
+                "name": "Plex (ywolok - Plex for Android (TV) - BRAVIA 4K GB ATV3)",
+                "sw_version": "8.26.2.29389",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "811ce0d128564f52d4c341163492fecb",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "xqz1i5cmo89nxab2l70s87ue"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (ywolok - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "ee48b97475e49dd6bc6722cc33f53c61",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "840a0b1091aa0c6b837c8566f8aa8ede"
+                    ]
+                ],
+                "manufacturer": "Roku",
+                "model": "Plex for Roku",
+                "name": "Plex (gregory238 - Plex for Roku - Roku Streaming Stick+)",
+                "sw_version": "7.0.8.7673-f20307f68-Plex",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "fc04baadd11f9036c891a9dd8f55730d",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "831d3f4dd13117b8-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Android",
+                "model": "Plex for Android (TV)",
+                "name": "Plex (jdyankee5 - Plex for Android (TV) - AFTSSS)",
+                "sw_version": "8.30.2.31202",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "c2d2111d66e7e117437b2d41ee3a7be9",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "0B58F050-92E2-456F-9AB6-E79BE50B0D37"
+                    ]
+                ],
+                "manufacturer": "tvOS",
+                "model": "Plex for Apple TV",
+                "name": "Plex (kei4 - Plex for Apple TV - Apple TV)",
+                "sw_version": "8.3",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8815fd6063620fb31a186cde30ee02c7",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "d7a79084aa65080d6b208a380754564b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "1fabad2f0b94496a98acbac0d3038e28"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Cast Group",
+                "name": "First Floor",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3fdd19ee18f27877779d5653591d978c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "914C5F56-148C-4970-A672-3B855F4251AF"
+                    ]
+                ],
+                "manufacturer": "iOS",
+                "model": "Plex for iOS",
+                "name": "Plex (panitchCast - Plex for iOS - Howie\u2019s iPhone)",
+                "sw_version": "8.1.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b68deceb52fdf76c141c104f01b577e7",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "wpaij2d6lgfxu5tz1i8rsi28"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a7b960d4c9fd066b6163d4d9a163c63e",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "jhchdc2mzdvaq"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Samsung",
+                "name": "Plex (Plex for Samsung - TV UN40J5200)",
+                "sw_version": "2.012",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1d3c114a9281ead28810d82cc767b4c6",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "f36c37a74a9525cc442261aaed8ab2cb"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0EC8C2CF-F127-432F-A387-769303EBDB29"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone14,2",
+                "name": "Jose (2)",
+                "sw_version": "15.5",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d5d7c57ed57fd7e8ba145ee8a38bae56",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": "Jose iPhone",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0fcc267287eccaaddf0a1db0f1956fb1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Core",
+                "name": "Home Assistant Core",
+                "sw_version": "2022.5.5",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "8f434c039ecb29256b7b0d0c9c7b1fd6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "0fcc267287eccaaddf0a1db0f1956fb1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "supervisor"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Supervisor",
+                "name": "Home Assistant Supervisor",
+                "sw_version": "2022.05.3",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "3dd887e402254f1a06ce3d42d30f5ec2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "644165c8-662b-4ef4-9fa0-ac97e4c86d4b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Master Bedroom",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "0d4ed253e1d1b73807e618b459b0fda4",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "d9eb05e397a64ab58dac56e0c81f7bd4",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "329bde73-aabb-4a7c-a4e0-41e9eef0d82f"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Zone",
+                "name": "Upstairs",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "b766539006989f2e142ae07c89332cb1",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "932b565b-a0f6-4c63-a006-619fd7408276"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Exterior Rear",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "b9cfe9673bc0c587e7d5ec854bb692f2",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "2abdb45a3b684067855d330094e9b2e7",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "b77649ae-187d-4b00-9c7f-c4560f28fe6a"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Living Room",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "b198c5cee412eadc373f514a3a7477b4",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "b07e933677b74f6e8297b7447ea52bc5",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "30da60a2-4a96-47f3-971c-38f82f5a6297"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Master Bathroom",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "27f5e4e5b0207c7e17f46d3b1df5c5d7",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "8a9faefa025a4aab81473269674ffbbc",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "531f8378-6d93-4e53-9975-68c5176bbcdd"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Powder Room",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "10f9208118dc8a60f530186b0b263ac7",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "5365fc54929a421e8b28703a6237d97b",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "c53c61e8-1a65-40ff-aef6-ee93e460185f"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Zone",
+                "name": "Downstairs",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "7a3372897960a362e04c099276696c04",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "09f79a8a-8b64-4771-8ece-007f7d10b87a"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Exterior Front",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "11b62fdba94b66dee1b7130cf7c05fb6",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "176526eec22a419eb9df0dd1e218c86c",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "03e97c50-6abd-47f5-bfca-09bd8a908bfa"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Kitchen",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "cec7be5275b9f22739593bb950844461",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "97e7a51c924a49339cf6c2ce75f79f87",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "ed1a132430bb9ff7ed02769dde9d1b4c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "steam_online",
+                        "ed1a132430bb9ff7ed02769dde9d1b4c"
+                    ]
+                ],
+                "manufacturer": "Steam",
+                "model": null,
+                "name": "Steam",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "c594a3ce67306c4564a3c0ed503ba870",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://store.steampowered.com"
             }
         ],
         "deleted_devices": [
@@ -2277,222 +3497,6 @@
                 ],
                 "id": "8d8e1bcc49cbf7b6d1846589eb69d7f4",
                 "orphaned_timestamp": null
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "3c:bd:c5:02:a8:f1"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "82fe14a99a447c420f0edfd2c80a3813",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "00:1a:62:04:47:91"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "de9a0a7af03d173021959bae59e5c3cd",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "b0:e8:92:0a:a6:45"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "15b0c0ddcb462dc821d2daa1da7e3723",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "00:04:20:f4:37:c0"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "4cbf5f2b9f70f9c12f8249a230cc412b",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "18:b4:30:78:71:14"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "8d693b86d2ecfb322fc0ea5735f4c6dd",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "54:60:09:46:34:7c"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "00e37b9e4154fe7b1a2669c79376d716",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "a4:77:33:f2:7b:74"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "6c980041c7cf09a8914428cdc2d64083",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "98:5f:d3:90:8b:3d"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "6a97b2a8a24003dbd89299abf9d5da8e",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "f0:27:2d:62:2c:47"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "12ebdb1f29eff6429997434f0875325d",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "f4:f5:d8:b4:ed:ec"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "2e6a2099583c9ba5d43bd533ad8729c9",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "1c:1a:df:71:c4:14"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "91546efaeda5b7260ad3285bc34f41c5",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "88:66:5a:0a:9d:14"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "9d5dac0cdc4f30dd1be432babb3fb9ef",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "6c:6a:77:e4:1b:f0"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "9a955fef928430b38d15569b1221ae99",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "80:d2:e5:69:ce:ba"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "da4c8e7b3c02681374b6c84a6ec609bb",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "3c:28:6d:2c:e3:5d"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "7afee6b4f67bc91acab57066b6ff59cd",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "62:84:cb:fb:66:84"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "c5cd3555cfb46e63287f644a412c7e0a",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "fe:cc:bb:46:af:76"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "f49a7d1f9085a353fc113dd33c3490bb",
-                "orphaned_timestamp": 1638891110.7746687
-            },
-            {
-                "config_entries": [],
-                "connections": [
-                    [
-                        "mac",
-                        "70:66:55:fd:67:57"
-                    ]
-                ],
-                "identifiers": [],
-                "id": "536d33c680509e73551442339bf8224a",
-                "orphaned_timestamp": 1638891110.7746687
             }
         ]
     }

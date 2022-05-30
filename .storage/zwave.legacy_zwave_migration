@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "zwave.legacy_zwave_migration",
     "data": {
         "6b6645fd226fcc0a41dadbf5764c2aa4": {

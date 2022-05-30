@@ -123,3 +123,41 @@
       - 7b0b4fe6b9c656f4c0e67ca65f5a26ca
       - c264b09466926376bfa7d2860feec206
   mode: single
+- id: '1651539763507'
+  alias: Small Tank Light - On
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: 0
+  condition:
+  - condition: device
+    type: is_off
+    device_id: 281f6149d9a231587d3e767319043bd3
+    entity_id: switch.living_room_outlet_1
+    domain: switch
+  action:
+  - type: turn_on
+    device_id: 281f6149d9a231587d3e767319043bd3
+    entity_id: switch.living_room_outlet_1
+    domain: switch
+  mode: single
+- id: '1651539818720'
+  alias: Small Tank Light - Off
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: 0
+  condition:
+  - condition: device
+    type: is_on
+    device_id: 281f6149d9a231587d3e767319043bd3
+    entity_id: switch.living_room_outlet_1
+    domain: switch
+  action:
+  - type: turn_off
+    device_id: 281f6149d9a231587d3e767319043bd3
+    entity_id: switch.living_room_outlet_1
+    domain: switch
+  mode: single

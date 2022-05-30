@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "core.config_entries",
     "data": {
         "entries": [
@@ -120,7 +121,7 @@
                     "app_version": "1.3.1",
                     "manufacturer": "Google",
                     "model": "Pixel 3",
-                    "os_version": "11",
+                    "os_version": "12",
                     "app_data": {
                         "push_token": "eMhcsGUF338:APA91bFbfcBD_E3ZtWCWPpQfI5ybVlwbCpkhRjGAsh4h4_uouLyBFVPwk29DQHix8bv0P9z65RxlzBcLg5F4DTQf4hXIHcy3Nu57bq-sjg3WYmLgW-_8tP8zn7iQcZh6HsvPIblHBCFN",
                         "push_url": "https://us-central1-ha-client-c73c4.cloudfunctions.net/pushNotifyV3"
@@ -284,7 +285,8 @@
                 "title": "841 N 4th",
                 "data": {
                     "host": "192.168.1.4",
-                    "username": "qk9AJ94QliFtjMpjNLm7ymViTw1MVBi7Sg4Dvmod"
+                    "api_key": "qk9AJ94QliFtjMpjNLm7ymViTw1MVBi7Sg4Dvmod",
+                    "api_version": 2
                 },
                 "options": {
                     "allow_hue_groups": false,
@@ -312,7 +314,7 @@
                         "push_token": "dwrnpSQX_kLPtNoZuYXnbP:APA91bGP_v7Ec6Ks_RF1yPciIOK-lggt0yOuUd5PR8mHSwNyRLPokbq0sxJJamrh7gfmNAHLQy1OK89RYaW-tozwyLZAwKJZLPlG932XNtsx3erhsDC5IV3s9oy8OvbgxvKTh-XAbv1X",
                         "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
                     },
-                    "app_version": "2021.8 (2021.216)",
+                    "app_version": "2022.3 (2022.358)",
                     "model": "iPhone10,1",
                     "device_id": "767C79AF-7FBB-4106-B44C-5CD205739004",
                     "os_name": "iOS",
@@ -386,7 +388,10 @@
                 "data": {
                     "udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
                     "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
-                    "hostname": "192.168.1.1"
+                    "hostname": "192.168.1.1",
+                    "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
+                    "mac_address": "3c:bd:c5:02:a8:f1",
+                    "location": "http://192.168.1.1:56320/rootDesc.xml"
                 },
                 "options": {},
                 "pref_disable_new_entities": false,
@@ -417,7 +422,7 @@
                 "domain": "dlna_dmr",
                 "title": "ONEELITE",
                 "data": {
-                    "url": "http://192.168.1.34:2869/upnphost/udhisapi.dll?content=uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
+                    "url": "http://[fe80::7c34:2468:252d:5c9c%3]:2869/upnphost/udhisapi.dll?content=uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
                     "device_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
                     "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
                 },
@@ -426,6 +431,84 @@
                 "pref_disable_polling": false,
                 "source": "ssdp",
                 "unique_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f36c37a74a9525cc442261aaed8ab2cb",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Jose (2)",
+                "data": {
+                    "app_data": {
+                        "push_token": "d3AnkL701ELXtwWVRfKC62:APA91bHge664YN7CnqgHj8lefoM9FSQFxqfXjQJQcrZeKzBnVp4H-N1ZBMandgzo1OQ0Zu7jVZpDaoNW5f28jH0AcRFnZesP3EMzAuGvNLBGjhGmS3XCBHVogSwUp9r4EBwXvsLKahza",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_name": "Home Assistant",
+                    "os_name": "iOS",
+                    "model": "iPhone14,2",
+                    "os_version": "15.5",
+                    "device_name": "Jose (2)",
+                    "manufacturer": "Apple",
+                    "supports_encryption": true,
+                    "device_id": "0EC8C2CF-F127-432F-A387-769303EBDB29",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_version": "2022.3 (2022.358)",
+                    "webhook_id": "ce59c2391619241f22be9cc6c8da6d2ce0f06d04033f7d4ef77d159d5f4c2ce3",
+                    "secret": "784d67675a9fb57d26a33f0905c4ba0c01131b0944dff254bd8ce08bf96ba4c5",
+                    "user_id": "623c32e5b12d47c68d2820ec08339f80"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-0EC8C2CF-F127-432F-A387-769303EBDB29",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "22f1effcd83be9a377cd8e54c80464a6",
+                "version": 1,
+                "domain": "sun",
+                "title": "Sun",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "aff019ed02b098ffa88c42dc78f7604b",
+                "version": 1,
+                "domain": "uptime",
+                "title": "Time Online",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ed1a132430bb9ff7ed02769dde9d1b4c",
+                "version": 1,
+                "domain": "steam_online",
+                "title": "opanitch",
+                "data": {
+                    "platform": "steam_online",
+                    "api_key": "4378BA96E421B1B197AE5133DB09BC17",
+                    "account": "76561197963476141"
+                },
+                "options": {
+                    "accounts": {
+                        "76561197963476141": "opanitch"
+                    }
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": "76561197963476141",
                 "disabled_by": null
             }
         ]
