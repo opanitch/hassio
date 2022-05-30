@@ -30,7 +30,6 @@ lovelace: !include app/config/ui-config.yaml
 map:
 mobile_app:
 sun:
-updater:
 system_health:
 
 ## Text to speech
