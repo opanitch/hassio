@@ -33,22 +33,6 @@
                 "disabled_by": null
             },
             {
-                "entry_id": "6b6645fd226fcc0a41dadbf5764c2aa4",
-                "version": 1,
-                "domain": "zwave",
-                "title": "Z-Wave (import from configuration.yaml)",
-                "data": {
-                    "usb_path": "/dev/ttyACM0",
-                    "network_key": "0x9F, 0x42, 0x29, 0x63, 0xDD, 0x2E, 0x46, 0x07, 0x4D, 0xD5, 0x2C, 0x8E, 0xCE, 0xF6, 0x33, 0x61"
-                },
-                "options": {},
-                "pref_disable_new_entities": false,
-                "pref_disable_polling": false,
-                "source": "import",
-                "unique_id": null,
-                "disabled_by": null
-            },
-            {
                 "entry_id": "e5135cd1d4c1c8df50bda4b23359ce6d",
                 "version": 1,
                 "domain": "lifx",
@@ -509,6 +493,28 @@
                 "pref_disable_polling": false,
                 "source": "import",
                 "unique_id": "76561197963476141",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9e658fbed7b473c262a1bcac2adab678",
+                "version": 1,
+                "domain": "zwave_js",
+                "title": "Z-Wave JS",
+                "data": {
+                    "url": "ws://core-zwave-js:3000",
+                    "usb_path": "/dev/ttyACM0",
+                    "s0_legacy_key": "9F422963DD2E46074DD52C8ECEF63361",
+                    "s2_access_control_key": "36134E5490BAAD03476DFAA79B576143",
+                    "s2_authenticated_key": "D017472F3B6DD55B09DEC4671F11555C",
+                    "s2_unauthenticated_key": "99BF1422E7336AFBBF575471E36C297E",
+                    "use_addon": true,
+                    "integration_created_addon": false
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "usb",
+                "unique_id": "3841383369",
                 "disabled_by": null
             }
         ]

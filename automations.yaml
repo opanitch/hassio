@@ -33,39 +33,53 @@
   alias: Powder Room Lights On
   description: ''
   trigger:
-  - entity_id: sensor.powder_room_monitor_burglar
-    from: '0'
-    platform: state
-    to: '8'
-  - entity_id: sensor.powder_room_monitor_burglar
-    from: '3'
-    platform: state
-    to: '8'
+  - type: motion
+    platform: device
+    device_id: 25b27714c4400d63c2e62694f42181ef
+    entity_id: binary_sensor.multisensor_home_security_motion_detection
+    domain: binary_sensor
   condition:
-  - condition: state
-    entity_id: switch.powder_room_switch_1
-    state: 'off'
+  - condition: device
+    type: is_on
+    device_id: 60820c05d03da4a39b6303907759f69a
+    entity_id: switch.powder_room_light_switch_3
+    domain: switch
   action:
-  - service: switch.turn_on
-    target:
-      device_id: 28703b5969711ef4fe7136c4edeb4cfb
+  - type: turn_on
+    device_id: d0ecb560ff75cbfc25cac75403b36e52
+    entity_id: light.powder_room_1
+    domain: light
+    brightness_pct: 100
+  - type: turn_on
+    device_id: 5295319a041d40dfbc690f9e04ea9fd1
+    entity_id: light.powder_room_2
+    domain: light
+    brightness_pct: 100
   mode: single
 - id: '1585781880464'
   alias: Powder Room Lights Off
   description: ''
   trigger:
-  - entity_id: sensor.powder_room_burglar
-    from: '8'
-    platform: state
-    to: '0'
+  - type: no_motion
+    platform: device
+    device_id: 25b27714c4400d63c2e62694f42181ef
+    entity_id: binary_sensor.multisensor_home_security_motion_detection
+    domain: binary_sensor
   condition:
-  - condition: state
-    entity_id: switch.powder_room_switch_1
-    state: 'on'
+  - condition: device
+    type: is_on
+    device_id: 60820c05d03da4a39b6303907759f69a
+    entity_id: switch.powder_room_light_switch_3
+    domain: switch
   action:
-  - service: switch.turn_off
-    target:
-      device_id: 28703b5969711ef4fe7136c4edeb4cfb
+  - type: turn_off
+    device_id: d0ecb560ff75cbfc25cac75403b36e52
+    entity_id: light.powder_room_1
+    domain: light
+  - type: turn_off
+    device_id: 5295319a041d40dfbc690f9e04ea9fd1
+    entity_id: light.powder_room_2
+    domain: light
   mode: single
 - id: '1587610014345'
   alias: Exterior Sunset
@@ -75,11 +89,16 @@
     platform: sun
   condition: []
   action:
-  - service: switch.turn_on
-    target:
-      device_id:
-      - f44c88cfa452208c7c5c3d24e586d7ef
-      - 32006187b361064b5de53bfb683dc24b
+  - type: turn_on
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+    brightness_pct: 100
+  - type: turn_on
+    device_id: 5ff1104372fd3dd1059beecaf386a322
+    entity_id: light.front_stoop
+    domain: light
+    brightness_pct: 100
   mode: single
 - id: '1587610079072'
   alias: Exterior Sunrise
@@ -89,11 +108,14 @@
     platform: sun
   condition: []
   action:
-  - service: switch.turn_off
-    target:
-      device_id:
-      - 32006187b361064b5de53bfb683dc24b
-      - f44c88cfa452208c7c5c3d24e586d7ef
+  - type: turn_off
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+  - type: turn_off
+    device_id: 5ff1104372fd3dd1059beecaf386a322
+    entity_id: light.front_stoop
+    domain: light
   mode: single
 - id: '1589588967075'
   alias: Hallway Night Lights On
@@ -133,13 +155,13 @@
   condition:
   - condition: device
     type: is_off
-    device_id: 281f6149d9a231587d3e767319043bd3
-    entity_id: switch.living_room_outlet_1
+    device_id: 885a9903367bf9344788137d40d6360e
+    entity_id: switch.right_outlet_1
     domain: switch
   action:
   - type: turn_on
-    device_id: 281f6149d9a231587d3e767319043bd3
-    entity_id: switch.living_room_outlet_1
+    device_id: 885a9903367bf9344788137d40d6360e
+    entity_id: switch.right_outlet_1
     domain: switch
   mode: single
 - id: '1651539818720'
@@ -152,12 +174,46 @@
   condition:
   - condition: device
     type: is_on
-    device_id: 281f6149d9a231587d3e767319043bd3
-    entity_id: switch.living_room_outlet_1
+    device_id: 885a9903367bf9344788137d40d6360e
+    entity_id: switch.right_outlet_1
     domain: switch
   action:
   - type: turn_off
-    device_id: 281f6149d9a231587d3e767319043bd3
-    entity_id: switch.living_room_outlet_1
+    device_id: 885a9903367bf9344788137d40d6360e
+    entity_id: switch.right_outlet_1
     domain: switch
+  mode: single
+- id: '1653951135024'
+  alias: Turn Powder Room Back On
+  description: If someone turns off the switch for the Powder Room lights, it needs
+    to be reset for the automations to work
+  trigger:
+  - platform: device
+    type: turned_off
+    device_id: 60820c05d03da4a39b6303907759f69a
+    entity_id: switch.powder_room_light_switch_3
+    domain: switch
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 10
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 60820c05d03da4a39b6303907759f69a
+    entity_id: switch.powder_room_light_switch_3
+    domain: switch
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 5
+      milliseconds: 0
+  - type: turn_off
+    device_id: d0ecb560ff75cbfc25cac75403b36e52
+    entity_id: light.powder_room_1
+    domain: light
+  - type: turn_off
+    device_id: 5295319a041d40dfbc690f9e04ea9fd1
+    entity_id: light.powder_room_2
+    domain: light
   mode: single
