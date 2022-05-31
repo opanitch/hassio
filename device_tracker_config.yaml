@@ -4,7 +4,3 @@
 - platform: quantum_gateway
   host: !secret router_host
   password: !secret router_password
-  ssl: false
-  consider_home: 0:05
-  new_device_defaults:
-    track_new_devices: false
