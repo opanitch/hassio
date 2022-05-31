@@ -2,5 +2,195 @@
     "version": 1,
     "minor_version": 1,
     "key": "trace.saved_traces",
-    "data": {}
+    "data": {
+        "automation.1585781880464": [
+            {
+                "extended_dict": {
+                    "last_step": "action/1",
+                    "run_id": "2ae8b09d33aea3fcbdebb224422cf0ae",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-05-31T18:09:25.714122+00:00",
+                        "finish": "2022-05-31T18:09:25.808779+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1585781880464",
+                    "trigger": "state of binary_sensor.multisensor_home_security_motion_detection",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-05-31T18:09:25.714332+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.powder_room_lights_off",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-05-31T17:04:44.100502+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1585781880464",
+                                            "friendly_name": "Powder Room Lights Off"
+                                        },
+                                        "last_changed": "2022-05-31T17:49:10.439596+00:00",
+                                        "last_updated": "2022-05-31T17:49:10.439596+00:00",
+                                        "context": {
+                                            "id": "01811b3c5fa75edec9d2fb264ff937c1",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "device",
+                                        "entity_id": "binary_sensor.multisensor_home_security_motion_detection",
+                                        "from_state": {
+                                            "entity_id": "binary_sensor.multisensor_home_security_motion_detection",
+                                            "state": "unavailable",
+                                            "attributes": {
+                                                "restored": true,
+                                                "device_class": "motion",
+                                                "friendly_name": "MultiSensor: Home Security - Motion detection",
+                                                "supported_features": 0
+                                            },
+                                            "last_changed": "2022-05-31T18:09:17.945458+00:00",
+                                            "last_updated": "2022-05-31T18:09:17.945458+00:00",
+                                            "context": {
+                                                "id": "01811b4ecc79099dff3ea221961e85fe",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "to_state": {
+                                            "entity_id": "binary_sensor.multisensor_home_security_motion_detection",
+                                            "state": "off",
+                                            "attributes": {
+                                                "device_class": "motion",
+                                                "friendly_name": "MultiSensor: Home Security - Motion detection"
+                                            },
+                                            "last_changed": "2022-05-31T18:09:25.620649+00:00",
+                                            "last_updated": "2022-05-31T18:09:25.620649+00:00",
+                                            "context": {
+                                                "id": "01811b4eea742b8612ae2e2270a7a4c7",
+                                                "parent_id": null,
+                                                "user_id": null
+                                            }
+                                        },
+                                        "for": null,
+                                        "attribute": null,
+                                        "description": "state of binary_sensor.multisensor_home_security_motion_detection"
+                                    }
+                                }
+                            }
+                        ],
+                        "condition/0": [
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2022-05-31T18:09:25.714486+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            },
+                            {
+                                "path": "condition/0",
+                                "timestamp": "2022-05-31T18:09:25.714549+00:00",
+                                "result": {
+                                    "result": true
+                                }
+                            }
+                        ],
+                        "condition/0/entity_id/0": [
+                            {
+                                "path": "condition/0/entity_id/0",
+                                "timestamp": "2022-05-31T18:09:25.714613+00:00",
+                                "result": {
+                                    "result": true,
+                                    "state": "on",
+                                    "wanted_state": "on"
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-05-31T18:09:25.719603+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "01811b4eead142c03e67a25a992ce8d2",
+                                        "parent_id": "01811b4eea742b8612ae2e2270a7a4c7",
+                                        "user_id": null
+                                    }
+                                }
+                            }
+                        ],
+                        "action/1": [
+                            {
+                                "path": "action/1",
+                                "timestamp": "2022-05-31T18:09:25.779718+00:00"
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1585781880464",
+                        "alias": "Powder Room Lights Off",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "type": "no_motion",
+                                "platform": "device",
+                                "device_id": "25b27714c4400d63c2e62694f42181ef",
+                                "entity_id": "binary_sensor.multisensor_home_security_motion_detection",
+                                "domain": "binary_sensor"
+                            }
+                        ],
+                        "condition": [
+                            {
+                                "condition": "device",
+                                "type": "is_on",
+                                "device_id": "60820c05d03da4a39b6303907759f69a",
+                                "entity_id": "switch.powder_room_light_switch_3",
+                                "domain": "switch"
+                            }
+                        ],
+                        "action": [
+                            {
+                                "type": "turn_off",
+                                "device_id": "d0ecb560ff75cbfc25cac75403b36e52",
+                                "entity_id": "light.powder_room_1",
+                                "domain": "light"
+                            },
+                            {
+                                "type": "turn_off",
+                                "device_id": "5295319a041d40dfbc690f9e04ea9fd1",
+                                "entity_id": "light.powder_room_2",
+                                "domain": "light"
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "01811b4eead142c03e67a25a992ce8d2",
+                        "parent_id": "01811b4eea742b8612ae2e2270a7a4c7",
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/1",
+                    "run_id": "2ae8b09d33aea3fcbdebb224422cf0ae",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-05-31T18:09:25.714122+00:00",
+                        "finish": "2022-05-31T18:09:25.808779+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1585781880464",
+                    "trigger": "state of binary_sensor.multisensor_home_security_motion_detection"
+                }
+            }
+        ]
+    }
 }

@@ -463,11 +463,11 @@
                 "connections": [
                     [
                         "mac",
-                        "d0:73:d5:6c:ee:8d"
+                        "d0:73:d5:6c:ee:8c"
                     ],
                     [
                         "mac",
-                        "d0:73:d5:6c:ee:8c"
+                        "d0:73:d5:6c:ee:8d"
                     ]
                 ],
                 "identifiers": [
@@ -739,11 +739,11 @@
                 "connections": [
                     [
                         "mac",
-                        "00:17:88:01:01:63:91:28"
+                        "00:17:88:23:91:28"
                     ],
                     [
                         "mac",
-                        "00:17:88:23:91:28"
+                        "00:17:88:01:01:63:91:28"
                     ]
                 ],
                 "identifiers": [
@@ -2959,7 +2959,7 @@
                 "entry_type": "service",
                 "id": "7a3372897960a362e04c099276696c04",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
-                "area_id": null,
+                "area_id": "5d80fa964f644c86b663078bf886cab6",
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": null
@@ -3128,11 +3128,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-7-99:18770:12595"
+                        "3841383369-7"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-7"
+                        "3841383369-7-99:18770:12595"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3156,11 +3156,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-9"
+                        "3841383369-9-29:13313:1"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-9-29:13313:1"
+                        "3841383369-9"
                     ]
                 ],
                 "manufacturer": "Leviton",
@@ -3268,11 +3268,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-14-99:18770:12595"
+                        "3841383369-14"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-14"
+                        "3841383369-14-99:18770:12595"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3352,11 +3352,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-17"
+                        "3841383369-17-99:18770:12597"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-17-99:18770:12597"
+                        "3841383369-17"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3380,11 +3380,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-18-99:18770:12597"
+                        "3841383369-18"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-18"
+                        "3841383369-18-99:18770:12597"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3408,39 +3408,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-20-144:3:1088"
+                        "3841383369-21-99:18770:12597"
                     ],
-                    [
-                        "zwave_js",
-                        "3841383369-20"
-                    ]
-                ],
-                "manufacturer": "Kwikset",
-                "model": "914",
-                "name": "Door Lock",
-                "sw_version": "4.10",
-                "hw_version": null,
-                "entry_type": null,
-                "id": "d9abe78400a506e7f3a893d6a12511f2",
-                "via_device_id": null,
-                "area_id": "176526eec22a419eb9df0dd1e218c86c",
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
-                    "9e658fbed7b473c262a1bcac2adab678"
-                ],
-                "connections": [],
-                "identifiers": [
                     [
                         "zwave_js",
                         "3841383369-21"
-                    ],
-                    [
-                        "zwave_js",
-                        "3841383369-21-99:18770:12597"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3492,11 +3464,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-23-29:55:2"
+                        "3841383369-23"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-23"
+                        "3841383369-23-29:55:2"
                     ]
                 ],
                 "manufacturer": "Leviton",
@@ -3520,11 +3492,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-24-134:259:116"
+                        "3841383369-24"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-24"
+                        "3841383369-24-134:259:116"
                     ]
                 ],
                 "manufacturer": "AEON Labs",
@@ -3537,6 +3509,87 @@
                 "via_device_id": null,
                 "area_id": "97e7a51c924a49339cf6c2ce75f79f87",
                 "name_by_user": "Counter Outlet 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:7e:56:00:00:1e:0d:6a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "d6cbb586-b165-4597-b55d-15a29c1912ef"
+                    ]
+                ],
+                "manufacturer": "GE",
+                "model": "Dimmable light (Daylight)",
+                "name": "Utility Closet",
+                "sw_version": "0.2.9",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "7da7691b5ae6f2a67737e0a70a3efe57",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "utility_closet",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "722f60d99596005e1c4a87fcf556da38"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "cac814cd-fd60-440a-9482-708f0ed80ea4"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Room",
+                "name": "Utility Closet",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "549cac0be87ec5edc7124985e60922b1",
+                "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
+                "area_id": "utility_closet",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-26-144:3:1088"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-26"
+                    ]
+                ],
+                "manufacturer": "Kwikset",
+                "model": "914",
+                "name": "Door Lock",
+                "sw_version": "4.10",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "f5a2197039f96d5e1455b27fa7f783e2",
+                "via_device_id": null,
+                "area_id": "176526eec22a419eb9df0dd1e218c86c",
+                "name_by_user": "Front Door Lock",
                 "disabled_by": null,
                 "configuration_url": null
             }
@@ -3781,6 +3834,42 @@
                 ],
                 "id": "cb66660999596f80cf526eda038259bd",
                 "orphaned_timestamp": 1653926255.001817
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-20"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-20-144:3:1088"
+                    ]
+                ],
+                "id": "d9abe78400a506e7f3a893d6a12511f2",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-25"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-25-144:3:1088"
+                    ]
+                ],
+                "id": "87ef5ee6c29f57c669bb9cebf115f148",
+                "orphaned_timestamp": null
             }
         ]
     }
