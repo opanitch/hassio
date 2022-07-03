@@ -63,7 +63,7 @@ hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 lifx: !include integrations/lights/lifx_config.yaml
 media_player: !include_dir_merge_list integrations/media_players/
-# nest: !include integrations/climate_control/nest_config.yaml
+nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 # roomba: !include integrations/cleaning/roomba_config.yaml # Used Automatic Installation
 sensor: !include_dir_merge_list integrations/sensors/

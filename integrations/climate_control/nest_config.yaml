@@ -3,15 +3,17 @@
 ###
 client_id: !secret nest_client_id
 client_secret: !secret nest_client_secret
-sensors:
-  monitored_conditions:
-    - temperature
-    - humidity
-    - target
-    - operation_mode
-    - co_status
-    - smoke_status
-    - battery_health
-binary_sensors:
-  monitored_conditions:
-    - online
+# "Project ID" in the Device Access Console (not Cloud Project ID!)
+project_id: !secret nest_project_id
+# sensors:
+#   monitored_conditions:
+#     - temperature
+#     - humidity
+#     - target
+#     - operation_mode
+#     - co_status
+#     - smoke_status
+#     - battery_health
+# binary_sensors:
+#   monitored_conditions:
+#     - online
