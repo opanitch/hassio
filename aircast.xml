@@ -19,6 +19,12 @@
 <ports>0:0</ports>
 <binding>?</binding>
 <device>
+<udn>ebe716812b39155bda2abfbe5197985f</udn>
+<name>Living Room Vizio+</name>
+<mac>cc:cc:ff:40:5e:c0</mac>
+<enabled>1</enabled>
+</device>
+<device>
 <udn>1fabad2f-0b94-496a-98ac-bac0d3038e28</udn>
 <name>First Floor+</name>
 <mac>cc:cc:5f:e8:cc:9b</mac>

@@ -217,3 +217,57 @@
     entity_id: light.powder_room_2
     domain: light
   mode: single
+- id: '1654053995550'
+  alias: Ink Low Notification
+  description: ''
+  trigger:
+  - platform: numeric_state
+    entity_id: sensor.ink_level_black
+    below: '15'
+  condition: []
+  action:
+  - service: notify.notify
+    data:
+      message: "{% for inkLevel in [states.sensor.ink_level_black, states.sensor.ink_level_cyan,\
+        \ states.sensor.ink_level_magenta, states.sensor.ink_level_yellow] %}\n  {%-\
+        \ if loop.first %}{% elif loop.last %} and {% else %}, {% endif -%} {{inkLevel.friendly_name}}\
+        \ is 10% or below\n{% endfor %}"
+  - device_id: 487b1921e673eac8b31e3064b4c37283
+    domain: light
+    entity_id: light.living_room_lamp_1
+    type: flash
+  mode: parallel
+  max: 4
+- id: '1656519350500'
+  alias: Utility Closet Light On
+  description: ''
+  trigger:
+  - type: unsafe
+    platform: device
+    device_id: cb62048df0d19dd5d8cca8d3ae6f7555
+    entity_id: binary_sensor.utility_closet_door_home_security_intrusion
+    domain: binary_sensor
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 7da7691b5ae6f2a67737e0a70a3efe57
+    entity_id: light.utility_closet
+    domain: light
+    brightness_pct: 100
+  mode: single
+- id: '1656519388457'
+  alias: Utility Closet Light Off
+  description: ''
+  trigger:
+  - type: not_unsafe
+    platform: device
+    device_id: cb62048df0d19dd5d8cca8d3ae6f7555
+    entity_id: binary_sensor.utility_closet_door_home_security_intrusion
+    domain: binary_sensor
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 7da7691b5ae6f2a67737e0a70a3efe57
+    entity_id: light.utility_closet
+    domain: light
+  mode: single

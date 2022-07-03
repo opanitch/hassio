@@ -96,36 +96,6 @@
                 "disabled_by": null
             },
             {
-                "entry_id": "33ad9a5a794e255d57ad694b6595d70a",
-                "version": 1,
-                "domain": "mobile_app",
-                "title": "Pixel 3",
-                "data": {
-                    "device_name": "Pixel 3",
-                    "app_version": "1.3.1",
-                    "manufacturer": "Google",
-                    "model": "Pixel 3",
-                    "os_version": "12",
-                    "app_data": {
-                        "push_token": "eMhcsGUF338:APA91bFbfcBD_E3ZtWCWPpQfI5ybVlwbCpkhRjGAsh4h4_uouLyBFVPwk29DQHix8bv0P9z65RxlzBcLg5F4DTQf4hXIHcy3Nu57bq-sjg3WYmLgW-_8tP8zn7iQcZh6HsvPIblHBCFN",
-                        "push_url": "https://us-central1-ha-client-c73c4.cloudfunctions.net/pushNotifyV3"
-                    },
-                    "app_id": "ha_client",
-                    "app_name": "HA Client",
-                    "os_name": "Android",
-                    "supports_encryption": false,
-                    "webhook_id": "b735a5bff2e257932b4befff0f46a3e0cf63b42770159c5b4f7110f5362618cd",
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6",
-                    "device_id": "072a4300939a4de6b408e4eccacc0ac2"
-                },
-                "options": {},
-                "pref_disable_new_entities": false,
-                "pref_disable_polling": false,
-                "source": "registration",
-                "unique_id": null,
-                "disabled_by": null
-            },
-            {
                 "entry_id": "acc5f26c48a62e9ce4c91cc99869c118",
                 "version": 1,
                 "domain": "plex",
@@ -375,7 +345,7 @@
                     "hostname": "192.168.1.1",
                     "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
                     "mac_address": "3c:bd:c5:02:a8:f1",
-                    "location": "http://192.168.1.1:56320/rootDesc.xml"
+                    "location": "http://[2600:4040:7409:4a00::1]:42458/rootDesc.xml"
                 },
                 "options": {},
                 "pref_disable_new_entities": false,
@@ -421,7 +391,7 @@
                 "entry_id": "f36c37a74a9525cc442261aaed8ab2cb",
                 "version": 1,
                 "domain": "mobile_app",
-                "title": "Jose (2)",
+                "title": "Jose iPhone",
                 "data": {
                     "app_data": {
                         "push_token": "d3AnkL701ELXtwWVRfKC62:APA91bHge664YN7CnqgHj8lefoM9FSQFxqfXjQJQcrZeKzBnVp4H-N1ZBMandgzo1OQ0Zu7jVZpDaoNW5f28jH0AcRFnZesP3EMzAuGvNLBGjhGmS3XCBHVogSwUp9r4EBwXvsLKahza",
@@ -515,6 +485,37 @@
                 "pref_disable_polling": false,
                 "source": "usb",
                 "unique_id": "3841383369",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7b5d4699871b636c2d24e135e3cb27c3",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Oren Pixel",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.6.0-full (2398)",
+                    "device_name": "Oren Pixel",
+                    "manufacturer": "Google",
+                    "model": "Pixel 3",
+                    "os_name": "Android",
+                    "os_version": "31",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_websocket_channel": true,
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "caT5CNV_RmivtRNdJEiBYS:APA91bFLgv28IHdpV3EzSMLoz-x4zqhSMK6CVclnIoEqeVDmgKP2EoAkQkMeMYuQiv7DrpBjv0UGms7tA6IhIK914awLRvzA3hHW5I4_w-GnwbkDxqDm9J08T6NvBoj-6Hr-IKAIjoAN"
+                    },
+                    "device_id": "b657be787d8f7230",
+                    "webhook_id": "77939193e82da7f09682cbaaee4628fcd59de38dccb6c5cfb2dcf66116df3e17",
+                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-b657be787d8f7230",
                 "disabled_by": null
             }
         ]

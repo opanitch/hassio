@@ -208,30 +208,6 @@
             },
             {
                 "config_entries": [
-                    "33ad9a5a794e255d57ad694b6595d70a"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "mobile_app",
-                        "072a4300939a4de6b408e4eccacc0ac2"
-                    ]
-                ],
-                "manufacturer": "Google",
-                "model": "Pixel 3",
-                "name": "Pixel 3",
-                "sw_version": "12",
-                "hw_version": null,
-                "entry_type": null,
-                "id": "4c7c40d9f4c18373a8988cd53bb392f1",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null,
-                "configuration_url": null
-            },
-            {
-                "config_entries": [
                     "0fcc267287eccaaddf0a1db0f1956fb1"
                 ],
                 "connections": [],
@@ -463,11 +439,11 @@
                 "connections": [
                     [
                         "mac",
-                        "d0:73:d5:6c:ee:8c"
+                        "d0:73:d5:6c:ee:8d"
                     ],
                     [
                         "mac",
-                        "d0:73:d5:6c:ee:8d"
+                        "d0:73:d5:6c:ee:8c"
                     ]
                 ],
                 "identifiers": [
@@ -529,11 +505,11 @@
                 "connections": [
                     [
                         "mac",
-                        "d0:73:d5:6c:ef:60"
+                        "d0:73:d5:6c:ef:5f"
                     ],
                     [
                         "mac",
-                        "d0:73:d5:6c:ef:5f"
+                        "d0:73:d5:6c:ef:60"
                     ]
                 ],
                 "identifiers": [
@@ -562,11 +538,11 @@
                 "connections": [
                     [
                         "mac",
-                        "d0:73:d5:6c:8d:4a"
+                        "d0:73:d5:6c:8d:4b"
                     ],
                     [
                         "mac",
-                        "d0:73:d5:6c:8d:4b"
+                        "d0:73:d5:6c:8d:4a"
                     ]
                 ],
                 "identifiers": [
@@ -650,7 +626,7 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Plex for Xbox - ONEELITE)",
-                "sw_version": "5.34.1",
+                "sw_version": "5.40.0",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "855adb58b7f160ae274add3fbeaa6cf2",
@@ -698,7 +674,7 @@
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (Stand_Up_Penguin - Plex for Android (TV) - Chromecast Google TV)",
-                "sw_version": "9.2.1.32664",
+                "sw_version": "9.3.0.32977",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "d5414d4b1e46e5c03fffda3dd6bf5cfb",
@@ -722,7 +698,7 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Stand_Up_Penguin - Plex for Xbox - XBOXONE)",
-                "sw_version": "5.38.1",
+                "sw_version": "5.39.0",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "5366d0f114c4b8266610c618bf3df677",
@@ -739,27 +715,27 @@
                 "connections": [
                     [
                         "mac",
-                        "00:17:88:23:91:28"
+                        "00:17:88:01:01:63:91:28"
                     ],
                     [
                         "mac",
-                        "00:17:88:01:01:63:91:28"
+                        "00:17:88:23:91:28"
                     ]
                 ],
                 "identifiers": [
                     [
                         "hue",
-                        "001788fffe239128"
+                        "7b70e68f-4305-43dd-85d9-b38050f458a8"
                     ],
                     [
                         "hue",
-                        "7b70e68f-4305-43dd-85d9-b38050f458a8"
+                        "001788fffe239128"
                     ]
                 ],
                 "manufacturer": "Signify Netherlands B.V.",
-                "model": "BSB002",
+                "model": "Philips hue (BSB002)",
                 "name": "841 N 4th",
-                "sw_version": "1.51.1951086030",
+                "sw_version": "1.52.1952043030",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "5e2e3ebdd9c58092565e741d5a39e6cb",
@@ -1787,7 +1763,7 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (Plex for Xbox - XBOX)",
-                "sw_version": "5.36.1",
+                "sw_version": "5.40.0",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "c15626feec7be131def2b0601ed7eab9",
@@ -1817,7 +1793,7 @@
                 "id": "ca218aac54ea1d18d97e7167cf833c29",
                 "via_device_id": null,
                 "area_id": null,
-                "name_by_user": null,
+                "name_by_user": "Oren iPhone",
                 "disabled_by": null,
                 "configuration_url": null
             },
@@ -1835,7 +1811,7 @@
                 "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (rpanitch - Plex for Android (TV) - AFTR)",
-                "sw_version": "9.2.0.32520",
+                "sw_version": "9.3.1.33134",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "b528665b7970efec99e58cd7156690e0",
@@ -1931,7 +1907,7 @@
                 "manufacturer": "Plex",
                 "model": "Plex for Android (Mobile)",
                 "name": "Plex (Plex for Android (Mobile) - Pixel 3)",
-                "sw_version": "9.1.0.32210",
+                "sw_version": "9.3.0.32977",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "03ac9838f7e3970b7f4fca7b61905870",
@@ -2090,7 +2066,7 @@
                 "manufacturer": "PlayStation",
                 "model": "Plex for PlayStation 5",
                 "name": "Plex (ywolok - Plex for PlayStation 5 - PS5-YarivWolok)",
-                "sw_version": "5.37.1",
+                "sw_version": "5.39.1",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "54c904fa91788629b0e2bf2b16a6147e",
@@ -2210,7 +2186,7 @@
                 "manufacturer": "iOS",
                 "model": "Plex for iOS",
                 "name": "Plex (jbarufkin - Plex for iOS - Jake\u2019s iPad)",
-                "sw_version": "8.2",
+                "sw_version": "8.4",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "79314407ddea71c37a9ed5aba95b4794",
@@ -2450,7 +2426,7 @@
                 "manufacturer": "Xbox",
                 "model": "Plex for Xbox",
                 "name": "Plex (daveyayoh - Plex for Xbox - XBOX)",
-                "sw_version": "5.38.1",
+                "sw_version": "5.40.0",
                 "hw_version": null,
                 "entry_type": null,
                 "id": "f6a97efcb5bef7a01e86fccd7335bf13",
@@ -3072,11 +3048,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-5"
+                        "3841383369-5-99:18770:12597"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-5-99:18770:12597"
+                        "3841383369-5"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3100,11 +3076,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-6-99:18770:12342"
+                        "3841383369-6"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-6"
+                        "3841383369-6-99:18770:12342"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3128,11 +3104,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-7"
+                        "3841383369-7-99:18770:12595"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-7-99:18770:12595"
+                        "3841383369-7"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3184,11 +3160,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-11-134:258:100"
+                        "3841383369-11"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-11"
+                        "3841383369-11-134:258:100"
                     ]
                 ],
                 "manufacturer": "AEON Labs",
@@ -3212,11 +3188,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-12-99:18770:12597"
+                        "3841383369-12"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-12"
+                        "3841383369-12-99:18770:12597"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3240,11 +3216,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-13"
+                        "3841383369-13-99:18756:12853"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-13-99:18756:12853"
+                        "3841383369-13"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3268,11 +3244,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-14"
+                        "3841383369-14-99:18770:12595"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-14-99:18770:12595"
+                        "3841383369-14"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3296,11 +3272,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-15-99:18770:12595"
+                        "3841383369-15"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-15"
+                        "3841383369-15-99:18770:12595"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3352,11 +3328,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-17-99:18770:12597"
+                        "3841383369-17"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-17"
+                        "3841383369-17-99:18770:12597"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3408,11 +3384,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-21-99:18770:12597"
+                        "3841383369-21"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-21"
+                        "3841383369-21-99:18770:12597"
                     ]
                 ],
                 "manufacturer": "GE/Jasco",
@@ -3561,7 +3537,7 @@
                 "id": "549cac0be87ec5edc7124985e60922b1",
                 "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb",
                 "area_id": "utility_closet",
-                "name_by_user": null,
+                "name_by_user": "Utility Closet Light Group",
                 "disabled_by": null,
                 "configuration_url": null
             },
@@ -3590,6 +3566,346 @@
                 "via_device_id": null,
                 "area_id": "176526eec22a419eb9df0dd1e218c86c",
                 "name_by_user": "Front Door Lock",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5d4699871b636c2d24e135e3cb27c3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "b657be787d8f7230"
+                    ]
+                ],
+                "manufacturer": "Google",
+                "model": "Pixel 3",
+                "name": "Oren Pixel",
+                "sw_version": "31",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9652c96cdae581b173d88504ed6c4509",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "d7a79084aa65080d6b208a380754564b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "ebe716812b39155bda2abfbe5197985f"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "E65u-D3",
+                "name": "Living Room Vizio",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1f01474eac8d71607ae971a539593d7b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "fm18q4ikmmbnorgwtlsytab7"
+                    ]
+                ],
+                "manufacturer": "webOS",
+                "model": "Plex for LG",
+                "name": "Plex (jbarufkin - Plex for LG - LG 70NANO75UPA)",
+                "sw_version": "5.39.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e1023bca0ba0e84af53b953089ecf99a",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "gvxkmvia5cg10kn8vvxgohga"
+                    ]
+                ],
+                "manufacturer": "Chromecast",
+                "model": "Plex Cast",
+                "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
+                "sw_version": "4.54.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "770653e292ceb5eed1433360df440442",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "2bdb6aa82369efcd7cb5bb2378b6f4fe"
+                    ]
+                ],
+                "manufacturer": "Roku",
+                "model": "Plex for Roku",
+                "name": "Plex (halman1321 - Plex for Roku - Roku Ultra Boss Bitch)",
+                "sw_version": "7.0.11.7782-303374816-Plex",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1ae30421dc1ee45c8d27ae7254c967b1",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "acc5f26c48a62e9ce4c91cc99869c118"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "ABD4FBBA-875E-4495-89FC-0B54D6DF49ED"
+                    ]
+                ],
+                "manufacturer": "tvOS",
+                "model": "Plex for Apple TV",
+                "name": "Plex (halman1321 - Plex for Apple TV - Bedroom)",
+                "sw_version": "8.4",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d720ff1cc0af657ab46c6691a98139cb",
+                "via_device_id": "1e466a5e51b31587b35f837d70d92336",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-27-838:513:769"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-27"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "cb62048df0d19dd5d8cca8d3ae6f7555",
+                "via_device_id": null,
+                "area_id": "utility_closet",
+                "name_by_user": "Utility Closet Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-28-838:513:769"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-28"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e65a8601e36885ea64d45e4c9294479f",
+                "via_device_id": null,
+                "area_id": "5365fc54929a421e8b28703a6237d97b",
+                "name_by_user": "Powder Room Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-29"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-29-838:513:769"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "971c78698c73dd4f7967f8c2cba345df",
+                "via_device_id": null,
+                "area_id": "d9eb05e397a64ab58dac56e0c81f7bd4",
+                "name_by_user": "Master Bedroom Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-30"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-30-838:513:769"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "2e16a765971d336988c8eed3f9fa2685",
+                "via_device_id": null,
+                "area_id": "8a9faefa025a4aab81473269674ffbbc",
+                "name_by_user": "Master Bathroom Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-31"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-31-838:513:769"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "bfa430602000b84798c5837fd0f6c3bd",
+                "via_device_id": null,
+                "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+                "name_by_user": "Front Bedroom Door",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-32-838:513:769"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-32"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "4SD2SZ-0EN0",
+                "name": "Contact Sensor Gen2",
+                "sw_version": "1.15",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "fedc9c56f6a599a0f1194b794173fab7",
+                "via_device_id": null,
+                "area_id": "5c718c9a190a4d3784366f90072987cf",
+                "name_by_user": "Front Bathroom",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "9e658fbed7b473c262a1bcac2adab678"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3841383369-33-838:3073:769"
+                    ],
+                    [
+                        "zwave_js",
+                        "3841383369-33"
+                    ]
+                ],
+                "manufacturer": "Ring",
+                "model": "B0923BK77S",
+                "name": "Outdoor Contact Sensor",
+                "sw_version": "1.24",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "620645699e6f48906040f178f9bd8384",
+                "via_device_id": null,
+                "area_id": "2abdb45a3b684067855d330094e9b2e7",
+                "name_by_user": "Back Gate",
                 "disabled_by": null,
                 "configuration_url": null
             }
@@ -3843,11 +4159,11 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-20"
+                        "3841383369-20-144:3:1088"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-20-144:3:1088"
+                        "3841383369-20"
                     ]
                 ],
                 "id": "d9abe78400a506e7f3a893d6a12511f2",
@@ -3861,15 +4177,27 @@
                 "identifiers": [
                     [
                         "zwave_js",
-                        "3841383369-25"
+                        "3841383369-25-144:3:1088"
                     ],
                     [
                         "zwave_js",
-                        "3841383369-25-144:3:1088"
+                        "3841383369-25"
                     ]
                 ],
                 "id": "87ef5ee6c29f57c669bb9cebf115f148",
                 "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "072a4300939a4de6b408e4eccacc0ac2"
+                    ]
+                ],
+                "id": "4c7c40d9f4c18373a8988cd53bb392f1",
+                "orphaned_timestamp": 1654290843.3715608
             }
         ]
     }

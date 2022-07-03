@@ -13,16 +13,16 @@
                     "friendly_name": "Young Savage",
                     "entity_picture": "/local/images/profiles/home/jacob_vazquez.jpg"
                 },
-                "last_changed": "2022-05-31T18:15:08.518381+00:00",
-                "last_updated": "2022-05-31T18:15:32.752255+00:00",
+                "last_changed": "2022-06-05T12:58:34.175487+00:00",
+                "last_updated": "2022-06-05T12:58:54.541461+00:00",
                 "context": {
-                    "id": "01811b5484906f14e763423cc19ddfe7",
+                    "id": "018133f26ccdddb62e63dabb1abcbb74",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -34,16 +34,16 @@
                     "friendly_name": "Hal Greenblatt",
                     "entity_picture": "/local/images/profiles/home/hal_greenblatt.jpeg"
                 },
-                "last_changed": "2022-05-31T18:15:08.519142+00:00",
-                "last_updated": "2022-05-31T18:15:32.752556+00:00",
+                "last_changed": "2022-06-05T12:58:34.176343+00:00",
+                "last_updated": "2022-06-05T12:58:54.541722+00:00",
                 "context": {
-                    "id": "01811b548490281faed0a7995d3ebb05",
+                    "id": "018133f26ccd279f79f3e0565b3528b5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -54,16 +54,16 @@
                     "id": "hermes",
                     "friendly_name": "Hermes"
                 },
-                "last_changed": "2022-05-31T18:15:08.519616+00:00",
-                "last_updated": "2022-05-31T18:15:32.752771+00:00",
+                "last_changed": "2022-06-05T12:58:34.176757+00:00",
+                "last_updated": "2022-06-05T12:58:54.541916+00:00",
                 "context": {
-                    "id": "01811b548490567a81f0981762de4a6a",
+                    "id": "018133f26ccdd362f71d74304eb2a6a1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -75,38 +75,42 @@
                     "friendly_name": "Jake Barufkin",
                     "entity_picture": "/local/images/profiles/home/jake_barufkin.jpeg"
                 },
-                "last_changed": "2022-05-31T18:15:08.520035+00:00",
-                "last_updated": "2022-05-31T18:15:32.752978+00:00",
+                "last_changed": "2022-06-05T12:58:34.177189+00:00",
+                "last_updated": "2022-06-05T12:58:54.542110+00:00",
                 "context": {
-                    "id": "01811b5484907b9b532b3cb4c8734905",
+                    "id": "018133f26cce2c21871a20b77ca6a988",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "person.jose",
-                "state": "unknown",
+                "state": "not_home",
                 "attributes": {
                     "editable": true,
                     "id": "javazquez001",
+                    "latitude": 32.63470458984375,
+                    "longitude": -117.00431896129064,
+                    "gps_accuracy": 8.115161465142766,
+                    "source": "device_tracker.jose_iphone",
                     "user_id": "623c32e5b12d47c68d2820ec08339f80",
                     "friendly_name": "Jose Vazquez",
                     "entity_picture": "/local/images/profiles/home/jose_vazquez.jpg"
                 },
-                "last_changed": "2022-05-31T18:15:08.520323+00:00",
-                "last_updated": "2022-05-31T18:15:32.753195+00:00",
+                "last_changed": "2022-07-02T11:36:16.357295+00:00",
+                "last_updated": "2022-07-03T21:54:20.616187+00:00",
                 "context": {
-                    "id": "01811b54849105edcf53fb5b4aaae151",
+                    "id": "0181c60eb148bd9fe658e4bfa347b0d8",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -118,16 +122,16 @@
                     "friendly_name": "Juju Vazquez",
                     "entity_picture": "/local/images/profiles/home/juju_vazquez.jpg"
                 },
-                "last_changed": "2022-05-31T18:15:08.520627+00:00",
-                "last_updated": "2022-05-31T18:15:32.753398+00:00",
+                "last_changed": "2022-06-05T12:58:34.177704+00:00",
+                "last_updated": "2022-06-05T12:58:54.542613+00:00",
                 "context": {
-                    "id": "01811b5484914e11fc44bd1d4fcefc6d",
+                    "id": "018133f26cce961346359b153ef11330",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -139,16 +143,16 @@
                     "friendly_name": "Nate Vazquez",
                     "entity_picture": "/local/images/profiles/home/nate_vazquez.jpg"
                 },
-                "last_changed": "2022-05-31T18:15:08.520902+00:00",
-                "last_updated": "2022-05-31T18:15:32.753653+00:00",
+                "last_changed": "2022-06-05T12:58:34.178009+00:00",
+                "last_updated": "2022-06-05T12:58:54.542994+00:00",
                 "context": {
-                    "id": "01811b548491807142c5002df98d3c09",
+                    "id": "018133f26cce65dab23fcf68de6abeb9",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -161,16 +165,16 @@
                     "friendly_name": "Oren Panitch",
                     "entity_picture": "/local/images/profiles/home/oren.jpg"
                 },
-                "last_changed": "2022-05-31T18:15:08.521150+00:00",
-                "last_updated": "2022-05-31T18:15:32.753856+00:00",
+                "last_changed": "2022-06-05T12:58:34.178339+00:00",
+                "last_updated": "2022-06-05T12:58:54.543243+00:00",
                 "context": {
-                    "id": "01811b548491295969ae006b5e08a859",
+                    "id": "018133f26ccfe97c88be21a1a7450d97",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -182,16 +186,16 @@
                     "friendly_name": "Yariv Wolok",
                     "entity_picture": "/local/images/profiles/home/yariv_wolok.jpeg"
                 },
-                "last_changed": "2022-05-31T18:15:08.521417+00:00",
-                "last_updated": "2022-05-31T18:15:32.754054+00:00",
+                "last_changed": "2022-06-05T12:58:34.178613+00:00",
+                "last_updated": "2022-06-05T12:58:54.543435+00:00",
                 "context": {
-                    "id": "01811b548492466eaab9da7e761b1da7",
+                    "id": "018133f26ccf8e2f0c467a7e34de6dbe",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -210,26 +214,26 @@
                     "friendly_name": "Home Assistant Supervisor: Update",
                     "supported_features": 1
                 },
-                "last_changed": "2022-05-31T18:15:19.631234+00:00",
-                "last_updated": "2022-05-31T18:15:19.631234+00:00",
+                "last_changed": "2022-06-05T12:58:43.598105+00:00",
+                "last_updated": "2022-06-05T12:58:43.598105+00:00",
                 "context": {
-                    "id": "01811b54514f8d365d722c47280fef1b",
+                    "id": "018133f2420e3121379771237d2482de",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.home_assistant_core_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "2022.5.5",
                     "in_progress": false,
-                    "latest_version": "2022.5.5",
+                    "latest_version": "2022.6.7",
                     "release_summary": null,
                     "release_url": "https://www.home-assistant.io/latest-release-notes/",
                     "skipped_version": null,
@@ -238,16 +242,16 @@
                     "friendly_name": "Home Assistant Core: Update",
                     "supported_features": 11
                 },
-                "last_changed": "2022-05-31T18:15:19.631971+00:00",
-                "last_updated": "2022-05-31T18:15:19.631971+00:00",
+                "last_changed": "2022-06-05T12:58:43.600154+00:00",
+                "last_updated": "2022-06-22T13:26:03.457358+00:00",
                 "context": {
-                    "id": "01811b54514fbe5fb89bcbaa1910985a",
+                    "id": "01818b9763c1d59698d6a3b825e64313",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -266,16 +270,16 @@
                     "friendly_name": "Git pull: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.632376+00:00",
-                "last_updated": "2022-05-31T18:15:19.632376+00:00",
+                "last_changed": "2022-06-05T12:58:43.600634+00:00",
+                "last_updated": "2022-06-05T12:58:43.600634+00:00",
                 "context": {
-                    "id": "01811b545150e24e66766ad0a027ac1c",
+                    "id": "018133f2421060de789743a64fd5b9e6",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -294,27 +298,27 @@
                     "friendly_name": "Terminal & SSH: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.632890+00:00",
-                "last_updated": "2022-05-31T18:15:19.632890+00:00",
+                "last_changed": "2022-06-05T12:58:43.600978+00:00",
+                "last_updated": "2022-06-05T12:58:43.600978+00:00",
                 "context": {
-                    "id": "01811b545150bed2bf0b4ccf1e3dbbb9",
+                    "id": "018133f24210afe89592d23873128344",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.z_wave_js_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "0.1.60",
                     "in_progress": false,
-                    "latest_version": "0.1.60",
-                    "release_summary": "# Changelog\n\n## 0.1.60\n\n- Fix permissions issue with startup scripts\n\n## 0.1.59\n\n- Bump Z-Wave JS to 9.3.0\n- Bump Z-Wave JS Server to 1.17.0\n\n## 0.1.58\n\n- Bump Z-Wave JS to 9.0.7\n- Bump Z-Wave JS Server to 1.16.1\n\n## 0.1.57\n\n- Bump Z-Wave JS to 9.0.4\n\n## ",
+                    "latest_version": "0.1.64",
+                    "release_summary": "# Changelog\n\n## 0.1.64\n\n- Fix finish script for S6 V3\n\n## 0.1.63\n\n- Bump Z-Wave JS Server to 1.20.0\n\n## 0.1.62\n\n- Bump Z-Wave JS Server to 1.19.0\n\n## 0.1.61\n\n- Bump Z-Wave JS to 9.4.0\n- Bump Z-Wave JS Server to 1.18.0\n\n#",
                     "release_url": null,
                     "skipped_version": null,
                     "title": "Z-Wave JS",
@@ -322,26 +326,26 @@
                     "friendly_name": "Z-Wave JS: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.633292+00:00",
-                "last_updated": "2022-05-31T18:15:19.633292+00:00",
+                "last_changed": "2022-06-19T19:29:51.307760+00:00",
+                "last_updated": "2022-06-25T19:32:05.280625+00:00",
                 "context": {
-                    "id": "01811b545151762fdc500c39f8f661b4",
+                    "id": "01819c59942039a439ccc8edf4645ba8",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.nginx_home_assistant_ssl_proxy_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "3.1.1",
                     "in_progress": false,
-                    "latest_version": "3.1.1",
+                    "latest_version": "3.1.5",
                     "release_summary": null,
                     "release_url": null,
                     "skipped_version": null,
@@ -350,16 +354,16 @@
                     "friendly_name": "NGINX Home Assistant SSL proxy: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.633651+00:00",
-                "last_updated": "2022-05-31T18:15:19.633651+00:00",
+                "last_changed": "2022-06-23T22:29:11.314120+00:00",
+                "last_updated": "2022-06-24T01:30:23.305306+00:00",
                 "context": {
-                    "id": "01811b5451513102403f5a1f82365adb",
+                    "id": "01819354e4c9b7b85f066c2c33cdbcb4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -378,27 +382,27 @@
                     "friendly_name": "Mosquitto broker: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.634016+00:00",
-                "last_updated": "2022-05-31T18:15:19.634016+00:00",
+                "last_changed": "2022-06-05T12:58:43.602021+00:00",
+                "last_updated": "2022-06-05T12:58:43.602021+00:00",
                 "context": {
-                    "id": "01811b545152db3b8f74828e9b189822",
+                    "id": "018133f24212b0ff2d24cb47cb09eb81",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.appdaemon_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "0.8.2",
                     "in_progress": false,
-                    "latest_version": "0.8.2",
-                    "release_summary": "## What\u2019s changed\n\n## \ud83d\ude80 Enhancements\n\n- \ud83d\udd28 Rename add-on to just 'AppDaemon' @frenck (#194)\n- \ud83d\udd12 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#192)\n\n## \ud83d\udcda Documentation\n\n- \ud83d\udcda Add My buttons to documentation @frenck (#193)\n\n## \u2b06\ufe0f De",
+                    "latest_version": "0.9.0",
+                    "release_summary": "## What\u2019s changed\n\nThis release updates Python to 3.10!\n\n\u26a0\ufe0f Please note/be aware, that this may influence your scripts.\nPython 3.10 release notes: <https://docs.python.org/3/whatsnew/3.10.html>\n\n## \ud83d\udcda Documentation\n\n- \ud83d\udcda Use new My Home Assistant link forma",
                     "release_url": null,
                     "skipped_version": null,
                     "title": "AppDaemon",
@@ -406,16 +410,16 @@
                     "friendly_name": "AppDaemon: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.634480+00:00",
-                "last_updated": "2022-05-31T18:20:21.331508+00:00",
+                "last_changed": "2022-06-09T13:27:03.320694+00:00",
+                "last_updated": "2022-06-09T13:27:03.320694+00:00",
                 "context": {
-                    "id": "01811b58ebd385887665b3b435c111ec",
+                    "id": "018148a5a198cd3d00c7309440161074",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -425,8 +429,8 @@
                     "auto_update": false,
                     "installed_version": "0.41.0",
                     "in_progress": false,
-                    "latest_version": "0.42.0",
-                    "release_summary": "## What\u2019s changed\n\n## \u2b06\ufe0f Dependency updates\n\n- \u2b06\ufe0f Upgrades zwavejs2mqtt to v6.11.0 @frenck (#378)\n",
+                    "latest_version": "0.44.0",
+                    "release_summary": "## What\u2019s changed\n\n## \u2b06\ufe0f Dependency updates\n\n- \u2b06\ufe0f Upgrades add-on base image to 12.2.0 @frenck (#389)\n- \u2b06\ufe0f Upgrades zwavejs2mqtt to 6.13.0 @raman325 (#390)\n- \u2b06\ufe0f Upgrades nginx to 1.22.0-r1 @frenck (#391)\n",
                     "release_url": null,
                     "skipped_version": null,
                     "title": "Z-Wave JS to MQTT",
@@ -434,27 +438,27 @@
                     "friendly_name": "Z-Wave JS to MQTT: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.636614+00:00",
-                "last_updated": "2022-05-31T18:15:19.636614+00:00",
+                "last_changed": "2022-06-05T12:58:43.603270+00:00",
+                "last_updated": "2022-06-29T22:31:43.343100+00:00",
                 "context": {
-                    "id": "01811b5451545d3e6f858cfd2cabc100",
+                    "id": "0181b19779ef22d289f594212f0fd79e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.aircast_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "3.3.0",
                     "in_progress": false,
-                    "latest_version": "3.3.0",
-                    "release_summary": "## What\u2019s changed\n\n## \ud83d\ude80 Enhancements\n\n- \ud83d\udd12 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#133)\n\n## \ud83d\udcda Documentation\n\n- \ud83d\udcda Add My buttons to documentation @frenck (#134)\n\n## \u2b06\ufe0f Dependency updates\n\n- \u2b06\ufe0f Upgrades add-on base image to ",
+                    "latest_version": "3.4.0",
+                    "release_summary": "## What\u2019s changed\n\n## \ud83d\udcda Documentation\n\n- \ud83d\udcda Use new My Home Assistant link format @frenck (#139)\n\n## \u2b06\ufe0f Dependency updates\n\n- \u2b06\ufe0f Upgrades add-on base image to 6.0.0 @frenck (#138)\n",
                     "release_url": null,
                     "skipped_version": null,
                     "title": "AirCast",
@@ -462,16 +466,16 @@
                     "friendly_name": "AirCast: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.637653+00:00",
-                "last_updated": "2022-05-31T18:15:19.637653+00:00",
+                "last_changed": "2022-06-09T13:27:03.321909+00:00",
+                "last_updated": "2022-06-09T13:27:03.321909+00:00",
                 "context": {
-                    "id": "01811b5451553415f6012cab04ac1571",
+                    "id": "018148a5a199931664875f2114828dcd",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -479,9 +483,9 @@
                 "state": "off",
                 "attributes": {
                     "auto_update": false,
-                    "installed_version": "10.1.3",
+                    "installed_version": "11.0.1",
                     "in_progress": false,
-                    "latest_version": "10.1.3",
+                    "latest_version": "11.0.1",
                     "release_summary": null,
                     "release_url": null,
                     "skipped_version": null,
@@ -490,16 +494,16 @@
                     "friendly_name": "SSH & Web Terminal: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.638019+00:00",
-                "last_updated": "2022-05-31T18:20:21.332566+00:00",
+                "last_changed": "2022-06-29T19:55:41.379566+00:00",
+                "last_updated": "2022-06-29T19:55:41.381997+00:00",
                 "context": {
-                    "id": "01811b58ebd42f5572afffac99bf7218",
+                    "id": "0181b1089fc501640918f855f3c8d3b4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -518,44 +522,44 @@
                     "friendly_name": "Duck DNS: Update",
                     "supported_features": 25
                 },
-                "last_changed": "2022-05-31T18:15:19.638903+00:00",
-                "last_updated": "2022-05-31T18:15:19.638903+00:00",
+                "last_changed": "2022-06-05T12:58:43.604965+00:00",
+                "last_updated": "2022-06-05T12:58:43.604965+00:00",
                 "context": {
-                    "id": "01811b5451561fdf1d7c2a94e1c5751a",
+                    "id": "018133f242142b92ddb5cf3025dea9b6",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "update.home_assistant_operating_system_update",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "auto_update": false,
                     "installed_version": "8.1",
                     "in_progress": false,
-                    "latest_version": "8.1",
+                    "latest_version": "8.2",
                     "release_summary": null,
-                    "release_url": "https://github.com/home-assistant/operating-system/releases/tag/8.1",
+                    "release_url": "https://github.com/home-assistant/operating-system/releases/tag/8.2",
                     "skipped_version": null,
                     "title": "Home Assistant Operating System",
                     "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
                     "friendly_name": "Home Assistant Operating System: Update",
                     "supported_features": 3
                 },
-                "last_changed": "2022-05-31T18:15:19.639603+00:00",
-                "last_updated": "2022-05-31T18:15:19.639603+00:00",
+                "last_changed": "2022-06-14T15:25:33.311860+00:00",
+                "last_updated": "2022-06-14T15:25:33.311860+00:00",
                 "context": {
-                    "id": "01811b5451578acb29cfe973457e3f24",
+                    "id": "018162d1eaff0c83ca3631d8bc85575a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -564,16 +568,16 @@
                 "attributes": {
                     "friendly_name": "Flux Lights"
                 },
-                "last_changed": "2022-05-31T18:15:20.233562+00:00",
-                "last_updated": "2022-05-31T18:15:20.233562+00:00",
+                "last_changed": "2022-06-05T12:58:44.017732+00:00",
+                "last_updated": "2022-06-05T12:58:44.017732+00:00",
                 "context": {
-                    "id": "01811b5453a97355df4e5533492fff61",
+                    "id": "018133f243b13609fb4b390e5cdc77bb",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -582,16 +586,16 @@
                 "attributes": {
                     "friendly_name": "Scan Clients (Drobo5N)"
                 },
-                "last_changed": "2022-05-31T18:15:20.873465+00:00",
-                "last_updated": "2022-05-31T18:15:20.873465+00:00",
+                "last_changed": "2022-06-05T12:58:44.500229+00:00",
+                "last_updated": "2022-06-05T12:58:44.500229+00:00",
                 "context": {
-                    "id": "01811b5456299bb59f8851267ab60a76",
+                    "id": "018133f2459465afb73efcd3dd7263b0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -600,16 +604,16 @@
                 "attributes": {
                     "friendly_name": "Maria is Vacuuming"
                 },
-                "last_changed": "2022-05-31T18:15:32.761390+00:00",
-                "last_updated": "2022-05-31T18:15:32.761390+00:00",
+                "last_changed": "2022-06-05T12:58:54.550462+00:00",
+                "last_updated": "2022-06-05T12:58:54.550462+00:00",
                 "context": {
-                    "id": "01811b548499330dc52dfc8ee0077dea",
+                    "id": "018133f26cd68ce001dd9f4df4d985d4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -622,448 +626,423 @@
                     "id": "1582894309852",
                     "friendly_name": "Welcome Home"
                 },
-                "last_changed": "2022-05-31T18:15:23.468084+00:00",
-                "last_updated": "2022-05-31T18:15:23.468084+00:00",
+                "last_changed": "2022-06-29T16:18:23.900087+00:00",
+                "last_updated": "2022-06-29T16:18:23.900087+00:00",
                 "context": {
-                    "id": "01811b54604ca6ac2c5530571435e3c8",
+                    "id": "0181b041b01c5ebb9c0c194ec6e0465d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.powder_room_lights_on",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T14:21:32.721690+00:00",
+                    "last_triggered": "2022-07-02T02:41:13.462163+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585781804427",
                     "friendly_name": "Powder Room Lights On"
                 },
-                "last_changed": "2022-05-31T18:15:23.468731+00:00",
-                "last_updated": "2022-05-31T18:15:23.468731+00:00",
+                "last_changed": "2022-06-29T16:18:23.900942+00:00",
+                "last_updated": "2022-07-02T02:41:13.736349+00:00",
                 "context": {
-                    "id": "01811b54604cd05aec14aa1f782616d2",
-                    "parent_id": null,
+                    "id": "0181bcc89ef32ad0c5b09d3d7828c4fc",
+                    "parent_id": "0181bcc89eeedd188cfdd373a6306352",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.powder_room_lights_off",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T18:09:25.715299+00:00",
+                    "last_triggered": "2022-07-02T02:43:00.703899+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585781880464",
                     "friendly_name": "Powder Room Lights Off"
                 },
-                "last_changed": "2022-05-31T18:15:23.469225+00:00",
-                "last_updated": "2022-05-31T18:15:23.469225+00:00",
+                "last_changed": "2022-06-29T16:18:23.901920+00:00",
+                "last_updated": "2022-07-02T02:43:00.944810+00:00",
                 "context": {
-                    "id": "01811b54604d5f2303f92aa984d21dc5",
-                    "parent_id": null,
+                    "id": "0181bcca41dc020a9b7c8505a34a3dbf",
+                    "parent_id": "0181bcca41d8d38e5e6f2ea31e674fce",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.exterior_sunset",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T00:22:37.706988+00:00",
+                    "last_triggered": "2022-07-03T00:33:49.642404+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1587610014345",
                     "friendly_name": "Exterior Sunset"
                 },
-                "last_changed": "2022-05-31T18:15:23.469818+00:00",
-                "last_updated": "2022-05-31T18:15:23.469818+00:00",
+                "last_changed": "2022-06-29T16:18:23.902540+00:00",
+                "last_updated": "2022-07-03T00:33:50.045262+00:00",
                 "context": {
-                    "id": "01811b54604d0a76ff3cc55fdfc89641",
+                    "id": "0181c17a584947c47c02438a5b69f0e0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.exterior_sunrise",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T09:33:36.740617+00:00",
+                    "last_triggered": "2022-07-03T09:35:52.932362+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1587610079072",
                     "friendly_name": "Exterior Sunrise"
                 },
-                "last_changed": "2022-05-31T18:15:23.470342+00:00",
-                "last_updated": "2022-05-31T18:15:23.470342+00:00",
+                "last_changed": "2022-06-29T16:18:23.903024+00:00",
+                "last_updated": "2022-07-03T09:35:53.291077+00:00",
                 "context": {
-                    "id": "01811b54604e6baea2ea86531e7367cb",
+                    "id": "0181c36a9c63be395b98b556bc590cbb",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.hallway_night_lights_on",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T00:22:37.704867+00:00",
+                    "last_triggered": "2022-07-03T00:33:49.639808+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1589588967075",
                     "friendly_name": "Hallway Night Lights On"
                 },
-                "last_changed": "2022-05-31T18:15:23.470837+00:00",
-                "last_updated": "2022-05-31T18:15:23.470837+00:00",
+                "last_changed": "2022-06-29T16:18:23.903601+00:00",
+                "last_updated": "2022-07-03T00:33:49.689323+00:00",
                 "context": {
-                    "id": "01811b54604e988754dc6d78bb9b81dc",
+                    "id": "0181c17a5846c906de0959330f11cc2c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.hallway_nightlight_turn_off",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T09:33:36.739877+00:00",
+                    "last_triggered": "2022-07-03T09:35:52.933985+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1589589008880",
                     "friendly_name": "Hallway Nightlight Turn Off"
                 },
-                "last_changed": "2022-05-31T18:15:23.471327+00:00",
-                "last_updated": "2022-05-31T18:15:23.471327+00:00",
+                "last_changed": "2022-06-29T16:18:23.904150+00:00",
+                "last_updated": "2022-07-03T09:35:52.965059+00:00",
                 "context": {
-                    "id": "01811b54604fa4cc8a8a9cb0934832cb",
+                    "id": "0181c36a9c653cf48b79292f669f67ca",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.small_tank_light_on",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T09:33:36.737664+00:00",
+                    "last_triggered": "2022-07-03T09:35:52.931412+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1651539763507",
                     "friendly_name": "Small Tank Light - On"
                 },
-                "last_changed": "2022-05-31T18:15:23.471783+00:00",
-                "last_updated": "2022-05-31T18:15:23.471783+00:00",
+                "last_changed": "2022-06-29T16:18:23.904877+00:00",
+                "last_updated": "2022-07-03T09:35:53.076623+00:00",
                 "context": {
-                    "id": "01811b54604f87d38d56520525bc461e",
+                    "id": "0181c36a9c62c0e314418d011e66a6de",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.small_tank_light_off",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T00:22:37.706286+00:00",
+                    "last_triggered": "2022-07-03T00:33:49.641494+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1651539818720",
                     "friendly_name": "Small Tank Light - Off"
                 },
-                "last_changed": "2022-05-31T18:15:23.472345+00:00",
-                "last_updated": "2022-05-31T18:15:23.472345+00:00",
+                "last_changed": "2022-06-29T16:18:23.905643+00:00",
+                "last_updated": "2022-07-03T00:33:49.780575+00:00",
                 "context": {
-                    "id": "01811b546050c54fc3221f0e2b524ede",
+                    "id": "0181c17a58484f3eec3f11499f6e8cb4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.turn_powder_room_back_on",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2022-05-31T10:50:40.752497+00:00",
+                    "last_triggered": "2022-07-01T20:23:54.854971+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1653951135024",
                     "friendly_name": "Turn Powder Room Back On"
                 },
-                "last_changed": "2022-05-31T18:15:23.472906+00:00",
-                "last_updated": "2022-05-31T18:15:23.472906+00:00",
+                "last_changed": "2022-06-29T16:18:23.906392+00:00",
+                "last_updated": "2022-07-01T20:24:00.266786+00:00",
                 "context": {
-                    "id": "01811b546050cde4413dde1bc499ea50",
+                    "id": "0181bb6f440a016ac170bfc22e53304b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.pixel_3_next_alarm",
-                "state": "unknown",
+                "entity_id": "automation.ink_low_notification",
+                "state": "on",
                 "attributes": {
-                    "device_class": "timestamp",
-                    "icon": "mdi:alarm",
-                    "friendly_name": "Pixel 3 Next Alarm"
+                    "last_triggered": "2022-06-01T04:38:09.305920+00:00",
+                    "mode": "parallel",
+                    "current": 0,
+                    "max": 4,
+                    "id": "1654053995550",
+                    "friendly_name": "Ink Low Notification"
                 },
-                "last_changed": "2022-05-31T18:15:25.511643+00:00",
-                "last_updated": "2022-05-31T18:15:25.511643+00:00",
+                "last_changed": "2022-06-29T16:18:23.906918+00:00",
+                "last_updated": "2022-06-29T16:18:23.906918+00:00",
                 "context": {
-                    "id": "01811b546847fd906d25e42d8fc0e880",
+                    "id": "0181b041b02265ee9c763721d3fd3baf",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_activity",
-                "state": "Unknown",
+                "entity_id": "sensor.oren_iphone_activity",
+                "state": "Stationary",
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Unknown"
+                        "Stationary"
                     ],
-                    "icon": "mdi:help-circle",
-                    "friendly_name": "iPhone Activity"
+                    "icon": "mdi:human-male",
+                    "friendly_name": "Oren iPhone Activity"
                 },
-                "last_changed": "2022-05-31T18:15:25.512258+00:00",
-                "last_updated": "2022-05-31T18:15:25.512258+00:00",
+                "last_changed": "2022-06-14T11:10:45.243293+00:00",
+                "last_updated": "2022-06-14T11:10:45.243293+00:00",
                 "context": {
-                    "id": "01811b546848c3942a60b86ae06aace1",
+                    "id": "018161e8a3fbcb21cad58a7cbd9216b2",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_steps",
-                "state": "0",
-                "attributes": {
-                    "unit_of_measurement": "steps",
-                    "icon": "mdi:walk",
-                    "friendly_name": "iPhone Steps"
-                },
-                "last_changed": "2022-05-31T18:15:25.512708+00:00",
-                "last_updated": "2022-05-31T18:15:25.512708+00:00",
-                "context": {
-                    "id": "01811b54684877fc45b444e333dbffa0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.iphone_average_active_pace",
+                "entity_id": "sensor.oren_iphone_average_active_pace",
                 "state": "1",
                 "attributes": {
                     "unit_of_measurement": "m/s",
                     "icon": "mdi:speedometer",
-                    "friendly_name": "iPhone Average Active Pace"
+                    "friendly_name": "Oren iPhone Average Active Pace"
                 },
-                "last_changed": "2022-05-31T18:15:25.513360+00:00",
-                "last_updated": "2022-05-31T18:15:25.513360+00:00",
+                "last_changed": "2022-06-05T12:58:48.148914+00:00",
+                "last_updated": "2022-06-05T12:58:48.148914+00:00",
                 "context": {
-                    "id": "01811b546849e47c38f5b904c5193ee3",
+                    "id": "018133f253d4f28d181045bd9c88812d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_battery_level",
+                "entity_id": "sensor.oren_iphone_bssid",
+                "state": "3c:bd:c5:2:a8:f3",
+                "attributes": {
+                    "icon": "mdi:wifi-star",
+                    "friendly_name": "Oren iPhone BSSID"
+                },
+                "last_changed": "2022-06-14T11:10:45.246866+00:00",
+                "last_updated": "2022-06-14T11:10:45.246866+00:00",
+                "context": {
+                    "id": "018161e8a3fe88dddcc5b04274bfbbbb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_iphone_battery_level",
                 "state": "100",
                 "attributes": {
                     "unit_of_measurement": "%",
                     "device_class": "battery",
-                    "icon": "mdi:battery-charging-100",
-                    "friendly_name": "iPhone Battery Level"
+                    "icon": "mdi:battery",
+                    "friendly_name": "Oren iPhone Battery Level"
                 },
-                "last_changed": "2022-05-31T18:15:25.513990+00:00",
-                "last_updated": "2022-05-31T18:15:25.513990+00:00",
+                "last_changed": "2022-06-14T11:10:45.245103+00:00",
+                "last_updated": "2022-06-14T11:10:45.245103+00:00",
                 "context": {
-                    "id": "01811b546849ee7b1af7530f2f7d5ce4",
+                    "id": "018161e8a3fd99698ed6a55a042ca948",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_battery_state",
-                "state": "Charging",
+                "entity_id": "sensor.oren_iphone_battery_state",
+                "state": "Full",
                 "attributes": {
                     "Low Power Mode": false,
-                    "icon": "mdi:battery-charging-100",
-                    "friendly_name": "iPhone Battery State"
+                    "icon": "mdi:battery",
+                    "friendly_name": "Oren iPhone Battery State"
                 },
-                "last_changed": "2022-05-31T18:15:25.514436+00:00",
-                "last_updated": "2022-05-31T18:15:25.514436+00:00",
+                "last_changed": "2022-06-14T11:10:45.245542+00:00",
+                "last_updated": "2022-06-14T11:10:45.245542+00:00",
                 "context": {
-                    "id": "01811b54684af5eab7f430f14570c441",
+                    "id": "018161e8a3fd393ecbf4a2639566848e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_storage",
-                "state": "93.07",
-                "attributes": {
-                    "Available": "232.99 GB",
-                    "Available (Important)": "239.52 GB",
-                    "Available (Opportunistic)": "238.24 GB",
-                    "Total": "255.98 GB",
-                    "unit_of_measurement": "% available",
-                    "icon": "mdi:database",
-                    "friendly_name": "iPhone Storage"
-                },
-                "last_changed": "2022-05-31T18:15:25.514934+00:00",
-                "last_updated": "2022-05-31T18:15:25.514934+00:00",
-                "context": {
-                    "id": "01811b54684a07a9256b301351007be3",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.iphone_ssid",
-                "state": "samurai jack",
-                "attributes": {
-                    "icon": "mdi:wifi",
-                    "friendly_name": "iPhone SSID"
-                },
-                "last_changed": "2022-05-31T18:15:25.515481+00:00",
-                "last_updated": "2022-05-31T18:15:25.515481+00:00",
-                "context": {
-                    "id": "01811b54684b0ed2325dd8b8ac9b693c",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.iphone_bssid",
-                "state": "3c:bd:c5:2:a8:f4",
-                "attributes": {
-                    "icon": "mdi:wifi-star",
-                    "friendly_name": "iPhone BSSID"
-                },
-                "last_changed": "2022-05-31T18:15:25.515964+00:00",
-                "last_updated": "2022-05-31T18:15:25.515964+00:00",
-                "context": {
-                    "id": "01811b54684b4cea30c7d674eb207773",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.iphone_connection_type",
+                "entity_id": "sensor.oren_iphone_connection_type",
                 "state": "Wi-Fi",
                 "attributes": {
                     "icon": "mdi:wifi",
-                    "friendly_name": "iPhone Connection Type"
+                    "friendly_name": "Oren iPhone Connection Type"
                 },
-                "last_changed": "2022-05-31T18:15:25.516387+00:00",
-                "last_updated": "2022-05-31T18:15:25.516387+00:00",
+                "last_changed": "2022-06-05T12:58:48.150680+00:00",
+                "last_updated": "2022-06-05T12:58:48.150680+00:00",
                 "context": {
-                    "id": "01811b54684ccc24d69e03d3546da9bc",
+                    "id": "018133f253d6f5829a30dcb2cd7504d0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_sim_1",
-                "state": "TigoUNE",
+                "entity_id": "sensor.oren_iphone_distance",
+                "state": "0",
                 "attributes": {
-                    "Allows VoIP": true,
-                    "Carrier ID": "0000000100000001",
-                    "Carrier Name": "TigoUNE",
-                    "ISO Country Code": "co",
-                    "Mobile Country Code": "732",
-                    "Mobile Network Code": "111",
-                    "icon": "mdi:sim",
-                    "friendly_name": "iPhone SIM 1"
+                    "unit_of_measurement": "m",
+                    "icon": "mdi:hiking",
+                    "friendly_name": "Oren iPhone Distance"
                 },
-                "last_changed": "2022-05-31T18:15:25.516822+00:00",
-                "last_updated": "2022-05-31T18:15:25.516822+00:00",
+                "last_changed": "2022-06-05T12:58:48.151220+00:00",
+                "last_updated": "2022-06-05T12:58:48.151220+00:00",
                 "context": {
-                    "id": "01811b54684c50252cececad6967e52f",
+                    "id": "018133f253d750ccc57565de0a0dd557",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_geocoded_location",
+                "entity_id": "sensor.oren_iphone_floors_ascended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-up",
+                    "friendly_name": "Oren iPhone Floors Ascended"
+                },
+                "last_changed": "2022-06-05T12:58:48.151664+00:00",
+                "last_updated": "2022-06-05T12:58:48.151664+00:00",
+                "context": {
+                    "id": "018133f253d7d8f49e479f0e3864215e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_iphone_floors_descended",
+                "state": "0",
+                "attributes": {
+                    "unit_of_measurement": "floors",
+                    "icon": "mdi:stairs-down",
+                    "friendly_name": "Oren iPhone Floors Descended"
+                },
+                "last_changed": "2022-06-05T12:58:48.152243+00:00",
+                "last_updated": "2022-06-05T12:58:48.152243+00:00",
+                "context": {
+                    "id": "018133f253d82029554ce096e8d6582d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_iphone_geocoded_location",
                 "state": "841 N Fourth St\nPhiladelphia PA 19123\nUnited States",
                 "attributes": {
                     "Administrative Area": "PA",
@@ -1074,7 +1053,7 @@
                     "Locality": "Philadelphia",
                     "Location": [
                         39.964874267578125,
-                        -75.144087643109
+                        -75.14410892021945
                     ],
                     "Name": "841 N Fourth St",
                     "Ocean": "N/A",
@@ -1084,124 +1063,150 @@
                     "Sub Thoroughfare": "841",
                     "Thoroughfare": "N Fourth St",
                     "Time Zone": "America/New_York",
-                    "Zones": [
-                        "Home"
-                    ],
+                    "Zones": [],
                     "icon": "mdi:map",
-                    "friendly_name": "iPhone Geocoded Location"
+                    "friendly_name": "Oren iPhone Geocoded Location"
                 },
-                "last_changed": "2022-05-31T18:15:25.517247+00:00",
-                "last_updated": "2022-05-31T18:15:25.517247+00:00",
+                "last_changed": "2022-06-05T12:58:48.152663+00:00",
+                "last_updated": "2022-06-14T11:10:45.293222+00:00",
                 "context": {
-                    "id": "01811b54684d85c7045b2d88e1b7ad5a",
+                    "id": "018161e8a42d0c9c38e958dd86b3c1f5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_last_update_trigger",
-                "state": "Launch",
+                "entity_id": "sensor.oren_iphone_last_update_trigger",
+                "state": "Significant Location Change",
                 "attributes": {
                     "icon": "mdi:cellphone-wireless",
-                    "friendly_name": "iPhone Last Update Trigger"
+                    "friendly_name": "Oren iPhone Last Update Trigger"
                 },
-                "last_changed": "2022-05-31T18:15:25.517904+00:00",
-                "last_updated": "2022-05-31T18:15:25.517904+00:00",
+                "last_changed": "2022-06-14T11:10:45.293985+00:00",
+                "last_updated": "2022-06-14T11:10:45.293985+00:00",
                 "context": {
-                    "id": "01811b54684d543d575e9d7d8c684f78",
+                    "id": "018161e8a42d36d8069926b5fd1f8fef",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_distance",
-                "state": "0",
+                "entity_id": "sensor.oren_iphone_sim_1",
+                "state": "TigoUNE",
                 "attributes": {
-                    "unit_of_measurement": "m",
-                    "icon": "mdi:hiking",
-                    "friendly_name": "iPhone Distance"
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "TigoUNE",
+                    "ISO Country Code": "co",
+                    "Mobile Country Code": "732",
+                    "Mobile Network Code": "111",
+                    "icon": "mdi:sim",
+                    "friendly_name": "Oren iPhone SIM 1"
                 },
-                "last_changed": "2022-05-31T18:15:25.518385+00:00",
-                "last_updated": "2022-05-31T18:15:25.518385+00:00",
+                "last_changed": "2022-06-05T12:58:48.153472+00:00",
+                "last_updated": "2022-06-05T12:58:48.153472+00:00",
                 "context": {
-                    "id": "01811b54684ebdc151a4891e7a7897a9",
+                    "id": "018133f253d92fec320880c873a2f107",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_floors_descended",
-                "state": "0",
+                "entity_id": "sensor.oren_iphone_ssid",
+                "state": "samurai jack",
                 "attributes": {
-                    "unit_of_measurement": "floors",
-                    "icon": "mdi:stairs-down",
-                    "friendly_name": "iPhone Floors Descended"
+                    "icon": "mdi:wifi",
+                    "friendly_name": "Oren iPhone SSID"
                 },
-                "last_changed": "2022-05-31T18:15:25.518800+00:00",
-                "last_updated": "2022-05-31T18:15:25.518800+00:00",
+                "last_changed": "2022-06-05T12:58:48.154070+00:00",
+                "last_updated": "2022-06-05T12:58:48.154070+00:00",
                 "context": {
-                    "id": "01811b54684ed0d2e4691c3c2343656d",
+                    "id": "018133f253da718d99b3970688f8cba5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.iphone_floors_ascended",
+                "entity_id": "sensor.oren_iphone_steps",
                 "state": "0",
                 "attributes": {
-                    "unit_of_measurement": "floors",
-                    "icon": "mdi:stairs-up",
-                    "friendly_name": "iPhone Floors Ascended"
+                    "unit_of_measurement": "steps",
+                    "icon": "mdi:walk",
+                    "friendly_name": "Oren iPhone Steps"
                 },
-                "last_changed": "2022-05-31T18:15:25.519190+00:00",
-                "last_updated": "2022-05-31T18:15:25.519190+00:00",
+                "last_changed": "2022-06-05T12:58:48.154635+00:00",
+                "last_updated": "2022-06-05T12:58:48.154635+00:00",
                 "context": {
-                    "id": "01811b54684f3156b52a50267d167912",
+                    "id": "018133f253da43f3a5dfc8398ed2d1ef",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_iphone_storage",
+                "state": "90.57",
+                "attributes": {
+                    "Available": "226.69 GB",
+                    "Available (Important)": "233.12 GB",
+                    "Available (Opportunistic)": "231.84 GB",
+                    "Total": "255.98 GB",
+                    "unit_of_measurement": "% available",
+                    "icon": "mdi:database",
+                    "friendly_name": "Oren iPhone Storage"
+                },
+                "last_changed": "2022-06-14T11:10:45.246231+00:00",
+                "last_updated": "2022-06-14T11:10:45.246231+00:00",
+                "context": {
+                    "id": "018161e8a3fe3c811d278cd369263668",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_activity",
-                "state": "Unknown",
+                "state": "Stationary",
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Unknown"
+                        "Stationary"
                     ],
-                    "icon": "mdi:help-circle",
+                    "icon": "mdi:human-male",
                     "friendly_name": "Jose iPhone Activity"
                 },
-                "last_changed": "2022-05-31T18:15:25.519580+00:00",
-                "last_updated": "2022-05-31T18:15:25.519580+00:00",
+                "last_changed": "2022-07-03T21:54:20.964239+00:00",
+                "last_updated": "2022-07-03T21:54:20.964239+00:00",
                 "context": {
-                    "id": "01811b54684fb64f7a56038e6fd63aa8",
+                    "id": "0181c60eb2a46b3772dbc39a25e3d488",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1212,212 +1217,213 @@
                     "icon": "mdi:speedometer",
                     "friendly_name": "Jose iPhone Average Active Pace"
                 },
-                "last_changed": "2022-05-31T18:15:25.519962+00:00",
-                "last_updated": "2022-05-31T18:15:25.519962+00:00",
+                "last_changed": "2022-07-02T18:03:31.581994+00:00",
+                "last_updated": "2022-07-02T18:03:31.581994+00:00",
                 "context": {
-                    "id": "01811b54684f77576d05699fbe0915a1",
+                    "id": "0181c015037de8976739ce0875cf6134",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_bssid",
-                "state": "2c:b8:ed:4f:a6:d6",
+                "state": "Not Connected",
                 "attributes": {
-                    "icon": "mdi:wifi-star",
+                    "icon": "mdi:wifi-off",
                     "friendly_name": "Jose iPhone BSSID"
                 },
-                "last_changed": "2022-05-31T18:15:25.520338+00:00",
-                "last_updated": "2022-05-31T18:15:25.520338+00:00",
+                "last_changed": "2022-07-02T19:49:39.979357+00:00",
+                "last_updated": "2022-07-02T19:49:39.979357+00:00",
                 "context": {
-                    "id": "01811b5468506f817a53bad2d5eab4c0",
+                    "id": "0181c076300b7130cb15d575b321f8a2",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_battery_level",
-                "state": "93",
+                "state": "51",
                 "attributes": {
                     "unit_of_measurement": "%",
                     "device_class": "battery",
-                    "icon": "mdi:battery-charging-80",
+                    "icon": "mdi:battery-50",
                     "friendly_name": "Jose iPhone Battery Level"
                 },
-                "last_changed": "2022-05-31T18:15:25.520728+00:00",
-                "last_updated": "2022-05-31T18:15:25.520728+00:00",
+                "last_changed": "2022-07-03T21:54:20.966968+00:00",
+                "last_updated": "2022-07-03T21:54:20.966968+00:00",
                 "context": {
-                    "id": "01811b546850816cdfe819fa05168887",
+                    "id": "0181c60eb2a61082af3c1b802a0a6b01",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_battery_state",
-                "state": "Charging",
+                "state": "Not Charging",
                 "attributes": {
-                    "Low Power Mode": false,
-                    "icon": "mdi:battery-charging-80",
+                    "Low Power Mode": true,
+                    "icon": "mdi:battery-50",
                     "friendly_name": "Jose iPhone Battery State"
                 },
-                "last_changed": "2022-05-31T18:15:25.523128+00:00",
-                "last_updated": "2022-05-31T18:15:25.523128+00:00",
+                "last_changed": "2022-07-03T20:03:22.129054+00:00",
+                "last_updated": "2022-07-03T21:44:19.524571+00:00",
                 "context": {
-                    "id": "01811b54685392a99db5beaf84e1170f",
+                    "id": "0181c60585447acdf5404dce21bd64a3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_connection_type",
-                "state": "Wi-Fi",
+                "state": "Cellular",
                 "attributes": {
-                    "icon": "mdi:wifi",
+                    "Cellular Technology": "5G",
+                    "icon": "mdi:signal",
                     "friendly_name": "Jose iPhone Connection Type"
                 },
-                "last_changed": "2022-05-31T18:15:25.523639+00:00",
-                "last_updated": "2022-05-31T18:15:25.523639+00:00",
+                "last_changed": "2022-07-02T19:49:39.979799+00:00",
+                "last_updated": "2022-07-03T21:54:20.968812+00:00",
                 "context": {
-                    "id": "01811b54685327122142e232dfcaefee",
+                    "id": "0181c60eb2a8061db44a7c29889bc576",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_distance",
-                "state": "1059",
+                "state": "672",
                 "attributes": {
                     "unit_of_measurement": "m",
                     "icon": "mdi:hiking",
                     "friendly_name": "Jose iPhone Distance"
                 },
-                "last_changed": "2022-05-31T18:15:25.524122+00:00",
-                "last_updated": "2022-05-31T18:15:25.524122+00:00",
+                "last_changed": "2022-07-03T21:54:20.964884+00:00",
+                "last_updated": "2022-07-03T21:54:20.964884+00:00",
                 "context": {
-                    "id": "01811b546854f326522a6d7d4b82c0c9",
+                    "id": "0181c60eb2a4971939a5b1ac164cb38f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_floors_ascended",
-                "state": "2",
+                "state": "0",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "icon": "mdi:stairs-up",
                     "friendly_name": "Jose iPhone Floors Ascended"
                 },
-                "last_changed": "2022-05-31T18:15:25.524581+00:00",
-                "last_updated": "2022-05-31T18:15:25.524581+00:00",
+                "last_changed": "2022-07-02T18:29:18.407692+00:00",
+                "last_updated": "2022-07-02T18:29:18.407692+00:00",
                 "context": {
-                    "id": "01811b54685492b8764c75c50dd091e0",
+                    "id": "0181c02c9dc74cf0db944c6916f9eae5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_floors_descended",
-                "state": "2",
+                "state": "0",
                 "attributes": {
                     "unit_of_measurement": "floors",
                     "icon": "mdi:stairs-down",
                     "friendly_name": "Jose iPhone Floors Descended"
                 },
-                "last_changed": "2022-05-31T18:15:25.525560+00:00",
-                "last_updated": "2022-05-31T18:15:25.525560+00:00",
+                "last_changed": "2022-07-03T18:22:11.902892+00:00",
+                "last_updated": "2022-07-03T18:22:11.902892+00:00",
                 "context": {
-                    "id": "01811b5468557077192ef45287d8dde3",
+                    "id": "0181c54c77be66d4b44c9a1388830e55",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_geocoded_location",
-                "state": "300\u2013326 W Woodlawn St\nPhiladelphia PA 19144\nUnited States",
+                "state": "1342 E J St\nChula Vista CA 91910\nUnited States",
                 "attributes": {
-                    "Administrative Area": "PA",
+                    "Administrative Area": "CA",
                     "Areas Of Interest": "N/A",
                     "Country": "United States",
                     "Inland Water": "N/A",
                     "ISO Country Code": "US",
-                    "Locality": "Philadelphia",
+                    "Locality": "Chula Vista",
                     "Location": [
-                        40.02987692880651,
-                        -75.17991250879795
+                        32.63470458984375,
+                        -117.00431896129064
                     ],
-                    "Name": "300\u2013326 W Woodlawn St",
+                    "Name": "1342 E J St",
                     "Ocean": "N/A",
-                    "Postal Code": "19144",
-                    "Sub Administrative Area": "Philadelphia County",
-                    "Sub Locality": "Germantown",
-                    "Sub Thoroughfare": "300\u2013326",
-                    "Thoroughfare": "W Woodlawn St",
-                    "Time Zone": "America/New_York",
+                    "Postal Code": "91910",
+                    "Sub Administrative Area": "San Diego County",
+                    "Sub Locality": "Rancho del Rey",
+                    "Sub Thoroughfare": "1342",
+                    "Thoroughfare": "E J St",
+                    "Time Zone": "America/Los_Angeles",
                     "Zones": [],
                     "icon": "mdi:map",
                     "friendly_name": "Jose iPhone Geocoded Location"
                 },
-                "last_changed": "2022-05-31T18:15:25.526173+00:00",
-                "last_updated": "2022-05-31T18:15:25.526173+00:00",
+                "last_changed": "2022-07-03T21:54:20.970079+00:00",
+                "last_updated": "2022-07-03T21:54:20.970079+00:00",
                 "context": {
-                    "id": "01811b546856d1c475013b1e8d6739a0",
+                    "id": "0181c60eb2aa956ed677c6858c2f10b2",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_last_update_trigger",
-                "state": "Background Fetch",
+                "state": "Significant Location Change",
                 "attributes": {
                     "icon": "mdi:cellphone-wireless",
                     "friendly_name": "Jose iPhone Last Update Trigger"
                 },
-                "last_changed": "2022-05-31T18:15:25.526620+00:00",
-                "last_updated": "2022-05-31T18:15:25.526620+00:00",
+                "last_changed": "2022-07-03T19:48:21.066131+00:00",
+                "last_updated": "2022-07-03T19:48:21.066131+00:00",
                 "context": {
-                    "id": "01811b546856eff5f72dfde3f570b9b0",
+                    "id": "0181c59b57ca0b5b94c10602a123010d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1434,16 +1440,16 @@
                     "icon": "mdi:sim",
                     "friendly_name": "Jose iPhone SIM 1"
                 },
-                "last_changed": "2022-05-31T18:15:25.527042+00:00",
-                "last_updated": "2022-05-31T18:15:25.527042+00:00",
+                "last_changed": "2022-06-05T12:58:48.160353+00:00",
+                "last_updated": "2022-07-03T21:54:20.969638+00:00",
                 "context": {
-                    "id": "01811b54685712952f325ecba6a36253",
+                    "id": "0181c60eb2a98a418d34cd1266319951",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1459,79 +1465,79 @@
                     "icon": "mdi:sim",
                     "friendly_name": "Jose iPhone SIM 2"
                 },
-                "last_changed": "2022-05-31T18:15:25.527743+00:00",
-                "last_updated": "2022-05-31T18:15:25.527743+00:00",
+                "last_changed": "2022-06-05T12:58:48.160726+00:00",
+                "last_updated": "2022-06-05T12:58:48.160726+00:00",
                 "context": {
-                    "id": "01811b546857e0fb46b40c531ee584b9",
+                    "id": "018133f253e0a0c5e96fa579c05ad0c4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_ssid",
-                "state": "GUEST- Stepping",
+                "state": "Not Connected",
                 "attributes": {
-                    "icon": "mdi:wifi",
+                    "icon": "mdi:wifi-off",
                     "friendly_name": "Jose iPhone SSID"
                 },
-                "last_changed": "2022-05-31T18:15:25.528227+00:00",
-                "last_updated": "2022-05-31T18:15:25.528227+00:00",
+                "last_changed": "2022-07-02T19:49:39.978990+00:00",
+                "last_updated": "2022-07-02T19:49:39.978990+00:00",
                 "context": {
-                    "id": "01811b5468582bc08990af13c2f8df4d",
+                    "id": "0181c076300a63f5624bcc8fe518926c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_steps",
-                "state": "1424",
+                "state": "1011",
                 "attributes": {
                     "unit_of_measurement": "steps",
                     "icon": "mdi:walk",
                     "friendly_name": "Jose iPhone Steps"
                 },
-                "last_changed": "2022-05-31T18:15:25.528755+00:00",
-                "last_updated": "2022-05-31T18:15:25.528755+00:00",
+                "last_changed": "2022-07-03T21:54:20.966251+00:00",
+                "last_updated": "2022-07-03T21:54:20.966251+00:00",
                 "context": {
-                    "id": "01811b54685846de21aae94037a961df",
+                    "id": "0181c60eb2a642cf40df6f67dff779e1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.jose_iphone_storage",
-                "state": "76.79",
+                "state": "64.72",
                 "attributes": {
-                    "Available": "188.46 GB",
-                    "Available (Important)": "211.35 GB",
-                    "Available (Opportunistic)": "196.48 GB",
+                    "Available": "166.89 GB",
+                    "Available (Important)": "189.67 GB",
+                    "Available (Opportunistic)": "165.60 GB",
                     "Total": "255.88 GB",
                     "unit_of_measurement": "% available",
                     "icon": "mdi:database",
                     "friendly_name": "Jose iPhone Storage"
                 },
-                "last_changed": "2022-05-31T18:15:25.529266+00:00",
-                "last_updated": "2022-05-31T18:15:25.529266+00:00",
+                "last_changed": "2022-07-03T21:54:20.967809+00:00",
+                "last_updated": "2022-07-03T21:54:20.967809+00:00",
                 "context": {
-                    "id": "01811b5468593df76f496de18518849d",
+                    "id": "0181c60eb2a77b54e323bb6cb3874283",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1541,65 +1547,163 @@
                     "icon": "mdi:moon-waning-crescent",
                     "friendly_name": "Jose iPhone Focus"
                 },
-                "last_changed": "2022-05-31T18:15:25.529760+00:00",
-                "last_updated": "2022-05-31T18:15:25.529760+00:00",
+                "last_changed": "2022-06-05T12:58:48.162591+00:00",
+                "last_updated": "2022-06-05T12:58:48.162591+00:00",
                 "context": {
-                    "id": "01811b546859cc27d2426e47fe8cd790",
+                    "id": "018133f253e2bb35d3aab13a147c7805",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.pixel_3_app",
-                "state": "home",
+                "entity_id": "sensor.oren_pixel_battery_level",
+                "state": "87",
                 "attributes": {
-                    "source_type": "gps",
-                    "battery_level": 93,
-                    "latitude": 39.9648669,
-                    "longitude": -75.1440005,
-                    "gps_accuracy": 20,
-                    "friendly_name": "Pixel 3"
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-80",
+                    "friendly_name": "Oren Pixel Battery Level"
                 },
-                "last_changed": "2022-05-31T18:41:30.032260+00:00",
-                "last_updated": "2022-05-31T18:41:30.032260+00:00",
+                "last_changed": "2022-07-03T23:12:18.218777+00:00",
+                "last_updated": "2022-07-03T23:12:18.218777+00:00",
                 "context": {
-                    "id": "01811b6c47b0fd5899f2f6ff4c35eea8",
+                    "id": "0181c656112a1b1d3c1c88b21609ebf7",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.iphone_2",
+                "entity_id": "sensor.oren_pixel_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "icon": "mdi:battery-minus",
+                    "friendly_name": "Oren Pixel Battery State"
+                },
+                "last_changed": "2022-07-03T22:20:14.550358+00:00",
+                "last_updated": "2022-07-03T22:20:14.550358+00:00",
+                "context": {
+                    "id": "0181c62667567eea973290e855f19875",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_pixel_charger_type",
+                "state": "none",
+                "attributes": {
+                    "icon": "mdi:battery",
+                    "friendly_name": "Oren Pixel Charger Type"
+                },
+                "last_changed": "2022-07-03T22:20:14.551509+00:00",
+                "last_updated": "2022-07-03T22:20:14.551509+00:00",
+                "context": {
+                    "id": "0181c6266757b6de5cbd6dac3eb63dc8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_pixel_battery_health",
+                "state": "good",
+                "attributes": {
+                    "icon": "mdi:battery-heart-variant",
+                    "friendly_name": "Oren Pixel Battery Health"
+                },
+                "last_changed": "2022-06-05T12:58:48.166695+00:00",
+                "last_updated": "2022-06-05T12:58:48.166695+00:00",
+                "context": {
+                    "id": "018133f253e648ec92cb138b6de54f7c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.oren_pixel_battery_temperature",
+                "state": "87.4",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "\u00b0F",
+                    "device_class": "temperature",
+                    "icon": "mdi:battery",
+                    "friendly_name": "Oren Pixel Battery Temperature"
+                },
+                "last_changed": "2022-07-03T23:12:18.219512+00:00",
+                "last_updated": "2022-07-03T23:12:18.219512+00:00",
+                "context": {
+                    "id": "0181c656112bf6e96778f09485b85070",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.oren_pixel_is_charging",
+                "state": "off",
+                "attributes": {
+                    "device_class": "plug",
+                    "icon": "mdi:power-plug-off",
+                    "friendly_name": "Oren Pixel Is Charging"
+                },
+                "last_changed": "2022-07-03T22:20:14.550971+00:00",
+                "last_updated": "2022-07-03T22:20:14.550971+00:00",
+                "context": {
+                    "id": "0181c626675690030bad29c18498aa64",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.oren_iphone",
                 "state": "home",
                 "attributes": {
                     "source_type": "gps",
                     "battery_level": 100,
                     "latitude": 39.964874267578125,
-                    "longitude": -75.144087643109,
+                    "longitude": -75.14410892021945,
                     "gps_accuracy": 65,
-                    "altitude": 12.305938720703125,
-                    "vertical_accuracy": 20.03013038635254,
+                    "altitude": 12.33759593963623,
+                    "vertical_accuracy": 10,
                     "icon": "mdi:apple-ios",
-                    "friendly_name": "iPhone"
+                    "friendly_name": "Oren iPhone"
                 },
-                "last_changed": "2022-05-31T18:15:27.603874+00:00",
-                "last_updated": "2022-05-31T18:15:27.603874+00:00",
+                "last_changed": "2022-06-14T11:10:45.021838+00:00",
+                "last_updated": "2022-06-14T11:10:45.021838+00:00",
                 "context": {
-                    "id": "01811b54707328d448677ae3696827d1",
+                    "id": "018161e8a31d6883fdde0b08d45adad5",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1607,24 +1711,353 @@
                 "state": "not_home",
                 "attributes": {
                     "source_type": "gps",
-                    "battery_level": 93,
-                    "latitude": 40.02987692880651,
-                    "longitude": -75.17991250879795,
-                    "gps_accuracy": 41.34367071563705,
-                    "altitude": 71.4440689086914,
-                    "vertical_accuracy": 5.976197242736816,
+                    "battery_level": 51,
+                    "latitude": 32.63470458984375,
+                    "longitude": -117.00431896129064,
+                    "gps_accuracy": 8.115161465142766,
+                    "altitude": 149.6865478279069,
+                    "course": 53.261496095844045,
+                    "speed": 0,
+                    "vertical_accuracy": 3.5873068104402597,
+                    "icon": "mdi:apple-ios",
                     "friendly_name": "Jose iPhone"
                 },
-                "last_changed": "2022-05-31T18:15:27.604600+00:00",
-                "last_updated": "2022-05-31T18:15:27.604600+00:00",
+                "last_changed": "2022-07-03T21:54:20.614984+00:00",
+                "last_updated": "2022-07-03T21:54:20.614984+00:00",
                 "context": {
-                    "id": "01811b547074b59ba7bd2eac5241cddf",
+                    "id": "0181c60eb146c591a2a43a3f89d9c959",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.oren_pixel",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "icon": "mdi:android",
+                    "friendly_name": "Oren Pixel"
+                },
+                "last_changed": "2022-06-05T12:58:49.105984+00:00",
+                "last_updated": "2022-06-05T12:58:49.105984+00:00",
+                "context": {
+                    "id": "018133f25791daebfb2a00bdf6e3f694",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.back_yard_switch_ping",
+                "state": "2022-05-30T16:59:09.541837+00:00",
+                "attributes": {
+                    "friendly_name": "Back Yard Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.330056+00:00",
+                "last_updated": "2022-06-05T12:58:54.330056+00:00",
+                "context": {
+                    "id": "018133f26bfa1f70118033a5bd558716",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_6_ping",
+                "state": "2022-05-30T16:47:16.290861+00:00",
+                "attributes": {
+                    "friendly_name": "In-Wall Paddle Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.331404+00:00",
+                "last_updated": "2022-06-05T12:58:54.331404+00:00",
+                "context": {
+                    "id": "018133f26bfb22a7eca2e0dc7d38fe82",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.right_outlet_1_ping",
+                "state": "2022-05-30T16:59:42.702032+00:00",
+                "attributes": {
+                    "friendly_name": "Right Outlet 1: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.331895+00:00",
+                "last_updated": "2022-06-05T12:58:54.331895+00:00",
+                "context": {
+                    "id": "018133f26bfbe1c3c4db97040686ac23",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.ceiling_light_switch_ping",
+                "state": "2022-05-30T17:02:20.384596+00:00",
+                "attributes": {
+                    "friendly_name": "Ceiling Light Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.332498+00:00",
+                "last_updated": "2022-06-05T12:58:54.332498+00:00",
+                "context": {
+                    "id": "018133f26bfc5a7b80285be8a3b5f854",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.multisensor_ping",
+                "state": "2022-05-30T16:59:53.922684+00:00",
+                "attributes": {
+                    "friendly_name": "MultiSensor: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.332921+00:00",
+                "last_updated": "2022-06-05T12:58:54.332921+00:00",
+                "context": {
+                    "id": "018133f26bfcdf11acab3ac12665362a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.front_steps_switch_ping_2",
+                "state": "2022-05-30T16:59:17.152533+00:00",
+                "attributes": {
+                    "friendly_name": "Front Steps Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.334630+00:00",
+                "last_updated": "2022-06-05T12:58:54.334630+00:00",
+                "context": {
+                    "id": "018133f26bfe2462bdd1c4b85490e179",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.hallway_track_light_switch_ping",
+                "state": "2022-05-30T16:58:46.237721+00:00",
+                "attributes": {
+                    "friendly_name": "Hallway Track Light Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.335205+00:00",
+                "last_updated": "2022-06-05T12:58:54.335205+00:00",
+                "context": {
+                    "id": "018133f26bffbc573cc576c2f78bdea2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.in_wall_tamper_resistant_smart_outlet_ping_2",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "In-Wall Tamper Resistant Smart Outlet: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.335852+00:00",
+                "last_updated": "2022-06-05T12:58:54.335852+00:00",
+                "context": {
+                    "id": "018133f26bfff8a6774df338480ddc0b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.in_wall_tamper_resistant_smart_outlet_ping_3",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "In-Wall Tamper Resistant Smart Outlet: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.336284+00:00",
+                "last_updated": "2022-06-05T12:58:54.336284+00:00",
+                "context": {
+                    "id": "018133f26c00245a437352f21df7d5cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.multisensor_ping_2",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "MultiSensor: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.336725+00:00",
+                "last_updated": "2022-06-05T12:58:54.336725+00:00",
+                "context": {
+                    "id": "018133f26c00c688dcaf3e7c4a986ce1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.powder_room_light_switch_ping_3",
+                "state": "2022-05-30T16:59:22.113710+00:00",
+                "attributes": {
+                    "friendly_name": "Powder Room Light Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.337425+00:00",
+                "last_updated": "2022-06-05T12:58:54.337425+00:00",
+                "context": {
+                    "id": "018133f26c0136fe1df0f628ea811add",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.exhaust_fan_switch_ping_4",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Exhaust Fan Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.337852+00:00",
+                "last_updated": "2022-06-05T12:58:54.337852+00:00",
+                "context": {
+                    "id": "018133f26c0198e3804802e11351e812",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.ceiling_right_switch_ping_5",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Ceiling Right Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.338260+00:00",
+                "last_updated": "2022-06-05T12:58:54.338260+00:00",
+                "context": {
+                    "id": "018133f26c02f15874285172ba2bb94d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.kitchen_passthrough_switch_ping_2",
+                "state": "2022-05-30T17:02:31.176899+00:00",
+                "attributes": {
+                    "friendly_name": "Kitchen Passthrough Switch: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.338657+00:00",
+                "last_updated": "2022-06-05T12:58:54.338657+00:00",
+                "context": {
+                    "id": "018133f26c02a8cd02a743a9b45279cd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.outlet_ping",
+                "state": "2022-05-30T17:02:05.482271+00:00",
+                "attributes": {
+                    "friendly_name": "Outlet: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.339162+00:00",
+                "last_updated": "2022-06-05T12:58:54.339162+00:00",
+                "context": {
+                    "id": "018133f26c0332bb3aa0a6bdb63576af",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.counter_outlet_1_ping",
+                "state": "2022-06-01T00:17:53.362288+00:00",
+                "attributes": {
+                    "friendly_name": "Counter Outlet 1: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.339872+00:00",
+                "last_updated": "2022-06-05T12:58:54.339872+00:00",
+                "context": {
+                    "id": "018133f26c0351b4bb0fc2ce73ab498a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_26_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Door Lock: Ping"
+                },
+                "last_changed": "2022-06-05T12:58:54.340410+00:00",
+                "last_updated": "2022-06-05T12:58:54.340410+00:00",
+                "context": {
+                    "id": "018133f26c04e0a2c58d253772ec47e9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
@@ -1654,991 +2087,186 @@
                     "friendly_name": "841 Home",
                     "supported_features": 4
                 },
-                "last_changed": "2022-05-31T18:15:32.548492+00:00",
-                "last_updated": "2022-05-31T18:15:32.586962+00:00",
+                "last_changed": "2022-07-03T02:07:20.261051+00:00",
+                "last_updated": "2022-07-03T02:07:20.261051+00:00",
                 "context": {
-                    "id": "01811b5483ea46d5a8f1e19cd43dd5a3",
+                    "id": "0181c1cff4c5da2839799cf63fa40f85",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.back_yard_switch_ping",
-                "state": "2022-05-30T16:59:09.541837+00:00",
+                "entity_id": "button.node_27_ping",
+                "state": "2022-06-29T16:01:30.276764+00:00",
                 "attributes": {
-                    "friendly_name": "Back Yard Switch: Ping"
+                    "friendly_name": "Node 27: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.572683+00:00",
-                "last_updated": "2022-05-31T18:15:32.572683+00:00",
+                "last_changed": "2022-06-29T16:01:30.277331+00:00",
+                "last_updated": "2022-06-29T16:01:30.277331+00:00",
                 "context": {
-                    "id": "01811b5483dcf1fb80b25a80f8ee5839",
+                    "id": "0181b032389d32d21291f62dd7487fbe",
                     "parent_id": null,
-                    "user_id": null
+                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.node_6_ping",
-                "state": "2022-05-30T16:47:16.290861+00:00",
+                "entity_id": "automation.utility_closet_light_on",
+                "state": "on",
                 "attributes": {
-                    "friendly_name": "In-Wall Paddle Switch: Ping"
+                    "last_triggered": "2022-07-01T19:26:22.572566+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1656519350500",
+                    "friendly_name": "Utility Closet Light On"
                 },
-                "last_changed": "2022-05-31T18:15:32.574566+00:00",
-                "last_updated": "2022-05-31T18:15:32.574566+00:00",
+                "last_changed": "2022-06-29T16:18:23.907364+00:00",
+                "last_updated": "2022-07-01T19:26:22.704204+00:00",
                 "context": {
-                    "id": "01811b5483ded47751b7b14e64aa2d4b",
-                    "parent_id": null,
+                    "id": "0181bb3a816bab4e3a724681798a66ee",
+                    "parent_id": "0181bb3a81678ccc0b40a6de85b2065a",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.right_outlet_1_ping",
-                "state": "2022-05-30T16:59:42.702032+00:00",
+                "entity_id": "automation.utility_closet_light_off",
+                "state": "on",
                 "attributes": {
-                    "friendly_name": "Right Outlet 1: Ping"
+                    "last_triggered": "2022-07-01T19:26:25.165926+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1656519388457",
+                    "friendly_name": "Utility Closet Light Off"
                 },
-                "last_changed": "2022-05-31T18:15:32.575191+00:00",
-                "last_updated": "2022-05-31T18:15:32.575191+00:00",
+                "last_changed": "2022-06-29T16:18:23.907798+00:00",
+                "last_updated": "2022-07-01T19:26:25.284409+00:00",
                 "context": {
-                    "id": "01811b5483dffed5b2049182ddec42fd",
-                    "parent_id": null,
+                    "id": "0181bb3a8b8cb5de47509b09edb21d74",
+                    "parent_id": "0181bb3a8b8a4296273dd540487c6c0a",
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.ceiling_light_switch_ping",
-                "state": "2022-05-30T17:02:20.384596+00:00",
+                "entity_id": "button.node_28_ping",
+                "state": "2022-06-29T18:57:35.382544+00:00",
                 "attributes": {
-                    "friendly_name": "Ceiling Light Switch: Ping"
+                    "friendly_name": "Node 28: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.575758+00:00",
-                "last_updated": "2022-05-31T18:15:32.575758+00:00",
+                "last_changed": "2022-06-29T18:57:35.383021+00:00",
+                "last_updated": "2022-06-29T18:57:35.383021+00:00",
                 "context": {
-                    "id": "01811b5483df91d178544c875a002424",
+                    "id": "0181b0d36e8efdd60956dffb2cfa022a",
                     "parent_id": null,
-                    "user_id": null
+                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.multisensor_ping",
-                "state": "2022-05-30T16:59:53.922684+00:00",
-                "attributes": {
-                    "friendly_name": "MultiSensor: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.576224+00:00",
-                "last_updated": "2022-05-31T18:15:32.576224+00:00",
-                "context": {
-                    "id": "01811b5483e06218e8b9f9a6055c15c4",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.front_steps_switch_ping_2",
-                "state": "2022-05-30T16:59:17.152533+00:00",
-                "attributes": {
-                    "friendly_name": "Front Steps Switch: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.577497+00:00",
-                "last_updated": "2022-05-31T18:15:32.577497+00:00",
-                "context": {
-                    "id": "01811b5483e1bb0e01f16e5a5fed7a34",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.hallway_track_light_switch_ping",
-                "state": "2022-05-30T16:58:46.237721+00:00",
-                "attributes": {
-                    "friendly_name": "Hallway Track Light Switch: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.578035+00:00",
-                "last_updated": "2022-05-31T18:15:32.578035+00:00",
-                "context": {
-                    "id": "01811b5483e214303a75c82c0b7f3745",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.in_wall_tamper_resistant_smart_outlet_ping_2",
+                "entity_id": "button.node_29_ping",
                 "state": "unknown",
                 "attributes": {
-                    "friendly_name": "In-Wall Tamper Resistant Smart Outlet: Ping"
+                    "friendly_name": "Node 29: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.578554+00:00",
-                "last_updated": "2022-05-31T18:15:32.578554+00:00",
+                "last_changed": "2022-06-30T02:30:23.615412+00:00",
+                "last_updated": "2022-06-30T02:30:23.615412+00:00",
                 "context": {
-                    "id": "01811b5483e2e20ce944f49c1163b5a3",
+                    "id": "0181b271fc7fbfa7fc6ce16b7c02626c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.in_wall_tamper_resistant_smart_outlet_ping_3",
+                "entity_id": "button.node_30_ping",
                 "state": "unknown",
                 "attributes": {
-                    "friendly_name": "In-Wall Tamper Resistant Smart Outlet: Ping"
+                    "friendly_name": "Node 30: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.579115+00:00",
-                "last_updated": "2022-05-31T18:15:32.579115+00:00",
+                "last_changed": "2022-06-30T02:34:03.176765+00:00",
+                "last_updated": "2022-06-30T02:34:03.176765+00:00",
                 "context": {
-                    "id": "01811b5483e3047c7bc24bc79cf350b4",
+                    "id": "0181b2755628b79520d59cd88f76e217",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.multisensor_ping_2",
+                "entity_id": "button.node_31_ping",
                 "state": "unknown",
                 "attributes": {
-                    "friendly_name": "MultiSensor: Ping"
+                    "friendly_name": "Node 31: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.579511+00:00",
-                "last_updated": "2022-05-31T18:15:32.579511+00:00",
+                "last_changed": "2022-06-30T02:38:29.721037+00:00",
+                "last_updated": "2022-06-30T02:38:29.721037+00:00",
                 "context": {
-                    "id": "01811b5483e37744db09056b4c34a5bc",
+                    "id": "0181b2796758ca2bc5a4fe4dfb5e677f",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.powder_room_light_switch_ping_3",
-                "state": "2022-05-30T16:59:22.113710+00:00",
-                "attributes": {
-                    "friendly_name": "Powder Room Light Switch: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.580109+00:00",
-                "last_updated": "2022-05-31T18:15:32.580109+00:00",
-                "context": {
-                    "id": "01811b5483e407aa76a5a525351997b7",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.exhaust_fan_switch_ping_4",
+                "entity_id": "button.node_32_ping",
                 "state": "unknown",
                 "attributes": {
-                    "friendly_name": "Exhaust Fan Switch: Ping"
+                    "friendly_name": "Node 32: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.580599+00:00",
-                "last_updated": "2022-05-31T18:15:32.580599+00:00",
+                "last_changed": "2022-06-30T02:44:20.123920+00:00",
+                "last_updated": "2022-06-30T02:44:20.123920+00:00",
                 "context": {
-                    "id": "01811b5483e4591d7c7b644375ea02c8",
+                    "id": "0181b27ec01bdaa81e6d20ea22c69584",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         },
         {
             "state": {
-                "entity_id": "button.ceiling_right_switch_ping_5",
+                "entity_id": "button.node_33_ping",
                 "state": "unknown",
                 "attributes": {
-                    "friendly_name": "Ceiling Right Switch: Ping"
+                    "friendly_name": "Node 33: Ping"
                 },
-                "last_changed": "2022-05-31T18:15:32.581091+00:00",
-                "last_updated": "2022-05-31T18:15:32.581091+00:00",
+                "last_changed": "2022-06-30T16:07:13.106421+00:00",
+                "last_updated": "2022-06-30T16:07:13.106421+00:00",
                 "context": {
-                    "id": "01811b5483e545dfdd85462a7962bb0a",
+                    "id": "0181b55dcfd2053e9dfdfd63b6f9a76a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.kitchen_passthrough_switch_ping_2",
-                "state": "2022-05-30T17:02:31.176899+00:00",
-                "attributes": {
-                    "friendly_name": "Kitchen Passthrough Switch: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.581587+00:00",
-                "last_updated": "2022-05-31T18:15:32.581587+00:00",
-                "context": {
-                    "id": "01811b5483e5454d21d21a20bdf14dfd",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.outlet_ping",
-                "state": "2022-05-30T17:02:05.482271+00:00",
-                "attributes": {
-                    "friendly_name": "Outlet: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.582045+00:00",
-                "last_updated": "2022-05-31T18:15:32.582045+00:00",
-                "context": {
-                    "id": "01811b5483e6a44cabedf7fb9edca20f",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.counter_outlet_1_ping",
-                "state": "2022-05-30T16:56:16.342994+00:00",
-                "attributes": {
-                    "friendly_name": "Counter Outlet 1: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:32.583939+00:00",
-                "last_updated": "2022-05-31T18:15:32.583939+00:00",
-                "context": {
-                    "id": "01811b5483e7199762ef902a9daf2821",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.node_26_ping",
-                "state": "unknown",
-                "attributes": {
-                    "friendly_name": "Node 26: Ping"
-                },
-                "last_changed": "2022-05-31T18:15:57.948596+00:00",
-                "last_updated": "2022-05-31T18:15:57.948596+00:00",
-                "context": {
-                    "id": "01811b54e6fccb4baf27ed5091fb1abc",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:45:32.754800+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.door_lock_ping",
-                "state": "2022-05-31T17:52:01.741138+00:00",
-                "attributes": {
-                    "friendly_name": "Door Lock: Ping"
-                },
-                "last_changed": "2022-05-31T17:52:01.741539+00:00",
-                "last_updated": "2022-05-31T17:52:01.741539+00:00",
-                "context": {
-                    "id": "01811b3efcc7279ae86d852dd42ddfbc",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:06:34.918009+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_battery_level",
-                "state": "62",
-                "attributes": {
-                    "unit_of_measurement": "%",
-                    "device_class": "battery",
-                    "icon": "mdi:battery-60",
-                    "friendly_name": "Jose (2) Battery Level"
-                },
-                "last_changed": "2022-05-30T04:20:32.080690+00:00",
-                "last_updated": "2022-05-30T04:20:32.080690+00:00",
-                "context": {
-                    "id": "01811331aed05c99f04bf40b972279dd",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.894254+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_sim_2",
-                "state": "N/A",
-                "attributes": {
-                    "Allows VoIP": true,
-                    "Carrier ID": "0000000100000002",
-                    "Carrier Name": "N/A",
-                    "ISO Country Code": "N/A",
-                    "Mobile Country Code": "N/A",
-                    "Mobile Network Code": "N/A",
-                    "icon": "mdi:sim",
-                    "friendly_name": "Jose (2) SIM 2"
-                },
-                "last_changed": "2022-05-29T16:40:21.536878+00:00",
-                "last_updated": "2022-05-29T16:40:21.536878+00:00",
-                "context": {
-                    "id": "018110b0a720f361e923fed1d29e0aa0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.008523+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_sim_1",
-                "state": "AT&T",
-                "attributes": {
-                    "Allows VoIP": true,
-                    "Carrier ID": "0000000100000001",
-                    "Carrier Name": "AT&T",
-                    "Current Radio Technology": "5G Non-Standalone",
-                    "ISO Country Code": "us",
-                    "Mobile Country Code": "310",
-                    "Mobile Network Code": "280",
-                    "icon": "mdi:sim",
-                    "friendly_name": "Jose (2) SIM 1"
-                },
-                "last_changed": "2022-05-29T16:40:21.537246+00:00",
-                "last_updated": "2022-05-29T16:40:21.537246+00:00",
-                "context": {
-                    "id": "018110b0a721fe491191f03152ea560b",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.007676+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_geocoded_location",
-                "state": "841 N Fourth St\nPhiladelphia PA 19123\nUnited States",
-                "attributes": {
-                    "Administrative Area": "PA",
-                    "Areas Of Interest": "N/A",
-                    "Country": "United States",
-                    "Inland Water": "N/A",
-                    "ISO Country Code": "US",
-                    "Locality": "Philadelphia",
-                    "Location": [
-                        39.96484375,
-                        -75.14406874536141
-                    ],
-                    "Name": "841 N Fourth St",
-                    "Ocean": "N/A",
-                    "Postal Code": "19123",
-                    "Sub Administrative Area": "Philadelphia County",
-                    "Sub Locality": "Club District",
-                    "Sub Thoroughfare": "841",
-                    "Thoroughfare": "N Fourth St",
-                    "Time Zone": "America/New_York",
-                    "Zones": [
-                        "Home"
-                    ],
-                    "icon": "mdi:map",
-                    "friendly_name": "Jose (2) Geocoded Location"
-                },
-                "last_changed": "2022-05-30T02:05:50.926284+00:00",
-                "last_updated": "2022-05-30T02:05:50.926284+00:00",
-                "context": {
-                    "id": "018112b65fce279a930773d59da78342",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.005961+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_last_update_trigger",
-                "state": "Launch",
-                "attributes": {
-                    "icon": "mdi:cellphone-wireless",
-                    "friendly_name": "Jose (2) Last Update Trigger"
-                },
-                "last_changed": "2022-05-30T02:10:10.805741+00:00",
-                "last_updated": "2022-05-30T02:10:10.805741+00:00",
-                "context": {
-                    "id": "018112ba56f506f5cf6892a5db32323b",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.006612+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_battery_state",
-                "state": "Not Charging",
-                "attributes": {
-                    "Low Power Mode": false,
-                    "icon": "mdi:battery-60",
-                    "friendly_name": "Jose (2) Battery State"
-                },
-                "last_changed": "2022-05-29T16:40:21.538231+00:00",
-                "last_updated": "2022-05-30T04:20:32.081119+00:00",
-                "context": {
-                    "id": "01811331aed18f2f054947b94de79bd0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.936914+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_ssid",
-                "state": "samurai jack",
-                "attributes": {
-                    "icon": "mdi:wifi",
-                    "friendly_name": "Jose (2) SSID"
-                },
-                "last_changed": "2022-05-30T02:05:50.924461+00:00",
-                "last_updated": "2022-05-30T02:05:50.924461+00:00",
-                "context": {
-                    "id": "018112b65fccbcb8ece71ade7e861919",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.009067+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_storage",
-                "state": "77.63",
-                "attributes": {
-                    "Available": "190.63 GB",
-                    "Available (Important)": "213.45 GB",
-                    "Available (Opportunistic)": "198.65 GB",
-                    "Total": "255.88 GB",
-                    "unit_of_measurement": "% available",
-                    "icon": "mdi:database",
-                    "friendly_name": "Jose (2) Storage"
-                },
-                "last_changed": "2022-05-30T04:20:32.081536+00:00",
-                "last_updated": "2022-05-30T04:20:32.081536+00:00",
-                "context": {
-                    "id": "01811331aed17c03377014abaa9b72c0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.010648+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_bssid",
-                "state": "3c:bd:c5:2:a8:f4",
-                "attributes": {
-                    "icon": "mdi:wifi-star",
-                    "friendly_name": "Jose (2) BSSID"
-                },
-                "last_changed": "2022-05-30T02:05:50.925008+00:00",
-                "last_updated": "2022-05-30T02:05:50.925008+00:00",
-                "context": {
-                    "id": "018112b65fccaed72d2dffd4f5ae1332",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.893389+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_connection_type",
-                "state": "Wi-Fi",
-                "attributes": {
-                    "icon": "mdi:wifi",
-                    "friendly_name": "Jose (2) Connection Type"
-                },
-                "last_changed": "2022-05-30T02:05:46.501920+00:00",
-                "last_updated": "2022-05-30T02:05:46.501920+00:00",
-                "context": {
-                    "id": "018112b64e857f7f0c875f1b766396ee",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.937940+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_activity",
-                "state": "Unknown",
-                "attributes": {
-                    "Confidence": "High",
-                    "Types": [
-                        "Unknown"
-                    ],
-                    "icon": "mdi:help-circle",
-                    "friendly_name": "Jose (2) Activity"
-                },
-                "last_changed": "2022-05-30T04:20:32.077809+00:00",
-                "last_updated": "2022-05-30T04:20:32.077809+00:00",
-                "context": {
-                    "id": "01811331aecd74e1fb1c2cb6ff938235",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.891724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_average_active_pace",
-                "state": "2",
-                "attributes": {
-                    "unit_of_measurement": "m/s",
-                    "icon": "mdi:speedometer",
-                    "friendly_name": "Jose (2) Average Active Pace"
-                },
-                "last_changed": "2022-05-30T04:20:32.080343+00:00",
-                "last_updated": "2022-05-30T04:20:32.080343+00:00",
-                "context": {
-                    "id": "01811331aed0258502ee2e91dd859253",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.892608+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_distance",
-                "state": "34",
-                "attributes": {
-                    "unit_of_measurement": "m",
-                    "icon": "mdi:hiking",
-                    "friendly_name": "Jose (2) Distance"
-                },
-                "last_changed": "2022-05-30T04:20:32.078351+00:00",
-                "last_updated": "2022-05-30T04:20:32.078351+00:00",
-                "context": {
-                    "id": "01811331aece225e0e04671d63a9a8a2",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.938638+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_floors_ascended",
-                "state": "1",
-                "attributes": {
-                    "unit_of_measurement": "floors",
-                    "icon": "mdi:stairs-up",
-                    "friendly_name": "Jose (2) Floors Ascended"
-                },
-                "last_changed": "2022-05-30T04:20:32.078769+00:00",
-                "last_updated": "2022-05-30T04:20:32.078769+00:00",
-                "context": {
-                    "id": "01811331aece8ca729eddc8b98960491",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.939514+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_floors_descended",
-                "state": "0",
-                "attributes": {
-                    "unit_of_measurement": "floors",
-                    "icon": "mdi:stairs-down",
-                    "friendly_name": "Jose (2) Floors Descended"
-                },
-                "last_changed": "2022-05-30T04:20:32.079183+00:00",
-                "last_updated": "2022-05-30T04:20:32.079183+00:00",
-                "context": {
-                    "id": "01811331aecf3f714d268baf461f9efe",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.003740+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.jose_2_steps",
-                "state": "44",
-                "attributes": {
-                    "unit_of_measurement": "steps",
-                    "icon": "mdi:walk",
-                    "friendly_name": "Jose (2) Steps"
-                },
-                "last_changed": "2022-05-30T04:20:32.079629+00:00",
-                "last_updated": "2022-05-30T04:20:32.079629+00:00",
-                "context": {
-                    "id": "01811331aecf4aeda88c20825adc0860",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.009773+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "binary_sensor.jose_2_focus",
-                "state": "off",
-                "attributes": {
-                    "icon": "mdi:moon-waning-crescent",
-                    "friendly_name": "Jose (2) Focus"
-                },
-                "last_changed": "2022-05-29T16:40:21.542149+00:00",
-                "last_updated": "2022-05-29T16:40:21.542149+00:00",
-                "context": {
-                    "id": "018110b0a7263b35e91a3a24c07974f6",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:26.004937+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.jose_2",
-                "state": "home",
-                "attributes": {
-                    "source_type": "gps",
-                    "battery_level": 75,
-                    "latitude": 39.96484375,
-                    "longitude": -75.14406874536141,
-                    "gps_accuracy": 26.118985305360276,
-                    "altitude": 7.935063362121582,
-                    "vertical_accuracy": 2.8316915035247803,
-                    "friendly_name": "Jose (2)"
-                },
-                "last_changed": "2022-05-30T02:05:50.991707+00:00",
-                "last_updated": "2022-05-30T02:05:50.991707+00:00",
-                "context": {
-                    "id": "018112b6600f485d47bf497dce36b840",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T05:37:25.890430+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_quick_fit_smart_in_wall_paddle_switch_ping",
-                "state": "2022-05-30T16:59:09.541837+00:00",
-                "attributes": {
-                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:59:09.542191+00:00",
-                "last_updated": "2022-05-30T16:59:09.542191+00:00",
-                "context": {
-                    "id": "018115e83960f1cc7d86e05f5581406a",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:45:49.957183+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_quick_fit_smart_in_wall_paddle_switch_ping_2",
-                "state": "2022-05-30T16:59:17.152533+00:00",
-                "attributes": {
-                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:59:17.152863+00:00",
-                "last_updated": "2022-05-30T16:59:17.152863+00:00",
-                "context": {
-                    "id": "018115e8571bc4640a6d70e935d026d0",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:53:55.261678+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_quick_fit_smart_in_wall_paddle_switch_ping_3",
-                "state": "2022-05-30T16:59:22.113710+00:00",
-                "attributes": {
-                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:59:22.114075+00:00",
-                "last_updated": "2022-05-30T16:59:22.114075+00:00",
-                "context": {
-                    "id": "018115e86a7c83b4724e6ccf39ac7044",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:55:40.807640+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_quick_fit_smart_in_wall_paddle_switch_ping_5",
-                "state": "unknown",
-                "attributes": {
-                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:39:56.471880+00:00",
-                "last_updated": "2022-05-30T16:39:56.471880+00:00",
-                "context": {
-                    "id": "018115d6a137f06cb28a59dc8fac3291",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:57:24.539041+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_quick_fit_smart_in_wall_paddle_switch_ping_4",
-                "state": "unknown",
-                "attributes": {
-                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:39:56.469580+00:00",
-                "last_updated": "2022-05-30T16:39:56.469580+00:00",
-                "context": {
-                    "id": "018115d6a1358dacce92e042ad3b2ca0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:57:50.629082+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.receptacle_ping",
-                "state": "2022-05-30T17:02:05.482271+00:00",
-                "attributes": {
-                    "friendly_name": "Receptacle: Ping"
-                },
-                "last_changed": "2022-05-30T17:02:05.482565+00:00",
-                "last_updated": "2022-05-30T17:02:05.482565+00:00",
-                "context": {
-                    "id": "018115eae8a4a4093984113b3b0ad081",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:58:23.492045+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.scene_capable_switch_on_off_ping",
-                "state": "2022-05-30T17:02:20.384596+00:00",
-                "attributes": {
-                    "friendly_name": "Scene Capable Switch On/Off: Ping"
-                },
-                "last_changed": "2022-05-30T17:02:20.384896+00:00",
-                "last_updated": "2022-05-30T17:02:20.384896+00:00",
-                "context": {
-                    "id": "018115eb22db8f11d7e08d6563d9cf68",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T21:59:37.329798+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.scene_capable_switch_on_off_ping_2",
-                "state": "2022-05-30T17:02:31.176899+00:00",
-                "attributes": {
-                    "friendly_name": "Scene Capable Switch On/Off: Ping"
-                },
-                "last_changed": "2022-05-30T17:02:31.177286+00:00",
-                "last_updated": "2022-05-30T17:02:31.177286+00:00",
-                "context": {
-                    "id": "018115eb4d032d693e0ee0399758d998",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T22:00:13.112009+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.in_wall_tamper_resistant_smart_outlet_ping",
-                "state": "2022-05-30T16:59:42.702032+00:00",
-                "attributes": {
-                    "friendly_name": "In-Wall Tamper Resistant Smart Outlet: Ping"
-                },
-                "last_changed": "2022-05-30T16:59:42.702454+00:00",
-                "last_updated": "2022-05-30T16:59:42.702454+00:00",
-                "context": {
-                    "id": "018115e8bae892c764daec7b1d9d9eac",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T22:01:20.744301+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.aeotec_nano_switch_ping",
-                "state": "2022-05-30T16:56:16.342994+00:00",
-                "attributes": {
-                    "friendly_name": "Aeotec Nano Switch: Ping"
-                },
-                "last_changed": "2022-05-30T16:56:16.343246+00:00",
-                "last_updated": "2022-05-30T16:56:16.343246+00:00",
-                "context": {
-                    "id": "018115e594d3831cd6052bd968b34ac5",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T22:03:04.659930+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.multisensor_6_ping_2",
-                "state": "unknown",
-                "attributes": {
-                    "friendly_name": "MultiSensor 6: Ping"
-                },
-                "last_changed": "2022-05-30T16:39:56.467334+00:00",
-                "last_updated": "2022-05-30T16:39:56.467334+00:00",
-                "context": {
-                    "id": "018115d6a13346805cdceb423edc3b22",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T22:17:52.997318+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.multisensor_6_ping",
-                "state": "2022-05-30T16:59:53.922684+00:00",
-                "attributes": {
-                    "friendly_name": "MultiSensor 6: Ping"
-                },
-                "last_changed": "2022-05-30T16:59:53.922995+00:00",
-                "last_updated": "2022-05-30T16:59:53.922995+00:00",
-                "context": {
-                    "id": "018115e8e6bb2db02ef632e36d2dc046",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-30T22:18:39.392632+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.ge_enbrighten_z_wave_plus_smart_dimmer_ping",
-                "state": "2022-05-30T16:58:46.237721+00:00",
-                "attributes": {
-                    "friendly_name": "GE Enbrighten Z-Wave Plus Smart Dimmer: Ping"
-                },
-                "last_changed": "2022-05-30T16:58:46.238327+00:00",
-                "last_updated": "2022-05-30T16:58:46.238327+00:00",
-                "context": {
-                    "id": "018115e7de573fad4216b86ba03ad7b5",
-                    "parent_id": null,
-                    "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T13:47:53.718619+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "button.node_25_ping",
-                "state": "unknown",
-                "attributes": {
-                    "friendly_name": "Door Lock: Ping"
-                },
-                "last_changed": "2022-05-31T18:09:25.510231+00:00",
-                "last_updated": "2022-05-31T18:09:25.510231+00:00",
-                "context": {
-                    "id": "01811b4eea06f1ba588976a8ca2fa8b4",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "extra_data": null,
-            "last_seen": "2022-05-31T18:09:56.182321+00:00"
+            "last_seen": "2022-07-03T23:14:57.607235+00:00"
         }
     ]
 }
