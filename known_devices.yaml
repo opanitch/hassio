@@ -133,3 +133,115 @@ ec_ad_b8_62_42_10:
   icon:
   picture:
   track: true
+
+localhost:
+  name: localhost
+  mac: FC:8F:90:40:0D:1F
+  icon:
+  picture:
+  track: true
+
+qm077pmwyq:
+  name: QM077PMWYQ
+  mac: F0:2F:4B:10:5B:7D
+  icon:
+  picture:
+  track: true
+
+12_af_14_07_49_e8:
+  name: 12:AF:14:07:49:E8
+  mac: 12:AF:14:07:49:E8
+  icon:
+  picture:
+  track: true
+
+samsung:
+  name: Samsung
+  mac: 28:39:5E:59:43:4A
+  icon:
+  picture:
+  track: true
+
+4e_dd_bc_33_cf_6b:
+  name: 4E:DD:BC:33:CF:6B
+  mac: 4E:DD:BC:33:CF:6B
+  icon:
+  picture:
+  track: true
+
+2a_3e_a0_ed_b0_51:
+  name: 2A:3E:A0:ED:B0:51
+  mac: 2A:3E:A0:ED:B0:51
+  icon:
+  picture:
+  track: true
+
+3e_a4_37_78_d8_07:
+  name: 3E:A4:37:78:D8:07
+  mac: 3E:A4:37:78:D8:07
+  icon:
+  picture:
+  track: true
+
+92_08_47_fc_6c_cf:
+  name: 92:08:47:FC:6C:CF
+  mac: 92:08:47:FC:6C:CF
+  icon:
+  picture:
+  track: true
+
+6e_ff_62_ff_c1_5c:
+  name: 6E:FF:62:FF:C1:5C
+  mac: 6E:FF:62:FF:C1:5C
+  icon:
+  picture:
+  track: true
+
+98_b6_e9_b3_fa_b0:
+  name: 98:B6:E9:B3:FA:B0
+  mac: 98:B6:E9:B3:FA:B0
+  icon:
+  picture:
+  track: true
+
+johns_air:
+  name: Johns-Air
+  mac: 30:35:AD:AB:2F:DE
+  icon:
+  picture:
+  track: true
+
+14_7d_da_07_96_0d:
+  name: 14:7D:DA:07:96:0D
+  mac: 14:7D:DA:07:96:0D
+  icon:
+  picture:
+  track: true
+
+88_66_5a_0a_9d_14:
+  name: 88:66:5A:0A:9D:14
+  mac: 88:66:5A:0A:9D:14
+  icon:
+  picture:
+  track: true
+
+pixel_3:
+  name: Pixel-3
+  mac: 06:02:DD:0C:91:0C
+  icon:
+  picture:
+  track: true
+
+pixel_3_2:
+  name: Pixel-3
+  mac: 3C:28:6D:2C:E3:5D
+  icon:
+  picture:
+  track: true
+
+ginas_iphone:
+  name: Ginas-iPhone
+  mac: 08:87:C7:01:83:F4
+  icon:
+  picture:
+  track: true
