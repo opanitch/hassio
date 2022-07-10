@@ -8,13 +8,6 @@ honeywell_lyric:
   picture:
   track: false
 
-apple_device:
-  name: Unknown Apple Device
-  mac: 88:66:5A:10:B5:47
-  icon: mdi:apple
-  picture:
-  track: false
-
 homeassistant:
   name: homeassistant
   mac: DC:A6:32:7F:C4:BF
@@ -57,27 +50,6 @@ chromecast_2:
   picture:
   track: false
 
-mary_laptop:
-  name: Mom's Lenovo
-  mac: 84:5C:F3:3C:D0:66
-  icon: mdi:laptop
-  picture:
-  track: false
-
-howies_iphone:
-  name: Howies iPhone
-  mac: 42:25:F9:69:97:0E
-  icon:
-  picture:
-  track: false
-
-mary_pixel_3:
-  name: Mom's Pixel 3
-  mac: EE:81:BD:5E:97:7D
-  icon: mdi:cellphone
-  picture:
-  track: false
-
 amazon_devices:
   name: Amazon Device
   mac: 08:84:9D:D9:4A:F9
@@ -85,163 +57,127 @@ amazon_devices:
   picture:
   track: false
 
-lgwebostv:
-  name: LGwebOSTV
+lg_tv_kitchen:
+  name: Kitchen TV
   mac: 18:82:8C:45:37:C6
-  icon:
+  icon: mdi:television
   picture:
   track: false
 
-b6_d2_e4_cd_8b_55:
-  name: B6:D2:E4:CD:8B:55
-  mac: B6:D2:E4:CD:8B:55
-  icon:
+apple_device:
+  name: Unknown Apple Device
+  mac: 88:66:5A:10:B5:47
+  icon: mdi:apple
+  picture:
+  track: false
+
+samsung_tv:
+  name: Samsung TV
+  mac: FC:8F:90:40:0D:1F
+  icon: mdi:television
+  picture:
+  track: false
+
+samsung_tv_2:
+  name: Samsung TV 2
+  mac: 28:39:5E:59:43:4A
+  icon: mdi:television
+  picture:
+  track: false
+
+# Mom:
+mary_laptop:
+  name: Mom's Lenovo
+  mac: 84:5C:F3:3C:D0:66
+  icon: mdi:laptop
+  picture:
+  track: false
+
+mary_pixel_3:
+  name: Mom's Pixel 3a
+  mac: 5E:97:70:F3:C1:0D
+  icon: mdi:android
   picture:
   track: true
 
+# Dad:
+howies_iphone:
+  name: Howie's iPhone
+  mac: 42:25:F9:69:97:0E
+  icon: mdi:iphone
+  picture:
+  track: true
+
+chop_mbp:
+  name: CHOP MBP
+  mac: F0:2F:4B:10:5B:7D
+  icon: mdi:laptop
+  picture:
+  track: false
+
+# Oren
+pixel_3_oren:
+  name: Pixel 3
+  mac: 3C:28:6D:2C:E3:5D
+  icon: mdi:android
+  picture:
+  track: true
+
+startree_mbp:
+  name: StarTree MBP
+  mac: 88:66:5A:0A:9D:14
+  icon: mdi:laptop
+  picture:
+  track: false
+
+# Becky
+becky_mbp:
+  name: Rebecca's MBP
+  mac: 14:7D:DA:07:96:0D
+  icon: mdi:laptop
+  picture:
+  track: false
+
+# John
+johns_air:
+  name: Johns Air
+  mac: 30:35:AD:AB:2F:DE
+  icon: mdi:laptop
+  picture:
+  track: true
+
+# Others
 jackieswatch:
   name: Jackies Apple Watch
   mac: 10:CE:E9:DB:34:EA
-  icon: mid:watch
+  icon: mdi:watch
   picture:
   track: false
-
-52_19_3f_0f_9f_47:
-  name: 52:19:3F:0F:9F:47
-  mac: 52:19:3F:0F:9F:47
-  icon:
-  picture:
-  track: true
 
 c4_14_11_79_f0_62:
   name: C4:14:11:79:F0:62
   mac: C4:14:11:79:F0:62
-  icon:
+  icon: mdi:iphone
   picture:
   track: true
 
 ec_ad_b8_62_42_10:
   name: EC:AD:B8:62:42:10
   mac: EC:AD:B8:62:42:10
-  icon:
+  icon: mdi:iphone
   picture:
   track: true
 
-2a_41_93_5b_3a_e7:
-  name: 2A:41:93:5B:3A:E7
-  mac: 2A:41:93:5B:3A:E7
-  icon:
-  picture:
-  track: true
-
-localhost:
-  name: localhost
-  mac: FC:8F:90:40:0D:1F
-  icon:
-  picture:
-  track: true
-
-qm077pmwyq:
-  name: QM077PMWYQ
-  mac: F0:2F:4B:10:5B:7D
-  icon:
-  picture:
-  track: true
-
-12_af_14_07_49_e8:
-  name: 12:AF:14:07:49:E8
-  mac: 12:AF:14:07:49:E8
-  icon:
-  picture:
-  track: true
-
-samsung:
-  name: Samsung
-  mac: 28:39:5E:59:43:4A
-  icon:
-  picture:
-  track: true
-
-4e_dd_bc_33_cf_6b:
-  name: 4E:DD:BC:33:CF:6B
-  mac: 4E:DD:BC:33:CF:6B
-  icon:
-  picture:
-  track: true
-
-2a_3e_a0_ed_b0_51:
-  name: 2A:3E:A0:ED:B0:51
-  mac: 2A:3E:A0:ED:B0:51
-  icon:
-  picture:
-  track: true
-
-3e_a4_37_78_d8_07:
-  name: 3E:A4:37:78:D8:07
-  mac: 3E:A4:37:78:D8:07
-  icon:
-  picture:
-  track: true
-
-92_08_47_fc_6c_cf:
-  name: 92:08:47:FC:6C:CF
-  mac: 92:08:47:FC:6C:CF
-  icon:
-  picture:
-  track: true
-
-6e_ff_62_ff_c1_5c:
-  name: 6E:FF:62:FF:C1:5C
-  mac: 6E:FF:62:FF:C1:5C
-  icon:
-  picture:
-  track: true
-
-98_b6_e9_b3_fa_b0:
-  name: 98:B6:E9:B3:FA:B0
+nintendo_switch_1:
+  name: Nintendo Switch 1
   mac: 98:B6:E9:B3:FA:B0
-  icon:
-  picture:
-  track: true
-
-johns_air:
-  name: Johns-Air
-  mac: 30:35:AD:AB:2F:DE
-  icon:
-  picture:
-  track: true
-
-14_7d_da_07_96_0d:
-  name: 14:7D:DA:07:96:0D
-  mac: 14:7D:DA:07:96:0D
-  icon:
-  picture:
-  track: true
-
-88_66_5a_0a_9d_14:
-  name: 88:66:5A:0A:9D:14
-  mac: 88:66:5A:0A:9D:14
-  icon:
-  picture:
-  track: true
-
-pixel_3:
-  name: Pixel-3
-  mac: 06:02:DD:0C:91:0C
-  icon:
-  picture:
-  track: true
-
-pixel_3_2:
-  name: Pixel-3
-  mac: 3C:28:6D:2C:E3:5D
-  icon:
+  icon: mdi:nintendo
   picture:
   track: true
 
 ginas_iphone:
   name: Ginas-iPhone
   mac: 08:87:C7:01:83:F4
-  icon:
+  icon: mdi:iphone
   picture:
   track: true

@@ -2,5 +2,4 @@ name: John
 id: !secret john_id
 user_id: !secret john_user_id
 device_trackers:
-  - device_tracker.john_iphone_app
   - device_tracker.john_iphone
