@@ -1,1 +1,16 @@
-[]
+- id: '1662913603146'
+  alias: Weekly Router Reboot (Tues)
+  description: ''
+  trigger:
+  - platform: time
+    at: 02:00:00
+  condition:
+  - condition: time
+    weekday:
+    - tue
+  action:
+  - device_id: 696817b49d63dcc36d2052431652dc81
+    domain: button
+    entity_id: button.r7000_reboot
+    type: press
+  mode: single

@@ -54,6 +54,7 @@ input_select: !include_dir_named app/inputs/select/
 ###
 person: !include_dir_list people/
 scene: !include_dir_merge_list scenes/
+schedule:
 # script: !include scripts.yaml
 switch: !include_dir_merge_list app/switches/
 zone: !include_dir_list locations/
