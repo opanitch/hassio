@@ -2,4 +2,5 @@ name: Rebecca
 id: !secret becky_id
 user_id: !secret becky_user_id
 device_trackers:
-  - device_tracker.becky_iphone
+  - device_tracker.rebeccas_iphone_wifi
+  - device_tracker.rebecca_s_iphone

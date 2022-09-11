@@ -3,3 +3,4 @@ id: !secret howie_id
 user_id: !secret howie_user_id
 device_trackers:
   - device_tracker.howies_iphone
+  - device_tracker.howies_iphone_wifi

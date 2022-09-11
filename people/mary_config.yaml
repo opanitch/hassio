@@ -2,4 +2,5 @@ name: Mary
 id: !secret mary_id
 user_id: !secret mary_user_id
 device_trackers:
-  - device_tracker.mary_pixel_3
+  - device_tracker.mary_pixel
+  - device_tracker.mary_pixel_4a_wifi
