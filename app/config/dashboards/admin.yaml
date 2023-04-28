@@ -1,5 +1,5 @@
 mode: yaml
-filename: dashboard_admin.yaml
+filename: dashboard-admin.yaml
 title: Admin Panel
 icon: mdi:script
 require_admin: true

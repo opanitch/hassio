@@ -1,5 +1,5 @@
 mode: yaml
-filename: dashboard_user.yaml
+filename: dashboard-user.yaml
 title: House by Room
 icon: mdi:script
 require_admin: false
