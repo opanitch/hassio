@@ -1,16 +1,22 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 homeassistant:
+  name: 841 N 4th
+  # access
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
-  customize: !include_dir_named customizations/
   external_url: !secret external_url
   internal_url: !secret internal_url
+  # location
+  country: !secret zone_home_country
+  elevation: !secret zone_home_elev
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
-  elevation: !secret zone_home_elev
+  time_zone: !secret zone_home_time_zone
+  # measurement units
+  currency: !secret zone_home_currency
   unit_system: imperial
-  time_zone: America/New_York
-  name: 841 N 4th
+  # include person profiles
+  customize: !include_dir_named customizations/
 
 # External
 duckdns: !include authentication/duckdns_config.yaml
