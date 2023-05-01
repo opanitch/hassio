@@ -1,16 +1,16 @@
 path: exterior
 title: Exterior
 badges:
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
-  - entity: sensor.front_door_lock_alarm_type
-  - entity: >-
-      sensor.front_door_lock_alarm_level
-  - entity: >-
-      sensor.front_door_lock_power_management
   - entity: sun.sun
+  - entity: sensor.front_door_lock_alarmtype
+  - entity: >-
+      sensor.front_door_lock_alarmlevel
+  - entity: >-
+      binary_sensor.front_door_home_security_intrusion
+  - entity: >-
+      binary_sensor.back_gate_home_security_intrusion
+  - entity: >-
+      binary_sensor.sliding_glass_door_home_security_intrusion
 cards:
   - type: entities
     entities:
