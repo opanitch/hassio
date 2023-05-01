@@ -1,6 +1,6 @@
 mode: yaml
 filename: dashboard-admin.yaml
 title: Admin Panel
-icon: mdi:script
+icon: mdi:manage-accounts
 require_admin: true
 show_in_sidebar: true
