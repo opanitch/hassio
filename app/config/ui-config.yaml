@@ -1,5 +1,5 @@
-mode: yaml
+# mode: yaml
 # Include external resources only add when mode is yaml, otherwise manage in the resources in the lovelace configuration panel.
-# resources:
+# resources: []
 # Add more dashboards
 dashboards: !include_dir_named dashboards/
