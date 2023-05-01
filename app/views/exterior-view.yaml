@@ -15,20 +15,18 @@ cards:
   - type: entities
     entities:
       - lock.front_door_lock
-    title: Front Door Lock
-  - type: entities
+    title: Front Door
+  - type: buttons
     entities:
-      - switch.living_room_switch_1
-      - switch.hallway_switch_2
-    title: Outdoor Light Switches
+      - entity: light.front_stoop
+        name: Front Light
+      - entity: light.back_stoop
+        name: Back Yard Light
+    show_header_toggle: true
+  - type: buttons
+    entities:
+      - entity: switch.front_steps_switch
+        name: Front Switch
+      - entity: switch.back_yard_switch
+        name: Rear
     show_header_toggle: false
-  # - type: entities
-  #   entities:
-  #     - light.exterior_rear
-  #     - light.back_stoop
-  #     - light.exterior_front
-  #     - light.front_stoop
-  #   title: Exterior Lights
-  #   show_header_toggle: false
-  - type: weather-forecast
-    entity: weather.dark_sky
