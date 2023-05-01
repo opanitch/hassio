@@ -1,7 +1,4 @@
 title: Admin Panel
-icon: mdi:manage-accounts
-show_in_sidebar: true
-require_admin: true
 views:
   - !include app/views/overview-view.yaml
   - !include app/views/playroom-view.yaml
