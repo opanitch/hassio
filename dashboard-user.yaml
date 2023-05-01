@@ -1,5 +1,8 @@
 # default
 title: 841 N 4th by Room
+icon: mdi:house
+show_in_sidebar: false
+require_admin: false
 views:
   - !include app/views/exterior-view.yaml
   - !include app/views/living-room-view.yaml
