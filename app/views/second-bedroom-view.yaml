@@ -1,5 +1,7 @@
 path: second-bedroom
-title: Jose's Room
+title: Jose's
+visible:
+  - user: 623c32e5b12d47c68d2820ec08339f80
 badges:
   - entity: person.jose
   - entity: sensor.us_coronavirus_recovered
