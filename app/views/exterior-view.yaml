@@ -16,17 +16,21 @@ cards:
     entities:
       - lock.front_door_lock
     title: Front Door
-  - type: buttons
+  - type: entities
     entities:
-      - entity: light.front_stoop
-        name: Front Light
-      - entity: light.back_stoop
-        name: Back Yard Light
+      - type: buttons
+        entities:
+          - entity: light.front_stoop
+            name: Front Light
+          - entity: light.back_stoop
+            name: Back Yard Light
     show_header_toggle: true
-  - type: buttons
+  - type: entities
     entities:
-      - entity: switch.front_steps_switch
-        name: Front Switch
-      - entity: switch.back_yard_switch
-        name: Rear
+      - type: buttons
+        entities:
+          - entity: switch.front_steps_switch
+            name: Front Switch
+          - entity: switch.back_yard_switch
+            name: Rear
     show_header_toggle: false
