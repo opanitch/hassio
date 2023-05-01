@@ -1,6 +1,6 @@
 mode: yaml
 filename: dashboard-admin.yaml
 title: Admin Panel
-icon: mdi:room-preferences
+icon: mdi:home-account
 require_admin: true
 show_in_sidebar: true
