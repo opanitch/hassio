@@ -1,2 +1,2 @@
 # default
-!include app/config/dashboards/user-panel.yaml
+!include dashboard-user.yaml
