@@ -19,6 +19,18 @@
 <ports>0:0</ports>
 <binding>?</binding>
 <device>
+<udn>61e6643c9b16eb2262eafddee16d3a31</udn>
+<name>Living Room speaker+</name>
+<mac>cc:cc:33:f2:7b:74</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>7e7c3958ebdbad19cd85bc01056919e4</udn>
+<name>Living Room TV+</name>
+<mac>cc:cc:09:46:34:7c</mac>
+<enabled>1</enabled>
+</device>
+<device>
 <udn>ebe716812b39155bda2abfbe5197985f</udn>
 <name>Living Room Vizio+</name>
 <mac>cc:cc:ff:40:5e:c0</mac>

@@ -1,0 +1,399 @@
+
+harmonyhub:
+  name: HarmonyHub
+  mac: 00:04:20:F4:37:C0
+  icon:
+  picture:
+  track: true
+
+n_4th:
+  name: N-4th
+  mac: 00:17:88:23:91:28
+  icon:
+  picture:
+  track: true
+
+unknown_00_1a_62_04_47_91:
+  name: unknown_00:1a:62:04:47:91
+  mac: 00:1A:62:04:47:91
+  icon:
+  picture:
+  track: true
+
+unknown_0e_bf_f5_cf_10_58:
+  name: unknown_0e:bf:f5:cf:10:58
+  mac: 0E:BF:F5:CF:10:58
+  icon:
+  picture:
+  track: true
+
+09aa01ac12160h5b:
+  name: 09AA01AC12160H5B
+  mac: 18:B4:30:78:71:14
+  icon:
+  picture:
+  track: true
+
+jose_studio:
+  name: Jose-Studio
+  mac: 18:FF:0F:34:21:FE
+  icon:
+  picture:
+  track: true
+
+xbox:
+  name: XBOX
+  mac: 1C:1A:DF:71:C4:14
+  icon:
+  picture:
+  track: true
+
+unknown_44_65_0d_31_8a_60:
+  name: unknown_44:65:0d:31:8a:60
+  mac: 44:65:0D:31:8A:60
+  icon:
+  picture:
+  track: true
+
+chromecast:
+  name: Chromecast
+  mac: 54:60:09:46:34:7C
+  icon:
+  picture:
+  track: true
+
+roomba_3164010851316620:
+  name: Roomba-3164010851316620
+  mac: 80:C5:F2:39:B2:64
+  icon:
+  picture:
+  track: true
+
+orens_mbp:
+  name: Orens-MBP
+  mac: 88:66:5A:0A:9D:14
+  icon:
+  picture:
+  track: true
+
+epson0aa645:
+  name: EPSON0AA645
+  mac: B0:E8:92:0A:A6:45
+  icon:
+  picture:
+  track: true
+
+unknown_be_9a_b4_f5_21_77:
+  name: unknown_be:9a:b4:f5:21:77
+  mac: BE:9A:B4:F5:21:77
+  icon:
+  picture:
+  track: true
+
+viziocastdisplay:
+  name: viziocastdisplay
+  mac: C4:1C:FF:40:5E:C0
+  icon:
+  picture:
+  track: true
+
+homeassistant:
+  name: homeassistant
+  mac: DC:A6:32:37:A7:D5
+  icon:
+  picture:
+  track: true
+
+unknown_f0_27_2d_62_2c_47:
+  name: unknown_f0:27:2d:62:2c:47
+  mac: F0:27:2D:62:2C:47
+  icon:
+  picture:
+  track: true
+
+fa_f4_26_6b_86_67:
+  name: fa_f4_26_6b_86_67
+  mac: FA:F4:26:6B:86:67
+  icon:
+  picture:
+  track: true
+
+stormtrooper:
+  name: Stormtrooper
+  mac: 6C:6A:77:E4:1B:F0
+  icon:
+  picture:
+  track: true
+
+unknown_be_ec_fd_78_5e_a7:
+  name: unknown_be:ec:fd:78:5e:a7
+  mac: BE:EC:FD:78:5E:A7
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6cee8c:
+  name: LIFX-Nightvision-6CEE8C
+  mac: D0:73:D5:6C:EE:8D
+  icon:
+  picture:
+  track: true
+
+lifx_nightvision_6cef5f:
+  name: LIFX-Nightvision-6CEF5F
+  mac: D0:73:D5:6C:EF:60
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b4b99:
+  name: LIFX-Mini-D-5B4B99
+  mac: D0:73:D5:5B:4B:99
+  icon:
+  picture:
+  track: true
+
+lifx_mini_d_5b9aec:
+  name: LIFX-Mini-D-5B9AEC
+  mac: D0:73:D5:5B:9A:EC
+  icon:
+  picture:
+  track: true
+
+oneelite:
+  name: ONEELITE
+  mac: 98:5F:D3:90:8B:3D
+  icon:
+  picture:
+  track: true
+
+unknown_d6_1c_47_22_9c_80:
+  name: unknown_d6:1c:47:22:9c:80
+  mac: D6:1C:47:22:9C:80
+  icon:
+  picture:
+  track: true
+
+unknown_5c_0c_e6_f1_42_d8:
+  name: unknown_5c:0c:e6:f1:42:d8
+  mac: 5C:0C:E6:F1:42:D8
+  icon:
+  picture:
+  track: true
+
+unknown_22_2a_36_34_8b_55:
+  name: unknown_22:2a:36:34:8b:55
+  mac: 22:2A:36:34:8B:55
+  icon:
+  picture:
+  track: true
+
+chromecast_audio:
+  name: Chromecast-Audio
+  mac: A4:77:33:F2:7B:74
+  icon:
+  picture:
+  track: true
+
+tvde4e582c4223:
+  name: tvde4e582c4223
+  mac: 70:18:8B:D1:03:64
+  icon:
+  picture:
+  track: true
+
+google_home:
+  name: Google-Home
+  mac: F4:F5:D8:B4:ED:EC
+  icon:
+  picture:
+  track: true
+
+unknown_96_21_1c_a2_84_5a:
+  name: unknown_96:21:1c:a2:84:5a
+  mac: 96:21:1C:A2:84:5A
+  icon:
+  picture:
+  track: true
+
+unknown_80_d2_e5_69_ce_ba:
+  name: unknown_80:d2:e5:69:ce:ba
+  mac: 80:D2:E5:69:CE:BA
+  icon:
+  picture:
+  track: true
+
+mary_s_pixel_7_pro:
+  name: Mary-s-Pixel-7-Pro
+  mac: C6:E7:C8:8A:C0:33
+  icon:
+  picture:
+  track: true
+
+unknown_ca_d4_06_2f_06_fa:
+  name: unknown_ca:d4:06:2f:06:fa
+  mac: CA:D4:06:2F:06:FA
+  icon:
+  picture:
+  track: true
+
+unknown_ea_be_e3_d1_e8_10:
+  name: unknown_ea:be:e3:d1:e8:10
+  mac: EA:BE:E3:D1:E8:10
+  icon:
+  picture:
+  track: true
+
+unknown_7a_2b_9d_ba_f7_50:
+  name: unknown_7a:2b:9d:ba:f7:50
+  mac: 7A:2B:9D:BA:F7:50
+  icon:
+  picture:
+  track: true
+
+unknown_fe_c3_2b_b3_fc_d1:
+  name: unknown_fe:c3:2b:b3:fc:d1
+  mac: FE:C3:2B:B3:FC:D1
+  icon:
+  picture:
+  track: true
+
+lytas_ipad:
+  name: Lytas-iPad
+  mac: F8:B1:DD:06:14:5F
+  icon:
+  picture:
+  track: true
+
+unknown_3e_a3_a6_ea_65_d3:
+  name: unknown_3e:a3:a6:ea:65:d3
+  mac: 3E:A3:A6:EA:65:D3
+  icon:
+  picture:
+  track: true
+
+unknown_0a_21_cc_60_62_db:
+  name: unknown_0a:21:cc:60:62:db
+  mac: 0A:21:CC:60:62:DB
+  icon:
+  picture:
+  track: true
+
+unknown_62_9b_28_c8_c3_63:
+  name: unknown_62:9b:28:c8:c3:63
+  mac: 62:9B:28:C8:C3:63
+  icon:
+  picture:
+  track: true
+
+unknown_2e_b1_ce_63_e2_9c:
+  name: unknown_2e:b1:ce:63:e2:9c
+  mac: 2E:B1:CE:63:E2:9C
+  icon:
+  picture:
+  track: true
+
+unknown_a6_f3_39_bb_ee_1b:
+  name: unknown_a6:f3:39:bb:ee:1b
+  mac: A6:F3:39:BB:EE:1B
+  icon:
+  picture:
+  track: true
+
+unknown_b2_37_45_d7_30_8c:
+  name: unknown_b2:37:45:d7:30:8c
+  mac: B2:37:45:D7:30:8C
+  icon:
+  picture:
+  track: true
+
+unknown_be_ab_83_63_ca_e2:
+  name: unknown_be:ab:83:63:ca:e2
+  mac: BE:AB:83:63:CA:E2
+  icon:
+  picture:
+  track: true
+
+paststdll503jl:
+  name: PASTSTDLL503JL
+  mac: A4:42:3B:BE:06:4A
+  icon:
+  picture:
+  track: true
+
+unknown_e6_f0_32_98_ad_01:
+  name: unknown_e6:f0:32:98:ad:01
+  mac: E6:F0:32:98:AD:01
+  icon:
+  picture:
+  track: true
+
+unknown_06_13_bc_b9_b6_d5:
+  name: unknown_06:13:bc:b9:b6:d5
+  mac: 06:13:BC:B9:B6:D5
+  icon:
+  picture:
+  track: true
+
+unknown_7a_9c_34_0a_51_0a:
+  name: unknown_7a:9c:34:0a:51:0a
+  mac: 7A:9C:34:0A:51:0A
+  icon:
+  picture:
+  track: true
+
+unknown_ca_37_22_1d_10_0f:
+  name: unknown_ca:37:22:1d:10:0f
+  mac: CA:37:22:1D:10:0F
+  icon:
+  picture:
+  track: true
+
+lytas_air_2:
+  name: Lytas-Air-2
+  mac: 3C:22:FB:80:87:DA
+  icon:
+  picture:
+  track: true
+
+unknown_da_97_2f_fe_b7_f6:
+  name: unknown_da:97:2f:fe:b7:f6
+  mac: DA:97:2F:FE:B7:F6
+  icon:
+  picture:
+  track: true
+
+jakes_air:
+  name: Jakes-Air
+  mac: A4:83:E7:89:9F:B4
+  icon:
+  picture:
+  track: true
+
+unknown_42_e1_ad_1b_9a_28:
+  name: unknown_42:e1:ad:1b:9a:28
+  mac: 42:E1:AD:1B:9A:28
+  icon:
+  picture:
+  track: true
+
+unknown_a8_47_4a_85_d8_b5:
+  name: unknown_a8:47:4a:85:d8:b5
+  mac: A8:47:4A:85:D8:B5
+  icon:
+  picture:
+  track: true
+
+unknown_fe_1f_3e_08_67_d3:
+  name: unknown_fe:1f:3e:08:67:d3
+  mac: FE:1F:3E:08:67:D3
+  icon:
+  picture:
+  track: true
+
+unknown_e2_86_31_6f_57_34:
+  name: unknown_e2:86:31:6f:57:34
+  mac: E2:86:31:6F:57:34
+  icon:
+  picture:
+  track: true

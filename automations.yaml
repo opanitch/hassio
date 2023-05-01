@@ -125,11 +125,14 @@
     platform: sun
   condition: []
   action:
-  - service: switch.turn_on
-    target:
-      device_id:
-      - 7b0b4fe6b9c656f4c0e67ca65f5a26ca
-      - c264b09466926376bfa7d2860feec206
+  - type: turn_on
+    device_id: 84cd559d004b11e39914b276220b4ca9
+    entity_id: switch.hallway_outlet_2_2
+    domain: switch
+  - type: turn_on
+    device_id: 4c0741fdcd556bb253776da223d496eb
+    entity_id: switch.hallway_outlet_3_3
+    domain: switch
   mode: single
 - id: '1589589008880'
   alias: Hallway Nightlight Turn Off
@@ -139,11 +142,14 @@
     platform: sun
   condition: []
   action:
-  - service: switch.turn_off
-    target:
-      device_id:
-      - 7b0b4fe6b9c656f4c0e67ca65f5a26ca
-      - c264b09466926376bfa7d2860feec206
+  - type: turn_off
+    device_id: 84cd559d004b11e39914b276220b4ca9
+    entity_id: switch.hallway_outlet_2_2
+    domain: switch
+  - type: turn_off
+    device_id: 4c0741fdcd556bb253776da223d496eb
+    entity_id: switch.hallway_outlet_3_3
+    domain: switch
   mode: single
 - id: '1651539763507'
   alias: Small Tank Light - On
@@ -228,10 +234,10 @@
   action:
   - service: notify.notify
     data:
-      message: "{% for inkLevel in [states.sensor.ink_level_black, states.sensor.ink_level_cyan,\
-        \ states.sensor.ink_level_magenta, states.sensor.ink_level_yellow] %}\n  {%-\
-        \ if loop.first %}{% elif loop.last %} and {% else %}, {% endif -%} {{inkLevel.friendly_name}}\
-        \ is 10% or below\n{% endfor %}"
+      message: "{% for inkLevel in [states.sensor.ink_level_black, states.sensor.ink_level_cyan,
+        states.sensor.ink_level_magenta, states.sensor.ink_level_yellow] %}\n  {%-
+        if loop.first %}{% elif loop.last %} and {% else %}, {% endif -%} {{inkLevel.friendly_name}}
+        is 10% or below\n{% endfor %}"
   - device_id: 487b1921e673eac8b31e3064b4c37283
     domain: light
     entity_id: light.living_room_lamp_1
@@ -270,4 +276,82 @@
     device_id: 7da7691b5ae6f2a67737e0a70a3efe57
     entity_id: light.utility_closet
     domain: light
+  mode: single
+- id: '1659402951897'
+  alias: Open gate triggers back light
+  description: ''
+  trigger:
+  - type: unsafe
+    platform: device
+    device_id: 620645699e6f48906040f178f9bd8384
+    entity_id: binary_sensor.back_gate_home_security_intrusion
+    domain: binary_sensor
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: device
+    type: is_off
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+  action:
+  - type: turn_on
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+    brightness_pct: 100
+  mode: single
+- id: '1659405626897'
+  alias: Turn Off Back Stoop Light
+  description: ''
+  trigger:
+  - platform: device
+    type: turned_on
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  condition:
+  - type: is_not_unsafe
+    condition: device
+    device_id: 620645699e6f48906040f178f9bd8384
+    entity_id: binary_sensor.back_gate_home_security_intrusion
+    domain: binary_sensor
+  - type: is_not_unsafe
+    condition: device
+    device_id: 2df50b177680f3297c511c9e3d8946f4
+    entity_id: binary_sensor.sliding_glass_door_home_security_intrusion
+    domain: binary_sensor
+  action:
+  - type: turn_off
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+  mode: restart
+- id: '1672610785691'
+  alias: Sliding Door turns on back stoop light
+  description: ''
+  trigger:
+  - type: unsafe
+    platform: device
+    device_id: 2df50b177680f3297c511c9e3d8946f4
+    entity_id: binary_sensor.sliding_glass_door_home_security_intrusion
+    domain: binary_sensor
+  condition:
+  - condition: sun
+    after: sunset
+  - condition: device
+    type: is_off
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+  action:
+  - type: turn_on
+    device_id: e72bb4040c082ba0dd083ac4ae5eb12e
+    entity_id: light.back_stoop
+    domain: light
+    brightness_pct: 100
   mode: single
