@@ -31,6 +31,13 @@ cards:
             name: Front Light
           - entity: light.back_stoop
             name: Back Yard Light
+  - type: horizontal-stack
+    title: Lights
+    cards:
+      - type: button
+        entity: light.front_stoop
+      - type: button
+        entity: switch.front_steps_switch
   - type: entities
     show_header_toggle: false
     entities:
@@ -39,4 +46,4 @@ cards:
           - entity: switch.front_steps_switch
             name: Front Switch
           - entity: switch.back_yard_switch
-            name: Rear
+            name: Rear Switch
