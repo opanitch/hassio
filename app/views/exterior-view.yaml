@@ -12,6 +12,9 @@ badges:
   - entity: >-
       binary_sensor.sliding_glass_door_home_security_intrusion
 cards:
+  - type: sensor
+    entity: sensor.date_time
+    graph: none
   - type: entities
     title: Front Door
     entities:
