@@ -25,6 +25,10 @@ cards:
   - type: entities
     show_header_toggle: true
     entities:
+      - type: button
+        entity: light.front_stoop
+      - type: button
+        entity: switch.front_steps_switch
       - type: buttons
         entities:
           - entity: light.front_stoop
@@ -47,5 +51,8 @@ cards:
             name: Front Switch
           - entity: switch.back_yard_switch
             name: Rear Switch
+  # weather dashboard
   - type: weather-forecast
     entity: weather.openweathermap
+    name: 841 Weather
+    show_forecast: true
