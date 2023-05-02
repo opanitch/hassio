@@ -13,9 +13,9 @@ badges:
       binary_sensor.sliding_glass_door_home_security_intrusion
 cards:
   - type: entities
+    title: Front Door
     entities:
       - lock.front_door_lock
-    title: Front Door
   - type: button
     entity: lock.front_door_lock
   - type: button
@@ -47,3 +47,5 @@ cards:
             name: Front Switch
           - entity: switch.back_yard_switch
             name: Rear Switch
+  - type: weather-forecast
+    entity: weather.openweathermap
