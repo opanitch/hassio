@@ -96,10 +96,10 @@ cards:
             name: Rear Stoop Light
       - type: horizontal-stack
         cards:
-          - type: entity
+          - type: button
             entity: switch.front_steps_switch
             name: Front Switch
-          - type: entity
+          - type: button
             entity: switch.back_yard_switch
             name: Rear Switch
       - type: entities
