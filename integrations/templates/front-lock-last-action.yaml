@@ -1,4 +1,54 @@
 - sensor:
   - name: "Last action"
-    state: "{{ as_timestamp(states('sensor.date_time')) | timestamp_custom('%A %B %-d, %I:%M %p') }}"
+    state: >
+      {% if is_state("sensor.front_door_lock_alarmtype", "17") %}
+        Locked with keypad (jammed)
+      {% elif is_state("sensor.front_door_lock_alarmtype", "18") %}
+        Locked with keypad
+      {% elif is_state("sensor.front_door_lock_alarmtype", "19") %}
+        Unlocked with keypad
+      {% elif is_state("sensor.front_door_lock_alarmtype", "21") %}
+        Locked inside or using key
+      {% elif is_state("sensor.front_door_lock_alarmtype", "22") %}
+        Unlocked inside or using key
+      {% elif is_state("sensor.front_door_lock_alarmtype", "23") %}
+        Locked with App (jammed)
+      {% elif is_state("sensor.front_door_lock_alarmtype", "24") %}
+        Locked with App
+      {% elif is_state("sensor.front_door_lock_alarmtype", "25") %}
+        Unlocked with App
+      {% elif is_state("sensor.front_door_lock_alarmtype", "26") %}
+        Locked automatically (jammed)
+      {% elif is_state("sensor.front_door_lock_alarmtype", "27") %}
+        Locked automatically
+      {% elif is_state("sensor.front_door_lock_alarmtype", "32") %}
+        All User Codes deleted from lock
+      {% elif is_state("sensor.front_door_lock_alarmtype", "112") %}
+        New User Code added to the lock
+      {% elif is_state("sensor.front_door_lock_alarmtype", "161") %}
+        Failed User Code attempt at Keypad
+      {% elif is_state("sensor.front_door_lock_alarmtype", "162") %}
+        Attempted access outside of scheduled
+      {% elif is_state("sensor.front_door_lock_alarmtype", "167") %}
+        Low battery level
+      {% elif is_state("sensor.front_door_lock_alarmtype", "168") %}
+        Critical battery level
+      {% elif is_state("sensor.front_door_lock_alarmtype", "169") %}
+        Battery level too low to operate lock
+      {% endif %} by
+      {% if is_state("sensor.front_door_lock_alarmlevel", "0") %}
+        System
+      {% elif is_state("sensor.front_door_lock_alarmlevel", "1") %}
+        Master
+      {% elif is_state("sensor.front_door_lock_alarmlevel", "2") %}
+        Jose
+      {% elif is_state("sensor.front_door_lock_alarmlevel", "5") %}
+        Yariv
+      {% else %}
+        {{state_attr("sensor.front_door_lock_alarmlevel", "value")}}
+      {% endif %}
     icon: "mdi:lock"
+
+
+# sensor.front_door_lock_alarmlevel
+# sensor.front_door_lock_alarmtype
