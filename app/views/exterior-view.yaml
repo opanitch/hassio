@@ -90,14 +90,18 @@ cards:
         cards:
           - type: light
             entity: light.front_stoop
+            name: Front Stoop Light
           - type: light
-            entity: light.
+            entity: light.back_stoop
+            name: Rear Stoop Light
       - type: horizontal-stack
         cards:
           - type: entity
-            entity: light.front_stoop
+            entity: switch.front_steps_switch
+            name: Front Switch
           - type: entity
-            entity: light.back_stoop
+            entity: switch.back_yard_switch
+            name: Rear Switch
       - type: entities
         entities:
           - type: buttons
