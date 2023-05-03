@@ -52,19 +52,6 @@ badges:
         icon: mdi:door-sliding-open
     state_filter:
       - "on"
-  # normal
-  - type: state-label
-    entity: >-
-      binary_sensor.front_door_home_security_intrusion
-    name: Front Door
-  - type: state-label
-    entity: >-
-      binary_sensor.back_gate_home_security_intrusion
-    name: Back Gate
-  - type: state-label
-    entity: >-
-      binary_sensor.sliding_glass_door_home_security_intrusion
-    name: Sliding Glass Door
 cards:
   # front door
   - type: vertical-stack
