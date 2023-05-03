@@ -15,18 +15,30 @@ cards:
   - type: vertical-stack
     title: Front Door
     cards:
-      - type: button
-        entity: lock.front_door_lock
-        tap_action:
-          action: call-service
-          service: >
-            {% if is_state("lock.front_door_lock", "locked") %}
-              lock.unlock
-            {% else %}
-              lock.lock
-            {% endif %}
-        hold_action:
-          action: more-info
+      - type: conditional
+        conditions:
+          - entity: lock.front_door_lock
+            state: "locked"
+        entities:
+          - type: button
+            entity: lock.front_door_lock
+            tap_action:
+              action: call-service
+              service: lock.unlock
+            hold_action:
+              action: more-info
+      - type: conditional
+        conditions:
+          - entity: lock.front_door_lock
+            state: "unlocked"
+        entities:
+          - type: button
+            entity: lock.front_door_lock
+            tap_action:
+              action: call-service
+              service: lock.lock
+            hold_action:
+              action: more-info
       - type: markdown
         entity_id: sensor.last_action
         content: >
