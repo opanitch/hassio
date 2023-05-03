@@ -24,6 +24,7 @@ cards:
           entity: lock.front_door_lock
           tap_action:
             action: call-service
+            data: lock.front_door_lock
             service: lock.unlock
           hold_action:
             action: more-info
@@ -36,6 +37,7 @@ cards:
           entity: lock.front_door_lock
           tap_action:
             action: call-service
+            data: lock.front_door_lock
             service: lock.lock
           hold_action:
             action: more-info
