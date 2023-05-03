@@ -14,11 +14,11 @@ cards:
   - type: sensor
     entity: sensor.date_time
     graph: none
-    name:
+    show_name: false
   - type: sensor
     entity: sensor.date_time_dashboard
     graph: none
-    name:
+    show_name: false
   - type: vertical-stack
     title: Front Door
     cards:
