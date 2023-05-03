@@ -11,10 +11,12 @@ badges:
   - entity: >-
       binary_sensor.sliding_glass_door_home_security_intrusion
 cards:
+  # date time
   - type: sensor
     entity: sensor.date_time_dashboard
     graph: none
     name: " "
+  # front door
   - type: vertical-stack
     title: Front Door
     cards:
@@ -85,24 +87,24 @@ cards:
           {% endif %}
           {{alarmType}} by {{alarmUser}}
         title: Last action
-  - type: entities
-  - type: button
-    entity: light.front_stoop
-  - type: button
-    entity: switch.front_steps_switch
+    
   - type: entities
     show_header_toggle: false
     entities:
-      - type: button
-        entity: light.front_stoop
-      - type: button
-        entity: switch.front_steps_switch
+      - type: horizontal-stack
+        title: Lights
+        cards:
+          - type: button
+            entity: light.front_stoop
+          - type: button
+            entity: light.back_stoop
       - type: buttons
         entities:
-          - entity: light.front_stoop
-            name: Front Light
-          - entity: light.back_stoop
-            name: Back Yard Light
+          - entity: switch.front_steps_switch
+            name: Front Switch
+          - entity: switch.back_yard_switch
+            name: Rear Switch
+
   - type: horizontal-stack
     title: Lights
     cards:
@@ -110,15 +112,6 @@ cards:
         entity: light.front_stoop
       - type: button
         entity: switch.front_steps_switch
-  - type: entities
-    show_header_toggle: false
-    entities:
-      - type: buttons
-        entities:
-          - entity: switch.front_steps_switch
-            name: Front Switch
-          - entity: switch.back_yard_switch
-            name: Rear Switch
   # weather dashboard
   - type: weather-forecast
     entity: weather.openweathermap
