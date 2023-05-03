@@ -11,11 +11,6 @@ badges:
   - entity: >-
       binary_sensor.sliding_glass_door_home_security_intrusion
 cards:
-  # date time
-  - type: sensor
-    entity: sensor.date_time_dashboard
-    graph: none
-    name: " "
   # front door
   - type: vertical-stack
     title: Front Door
@@ -105,6 +100,11 @@ cards:
                 name: Front Switch
               - entity: switch.back_yard_switch
                 name: Rear Switch
+  # date time
+  - type: sensor
+    entity: sensor.date_time_dashboard
+    graph: none
+    name: " "
   # weather dashboard
   - type: weather-forecast
     entity: weather.openweathermap
