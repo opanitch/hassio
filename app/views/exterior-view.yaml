@@ -32,13 +32,13 @@ cards:
           - entity: lock.front_door_lock
             state: "unlocked"
         card:
-          - type: button
-            entity: lock.front_door_lock
-            tap_action:
-              action: call-service
-              service: lock.lock
-            hold_action:
-              action: more-info
+          type: button
+          entity: lock.front_door_lock
+          tap_action:
+            action: call-service
+            service: lock.lock
+          hold_action:
+            action: more-info
       - type: markdown
         entity_id: sensor.last_action
         content: >
