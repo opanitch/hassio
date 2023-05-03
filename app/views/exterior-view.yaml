@@ -90,7 +90,7 @@ cards:
   # lights
   - type: grid
     square: true
-    columns: 2
+    columns: 1
     cards:
       - type: horizontal-stack
         title: Lights
@@ -101,7 +101,7 @@ cards:
             entity: light.back_stoop
       - type: entities
         entities:
-          - type: button
+          - type: buttons
             entities:
               - entity: switch.front_steps_switch
                 name: Front Switch
