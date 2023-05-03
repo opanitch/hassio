@@ -2,8 +2,21 @@ path: exterior
 title: Exterior
 badges:
   - entity: sun.sun
-  - entity: sensor.front_door_lock_alarmtype
-  - entity: sensor.front_door_lock_alarmlevel
+  - type: state-label
+    icon: mdi:door-open
+    entity: >-
+      binary_sensor.front_door_home_security_intrusion
+    name: Front Door
+  - type: state-label
+    icon: mdi:gate-open
+    entity: >-
+      binary_sensor.back_gate_home_security_intrusion
+    name: Back Gate
+  - type: state-label
+    icon: mdi:door-sliding-open
+    entity: >-
+      binary_sensor.sliding_glass_door_home_security_intrusion
+    name: Sliding Glass Door
   - entity: >-
       binary_sensor.front_door_home_security_intrusion
   - entity: >-
