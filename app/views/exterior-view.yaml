@@ -89,7 +89,7 @@ cards:
         title: Last action
   # lights
   - type: grid
-    square: true
+    square: false
     columns: 1
     cards:
       - type: horizontal-stack
