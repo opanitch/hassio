@@ -2,7 +2,7 @@ path: exterior
 title: Exterior
 badges:
   - entity: sun.sun
-  # closed doors
+  # front door
   - type: entity-filter
     entities:
       - entity: >-
@@ -14,41 +14,42 @@ badges:
   - type: entity-filter
     entities:
       - entity: >-
-          binary_sensor.back_gate_home_security_intrusion
+          binary_sensor.front_door_home_security_intrusion
         name: Front Door
+        icon: mdi:door-open
+    state_filter:
+      - "on"
+  # back gate
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.back_gate_home_security_intrusion
+        name: Back Gate
         icon: mdi:gate
     state_filter:
       - "off"
   - type: entity-filter
     entities:
       - entity: >-
-          binary_sensor.sliding_glass_door_home_security_intrusion
-        name: Front Door
-        icon: mdi:door-sliding
-    state_filter:
-      - "off"
-  # open doors
-  - type: entity-filter
-    entities:
-      - entity: >-
-          binary_sensor.front_door_home_security_intrusion
-        name: Front Door
-        icon: mdi:door-open
-    state_filter:
-      - "on"
-  - type: entity-filter
-    entities:
-      - entity: >-
           binary_sensor.back_gate_home_security_intrusion
-        name: Front Door
+        name: Back Gate
         icon: mdi:gate-open
     state_filter:
       - "on"
+  # sliding door
   - type: entity-filter
     entities:
       - entity: >-
           binary_sensor.sliding_glass_door_home_security_intrusion
-        name: Front Door
+        name: Sliding Door
+        icon: mdi:door-sliding
+    state_filter:
+      - "off"
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.sliding_glass_door_home_security_intrusion
+        name: Sliding Door
         icon: mdi:door-sliding-open
     state_filter:
       - "on"
