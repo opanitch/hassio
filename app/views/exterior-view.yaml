@@ -20,10 +20,16 @@ cards:
     cards:
       - type: button
         entity: lock.front_door_lock
-      - type: sensor
-        entity: sensor.last_action
-      - type: entity
-        entity: sensor.last_action
+        tap_action:
+          action: call-service
+          service: >
+            {% if is_state("lock.front_door_lock", "locked") %}
+              lock.unlock
+            {% else %}
+              lock.lock
+            {% endif %}
+        hold_action:
+          action: more-info
       - type: markdown
         entity_id: sensor.last_action
         content: >
@@ -63,7 +69,7 @@ cards:
           {% elif is_state("sensor.front_door_lock_alarmtype", "169") %}
             {% set alarmType = "Battery level too low to operate lock" %}
           {% else %}
-            {% set alarmType = "Unknown action: "%}{{state_attr("sensor.front_door_lock_alarmtype", "value")}}
+            {% set alarmType = "Unknown action: "%}{{state_attr("sensor.front_door_lock_alarmtype", "value") }}
           {% endif %}
           {% set alarmUser = "" %}
           {% if is_state("sensor.front_door_lock_alarmlevel", "0") %}
@@ -80,11 +86,6 @@ cards:
           {{alarmType}} by {{alarmUser}}
         title: Last action
   - type: entities
-    title: Front Door
-    entities:
-      - lock.front_door_lock
-  - type: button
-    entity: lock.front_door_lock
   - type: button
     entity: light.front_stoop
   - type: button
