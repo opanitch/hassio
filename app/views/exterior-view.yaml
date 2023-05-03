@@ -27,52 +27,57 @@ cards:
       - type: markdown
         entity_id: sensor.last_action
         content: >
+          {% set alarmType = "" %}
           {% if is_state("sensor.front_door_lock_alarmtype", "17") %}
-            Locked with keypad (jammed)
+            {% set alarmType = "Locked with keypad (jammed)" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "18") %}
-            Locked with keypad
+            {% set alarmType = "Locked with keypad" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "19") %}
-            Unlocked with keypad
+            {% set alarmType = "Unlocked with keypad" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "21") %}
-            Locked inside or using key
+            {% set alarmType = "Locked inside or using key" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "22") %}
-            Unlocked inside or using key
+            {% set alarmType = "Unlocked inside or using key" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "23") %}
-            Locked with App (jammed)
+            {% set alarmType = "Locked with App (jammed)" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "24") %}
-            Locked with App
+            {% set alarmType = "Locked with App" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "25") %}
-            Unlocked with App
+            {% set alarmType = "Unlocked with App" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "26") %}
-            Locked automatically (jammed)
+            {% set alarmType = "Locked automatically (jammed)" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "27") %}
-            Locked automatically
+            {% set alarmType = "Locked automatically" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "32") %}
-            All User Codes deleted from lock
+            {% set alarmType = "All User Codes deleted from lock" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "112") %}
-            New User Code added to the lock
+            {% set alarmType = "New User Code added to the lock" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "161") %}
-            Failed User Code attempt at Keypad
+            {% set alarmType = "Failed User Code attempt at Keypad" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "162") %}
-            Attempted access outside of scheduled
+            {% set alarmType = "Attempted access outside of scheduled" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "167") %}
-            Low battery level
+            {% set alarmType = "Low battery level" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "168") %}
-            Critical battery level
+            {% set alarmType = "Critical battery level" %}
           {% elif is_state("sensor.front_door_lock_alarmtype", "169") %}
-            Battery level too low to operate lock
-          {% endif %} by
-          {% if is_state("sensor.front_door_lock_alarmlevel", "0") %}
-            System
-          {% elif is_state("sensor.front_door_lock_alarmlevel", "1") %}
-            Master
-          {% elif is_state("sensor.front_door_lock_alarmlevel", "2") %}
-            Jose
-          {% elif is_state("sensor.front_door_lock_alarmlevel", "5") %}
-            Yariv
+            {% set alarmType = "Battery level too low to operate lock" %}
           {% else %}
-            {{state_attr("sensor.front_door_lock_alarmlevel", "value")}}
+            {% set alarmType = "Unknown action: "%}{{state_attr("sensor.front_door_lock_alarmtype", "value")}}
           {% endif %}
+          {% set alarmUser = "" %}
+          {% if is_state("sensor.front_door_lock_alarmlevel", "0") %}
+            {% set alarmUser = "System" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "1") %}
+            {% set alarmUser = "Master" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "2") %}
+            {% set alarmUser = "Jose" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "5") %}
+            {% set alarmUser = "Yariv" %}
+          {% else %}
+            {% set alarmUser = state_attr("sensor.front_door_lock_alarmlevel", "value") %}
+          {% endif %}
+          {{alarmType}} by {{alarmUser}}
         title: Last action
   - type: entities
     title: Front Door
