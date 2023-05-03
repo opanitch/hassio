@@ -104,14 +104,6 @@ cards:
             entity: switch.back_yard_switch
             icon_height: 25px
             name: Rear Switch
-      - type: entities
-        entities:
-          - type: buttons
-            entities:
-              - entity: switch.front_steps_switch
-                name: Front Switch
-              - entity: switch.back_yard_switch
-                name: Rear Switch
   # date time
   - type: sensor
     entity: sensor.date_time_dashboard
