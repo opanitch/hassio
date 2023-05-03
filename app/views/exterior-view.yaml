@@ -22,6 +22,8 @@ cards:
         entity: lock.front_door_lock
       - type: sensor
         entity: sensor.last_action
+      - type: entity
+        entity: sensor.last_action
   - type: entities
     title: Front Door
     entities:
