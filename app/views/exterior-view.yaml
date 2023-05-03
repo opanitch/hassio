@@ -84,13 +84,19 @@ cards:
         title: Last action
   # lights
   - type: vertical-stack
+    title: Lights
     cards:
       - type: horizontal-stack
-        title: Lights
         cards:
           - type: light
             entity: light.front_stoop
           - type: light
+            entity: light.
+      - type: horizontal-stack
+        cards:
+          - type: entity
+            entity: light.front_stoop
+          - type: entity
             entity: light.back_stoop
       - type: entities
         entities:
