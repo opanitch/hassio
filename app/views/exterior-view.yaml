@@ -87,31 +87,26 @@ cards:
           {% endif %}
           {{alarmType}} by {{alarmUser}}
         title: Last action
-    
-  - type: entities
-    show_header_toggle: false
-    entities:
+  # lights
+  - type: grid
+    square: true
+    columns: 2
+    cards:
       - type: horizontal-stack
         title: Lights
         cards:
-          - type: button
+          - type: light
             entity: light.front_stoop
-          - type: button
+          - type: light
             entity: light.back_stoop
-      - type: buttons
+      - type: entities
         entities:
-          - entity: switch.front_steps_switch
-            name: Front Switch
-          - entity: switch.back_yard_switch
-            name: Rear Switch
-
-  - type: horizontal-stack
-    title: Lights
-    cards:
-      - type: button
-        entity: light.front_stoop
-      - type: button
-        entity: switch.front_steps_switch
+          - type: button
+            entities:
+              - entity: switch.front_steps_switch
+                name: Front Switch
+              - entity: switch.back_yard_switch
+                name: Rear Switch
   # weather dashboard
   - type: weather-forecast
     entity: weather.openweathermap
