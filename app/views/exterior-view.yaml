@@ -88,9 +88,7 @@ cards:
           {{alarmType}} by {{alarmUser}}
         title: Last action
   # lights
-  - type: grid
-    square: false
-    columns: 1
+  - type: vertical-stack
     cards:
       - type: horizontal-stack
         title: Lights
