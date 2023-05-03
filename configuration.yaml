@@ -72,6 +72,7 @@ nest: !include integrations/climate_control/nest_config.yaml
 plex: !include integrations/media/plex_config.yaml
 # roomba: !include integrations/cleaning/roomba_config.yaml # Used Automatic Installation
 sensor: !include_dir_merge_list integrations/sensors/
+template: !include_dir_merge_list integrations/templates/
 # upnp: !include integrations/network/upnp_config.yaml
 # vacuum: !include integrations/cleaning/vacuum_config.yaml # Used Automatic Installation
 weather: !include_dir_list integrations/weather/
