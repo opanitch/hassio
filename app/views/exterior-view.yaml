@@ -19,7 +19,7 @@ cards:
         conditions:
           - entity: lock.front_door_lock
             state: "locked"
-        entities:
+        card:
           - type: button
             entity: lock.front_door_lock
             tap_action:
@@ -31,7 +31,7 @@ cards:
         conditions:
           - entity: lock.front_door_lock
             state: "unlocked"
-        entities:
+        card:
           - type: button
             entity: lock.front_door_lock
             tap_action:
