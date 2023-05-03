@@ -1,0 +1,4 @@
+- sensor:
+  - name: "Last action"
+    state: "{{ as_timestamp(states('sensor.date_time')) | timestamp_custom('%A %B %-d, %I:%M %p') }}"
+    icon: "mdi:lock"

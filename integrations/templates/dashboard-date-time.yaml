@@ -1,4 +1,4 @@
 - sensor:
-  - name: "Date and time"
-    state: "{{ as_timestamp(states('sensor.date_time')) | timestamp_custom('%A %B %-d, %I:%M %p') }}"
+  - name: "Date time dashboard"
+    state: "{{ as_timestamp(states('sensor.date_time_iso')) | timestamp_custom('%A %B %-d, %I:%M %p') }}"
     icon: "mdi:calendar-clock"

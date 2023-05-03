@@ -3,8 +3,7 @@ title: Exterior
 badges:
   - entity: sun.sun
   - entity: sensor.front_door_lock_alarmtype
-  - entity: >-
-      sensor.front_door_lock_alarmlevel
+  - entity: sensor.front_door_lock_alarmlevel
   - entity: >-
       binary_sensor.front_door_home_security_intrusion
   - entity: >-
@@ -15,6 +14,10 @@ cards:
   - type: sensor
     entity: sensor.date_time
     graph: none
+  - type: vertical-stack
+    title: Front Door
+    cards:
+      - lock.front_door_lock
   - type: entities
     title: Front Door
     entities:
@@ -26,7 +29,7 @@ cards:
   - type: button
     entity: switch.front_steps_switch
   - type: entities
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - type: button
         entity: light.front_stoop
