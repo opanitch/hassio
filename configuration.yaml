@@ -24,6 +24,7 @@ http: !include authentication/http_config.yaml
 
 # Enablers
 browser:
+cloud:
 config:
 conversation:
 # discovery: // prefer manual configuration
