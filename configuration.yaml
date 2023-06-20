@@ -67,7 +67,7 @@ binary_sensor: !include_dir_merge_list integrations/binary_sensors/
 # device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
 device_tracker: !include device_tracker_config.yaml
 # hacs: !include integrations/environment/hacs_config.yaml
-hue: !include integrations/lights/hue_config.yaml
+# hue: !include integrations/lights/hue_config.yaml
 jewish_calendar: !include integrations/environment/jewish_calendar_config.yaml
 media_player: !include_dir_merge_list integrations/media_players/
 nest: !include integrations/climate_control/nest_config.yaml
