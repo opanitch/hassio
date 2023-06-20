@@ -12,12 +12,27 @@ badges:
   - entity: binary_sensor.maria_bin_full
 cards:
   # lights
-  - type: entities
-    entities:
-      - switch.ceiling_left_switch
-      - switch.ceiling_right_switch
-    title: Living Room Switches
-    show_header_toggle: false
+  - type: vertical-stack
+    title: Lights
+    cards:
+      # - type: horizontal-stack
+      #   cards:
+      #     - type: light
+      #       entity: light.front_stoop
+      #       name: Front Stoop Light
+      #     - type: light
+      #       entity: light.back_stoop
+      #       name: Rear Stoop Light
+      - type: horizontal-stack
+        cards:
+          - type: button
+            entity: switch.ceiling_left_switch
+            icon_height: 25px
+            name: Ceiling Left
+          - type: button
+            entity: switch.ceiling_right_switch
+            icon_height: 25px
+            name: Ceiling Right
   # - type: entities
   #   entities:
   #     - light.living_room
