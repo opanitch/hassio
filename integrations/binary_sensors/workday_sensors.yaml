@@ -1,4 +1,4 @@
-- platform: workday
-  country: US
-  name: Work Day
-  province: PA
+# - platform: workday
+#   country: US
+#   name: Work Day
+#   province: PA
