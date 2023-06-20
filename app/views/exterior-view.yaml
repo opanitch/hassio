@@ -1,6 +1,8 @@
 path: exterior
 title: Exterior
 badges:
+  # time
+  - entity: sensor.time
   - entity: sun.sun
   # front door
   - type: entity-filter
