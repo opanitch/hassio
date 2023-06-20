@@ -3,6 +3,7 @@ title: Living Room
 badges:
   # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
   - entity: sensor.time
   # plex stats
   - entity: sensor.plex_drobo5n
@@ -13,8 +14,8 @@ cards:
   # lights
   - type: entities
     entities:
-      - switch.living_room_switch_2
-      - switch.living_room_switch_3
+      - switch.ceiling_left_switch
+      - switch.ceiling_right_switch
     title: Living Room Switches
     show_header_toggle: false
   # - type: entities

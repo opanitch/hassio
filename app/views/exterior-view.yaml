@@ -3,6 +3,7 @@ title: Exterior
 badges:
   # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
   - entity: sensor.time
   # front door
   - type: entity-filter
