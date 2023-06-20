@@ -1,14 +1,16 @@
 path: living-room
 title: Living Room
 badges:
-  - entity: sensor.steam_76561197963476141
-  # - entity: sensor.plex_drobo5n
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
+  # time
   - entity: sun.sun
+  - entity: sensor.time
+  # plex stats
+  - entity: sensor.plex_drobo5n
+  # roomba
+  - entity: sensor.maria_battery_level
+  - entity: binary_sensor.maria_bin_full
 cards:
+  # lights
   - type: entities
     entities:
       - switch.living_room_switch_2
@@ -32,6 +34,9 @@ cards:
       - switch.living_room_outlet_1
     title: Living Room Outlets
     show_header_toggle: false
+  # media controls
+  # media players
+  # roomba controls
   - type: entities
     entities:
       - vacuum.maria
