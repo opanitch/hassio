@@ -1,7 +1,7 @@
 path: second-bedroom
 title: Jose's
-visible:
-  - user: 623c32e5b12d47c68d2820ec08339f80
+# visible:
+#   - user: 623c32e5b12d47c68d2820ec08339f80
 badges:
   # time
   - entity: sun.sun
