@@ -3,34 +3,309 @@ title: Jose's
 visible:
   - user: 623c32e5b12d47c68d2820ec08339f80
 badges:
-  - entity: person.jose
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
+  # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
+  - entity: sensor.time
+  - entity: person.jose
 cards:
+  # lights
+  - type: vertical-stack
+    title: Lights
+    cards:
+      - type: entities
+        entities:
+          - light.bedroom_1
+          - light.bedroom_2
+          - light.bedroom_3
+          - light.bedroom_4
+          - light.fan_1
+          # - light.fan_2
+        title: Bedroom Lights
+        show_header_toggle: true
+      - type: entities
+        entities:
+          - light.bathroom_1
+          - light.bathroom_2
+        title: Bathroom Lights
+        show_header_toggle: true
   - type: entities
     entities:
-      # - device_tracker.jose_iphone
-    title: Is Jose Home?
-    show_header_toggle: false
-  - type: weather-forecast
-    entity: weather.dark_sky
-  - type: entities
-    entities:
-      # - light.front_bedroom
-      # - light.front_room_1
-      # - light.front_room_2
-      # - light.front_room_3
-      # - light.front_room_4
-      - light.front_bedroom_fan_1
-      # - light.front_bedroom_fan_2
+      - light.bedroom_1
+      - light.bedroom_2
+      - light.bedroom_3
+      - light.bedroom_4
+      - light.fan_1
+      # - light.fan_2
     title: Bedroom Lights
-    show_header_toggle: false
+    show_header_toggle: true
   - type: entities
     entities:
-      - light.front_bathroom_ceiling_1
-      - light.front_bathroom_ceiling_2
+      - light.bathroom_1
+      - light.bathroom_2
     title: Bathroom Lights
     show_header_toggle: true
+  # tv
+  - type: vertical-stack
+    cards:
+      - type: entities
+        entities:
+          - entity: remote.sony_kdl_65w850a
+      - square: true
+        columns: 3
+        type: grid
+        cards:
+          - type: button
+            show_icon: false
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:arrow-up-bold
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Up
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            show_icon: false
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:arrow-left-bold
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Left
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:circle
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Confirm
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Confirm
+                hold_secs: 0.5
+              target:
+                entity_id: remote.sony_kdl_65w850a
+          - type: button
+            icon: mdi:arrow-right-bold
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Right
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:arrow-left
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: BACK
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Return
+                hold_secs: 0.5
+              target:
+                entity_id: remote.sony_kdl_65w850a
+          - type: button
+            icon: mdi:arrow-down-bold
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Down
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:home-outline
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Home
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Home
+                hold_secs: 0.5
+              target:
+                entity_id: remote.sony_kdl_65w850a
+      - square: false
+        columns: 3
+        type: grid
+        cards:
+          - type: button
+            icon: mdi:skip-previous
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Rewind
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Rewind
+              target:
+                entity_id: remote.sony_kdl_65w850a
+          # - type: button
+          #   icon: mdi:play-pause
+          #   tap_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: MEDIA_PLAY_PAUSE
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          #   hold_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: MEDIA_STOP
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          # temp no play/pause
+          - type: button
+            show_icon: false
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:skip-next
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Forward
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Forward
+              target:
+                entity_id: remote.sony_kdl_65w850a
+          # - type: button
+          #   icon: mdi:volume-off
+          #   tap_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: MUTE
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          #   hold_action:
+          #     action: none
+          # - type: button
+          #   icon: mdi:volume-medium
+          #   tap_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: VOLUME_DOWN
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          #   hold_action:
+          #     action: none
+          # - type: button
+          #   icon: mdi:volume-high
+          #   tap_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: VOLUME_UP
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          #   hold_action:
+          #     action: none
+      # - square: false
+      #   columns: 4
+      #   type: grid
+      #   cards:
+      #     - type: button
+      #       icon: mdi:youtube
+      #       tap_action:
+      #         action: call-service
+      #         service: remote.turn_on
+      #         data:
+      #           activity: https://www.youtube.com
+      #         target:
+      #           entity_id: remote.sony_kdl_65w850a
+      #       hold_action:
+      #         action: none
+      #     - type: button
+      #       icon: mdi:netflix
+      #       tap_action:
+      #         action: call-service
+      #         service: remote.turn_on
+      #         data:
+      #           activity: https://www.netflix.com/title
+      #         target:
+      #           entity_id: remote.sony_kdl_65w850a
+      #       hold_action:
+      #         action: none
+      #     - type: picture
+      #       image: >-
+      #         https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Amazon_Prime_Video_logo.svg/450px-Amazon_Prime_Video_logo.svg.png
+      #       tap_action:
+      #         action: call-service
+      #         service: remote.turn_on
+      #         data:
+      #           activity: https://app.primevideo.com
+      #         target:
+      #           entity_id: remote.sony_kdl_65w850a
+      #       hold_action:
+      #         action: none
+      #     - type: picture
+      #       image: >-
+      #         https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/440px-Disney%2B_logo.svg.png
+      #       tap_action:
+      #         action: call-service
+      #         service: remote.turn_on
+      #         data:
+      #           activity: https://www.disneyplus.com
+      #         target:
+      #           entity_id: remote.sony_kdl_65w850a
+      #       hold_action:
+      #         action: none
+      # - type: entity
+      #   entity: remote.sony_kdl_65w850a
+      #   attribute: current_activity
+      # - type: media-control
+      #   entity: media_player.living_room_tv
