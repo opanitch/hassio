@@ -29,22 +29,22 @@ cards:
           - light.bathroom_2
         title: Bathroom Lights
         show_header_toggle: true
-  - type: entities
-    entities:
-      - light.bedroom_1
-      - light.bedroom_2
-      - light.bedroom_3
-      - light.bedroom_4
-      - light.fan_1
-      # - light.fan_2
-    title: Bedroom Lights
-    show_header_toggle: true
-  - type: entities
-    entities:
-      - light.bathroom_1
-      - light.bathroom_2
-    title: Bathroom Lights
-    show_header_toggle: true
+  # - type: entities
+  #   entities:
+  #     - light.bedroom_1
+  #     - light.bedroom_2
+  #     - light.bedroom_3
+  #     - light.bedroom_4
+  #     - light.fan_1
+  #     # - light.fan_2
+  #   title: Bedroom Lights
+  #   show_header_toggle: true
+  # - type: entities
+  #   entities:
+  #     - light.bathroom_1
+  #     - light.bathroom_2
+  #   title: Bathroom Lights
+  #   show_header_toggle: true
   # tv
   - type: vertical-stack
     cards:
