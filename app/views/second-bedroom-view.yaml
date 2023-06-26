@@ -56,16 +56,21 @@ cards:
         columns: 3
         type: grid
         cards:
-          # spacer
+          # input
           - type: button
-            show_icon: false
+            icon: mdi:video-input-hdmi
             tap_action:
-              action: none
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Input
+              target:
+                entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
           # Up
           - type: button
-            icon: mdi:arrow-up
+            icon: mdi:arrow-up-bold
             tap_action:
               action: call-service
               service: remote.send_command
@@ -75,11 +80,16 @@ cards:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
-          # spacer
+          # menu/options
           - type: button
-            show_icon: false
+            icon: mdi:dots-horizontal-circle
             tap_action:
-              action: none
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Options
+              target:
+                entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
           # left
@@ -156,7 +166,7 @@ cards:
               action: none
           # home
           - type: button
-            icon: mdi:home-circle-outline
+            icon: mdi:home-circle
             tap_action:
               action: call-service
               service: remote.send_command
