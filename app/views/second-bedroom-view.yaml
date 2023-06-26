@@ -322,18 +322,25 @@ cards:
               action: none
             hold_action:
               action: none
-          # YouTube
+          # spacer
           - type: button
-            icon: mdi:youtube
+            show_icon: false
             tap_action:
-              action: call-service
-              service: remote.send_command
-              data:
-                command: Youtube
-              target:
-                entity_id: remote.sony_kdl_65w850a
+              action: none
             hold_action:
               action: none
+          # YouTube
+          # - type: button
+          #   icon: mdi:youtube
+          #   tap_action:
+          #     action: call-service
+          #     service: remote.send_command
+          #     data:
+          #       command: YouTube
+          #     target:
+          #       entity_id: remote.sony_kdl_65w850a
+          #   hold_action:
+          #     action: none
       # - type: entity
       #   entity: remote.sony_kdl_65w850a
       #   attribute: current_activity
