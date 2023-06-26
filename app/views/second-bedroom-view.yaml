@@ -54,12 +54,12 @@ cards:
         columns: 3
         square: false
         cards:
-          # spacer
-          - type: markdown
-            content: " "
-          # spacer
-          - type: markdown
-            content: " "
+          # # spacer
+          # - type: markdown
+          #   content: " "
+          # # spacer
+          # - type: markdown
+          #   content: " "
           # power
           - type: button
             entity: remote.sony_kdl_65w850a
