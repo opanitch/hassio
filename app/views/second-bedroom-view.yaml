@@ -73,7 +73,7 @@ cards:
             icon: mdi:power
             tap_action:
               action: toggle
-              target:
+              data:
                 entity_id: remote.sony_kdl_65w850a
             # hold_action:
             #   action: call-service
