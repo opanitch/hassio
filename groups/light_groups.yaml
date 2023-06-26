@@ -5,24 +5,24 @@
 #     - light.back_yard
 #     - light.front_stoop
 #   icon: mdi:lighthouse
+front_bathroom_lights:
+  all: false
+  name: Front Bathroom Lights
+  entities:
+    - light.bathroom_1
+    - light.bathroom_2
+  icon: mdi:toilet
 
-# front_bathroom_lights:
-#   all: false
-#   name: Front Bathroom Lights
-#   entities:
-#     - light.
-#   icon: mdi:toilet
-
-# front_bedroom_lights:
-#   all: false
-#   name: Front Bedroom Lights
-#   entities:
-#     - light.fr_1
-#     - light.fr_2
-#     - light.fr_3
-#     - light.fr_4
-#   icon: mdi:bed-empty
-
+front_bedroom_lights:
+  all: false
+  name: Front Bedroom Lights
+  entities:
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3
+    - light.bedroom_4
+    - light.fan_1
+  icon: mdi:bed-empty
 # hallway_lights:
 #   all: false
 #   name: Hallway Lights
