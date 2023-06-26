@@ -50,6 +50,20 @@ cards:
     title: TV
     cards:
       # power
+      - type: button
+        entity: remote.sony_kdl_65w850a
+        icon: mdi:power
+        show_name: false
+        tap_action:
+          action: toggle
+        hold_action:
+          action: none
+      - type: tile
+        entity: remote.sony_kdl_65w850a
+        icon: mdi:power
+        show_name: false
+        tap_action:
+          action: toggle
       - type: grid
         columns: 3
         square: false
