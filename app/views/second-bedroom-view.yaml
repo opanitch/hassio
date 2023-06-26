@@ -75,11 +75,17 @@ cards:
               action: call-service
               service: remote.send_command
               data:
-                command: TvPower
+                command: WakeUp
               target:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
-              action: none
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Sleep
+                hold_secs: 0.5
+              target:
+                entity_id: remote.sony_kdl_65w850a
       ## controls
       - square: true
         columns: 3
@@ -140,14 +146,14 @@ cards:
               action: call-service
               service: remote.send_command
               data:
-                command: Enter
+                command: Confirm
               target:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: call-service
               service: remote.send_command
               data:
-                command: Confirm
+                command: Enter
                 hold_secs: 0.5
               target:
                 entity_id: remote.sony_kdl_65w850a
