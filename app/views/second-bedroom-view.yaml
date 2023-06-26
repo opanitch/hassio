@@ -308,9 +308,9 @@ cards:
             icon: mdi:netflix
             tap_action:
               action: call-service
-              service: remote.turn_on
+              service: remote.send_command
               data:
-                activity: https://www.netflix.com/title
+                command: Netflix
               target:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
