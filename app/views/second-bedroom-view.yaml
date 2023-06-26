@@ -35,6 +35,7 @@ cards:
             name: Fan 1
       - type: entities
         entities:
+          - group.front_bedroom_lights
           - type: buttons
             entities:
               - light.bedroom_1
@@ -58,8 +59,11 @@ cards:
             name: Bathroom 2
       - type: entities
         entities:
-          - light.bathroom_1
-          - light.bathroom_2
+          - group.front_bathroom_lights
+          - type: buttons
+            entities:
+              - light.bathroom_1
+              - light.bathroom_2
         title: Bathroom Lights
         show_header_toggle: true
   # - type: entities
