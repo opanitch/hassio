@@ -49,9 +49,38 @@ cards:
   - type: vertical-stack
     title: TV
     cards:
-      - type: entities
-        entities:
-          - entity: remote.sony_kdl_65w850a
+      # power
+      - square: false
+        columns: 3
+        type: grid
+        cards:
+          # spacer
+          - type: button
+            show_icon: false
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+          # spacer
+          - type: button
+            show_icon: false
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+          # power
+          - type: button
+            icon: mdi:power
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: TvPower
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+      ## controls
       - square: true
         columns: 3
         type: grid
