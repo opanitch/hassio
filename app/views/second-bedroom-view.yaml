@@ -47,6 +47,7 @@ cards:
   #   show_header_toggle: true
   # tv
   - type: vertical-stack
+    title: TV
     cards:
       - type: entities
         entities:
@@ -55,14 +56,16 @@ cards:
         columns: 3
         type: grid
         cards:
+          # spacer
           - type: button
             show_icon: false
             tap_action:
               action: none
             hold_action:
               action: none
+          # Up
           - type: button
-            icon: mdi:arrow-up-bold
+            icon: mdi:arrow-up
             tap_action:
               action: call-service
               service: remote.send_command
@@ -72,12 +75,14 @@ cards:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
+          # spacer
           - type: button
             show_icon: false
             tap_action:
               action: none
             hold_action:
               action: none
+          # left
           - type: button
             icon: mdi:arrow-left-bold
             tap_action:
@@ -89,13 +94,14 @@ cards:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
+          # enter/confirm
           - type: button
-            icon: mdi:circle
+            icon: mdi:square-circle
             tap_action:
               action: call-service
               service: remote.send_command
               data:
-                command: Confirm
+                command: Enter
               target:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
@@ -106,6 +112,7 @@ cards:
                 hold_secs: 0.5
               target:
                 entity_id: remote.sony_kdl_65w850a
+          # right
           - type: button
             icon: mdi:arrow-right-bold
             tap_action:
@@ -117,23 +124,25 @@ cards:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
+          # back/return
           - type: button
-            icon: mdi:arrow-left
+            icon: mdi:arrow-left-circle
             tap_action:
               action: call-service
               service: remote.send_command
               data:
-                command: BACK
+                command: Return
               target:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: call-service
               service: remote.send_command
               data:
-                command: Return
+                command: Exit
                 hold_secs: 0.5
               target:
                 entity_id: remote.sony_kdl_65w850a
+          # down
           - type: button
             icon: mdi:arrow-down-bold
             tap_action:
@@ -145,8 +154,9 @@ cards:
                 entity_id: remote.sony_kdl_65w850a
             hold_action:
               action: none
+          # home
           - type: button
-            icon: mdi:home-outline
+            icon: mdi:home-circle-outline
             tap_action:
               action: call-service
               service: remote.send_command
@@ -162,10 +172,12 @@ cards:
                 hold_secs: 0.5
               target:
                 entity_id: remote.sony_kdl_65w850a
+      # media controls
       - square: false
         columns: 3
         type: grid
         cards:
+          # rewind
           - type: button
             icon: mdi:skip-previous
             tap_action:
@@ -182,29 +194,24 @@ cards:
                 command: Rewind
               target:
                 entity_id: remote.sony_kdl_65w850a
-          # - type: button
-          #   icon: mdi:play-pause
-          #   tap_action:
-          #     action: call-service
-          #     service: remote.send_command
-          #     data:
-          #       command: MEDIA_PLAY_PAUSE
-          #     target:
-          #       entity_id: remote.sony_kdl_65w850a
-          #   hold_action:
-          #     action: call-service
-          #     service: remote.send_command
-          #     data:
-          #       command: MEDIA_STOP
-          #     target:
-          #       entity_id: remote.sony_kdl_65w850a
-          # temp no play/pause
+          # play/pause
           - type: button
-            show_icon: false
+            icon: mdi:play-pause
             tap_action:
-              action: none
+              action: call-service
+              service: remote.send_command
+              data:
+                command: MEDIA_PLAY_PAUSE
+              target:
+                entity_id: remote.sony_kdl_65w850a
             hold_action:
-              action: none
+              action: call-service
+              service: remote.send_command
+              data:
+                command: MEDIA_STOP
+              target:
+                entity_id: remote.sony_kdl_65w850a
+          # forward
           - type: button
             icon: mdi:skip-next
             tap_action:
@@ -221,39 +228,41 @@ cards:
                 command: Forward
               target:
                 entity_id: remote.sony_kdl_65w850a
-          # - type: button
-          #   icon: mdi:volume-off
-          #   tap_action:
-          #     action: call-service
-          #     service: remote.send_command
-          #     data:
-          #       command: MUTE
-          #     target:
-          #       entity_id: remote.sony_kdl_65w850a
-          #   hold_action:
-          #     action: none
-          # - type: button
-          #   icon: mdi:volume-medium
-          #   tap_action:
-          #     action: call-service
-          #     service: remote.send_command
-          #     data:
-          #       command: VOLUME_DOWN
-          #     target:
-          #       entity_id: remote.sony_kdl_65w850a
-          #   hold_action:
-          #     action: none
-          # - type: button
-          #   icon: mdi:volume-high
-          #   tap_action:
-          #     action: call-service
-          #     service: remote.send_command
-          #     data:
-          #       command: VOLUME_UP
-          #     target:
-          #       entity_id: remote.sony_kdl_65w850a
-          #   hold_action:
-          #     action: none
+          # volume
+          - type: button
+            icon: mdi:volume-off
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Mute
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:volume-medium
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Volume_Down
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+          - type: button
+            icon: mdi:volume-high
+            tap_action:
+              action: call-service
+              service: remote.send_command
+              data:
+                command: Volume_Up
+              target:
+                entity_id: remote.sony_kdl_65w850a
+            hold_action:
+              action: none
+      # media apps
       # - square: false
       #   columns: 4
       #   type: grid
