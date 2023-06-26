@@ -52,7 +52,8 @@ cards:
       # power
       - type: tile
         entity: remote.sony_kdl_65w850a
-        show_entity_picture: true
+        icon: mdi:power
+        name: Sony Bravia
         tap_action:
           action: toggle
       - type: grid
@@ -66,6 +67,12 @@ cards:
           # - type: markdown
           #   content: " "
           # power
+          - type: tile
+            entity: remote.sony_kdl_65w850a
+            icon: mdi:power
+            name: Sony Bravia
+            tap_action:
+              action: toggle
           - type: button
             entity: remote.sony_kdl_65w850a
             icon: mdi:power
@@ -353,8 +360,6 @@ cards:
             #       entity_id: remote.sony_kdl_65w850a
             #   hold_action:
             #     action: none
-      # - type: entity
-      #   entity: remote.sony_kdl_65w850a
-      #   attribute: current_activity
-      # - type: media-control
-      #   entity: media_player.living_room_tv
+      # media player iteration
+      - type: media-control
+        entity: media_player.sony_kdl_65w850a
