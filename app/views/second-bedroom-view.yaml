@@ -13,6 +13,26 @@ cards:
   - type: vertical-stack
     title: Lights
     cards:
+      - type: grid
+        columns: 4
+        square: true
+        title: Bedroom Lights
+        cards:
+          - type: light
+            entity: light.bedroom_1
+            name: Bedroom 1
+          - type: light
+            entity: light.bedroom_2
+            name: Bedroom 2
+          - type: light
+            entity: light.bedroom_3
+            name: Bedroom 3
+          - type: light
+            entity: light.bedroom_4
+            name: Bedroom 4
+          - type: light
+            entity: light.fan_1
+            name: Fan 1
       - type: entities
         entities:
           - light.bedroom_1
@@ -23,6 +43,17 @@ cards:
           # - light.fan_2
         title: Bedroom Lights
         show_header_toggle: true
+      - type: grid
+        columns: 4
+        square: true
+        title: Bathroom Lights
+        cards:
+          - type: light
+            entity: light.bathroom_1
+            name: Bathroom 1
+          - type: light
+            entity: light.bathroom_2
+            name: Bathroom 2
       - type: entities
         entities:
           - light.bathroom_1
@@ -47,6 +78,7 @@ cards:
   #   show_header_toggle: true
   # tv
   - type: vertical-stack
+    title: TV
     cards:
       # power
       - type: grid
