@@ -47,40 +47,18 @@ cards:
   #   show_header_toggle: true
   # tv
   - type: vertical-stack
-    title: TV
     cards:
       # power
-      - type: tile
-        entity: remote.sony_kdl_65w850a
-        icon: mdi:power
-        name: Sony Bravia
-        tap_action:
-          action: toggle
       - type: grid
         columns: 3
         square: false
         cards:
-          # # spacer
-          # - type: markdown
-          #   content: " "
-          # # spacer
-          # - type: markdown
-          #   content: " "
-          # power
           - type: tile
             entity: remote.sony_kdl_65w850a
             icon: mdi:power
             name: Sony Bravia
             tap_action:
               action: toggle
-          - type: button
-            entity: remote.sony_kdl_65w850a
-            icon: mdi:power
-            show_name: false
-            tap_action:
-              action: toggle
-            hold_action:
-              action: none
       - type: conditional
         conditions:
           - entity: remote.sony_kdl_65w850a
