@@ -35,12 +35,14 @@ cards:
             name: Fan 1
       - type: entities
         entities:
-          - light.bedroom_1
-          - light.bedroom_2
-          - light.bedroom_3
-          - light.bedroom_4
-          - light.fan_1
-          # - light.fan_2
+          - type: buttons
+            entities:
+              - light.bedroom_1
+              - light.bedroom_2
+              - light.bedroom_3
+              - light.bedroom_4
+              - light.fan_1
+              # - light.fan_2
         title: Bedroom Lights
         show_header_toggle: true
       - type: grid
