@@ -72,20 +72,17 @@ cards:
           - type: button
             icon: mdi:power
             tap_action:
-              action: call-service
-              service: remote.send_command
-              data:
-                command: WakeUp
+              action: toggle
               target:
                 entity_id: remote.sony_kdl_65w850a
-            hold_action:
-              action: call-service
-              service: remote.send_command
-              data:
-                command: Sleep
-                hold_secs: 0.5
-              target:
-                entity_id: remote.sony_kdl_65w850a
+            # hold_action:
+            #   action: call-service
+            #   service: remote.send_command
+            #   data:
+            #     command: Sleep
+            #     hold_secs: 0.5
+            #   target:
+            #     entity_id: remote.sony_kdl_65w850a
       ## controls
       - square: true
         columns: 3
