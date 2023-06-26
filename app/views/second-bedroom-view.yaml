@@ -50,24 +50,16 @@ cards:
     title: TV
     cards:
       # power
-      - square: false
+      - type: grid
         columns: 3
-        type: grid
+        square: false
         cards:
           # spacer
-          - type: button
-            show_icon: false
-            tap_action:
-              action: none
-            hold_action:
-              action: none
+          - type: markdown
+            content: " "
           # spacer
-          - type: button
-            show_icon: false
-            tap_action:
-              action: none
-            hold_action:
-              action: none
+          - type: markdown
+            content: " "
           # power
           - type: button
             entity: remote.sony_kdl_65w850a
@@ -83,9 +75,9 @@ cards:
             state: "on"
         card:
           ## controls
-          square: true
-          columns: 3
           type: grid
+          columns: 3
+          square: true
           cards:
             # input
             - type: button
@@ -219,9 +211,9 @@ cards:
             state: "on"
         card:
           # media controls
-          square: false
-          columns: 3
           type: grid
+          columns: 3
+          square: false
           cards:
             # rewind
             - type: button
@@ -314,9 +306,9 @@ cards:
             state: "on"
         card:
           # media apps
-          square: false
-          columns: 3
           type: grid
+          columns: 3
+          square: false
           cards:
             # Netflix
             - type: button
