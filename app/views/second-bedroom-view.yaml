@@ -59,6 +59,8 @@ cards:
             name: Sony Bravia
             tap_action:
               action: toggle
+            icon_tap_action:
+              action: toggle
       - type: conditional
         conditions:
           - entity: remote.sony_kdl_65w850a
