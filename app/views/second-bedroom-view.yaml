@@ -70,11 +70,10 @@ cards:
               action: none
           # power
           - type: button
+            entity: remote.sony_kdl_65w850a
             icon: mdi:power
             tap_action:
               action: toggle
-              data:
-                entity_id: remote.sony_kdl_65w850a
             # hold_action:
             #   action: call-service
             #   service: remote.send_command
