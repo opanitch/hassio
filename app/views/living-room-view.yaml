@@ -66,11 +66,13 @@ cards:
   #     - remote.harmony_hub
   #   title: Entertainment Hub
   # outlets
-  - type: entities
-    entities:
-      - switch.right_outlet_1
-    title: Living Room Outlets
-    show_header_toggle: false
+  - type: grid
+    columns: 2
+    cards:
+      - type: tile
+        entity: switch.right_outlet_1
+        name: Right Outlet
+        vertical: true
   # roomba controls
   - type: tile
     entity: vacuum.maria
