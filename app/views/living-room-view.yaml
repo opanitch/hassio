@@ -15,14 +15,14 @@ cards:
   - type: vertical-stack
     title: Lights
     cards:
-      # - type: horizontal-stack
-      #   cards:
-      #     - type: light
-      #       entity: light.front_stoop
-      #       name: Front Stoop Light
-      #     - type: light
-      #       entity: light.back_stoop
-      #       name: Rear Stoop Light
+      - type: horizontal-stack
+        cards:
+          - type: light
+            entity: scene.living_room_relax
+            name: Relax
+          - type: light
+            entity: light.back_stoop
+            name: Rear Stoop Light
       - type: horizontal-stack
         cards:
           - type: button
