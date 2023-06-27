@@ -40,13 +40,16 @@ front_bedroom_lights:
 #     - light.kitchen_window
 #   icon: mdi:silverware-variant
 
-# living_room_lights:
-#   all: false
-#   name: Living Room Lights
-#   entities:
-#     - light.living_room
-#   icon: mdi:floor-lamp
-
+living_room_ceiling_lights:
+  all: false
+  name: Living  Ceiling Lights
+  entities:
+    - light.living_room_left_1
+    - light.living_room_left_2
+    - light.living_room_right_1
+    - light.living_room_right_2
+    - light.living_room_right_3
+  icon: mdi:light-recessed
 # master_bathroom_lights:
 #   all: false
 #   name: Master Bathroom Lights

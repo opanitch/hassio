@@ -1,0 +1,8 @@
+- platform: group
+  name: "Living Room Ceiling Lights"
+  entities:
+    - light.living_room_left_1
+    - light.living_room_left_2
+    - light.living_room_right_1
+    - light.living_room_right_2
+    - light.living_room_right_3
