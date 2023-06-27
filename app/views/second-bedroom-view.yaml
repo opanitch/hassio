@@ -14,13 +14,9 @@ cards:
     title: Lights
     cards:
       # bedroom lights
-      - type: tile
-        entity: group.front_bedroom_lights
-        name: Bedroom Lights
-        tap_action:
-          action: toggle
-        icon_tap_action:
-          action: more-info
+      - type: light
+        entity: light.front_bedroom_lights
+        name: Bedroom
       - type: grid
         columns: 4
         square: true
