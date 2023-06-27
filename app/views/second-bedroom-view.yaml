@@ -13,6 +13,7 @@ cards:
   - type: vertical-stack
     title: Lights
     cards:
+      # bedroom lights
       - type: grid
         columns: 4
         square: true
@@ -46,6 +47,9 @@ cards:
               # - light.fan_2
         title: Bedroom Lights
         show_header_toggle: true
+      - type: light
+        entity: group.front_bedroom_lights
+        name: Bedroom Lights
       - type: tile
         entity: group.front_bedroom_lights
         icon: mdi:light
@@ -54,6 +58,7 @@ cards:
           action: toggle
         icon_tap_action:
           action: more-info
+      # bathroom lights
       - type: grid
         columns: 4
         square: true
