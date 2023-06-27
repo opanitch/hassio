@@ -53,29 +53,21 @@ cards:
             entity: switch.ceiling_right_switch
             icon_height: 25px
             name: Ceiling Right
-  # - type: entities
-  #   entities:
-  #     - light.living_room
-  #     - light.living_room_left_1
-  #     - light.living_room_left_2
-  #     - light.living_room_right_1
-  #     - light.living_room_right_2
-  #     - light.living_room_right_3
-  #     - light.living_room_lamp_1
-  #     - light.living_room_lamp_2
-  #   title: Living Room Lights
-  #   show_header_toggle: false
+  # outlets
   - type: entities
     entities:
       - switch.living_room_outlet_1
     title: Living Room Outlets
     show_header_toggle: false
   # roomba controls
-  - type: entities
-    entities:
-      - vacuum.maria
-    title: "Roomba: Maria"
-    show_header_toggle: false
+  - type: tile
+    entity: vacuum.maria
+    show_entity_picture: true
+    features:
+      - type: vacuum-commands
+          commands:
+            - start_pause
+            - return_home
   # media controls
   # media players
   - type: media-control
