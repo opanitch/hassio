@@ -124,6 +124,7 @@ cards:
               hold_action:
                 action: none
       # players
+      # Cast Audio Group
       - type: conditional
         conditions:
           - entity: select.841_home_activities
@@ -133,13 +134,38 @@ cards:
         card:
           type: media-control
           entity: media_player.first_floor
+      # Cast Audio
       - type: conditional
         conditions:
           - entity: select.841_home_activities
             state: "Listen to Cast Audio"
+          - entity: media_player.living_room_audio
+            state: "on"
+          - entity: media_player.first_floor
+            state_not: "on"
         card:
           type: media-control
-          entity: media_player.public_broadcast
+          entity: media_player.living_room_audio
+      # Chromecast
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Watch Cast"
+          - entity: media_player.living_room_tv
+            state: "on"
+        card:
+          type: media-control
+          entity: media_player.living_room_tv
+      # Chromecast
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Play PS4"
+          - entity: media_player.plex_plex_for_playstation_4_ps4_121
+            state: "on"
+        card:
+          type: media-control
+          entity: media_player.plex_plex_for_playstation_4_ps4_121
   # outlets
   - type: grid
     columns: 2
