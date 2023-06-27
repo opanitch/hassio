@@ -46,6 +46,14 @@ cards:
               # - light.fan_2
         title: Bedroom Lights
         show_header_toggle: true
+      - type: tile
+        entity: group.front_bedroom_lights
+        icon: mdi:light
+        name: Bedroom Lights
+        tap_action:
+          action: toggle
+        icon_tap_action:
+          action: more-info
       - type: grid
         columns: 4
         square: true
@@ -66,6 +74,14 @@ cards:
               - light.bathroom_2
         title: Bathroom Lights
         show_header_toggle: true
+      - type: tile
+        entity: group.front_bathroom_lights
+        icon: mdi:light
+        name: Bathroom Lights
+        tap_action:
+          action: toggle
+        icon_tap_action:
+          action: more-info
   # - type: entities
   #   entities:
   #     - light.bedroom_1
