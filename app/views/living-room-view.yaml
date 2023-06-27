@@ -91,36 +91,45 @@ cards:
           cards:
             # volume
             - type: button
-              icon: mdi:volume-off
+              icon: mdi:volume-medium
+              show_icon: true
+              show_name: false
               tap_action:
                 action: call-service
                 service: remote.send_command
-                data:
-                  command: Mute
                 target:
                   entity_id: remote.841_home
-              hold_action:
-                action: none
-            - type: button
-              icon: mdi:volume-medium
-              tap_action:
-                action: call-service
-                service: remote.send_command
                 data:
                   command: VolumeDown
-                target:
-                  entity_id: remote.841_home
+                  device: 75066400
               hold_action:
                 action: none
             - type: button
               icon: mdi:volume-high
+              show_icon: true
+              show_name: false
               tap_action:
                 action: call-service
                 service: remote.send_command
-                data:
-                  command: VolumeUp
                 target:
                   entity_id: remote.841_home
+                data:
+                  command: VolumeUp
+                  device: 75066400
+              hold_action:
+                action: none
+            - type: button
+              icon: mdi:volume-off
+              show_icon: true
+              show_name: false
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Mute
+                  device: 75066400
               hold_action:
                 action: none
       # players
