@@ -1,7 +1,7 @@
 path: second-bedroom
 title: Jose's
-# visible:
-#   - user: 623c32e5b12d47c68d2820ec08339f80
+visible:
+  - user: 623c32e5b12d47c68d2820ec08339f80
 badges:
   # time
   - entity: sun.sun
@@ -58,22 +58,6 @@ cards:
             entity: light.bathroom_2
             icon: mdi:wall-sconce-round-variant
             name: ""
-  # - type: entities
-  #   entities:
-  #     - light.bedroom_1
-  #     - light.bedroom_2
-  #     - light.bedroom_3
-  #     - light.bedroom_4
-  #     - light.fan_1
-  #     # - light.fan_2
-  #   title: Bedroom Lights
-  #   show_header_toggle: true
-  # - type: entities
-  #   entities:
-  #     - light.bathroom_1
-  #     - light.bathroom_2
-  #   title: Bathroom Lights
-  #   show_header_toggle: true
   # tv
   - type: vertical-stack
     title: TV
