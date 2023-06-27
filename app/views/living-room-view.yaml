@@ -59,6 +59,7 @@ cards:
             name: Ceiling Right
   # media
   - type: vertical-stack
+    title: TV Controls
     cards:
       # controls
       - type: entities
@@ -78,6 +79,50 @@ cards:
                 service: remote.turn_off
                 target:
                   entity_id: remote.841_home
+      # audio
+      - type: conditional
+        conditions:
+          - entity: remote.841_home
+            state_not: "off"
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            # volume
+            - type: button
+              icon: mdi:volume-off
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                data:
+                  command: Mute
+                target:
+                  entity_id: remote.841_home
+              hold_action:
+                action: none
+            - type: button
+              icon: mdi:volume-medium
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                data:
+                  command: VolumeDown
+                target:
+                  entity_id: remote.841_home
+              hold_action:
+                action: none
+            - type: button
+              icon: mdi:volume-high
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                data:
+                  command: VolumeUp
+                target:
+                  entity_id: remote.841_home
+              hold_action:
+                action: none
       # players
       - type: conditional
         conditions:
@@ -95,15 +140,9 @@ cards:
         card:
           type: media-control
           entity: media_player.public_broadcast
-      # - type: media-control
-      #   entity: media_player.plex_plex_for_xbox_one_oneelite
-      # - type: entities
-      #   entities:
-      #     - remote.harmony_hub
-      #   title: Entertainment Hub
   # outlets
   - type: grid
-    columns:
+    columns: 2
     square: false
     cards:
       - type: tile
