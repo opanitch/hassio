@@ -2993,7 +2993,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Living Room Lamp 3",
+        "original_name": "Couch Lamp",
         "platform": "hue",
         "supported_features": 44,
         "translation_key": null,
@@ -6746,7 +6746,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Living Room Lamp 3 Zigbee Connectivity",
+        "original_name": "Couch Lamp Zigbee Connectivity",
         "platform": "hue",
         "supported_features": 0,
         "translation_key": null,
@@ -11323,7 +11323,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -12837,7 +12837,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -14293,7 +14293,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -15749,7 +15749,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -17205,7 +17205,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -18661,7 +18661,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -20117,7 +20117,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -21602,7 +21602,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -23058,7 +23058,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:sleep",
+        "original_icon": "mdi:eye",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -33115,7 +33115,7 @@
           }
         },
         "original_device_class": "enum",
-        "original_icon": "mdi:moon-waxing-crescent",
+        "original_icon": "mdi:moon-waxing-gibbous",
         "original_name": "Phase",
         "platform": "moon",
         "supported_features": 0,
@@ -58839,7 +58839,11 @@
         "id": "fc9075ac45ffc9ea95eee5f96f271307",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -58967,7 +58971,11 @@
         "id": "f69ca5b44c552e53f780094a71f01519",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -59008,7 +59016,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Hue color lamp 1",
+        "original_name": "Master Bedroom 1",
         "platform": "hue",
         "supported_features": 40,
         "translation_key": null,
@@ -59030,10 +59038,14 @@
         "id": "c0a343402f3bfe6739e18ea3e6987da0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Hue color lamp 1 Zigbee Connectivity",
+        "original_name": "Master Bedroom 1 Zigbee Connectivity",
         "platform": "hue",
         "supported_features": 0,
         "translation_key": null,
@@ -59071,7 +59083,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Hue color lamp 1",
+        "original_name": "Master Bathroom 2",
         "platform": "hue",
         "supported_features": 40,
         "translation_key": null,
@@ -59093,10 +59105,14 @@
         "id": "a93278304d6cc0e53432e371a151adca",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Hue color lamp 1 Zigbee Connectivity",
+        "original_name": "Master Bathroom 2 Zigbee Connectivity",
         "platform": "hue",
         "supported_features": 0,
         "translation_key": null,
@@ -59129,7 +59145,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Dimmable light 1",
+        "original_name": "Floor Lamp 1",
         "platform": "hue",
         "supported_features": 40,
         "translation_key": null,
@@ -59151,10 +59167,14 @@
         "id": "5877b82382f59c7062e2c6e477a24f88",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Dimmable light 1 Zigbee Connectivity",
+        "original_name": "Floor Lamp 1 Zigbee Connectivity",
         "platform": "hue",
         "supported_features": 0,
         "translation_key": null,
@@ -59187,7 +59207,7 @@
         },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Dimmable light 1",
+        "original_name": "Floor Lamp 2",
         "platform": "hue",
         "supported_features": 40,
         "translation_key": null,
@@ -59209,10 +59229,14 @@
         "id": "f79c986198a622d597cc532a475917d2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Dimmable light 1 Zigbee Connectivity",
+        "original_name": "Floor Lamp 2 Zigbee Connectivity",
         "platform": "hue",
         "supported_features": 0,
         "translation_key": null,
@@ -59280,17 +59304,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "source_list": [
-            "HDMI 1",
-            "HDMI 2/MHL",
-            "HDMI 3",
-            "HDMI 4",
-            "Video 1",
-            "Video 2/Component",
-            "Screen mirroring"
-          ]
-        },
+        "capabilities": {},
         "config_entry_id": "27dd3c064313ac27bc0c2f3dcc1c0dc2",
         "device_class": null,
         "device_id": "1a0445478718c87786fab54672b257b5",
@@ -59434,6 +59448,194 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "cf1c9993-3b5a-4ac9-9e01-d7562ec467bf",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2202,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 454,
+          "supported_color_modes": [
+            "color_temp"
+          ]
+        },
+        "config_entry_id": "722f60d99596005e1c4a87fcf556da38",
+        "device_class": null,
+        "device_id": "b198c5cee412eadc373f514a3a7477b4",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.living_room",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5bab57926ffb4b0a0445e12a20529771",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:lightbulb-group",
+        "original_name": "Living Room",
+        "platform": "hue",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "7c713495-9a0a-4f10-b7c8-30ca06523580",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp",
+            "xy"
+          ]
+        },
+        "config_entry_id": "722f60d99596005e1c4a87fcf556da38",
+        "device_class": null,
+        "device_id": "27f5e4e5b0207c7e17f46d3b1df5c5d7",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.master_bathroom",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3b4e6afd0c5f0c2715c0c2e0f42191b8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:lightbulb-group",
+        "original_name": "Master Bathroom",
+        "platform": "hue",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "9c5e5181-a5dc-4177-8eef-4ef1472ca0a4",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2202,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 454,
+          "supported_color_modes": [
+            "color_temp"
+          ]
+        },
+        "config_entry_id": "722f60d99596005e1c4a87fcf556da38",
+        "device_class": null,
+        "device_id": "7a3372897960a362e04c099276696c04",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.downstairs",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ee9f13862ea3c21497ffb17a9d12163a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:lightbulb-group",
+        "original_name": "Downstairs",
+        "platform": "hue",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "bc8e4edd-c690-4985-a398-4194ca3d6c51",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp",
+            "xy"
+          ]
+        },
+        "config_entry_id": "722f60d99596005e1c4a87fcf556da38",
+        "device_class": null,
+        "device_id": "b766539006989f2e142ae07c89332cb1",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.upstairs",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c152d27bd3e274366f481258f42690d6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:lightbulb-group",
+        "original_name": "Upstairs",
+        "platform": "hue",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "da46ce85-35e9-48b7-88d8-a15654462776",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_color_temp_kelvin": 2000,
+          "max_color_temp_kelvin": 6535,
+          "min_mireds": 153,
+          "max_mireds": 500,
+          "supported_color_modes": [
+            "color_temp",
+            "xy"
+          ]
+        },
+        "config_entry_id": "722f60d99596005e1c4a87fcf556da38",
+        "device_class": null,
+        "device_id": "0d4ed253e1d1b73807e618b459b0fda4",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.master_bedroom",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dd20c3e63ede9645701ce659cbf232c9",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:lightbulb-group",
+        "original_name": "Master Bedroom",
+        "platform": "hue",
+        "supported_features": 40,
+        "translation_key": null,
+        "unique_id": "ef97e77f-261f-4b3b-aad2-0e480d5ccc57",
         "unit_of_measurement": null
       }
     ]
