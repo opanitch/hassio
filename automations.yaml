@@ -355,3 +355,23 @@
     domain: light
     brightness_pct: 100
   mode: single
+- id: '1687812758984'
+  alias: Back Gate Notification
+  description: making sure I know someone has entered the property from the back gate
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.back_gate_home_security_intrusion
+    from: 'off'
+    to: 'on'
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+  condition: []
+  action:
+  - service: notify.notify
+    data:
+      title: Alert
+      message: Back gate has been opened
+  mode: single

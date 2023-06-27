@@ -2,5 +2,953 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1672610785691": [
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "152d5562acedd34566e43e2d277e99ca",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-20T22:39:16.848524+00:00",
+            "finish": "2023-06-20T22:39:16.849325+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1672610785691",
+          "trigger": "state of binary_sensor.sliding_glass_door_home_security_intrusion",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-20T22:39:16.848668+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.sliding_door_turns_on_back_stoop_light",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-13T01:37:21.265049+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1672610785691",
+                      "friendly_name": "Sliding Door turns on back stoop light"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.539063+00:00",
+                    "last_updated": "2023-06-20T20:20:13.539063+00:00",
+                    "context": {
+                      "id": "01H3D7E1K3G1WJRBV8H4KA875K",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.sliding_glass_door_home_security_intrusion",
+                    "from_state": {
+                      "entity_id": "binary_sensor.sliding_glass_door_home_security_intrusion",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "safety",
+                        "friendly_name": "Sliding Glass Door: Home Security - Intrusion"
+                      },
+                      "last_changed": "2023-06-20T20:20:28.094731+00:00",
+                      "last_updated": "2023-06-20T20:20:28.094731+00:00",
+                      "context": {
+                        "id": "01H3D7EFSY742QYZ8K4R0KV12Y",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.sliding_glass_door_home_security_intrusion",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "safety",
+                        "friendly_name": "Sliding Glass Door: Home Security - Intrusion"
+                      },
+                      "last_changed": "2023-06-20T22:39:16.834943+00:00",
+                      "last_updated": "2023-06-20T22:39:16.834943+00:00",
+                      "context": {
+                        "id": "01H3DFCNB2K8D720241830BCDS",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.sliding_glass_door_home_security_intrusion"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-20T22:39:16.848766+00:00",
+                "result": {
+                  "wanted_time_after": "2023-06-21T00:33:18.688868+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1672610785691",
+            "alias": "Sliding Door turns on back stoop light",
+            "description": "",
+            "trigger": [
+              {
+                "type": "unsafe",
+                "platform": "device",
+                "device_id": "2df50b177680f3297c511c9e3d8946f4",
+                "entity_id": "binary_sensor.sliding_glass_door_home_security_intrusion",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset"
+              },
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light",
+                "brightness_pct": 100
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DFCNBGJRNP545CVAK0609K",
+            "parent_id": "01H3DFCNB2K8D720241830BCDS",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "152d5562acedd34566e43e2d277e99ca",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-20T22:39:16.848524+00:00",
+            "finish": "2023-06-20T22:39:16.849325+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1672610785691",
+          "trigger": "state of binary_sensor.sliding_glass_door_home_security_intrusion"
+        }
+      }
+    ],
+    "automation.1651539818720": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "22d4f41ece947cf93c7627fa940e2e1a",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.700434+00:00",
+            "finish": "2023-06-21T00:33:18.896335+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1651539818720",
+          "trigger": "sunset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-21T00:33:18.700610+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.small_tank_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-20T00:33:03.633081+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1651539818720",
+                      "friendly_name": "Small Tank Light - Off"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.535279+00:00",
+                    "last_updated": "2023-06-20T20:20:13.535279+00:00",
+                    "context": {
+                      "id": "01H3D7E1JZEZYMXKHBGFAQQA72",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 0.0
+                    },
+                    "description": "sunset"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-21T00:33:18.700737+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-21T00:33:18.700799+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2023-06-21T00:33:18.701012+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-06-21T00:33:18.713342+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H3DNXEVCKHBWR587E9R6186D",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1651539818720",
+            "alias": "Small Tank Light - Off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": 0
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_on",
+                "device_id": "885a9903367bf9344788137d40d6360e",
+                "entity_id": "switch.right_outlet_1",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "885a9903367bf9344788137d40d6360e",
+                "entity_id": "switch.right_outlet_1",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DNXEVCKHBWR587E9R6186D",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "22d4f41ece947cf93c7627fa940e2e1a",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.700434+00:00",
+            "finish": "2023-06-21T00:33:18.896335+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1651539818720",
+          "trigger": "sunset"
+        }
+      }
+    ],
+    "automation.1587610014345": [
+      {
+        "extended_dict": {
+          "last_step": "action/1",
+          "run_id": "30173c86143e59c09667be87c1ea76f0",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.702550+00:00",
+            "finish": "2023-06-21T00:33:18.901094+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1587610014345",
+          "trigger": "sunset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-21T00:33:18.702679+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.exterior_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-20T00:33:03.634035+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1587610014345",
+                      "friendly_name": "Exterior Sunset"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.533189+00:00",
+                    "last_updated": "2023-06-20T20:20:13.533189+00:00",
+                    "context": {
+                      "id": "01H3D7E1JXW7CZNKS8QM88VYZ4",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 0.0
+                    },
+                    "description": "sunset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-06-21T00:33:18.714621+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H3DNXEVE4AB65H0JHHZR6MWG",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-06-21T00:33:18.778183+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1587610014345",
+            "alias": "Exterior Sunset",
+            "description": "Automate the functionality of the exterior lights to turn on at sunset.",
+            "trigger": [
+              {
+                "event": "sunset",
+                "platform": "sun"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light",
+                "brightness_pct": 100
+              },
+              {
+                "type": "turn_on",
+                "device_id": "5ff1104372fd3dd1059beecaf386a322",
+                "entity_id": "light.front_stoop",
+                "domain": "light",
+                "brightness_pct": 100
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DNXEVE4AB65H0JHHZR6MWG",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1",
+          "run_id": "30173c86143e59c09667be87c1ea76f0",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.702550+00:00",
+            "finish": "2023-06-21T00:33:18.901094+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1587610014345",
+          "trigger": "sunset"
+        }
+      }
+    ],
+    "automation.1589588967075": [
+      {
+        "extended_dict": {
+          "last_step": "action/1",
+          "run_id": "ebdb85bf3146cf8b6a96d187b01225c4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.703621+00:00",
+            "finish": "2023-06-21T00:33:19.000296+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1589588967075",
+          "trigger": "sunset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-21T00:33:18.703718+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hallway_night_lights_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-20T00:33:03.634658+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1589588967075",
+                      "friendly_name": "Hallway Night Lights On"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.534009+00:00",
+                    "last_updated": "2023-06-20T20:20:13.534009+00:00",
+                    "context": {
+                      "id": "01H3D7E1JYE3BAY1TW8F81K1T1",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 0.0
+                    },
+                    "description": "sunset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-06-21T00:33:18.715623+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01H3DNXEVF1N1MDKNWS0VW7NKY",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-06-21T00:33:18.933650+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1589588967075",
+            "alias": "Hallway Night Lights On",
+            "description": "",
+            "trigger": [
+              {
+                "event": "sunset",
+                "platform": "sun"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "84cd559d004b11e39914b276220b4ca9",
+                "entity_id": "switch.hallway_outlet_2_2",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_on",
+                "device_id": "4c0741fdcd556bb253776da223d496eb",
+                "entity_id": "switch.hallway_outlet_3_3",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DNXEVF1N1MDKNWS0VW7NKY",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1",
+          "run_id": "ebdb85bf3146cf8b6a96d187b01225c4",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-06-21T00:33:18.703621+00:00",
+            "finish": "2023-06-21T00:33:19.000296+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1589588967075",
+          "trigger": "sunset"
+        }
+      }
+    ],
+    "automation.1659405626897": [
+      {
+        "extended_dict": {
+          "last_step": "condition/1/entity_id/0",
+          "run_id": "d80fff0a8fc75295cf52bde20d62aec5",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-21T00:38:18.823697+00:00",
+            "finish": "2023-06-21T00:38:18.824917+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1659405626897",
+          "trigger": "state of light.back_stoop",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-21T00:38:18.823928+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.turn_off_back_stoop_light",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-20T01:19:36.428375+00:00",
+                      "mode": "restart",
+                      "current": 0,
+                      "id": "1659405626897",
+                      "friendly_name": "Turn Off Back Stoop Light"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.538256+00:00",
+                    "last_updated": "2023-06-20T20:20:13.538256+00:00",
+                    "context": {
+                      "id": "01H3D7E1K288WH9STDQ2Q3QKG6",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "light.back_stoop",
+                    "from_state": {
+                      "entity_id": "light.back_stoop",
+                      "state": "off",
+                      "attributes": {
+                        "effect_list": [
+                          "None",
+                          "candle"
+                        ],
+                        "supported_color_modes": [
+                          "brightness"
+                        ],
+                        "mode": "normal",
+                        "dynamics": "none",
+                        "friendly_name": "Back Stoop",
+                        "supported_features": 44
+                      },
+                      "last_changed": "2023-06-20T20:20:16.736923+00:00",
+                      "last_updated": "2023-06-20T20:20:16.736923+00:00",
+                      "context": {
+                        "id": "01H3D7E4Q0241WEADN0CSAVAXN",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "light.back_stoop",
+                      "state": "on",
+                      "attributes": {
+                        "effect_list": [
+                          "None",
+                          "candle"
+                        ],
+                        "supported_color_modes": [
+                          "brightness"
+                        ],
+                        "color_mode": "brightness",
+                        "brightness": 255,
+                        "effect": "None",
+                        "mode": "normal",
+                        "dynamics": "none",
+                        "friendly_name": "Back Stoop",
+                        "supported_features": 44
+                      },
+                      "last_changed": "2023-06-21T00:33:18.818696+00:00",
+                      "last_updated": "2023-06-21T00:33:18.818696+00:00",
+                      "context": {
+                        "id": "01H3DNXEVE4AB65H0JHHZR6MWG",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of light.back_stoop"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-21T00:38:18.824086+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-21T00:38:18.824168+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2023-06-21T00:38:18.824280+00:00",
+                "result": {
+                  "result": true,
+                  "state": "off",
+                  "wanted_state": "off"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2023-06-21T00:38:18.824554+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/1",
+                "timestamp": "2023-06-21T00:38:18.824624+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/1/entity_id/0": [
+              {
+                "path": "condition/1/entity_id/0",
+                "timestamp": "2023-06-21T00:38:18.824716+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1659405626897",
+            "alias": "Turn Off Back Stoop Light",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "type": "is_not_unsafe",
+                "condition": "device",
+                "device_id": "620645699e6f48906040f178f9bd8384",
+                "entity_id": "binary_sensor.back_gate_home_security_intrusion",
+                "domain": "binary_sensor"
+              },
+              {
+                "type": "is_not_unsafe",
+                "condition": "device",
+                "device_id": "2df50b177680f3297c511c9e3d8946f4",
+                "entity_id": "binary_sensor.sliding_glass_door_home_security_intrusion",
+                "domain": "binary_sensor"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light"
+              }
+            ],
+            "mode": "restart"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DP6KY76P4JTYGSN9043CZA",
+            "parent_id": "01H3DNXEVE4AB65H0JHHZR6MWG",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/1/entity_id/0",
+          "run_id": "d80fff0a8fc75295cf52bde20d62aec5",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-21T00:38:18.823697+00:00",
+            "finish": "2023-06-21T00:38:18.824917+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1659405626897",
+          "trigger": "state of light.back_stoop"
+        }
+      }
+    ],
+    "automation.1659402951897": [
+      {
+        "extended_dict": {
+          "last_step": "condition/1/entity_id/0",
+          "run_id": "86a7805f3ddd29a8c02fb61646988e76",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-21T01:51:14.990858+00:00",
+            "finish": "2023-06-21T01:51:14.994002+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1659402951897",
+          "trigger": "state of binary_sensor.back_gate_home_security_intrusion",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-06-21T01:51:14.991002+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-06-20T01:14:36.337703+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1659402951897",
+                      "friendly_name": "Open gate triggers back light"
+                    },
+                    "last_changed": "2023-06-20T20:20:13.537834+00:00",
+                    "last_updated": "2023-06-20T20:20:13.537834+00:00",
+                    "context": {
+                      "id": "01H3D7E1K1ESZTDYE09FR2V740",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.back_gate_home_security_intrusion",
+                    "from_state": {
+                      "entity_id": "binary_sensor.back_gate_home_security_intrusion",
+                      "state": "off",
+                      "attributes": {
+                        "device_class": "safety",
+                        "friendly_name": "Back Gate: Home Security - Intrusion"
+                      },
+                      "last_changed": "2023-06-20T20:20:28.089424+00:00",
+                      "last_updated": "2023-06-20T20:20:28.089424+00:00",
+                      "context": {
+                        "id": "01H3D7EFSS1RM66AX442D0A0AB",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.back_gate_home_security_intrusion",
+                      "state": "on",
+                      "attributes": {
+                        "device_class": "safety",
+                        "friendly_name": "Back Gate: Home Security - Intrusion"
+                      },
+                      "last_changed": "2023-06-21T01:51:14.988603+00:00",
+                      "last_updated": "2023-06-21T01:51:14.988603+00:00",
+                      "context": {
+                        "id": "01H3DTC5HCKRSC9WY4TPVBBWDN",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.back_gate_home_security_intrusion"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-06-21T01:51:14.991104+00:00",
+                "result": {
+                  "wanted_time_after": "2023-06-21T00:33:18.688868+00:00",
+                  "result": true
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2023-06-21T01:51:14.993701+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/1",
+                "timestamp": "2023-06-21T01:51:14.993788+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/1/entity_id/0": [
+              {
+                "path": "condition/1/entity_id/0",
+                "timestamp": "2023-06-21T01:51:14.993853+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1659402951897",
+            "alias": "Open gate triggers back light",
+            "description": "",
+            "trigger": [
+              {
+                "type": "unsafe",
+                "platform": "device",
+                "device_id": "620645699e6f48906040f178f9bd8384",
+                "entity_id": "binary_sensor.back_gate_home_security_intrusion",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset"
+              },
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "e72bb4040c082ba0dd083ac4ae5eb12e",
+                "entity_id": "light.back_stoop",
+                "domain": "light",
+                "brightness_pct": 100
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01H3DTC5HEB4475WH1Y41BB64B",
+            "parent_id": "01H3DTC5HCKRSC9WY4TPVBBWDN",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/1/entity_id/0",
+          "run_id": "86a7805f3ddd29a8c02fb61646988e76",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-06-21T01:51:14.990858+00:00",
+            "finish": "2023-06-21T01:51:14.994002+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1659402951897",
+          "trigger": "state of binary_sensor.back_gate_home_security_intrusion"
+        }
+      }
+    ]
+  }
 }

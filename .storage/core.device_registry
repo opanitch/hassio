@@ -49,7 +49,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "9.4",
+        "sw_version": "10.3",
         "via_device_id": null
       },
       {
@@ -149,64 +149,6 @@
         "via_device_id": null
       },
       {
-        "area_id": "5c718c9a190a4d3784366f90072987cf",
-        "config_entries": [
-          "a8c3b57f1b99fddf6ac462fbe26660c4"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:5b:9a:ec"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "ab40cdbc27c8e76264154e1a88b6e098",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:5b:9a:ec"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX Mini White to Warm",
-        "name_by_user": null,
-        "name": "Front Bathroom Ceiling 2",
-        "sw_version": "3.60",
-        "via_device_id": null
-      },
-      {
-        "area_id": "5c718c9a190a4d3784366f90072987cf",
-        "config_entries": [
-          "22d472349461512d7b53bfcd829454a6"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:5b:4b:99"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "2c16e30f0553a5752f408ae31d7656f1",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:5b:4b:99"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX Mini White to Warm",
-        "name_by_user": null,
-        "name": "Front Bathroom Ceiling 1",
-        "sw_version": "3.60",
-        "via_device_id": null
-      },
-      {
         "area_id": null,
         "config_entries": [
           "0fcc267287eccaaddf0a1db0f1956fb1"
@@ -227,7 +169,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Z-Wave JS",
-        "sw_version": "0.1.77",
+        "sw_version": "0.1.84",
         "via_device_id": null
       },
       {
@@ -375,196 +317,6 @@
         "via_device_id": null
       },
       {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "e5135cd1d4c1c8df50bda4b23359ce6d"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:62:bc:64"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "e2a96fcfc04833d4b540b0cf07df5d5f",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:62:bc:64"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX Mini Color",
-        "name_by_user": null,
-        "name": "LIFX Mini 62BC64",
-        "sw_version": 3.6,
-        "via_device_id": null
-      },
-      {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "e5135cd1d4c1c8df50bda4b23359ce6d"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:3a:3c:40"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "2a532b4dbcd94ac0ae576d4f087bb2da",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:3a:3c:40"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX Mini Color",
-        "name_by_user": null,
-        "name": "LIFX Mini 3A3C40",
-        "sw_version": 3.6,
-        "via_device_id": null
-      },
-      {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "2edce100162eeed30ae2dcaf9c585ab5"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:6c:ee:8d"
-          ],
-          [
-            "mac",
-            "d0:73:d5:6c:ee:8c"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "bf736129a62605b51b8ee8352bbc28d9",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:6c:ee:8c"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX BR30 Night Vision",
-        "name_by_user": null,
-        "name": "Front Bedroom 1",
-        "sw_version": "3.70",
-        "via_device_id": null
-      },
-      {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "e5135cd1d4c1c8df50bda4b23359ce6d"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:6b:4d:6d"
-          ],
-          [
-            "mac",
-            "d0:73:d5:6b:4d:6c"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "eac4fd030065a46659e71f278c6aeb2a",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:6b:4d:6c"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX BR30 Night Vision",
-        "name_by_user": null,
-        "name": "Front Bedroom 3",
-        "sw_version": "3.70",
-        "via_device_id": null
-      },
-      {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "4f16d92a9a6b987e9e7350e219c7e94e"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:6c:ef:60"
-          ],
-          [
-            "mac",
-            "d0:73:d5:6c:ef:5f"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "c8c3e10d92a998f1912a00795a19d9ab",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:6c:ef:5f"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX BR30 Night Vision",
-        "name_by_user": null,
-        "name": "Front Bedroom 2",
-        "sw_version": "3.70",
-        "via_device_id": null
-      },
-      {
-        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
-        "config_entries": [
-          "e5135cd1d4c1c8df50bda4b23359ce6d"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:6c:8d:4b"
-          ],
-          [
-            "mac",
-            "d0:73:d5:6c:8d:4a"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "45667a05272fa604eff45f2fed996e20",
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:6c:8d:4a"
-          ]
-        ],
-        "manufacturer": "LIFX",
-        "model": "LIFX BR30 Night Vision",
-        "name_by_user": null,
-        "name": "Front Bedroom 4",
-        "sw_version": "3.70",
-        "via_device_id": null
-      },
-      {
         "area_id": null,
         "config_entries": [
           "acc5f26c48a62e9ce4c91cc99869c118"
@@ -585,7 +337,7 @@
         "model": "Plex Media Server",
         "name_by_user": null,
         "name": "Drobo5N",
-        "sw_version": "1.30.0.6486-629d58034",
+        "sw_version": "1.32.2.7100-248a2daf0",
         "via_device_id": null
       },
       {
@@ -681,7 +433,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (Stand_Up_Penguin - Plex for Android (TV) - Chromecast Google TV)",
-        "sw_version": "9.21.1.1169",
+        "sw_version": "9.21.3.1621",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -705,7 +457,7 @@
         "model": "Plex for Xbox",
         "name_by_user": null,
         "name": "Plex (Stand_Up_Penguin - Plex for Xbox - XBOXONE)",
-        "sw_version": "5.59.3",
+        "sw_version": "5.62.0",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -742,7 +494,7 @@
         "model": "BSB002",
         "name_by_user": null,
         "name": "841 N 4th",
-        "sw_version": "1.57.1957113050",
+        "sw_version": "1.58.1958077010",
         "via_device_id": null
       },
       {
@@ -859,64 +611,6 @@
         "name_by_user": null,
         "name": "Master Bathroom 4",
         "sw_version": "130.1.30000",
-        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
-      },
-      {
-        "area_id": "8a9faefa025a4aab81473269674ffbbc",
-        "config_entries": [
-          "722f60d99596005e1c4a87fcf556da38"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "00:17:88:01:10:44:a8:36"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "3b57c02fe8c6daca460475f984fe8453",
-        "identifiers": [
-          [
-            "hue",
-            "c2c8cdcb-4dfa-4308-8632-b7d35f6c7fe8"
-          ]
-        ],
-        "manufacturer": "Signify Netherlands B.V.",
-        "model": "Hue color lamp (LCT007)",
-        "name_by_user": null,
-        "name": "Master Bathroom 2",
-        "sw_version": "67.101.2",
-        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
-      },
-      {
-        "area_id": "d9eb05e397a64ab58dac56e0c81f7bd4",
-        "config_entries": [
-          "722f60d99596005e1c4a87fcf556da38"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "mac",
-            "00:17:88:01:10:41:d4:09"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "7824899e626e56a39d1c8f166035f5c1",
-        "identifiers": [
-          [
-            "hue",
-            "32586d25-651d-449d-aed0-25b8c9b0a615"
-          ]
-        ],
-        "manufacturer": "Signify Netherlands B.V.",
-        "model": "Hue color lamp (LCT007)",
-        "name_by_user": null,
-        "name": "Master Bedroom 1",
-        "sw_version": "67.101.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1264,7 +958,7 @@
         "model": "Hue white Lamp (LWA007)",
         "name_by_user": null,
         "name": "Master Bathroom 3",
-        "sw_version": "1.101.10",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1292,8 +986,8 @@
         "manufacturer": "Signify Netherlands B.V.",
         "model": "Hue filament bulb (LWA005)",
         "name_by_user": null,
-        "name": "Living Room Lamp 1",
-        "sw_version": "1.101.2",
+        "name": "Couch Lamp",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1322,7 +1016,7 @@
         "model": "Hue white Lamp (LWA007)",
         "name_by_user": null,
         "name": "Master Bathroom 1",
-        "sw_version": "1.101.10",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1351,7 +1045,7 @@
         "model": "Hue white lamp (LWA002)",
         "name_by_user": null,
         "name": "Back Stoop",
-        "sw_version": "1.101.2",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1380,7 +1074,7 @@
         "model": "Hue white lamp (LWA002)",
         "name_by_user": null,
         "name": "Front Stoop",
-        "sw_version": "1.101.2",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1409,7 +1103,7 @@
         "model": "Hue ambiance lamp (LTA002)",
         "name_by_user": null,
         "name": "Kitchen 1",
-        "sw_version": "1.101.2",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1438,7 +1132,7 @@
         "model": "Hue ambiance lamp (LTA002)",
         "name_by_user": null,
         "name": "Kitchen 2",
-        "sw_version": "1.101.2",
+        "sw_version": "1.104.2",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1549,7 +1243,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
-        "sw_version": "9.0.6.31998",
+        "sw_version": "9.23.0.1746",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1740,8 +1434,8 @@
         "manufacturer": "Xbox",
         "model": "Plex for Xbox",
         "name_by_user": null,
-        "name": "Plex (Plex for Xbox - XBOX)",
-        "sw_version": "5.59.3",
+        "name": "Plex (Plex for Xbox - SERIESX)",
+        "sw_version": "5.62.0",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1789,7 +1483,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (rpanitch - Plex for Android (TV) - AFTR)",
-        "sw_version": "9.19.1.525",
+        "sw_version": "9.25.0.2374",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1979,35 +1673,6 @@
         "via_device_id": null
       },
       {
-        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
-        "config_entries": [
-          "36dfcd17e79f04383f1398aa63b62d1a"
-        ],
-        "configuration_url": null,
-        "connections": [
-          [
-            "upnp",
-            "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f"
-          ]
-        ],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "76bfd9d4ea902aed84d9de899dd95583",
-        "identifiers": [
-          [
-            "dlna_dmr",
-            "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f"
-          ]
-        ],
-        "manufacturer": "Microsoft Corporation",
-        "model": "Xbox One",
-        "name_by_user": null,
-        "name": "ONEELITE",
-        "sw_version": null,
-        "via_device_id": null
-      },
-      {
         "area_id": null,
         "config_entries": [
           "acc5f26c48a62e9ce4c91cc99869c118"
@@ -2028,7 +1693,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (ywolok - Plex for Android (TV) - BRAVIA 4K GB)",
-        "sw_version": "9.17.0.38861",
+        "sw_version": "9.23.0.1746",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2052,7 +1717,7 @@
         "model": "Plex for PlayStation 5",
         "name_by_user": null,
         "name": "Plex (ywolok - Plex for PlayStation 5 - PS5-YarivWolok)",
-        "sw_version": "5.55.2",
+        "sw_version": "5.59.3",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2124,7 +1789,7 @@
         "model": "Plex for Roku",
         "name_by_user": null,
         "name": "Plex (halman1321 - Plex for Roku - Roku Ultra)",
-        "sw_version": "7.0.24.8154-127760991-Plex",
+        "sw_version": "7.1.1.8323-1967c5acb-Plex",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2219,7 +1884,7 @@
         "manufacturer": "Chromecast",
         "model": "Plex Cast",
         "name_by_user": null,
-        "name": "Plex (Plex Cast - Chromecast)",
+        "name": "Plex (panitchCast - Plex Cast - Chromecast)",
         "sw_version": "4.54.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
@@ -2316,7 +1981,7 @@
         "model": "Plex for LG",
         "name_by_user": null,
         "name": "Plex (gregory238 - Plex for LG - LG OLED65G1PUA)",
-        "sw_version": "5.56.1",
+        "sw_version": "5.62.0",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2412,7 +2077,7 @@
         "model": "Plex for Xbox",
         "name_by_user": null,
         "name": "Plex (daveyayoh - Plex for Xbox - XBOX)",
-        "sw_version": "5.58.3",
+        "sw_version": "5.62.0",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2700,7 +2365,7 @@
         "model": "iPhone14,2",
         "name_by_user": "Jose iPhone",
         "name": "Jose (2)",
-        "sw_version": "16.3.1",
+        "sw_version": "16.5.1",
         "via_device_id": null
       },
       {
@@ -2724,7 +2389,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2022.12.7",
+        "sw_version": "2023.6.2",
         "via_device_id": null
       },
       {
@@ -2748,7 +2413,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2023.04.1",
+        "sw_version": "2023.06.2",
         "via_device_id": null
       },
       {
@@ -3145,11 +2810,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-13-99:18756:12853"
+            "3841383369-13"
           ],
           [
             "zwave_js",
-            "3841383369-13"
+            "3841383369-13-99:18756:12853"
           ]
         ],
         "manufacturer": "GE/Enbrighten",
@@ -3173,11 +2838,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-14-99:18770:12595"
+            "3841383369-14"
           ],
           [
             "zwave_js",
-            "3841383369-14"
+            "3841383369-14-99:18770:12595"
           ]
         ],
         "manufacturer": "GE",
@@ -3478,11 +3143,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-26-144:3:1088"
+            "3841383369-26"
           ],
           [
             "zwave_js",
-            "3841383369-26"
+            "3841383369-26-144:3:1088"
           ]
         ],
         "manufacturer": "Kwikset",
@@ -3491,30 +3156,6 @@
         "name": "Door Lock",
         "sw_version": "4.10",
         "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
-      },
-      {
-        "area_id": null,
-        "config_entries": [
-          "7b5d4699871b636c2d24e135e3cb27c3"
-        ],
-        "configuration_url": null,
-        "connections": [],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "9652c96cdae581b173d88504ed6c4509",
-        "identifiers": [
-          [
-            "mobile_app",
-            "b657be787d8f7230"
-          ]
-        ],
-        "manufacturer": "Google",
-        "model": "Pixel 3",
-        "name_by_user": null,
-        "name": "Oren Pixel",
-        "sw_version": "31",
-        "via_device_id": null
       },
       {
         "area_id": null,
@@ -3706,11 +3347,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-29"
+            "3841383369-29-838:513:769"
           ],
           [
             "zwave_js",
-            "3841383369-29-838:513:769"
+            "3841383369-29"
           ]
         ],
         "manufacturer": "Ring",
@@ -3846,11 +3487,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-34"
+            "3841383369-34-838:513:769"
           ],
           [
             "zwave_js",
-            "3841383369-34-838:513:769"
+            "3841383369-34"
           ]
         ],
         "manufacturer": "Ring",
@@ -3874,11 +3515,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-35-838:513:769"
+            "3841383369-35"
           ],
           [
             "zwave_js",
-            "3841383369-35"
+            "3841383369-35-838:513:769"
           ]
         ],
         "manufacturer": "Ring",
@@ -3902,11 +3543,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-36"
+            "3841383369-36-271:3841:8192"
           ],
           [
             "zwave_js",
-            "3841383369-36-271:3841:8192"
+            "3841383369-36"
           ]
         ],
         "manufacturer": "Fibargroup",
@@ -3930,11 +3571,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-37-271:3841:8192"
+            "3841383369-37"
           ],
           [
             "zwave_js",
-            "3841383369-37"
+            "3841383369-37-271:3841:8192"
           ]
         ],
         "manufacturer": "Fibargroup",
@@ -3958,11 +3599,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-38"
+            "3841383369-38-271:3329:8192"
           ],
           [
             "zwave_js",
-            "3841383369-38-271:3329:8192"
+            "3841383369-38"
           ]
         ],
         "manufacturer": "Fibargroup",
@@ -3986,11 +3627,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-40-99:18770:12855"
+            "3841383369-40"
           ],
           [
             "zwave_js",
-            "3841383369-40"
+            "3841383369-40-99:18770:12855"
           ]
         ],
         "manufacturer": "UltraPro",
@@ -4020,8 +3661,8 @@
         "manufacturer": "iOS",
         "model": "Plex for iOS",
         "name_by_user": null,
-        "name": "Plex (jbarufkin - Plex for iOS - Jake’s iPhone (2))",
-        "sw_version": "8.9",
+        "name": "Plex (jbarufkin - Plex for iOS - iPhone)",
+        "sw_version": "8.19.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4213,7 +3854,7 @@
         "model": "Plex for Android (Mobile)",
         "name_by_user": null,
         "name": "Plex (Plex for Android (Mobile) - Pixel 7 Pro)",
-        "sw_version": "9.21.1.1169",
+        "sw_version": "9.24.0.2105",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4285,7 +3926,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (jdyankee5 - Plex for Android (TV) - AFTMM)",
-        "sw_version": "9.21.0.1123",
+        "sw_version": "9.21.2.1271",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4381,7 +4022,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (jules.s7 - Plex for Android (TV) - Smart TV Pro)",
-        "sw_version": "9.13.1.37459",
+        "sw_version": "9.23.0.1746",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4429,7 +4070,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.17",
+        "sw_version": "8.19",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4453,7 +4094,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.14",
+        "sw_version": "8.19.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4477,7 +4118,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.18.1",
+        "sw_version": "8.20",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4713,12 +4354,739 @@
             "mcgl1afg9mctv228tdj4892x"
           ]
         ],
-        "manufacturer": "PlayStation",
+        "manufacturer": "Plex",
         "model": "Plex for PlayStation 4",
         "name_by_user": null,
         "name": "Plex (Plex for PlayStation 4 - PS4-121)",
-        "sw_version": "5.59.3",
+        "sw_version": "5.62.0",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "7dbe653d11e7bdd397fd8748fcba66a8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "974e82a622d0d8347a19955c475f0864",
+        "identifiers": [
+          [
+            "openweathermap",
+            "39.9647667-"
+          ]
+        ],
+        "manufacturer": "OpenWeather",
+        "model": null,
+        "name_by_user": null,
+        "name": "OpenWeatherMap",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "7dbe653d11e7bdd397fd8748fcba66a8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "aae4f2c9684a7f6102ee4fa5432b7295",
+        "identifiers": [
+          [
+            "openweathermap",
+            "39.9647667--75.1440794"
+          ]
+        ],
+        "manufacturer": "OpenWeather",
+        "model": null,
+        "name_by_user": null,
+        "name": "OpenWeatherMap",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0fcc267287eccaaddf0a1db0f1956fb1"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_logviewer",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "6e9e41eda5d73e3b507a5cca7a68cbd7",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_logviewer"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Log Viewer",
+        "sw_version": "0.15.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "73c9e1bc4c84f35983333026d1cd57a6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f700f80ce651b92398117086ac4efe8c",
+        "identifiers": [
+          [
+            "xbox",
+            "xbox_live"
+          ]
+        ],
+        "manufacturer": "Microsoft",
+        "model": "Xbox Live",
+        "name_by_user": null,
+        "name": "Xbox Live",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "73c9e1bc4c84f35983333026d1cd57a6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "44935e10aa0d8aa3fcf039f7c8e5f661",
+        "identifiers": [
+          [
+            "xbox",
+            "FD00B0E8DD9010C9"
+          ]
+        ],
+        "manufacturer": "Microsoft",
+        "model": "Xbox One",
+        "name_by_user": null,
+        "name": "ONEELITE",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "73c9e1bc4c84f35983333026d1cd57a6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5d972b323296823de8cc9cc0c471fcb6",
+        "identifiers": [
+          [
+            "xbox",
+            "F4000C06347C07DD"
+          ]
+        ],
+        "manufacturer": "Microsoft",
+        "model": "Xbox Series X",
+        "name_by_user": null,
+        "name": "Series X",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "368ddbcb8d1a5a76d3b625251d20c921"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "1ad2d03d9918c059ea9e2e0664b7f0c6",
+        "identifiers": [
+          [
+            "moon",
+            "368ddbcb8d1a5a76d3b625251d20c921"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Moon",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
+        "config_entries": [
+          "00a9b7111e2ee4be02b0342103970f91"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a2a52a6ec9d3143f791acab28d8361a4",
+        "identifiers": [
+          [
+            "vizio",
+            "47LFTIUHBS00366"
+          ]
+        ],
+        "manufacturer": "VIZIO",
+        "model": "E65u-D3",
+        "name_by_user": null,
+        "name": "Living Room Vizio",
+        "sw_version": "2.1.0.4",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "42d9924f2c084835b1e97fc091f008ca",
+        "identifiers": [
+          [
+            "plex",
+            "56DE182A-BD57-44F3-AA9A-B4ABAF3CA428"
+          ]
+        ],
+        "manufacturer": "iOS",
+        "model": "Plex for iOS",
+        "name_by_user": null,
+        "name": "Plex (abaru2 - Plex for iOS - iPad (4))",
+        "sw_version": "8.19",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "677c1e113614459f29e082bef8bfddb1",
+        "identifiers": [
+          [
+            "plex",
+            "E1CEABDF-4DB4-4B5E-BCD2-4A68A7527F76"
+          ]
+        ],
+        "manufacturer": "tvOS",
+        "model": "Plex for Apple TV",
+        "name_by_user": null,
+        "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
+        "sw_version": "8.20",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "62e577f3c933583f27f93f24e2b78e2a",
+        "identifiers": [
+          [
+            "plex",
+            "hzwwkjcz0exqf737uscad31h"
+          ]
+        ],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "name_by_user": null,
+        "name": "Plex (Plex Cast - Chromecast)",
+        "sw_version": "4.54.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": "utility_closet",
+        "config_entries": [
+          "9df6f1277fe9c8407204a6256d2b0a9d"
+        ],
+        "configuration_url": "http://EPSON0AA645.local.:80/PRESENTATION/BONJOUR",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3d340e4b2e2ce9e6c066519e3458fe22",
+        "identifiers": [
+          [
+            "ipp",
+            "7c47f900-67ff-11d4-9a7f-b0e8920aa645"
+          ]
+        ],
+        "manufacturer": "EPSON",
+        "model": "WF-3520 Series",
+        "name_by_user": null,
+        "name": "EPSON WF-3520 Series",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0fcc267287eccaaddf0a1db0f1956fb1"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "bb972ff0f189e919623619567efe3a2c",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a56a8c256b1847aa7634a23a7f7accc7"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d26fa3426eb1550cd561847c12e93575",
+        "identifiers": [
+          [
+            "workday",
+            "a56a8c256b1847aa7634a23a7f7accc7"
+          ]
+        ],
+        "manufacturer": "python-holidays",
+        "model": "0.21.13",
+        "name_by_user": null,
+        "name": "Work Day",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "22f1effcd83be9a377cd8e54c80464a6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "cdacbe9c7d84dde7cdedfe08d3a620c9",
+        "identifiers": [
+          [
+            "sun",
+            "22f1effcd83be9a377cd8e54c80464a6"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "utility_closet",
+        "config_entries": [
+          "875bf812af81dd4664765b1edbe42f85"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "DC:A6:32:37:A7:D8"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0542",
+        "id": "e4296187f3ba23ded31be59f710ff03c",
+        "identifiers": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (DC:A6:32:37:A7:D8)",
+        "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "caeb02b74acd9a5c40827ae10880bdef"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:6b:4d:6d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "eac4fd030065a46659e71f278c6aeb2a",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:6b:4d:6c"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX BR30 Night Vision",
+        "name_by_user": null,
+        "name": "Bedroom 1",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "0268de54c986125de850459bc02f457c"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:6c:8d:4b"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "45667a05272fa604eff45f2fed996e20",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:6c:8d:4a"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX BR30 Night Vision",
+        "name_by_user": null,
+        "name": "Bedroom 4",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "469955e5e95a1acba3c32e418cd01854"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:6c:ee:8d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "bf736129a62605b51b8ee8352bbc28d9",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:6c:ee:8c"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX BR30 Night Vision",
+        "name_by_user": null,
+        "name": "Bedroom 3",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "5c718c9a190a4d3784366f90072987cf",
+        "config_entries": [
+          "f30b42241a193541ea11957894a9275d"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:5b:4b:9a"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2c16e30f0553a5752f408ae31d7656f1",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:5b:4b:99"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX Mini White to Warm",
+        "name_by_user": null,
+        "name": "Bathroom 1",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "5c718c9a190a4d3784366f90072987cf",
+        "config_entries": [
+          "4305a3be69915b5fd5377f069658100e"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:5b:9a:ed"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ab40cdbc27c8e76264154e1a88b6e098",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:5b:9a:ec"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX Mini White to Warm",
+        "name_by_user": null,
+        "name": "Bathroom 2",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "832744624ca2c8b69a9d7ee35a44ec89"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:6c:ef:60"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c8c3e10d92a998f1912a00795a19d9ab",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:6c:ef:5f"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX BR30 Night Vision",
+        "name_by_user": null,
+        "name": "Bedroom 2",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "49d598a0fbb510c0ef1c1f7e8886bdba"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:62:bc:65"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e2a96fcfc04833d4b540b0cf07df5d5f",
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:62:bc:64"
+          ]
+        ],
+        "manufacturer": "LIFX",
+        "model": "LIFX Mini Color",
+        "name_by_user": null,
+        "name": "Fan 1",
+        "sw_version": "3.90",
+        "via_device_id": null
+      },
+      {
+        "area_id": "d9eb05e397a64ab58dac56e0c81f7bd4",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:10:41:d4:09"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e577649b9bc2fc18396c6dc76b03b17d",
+        "identifiers": [
+          [
+            "hue",
+            "80c2a96f-e111-4bd6-8073-33270f421c03"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue color lamp (LCT007)",
+        "name_by_user": null,
+        "name": "Master Bedroom 1",
+        "sw_version": "67.101.2",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "8a9faefa025a4aab81473269674ffbbc",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:10:44:a8:36"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0ec5b0577386e5f815c037045f771a93",
+        "identifiers": [
+          [
+            "hue",
+            "1a8ef28d-3794-40a8-9e05-195cf109b6eb"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue color lamp (LCT007)",
+        "name_by_user": null,
+        "name": "Master Bathroom 2",
+        "sw_version": "67.101.2",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:0c:05:06"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3d777a7d57b4471a39510c460a2b129e",
+        "identifiers": [
+          [
+            "hue",
+            "623e6722-26a8-41e0-a626-ec74f341d98a"
+          ]
+        ],
+        "manufacturer": "GE_Appliances",
+        "model": "Dimmable light (ZLL Light)",
+        "name_by_user": null,
+        "name": "Floor Lamp 1",
+        "sw_version": "3.4.0",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:0b:12:4f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c5cf71b220dfc750b0abf88fb2d8afbe",
+        "identifiers": [
+          [
+            "hue",
+            "c8b77f94-1cb6-4ec1-a033-739790d0030b"
+          ]
+        ],
+        "manufacturer": "GE_Appliances",
+        "model": "Dimmable light (ZLL Light)",
+        "name_by_user": null,
+        "name": "Floor Lamp 2",
+        "sw_version": "3.4.0",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "7173f5ae0c1a4d7488fb11611a638975",
+        "config_entries": [
+          "27dd3c064313ac27bc0c2f3dcc1c0dc2"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1a0445478718c87786fab54672b257b5",
+        "identifiers": [
+          [
+            "braviatv",
+            "0c0d0709050d0b04090d07020f01040307000109"
+          ]
+        ],
+        "manufacturer": "Sony",
+        "model": "KDL-65W850A",
+        "name_by_user": null,
+        "name": "Sony KDL-65W850A",
+        "sw_version": null,
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -4730,11 +5098,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-20"
+            "3841383369-20-144:3:1088"
           ],
           [
             "zwave_js",
-            "3841383369-20-144:3:1088"
+            "3841383369-20"
           ]
         ],
         "id": "d9abe78400a506e7f3a893d6a12511f2",
@@ -4748,11 +5116,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-25-144:3:1088"
+            "3841383369-25"
           ],
           [
             "zwave_js",
-            "3841383369-25"
+            "3841383369-25-144:3:1088"
           ]
         ],
         "id": "87ef5ee6c29f57c669bb9cebf115f148",
@@ -4829,6 +5197,99 @@
           ]
         ],
         "id": "9c32ea96608a47fb133d86d037672383",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "d0:73:d5:3a:3c:40"
+          ]
+        ],
+        "identifiers": [
+          [
+            "lifx",
+            "d0:73:d5:3a:3c:40"
+          ]
+        ],
+        "id": "2a532b4dbcd94ac0ae576d4f087bb2da",
+        "orphaned_timestamp": 1687303136.0304956
+      },
+      {
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:10:41:d4:09"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "32586d25-651d-449d-aed0-25b8c9b0a615"
+          ]
+        ],
+        "id": "7824899e626e56a39d1c8f166035f5c1",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:10:44:a8:36"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "c2c8cdcb-4dfa-4308-8632-b7d35f6c7fe8"
+          ]
+        ],
+        "id": "3b57c02fe8c6daca460475f984fe8453",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:0b:12:4f"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "5d46687c-7321-433d-b75a-7fa5f4bcc0ca"
+          ]
+        ],
+        "id": "ca726423c8e89f7abdcf80aefd2932c7",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:0c:05:06"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "954f3d77-163f-4935-8c65-295b1bc74db1"
+          ]
+        ],
+        "id": "7edee096addb640247693dad7e81dcc8",
         "orphaned_timestamp": null
       }
     ]

@@ -33,19 +33,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "e5135cd1d4c1c8df50bda4b23359ce6d",
-        "version": 1,
-        "domain": "lifx",
-        "title": "LIFX",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "import",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
         "entry_id": "d7a79084aa65080d6b208a380754564b",
         "version": 1,
         "domain": "cast",
@@ -81,21 +68,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "2ca0a18ece03acfb92b98a6491e2b95c",
-        "version": 1,
-        "domain": "coronavirus",
-        "title": "US",
-        "data": {
-          "country": "US"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": "US",
-        "disabled_by": null
-      },
-      {
         "entry_id": "acc5f26c48a62e9ce4c91cc99869c118",
         "version": 1,
         "domain": "plex",
@@ -113,12 +85,36 @@
           "media_player": {
             "use_episode_art": true,
             "ignore_new_shared_users": false,
-            "ignore_plex_web_clients": false,
+            "ignore_plex_web_clients": true,
             "monitored_users": {
-              "abarufkin@gmail.com": {
+              "adkipphut": {
                 "enabled": true
               },
-              "drgzs2101@gmail.com": {
+              "daveyayoh": {
+                "enabled": true
+              },
+              "gregory238": {
+                "enabled": true
+              },
+              "tub74": {
+                "enabled": true
+              },
+              "drgzs": {
+                "enabled": true
+              },
+              "aander": {
+                "enabled": true
+              },
+              "roweh": {
+                "enabled": true
+              },
+              "jbarufkin": {
+                "enabled": true
+              },
+              "jdyankee5": {
+                "enabled": true
+              },
+              "Virg71": {
                 "enabled": true
               },
               "panitchCast": {
@@ -127,100 +123,70 @@
               "Stand_Up_Penguin": {
                 "enabled": true
               },
-              "Mike.kelley88": {
+              "halman1321": {
                 "enabled": true
               },
-              "aanderson921@gmail.com": {
+              "SmoothJayP": {
                 "enabled": true
               },
-              "rpanitch": {
+              "vick372": {
+                "enabled": true
+              },
+              "andrew7685": {
                 "enabled": true
               },
               "Lawstyle": {
                 "enabled": true
               },
-              "vickcath@gmail.com": {
-                "enabled": true
-              },
-              "ottingerb1@gmail.com": {
-                "enabled": true
-              },
-              "gregory.sparer@gmail.com": {
-                "enabled": true
-              },
-              "chroniclesofler": {
-                "enabled": true
-              },
-              "jena.jenofsky@gmail.com": {
-                "enabled": true
-              },
-              "Ustuss": {
-                "enabled": true
-              },
-              "jdyankee5": {
-                "enabled": true
-              },
-              "tub79385@temple.edu": {
-                "enabled": true
-              },
-              "daveyayoh": {
-                "enabled": true
-              },
-              "virg71@gmail.com": {
-                "enabled": true
-              },
-              "sneuman86@me.com": {
-                "enabled": true
-              },
-              "andrewbezden@gmail.com": {
-                "enabled": true
-              },
-              "JennyFretta": {
-                "enabled": true
-              },
-              "jmpastor73@yahoo.com": {
-                "enabled": true
-              },
-              "rachelbradley55@gmail.com": {
-                "enabled": true
-              },
-              "halman1321": {
-                "enabled": true
-              },
-              "ben.olen.25@gmail.com": {
-                "enabled": true
-              },
-              "miss.alexis.teague@gmail.com": {
-                "enabled": true
-              },
-              "stephanie.dottaviano@gmail.com": {
-                "enabled": true
-              },
-              "mark.d.baskin@gmail.com": {
-                "enabled": true
-              },
-              "adkipphut": {
-                "enabled": true
-              },
-              "jbarufkin": {
-                "enabled": true
-              },
-              "jules.salkind@gmail.com": {
-                "enabled": true
-              },
-              "jroconnor317@gmail.com": {
-                "enabled": true
-              },
-              "ywolok": {
+              "rachelbr4": {
                 "enabled": true
               },
               "opanitch": {
                 "enabled": true
               },
+              "sneum0": {
+                "enabled": true
+              },
+              "Mike.kelley88": {
+                "enabled": true
+              },
+              "Ustuss": {
+                "enabled": true
+              },
+              "JennyFretta": {
+                "enabled": true
+              },
+              "t69kd": {
+                "enabled": true
+              },
               "scottweiss": {
                 "enabled": true
               },
-              "rowehe2010@gmail.com": {
+              "jules.s7": {
+                "enabled": true
+              },
+              "rpanitch": {
+                "enabled": true
+              },
+              "chroniclesofler": {
+                "enabled": true
+              },
+              "abaru2": {
+                "enabled": true
+              },
+              "ben.ol1": {
+                "enabled": true
+              },
+              "jena.je": {
+                "enabled": true
+              },
+              "ywolok": {
+                "enabled": true
+              },
+              "mark.d.16": {
+                "enabled": true
+              },
+              "stephanie.275": {
                 "enabled": true
               }
             }
@@ -314,7 +280,7 @@
           "hostname": "192.168.1.1",
           "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
           "mac_address": "3c:bd:c5:02:a8:f1",
-          "location": "http://[2600:4040:7416:feff::1]:36475/rootDesc.xml",
+          "location": "http://[2600:4040:7416:feff::1]:38826/rootDesc.xml",
           "host": "192.168.1.1"
         },
         "options": {},
@@ -341,23 +307,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "36dfcd17e79f04383f1398aa63b62d1a",
-        "version": 1,
-        "domain": "dlna_dmr",
-        "title": "ONEELITE",
-        "data": {
-          "url": "http://[fe80::7c34:2468:252d:5c9c%3]:2869/upnphost/udhisapi.dll?content=uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
-          "device_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
-          "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "ssdp",
-        "unique_id": "uuid:e13bf030-717c-4494-bfc0-eea8bf46072f",
-        "disabled_by": null
-      },
-      {
         "entry_id": "f36c37a74a9525cc442261aaed8ab2cb",
         "version": 1,
         "domain": "mobile_app",
@@ -370,7 +319,7 @@
           "app_name": "Home Assistant",
           "os_name": "iOS",
           "model": "iPhone14,2",
-          "os_version": "16.3.1",
+          "os_version": "16.5.1",
           "device_name": "Jose (2)",
           "manufacturer": "Apple",
           "supports_encryption": true,
@@ -459,37 +408,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "7b5d4699871b636c2d24e135e3cb27c3",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "Oren Pixel",
-        "data": {
-          "app_id": "io.homeassistant.companion.android",
-          "app_name": "Home Assistant",
-          "app_version": "2022.10.0-full (2738)",
-          "device_name": "Oren Pixel",
-          "manufacturer": "Google",
-          "model": "Pixel 3",
-          "os_name": "Android",
-          "os_version": "31",
-          "supports_encryption": false,
-          "app_data": {
-            "push_websocket_channel": true,
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
-            "push_token": "caT5CNV_RmivtRNdJEiBYS:APA91bFLgv28IHdpV3EzSMLoz-x4zqhSMK6CVclnIoEqeVDmgKP2EoAkQkMeMYuQiv7DrpBjv0UGms7tA6IhIK914awLRvzA3hHW5I4_w-GnwbkDxqDm9J08T6NvBoj-6Hr-IKAIjoAN"
-          },
-          "device_id": "b657be787d8f7230",
-          "webhook_id": "77939193e82da7f09682cbaaee4628fcd59de38dccb6c5cfb2dcf66116df3e17",
-          "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "registration",
-        "unique_id": "io.homeassistant.companion.android-b657be787d8f7230",
-        "disabled_by": null
-      },
-      {
         "entry_id": "ce929a96dc02851ae104cce4d51e1f46",
         "version": 1,
         "domain": "mobile_app",
@@ -542,7 +460,7 @@
         "data": {
           "app_id": "io.homeassistant.companion.android",
           "app_name": "Home Assistant",
-          "app_version": "2023.3.0-full (3260)",
+          "app_version": "2023.6.0-full (10170)",
           "device_name": "Pixel 7 Pro",
           "manufacturer": "Google",
           "model": "Pixel 7 Pro",
@@ -566,40 +484,218 @@
         "disabled_by": null
       },
       {
-        "entry_id": "a8c3b57f1b99fddf6ac462fbe26660c4",
+        "entry_id": "7dbe653d11e7bdd397fd8748fcba66a8",
+        "version": 2,
+        "domain": "openweathermap",
+        "title": "OpenWeatherMap",
+        "data": {
+          "api_key": "0b1e4dc43ef47271bedf6e5a1f727d06",
+          "name": "OpenWeatherMap",
+          "latitude": 39.9647667,
+          "longitude": -75.1440794,
+          "mode": "hourly",
+          "language": "en"
+        },
+        "options": {
+          "mode": "hourly",
+          "language": "en"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "39.9647667--75.1440794",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "73c9e1bc4c84f35983333026d1cd57a6",
+        "version": 1,
+        "domain": "xbox",
+        "title": "Home Assistant Cloud",
+        "data": {
+          "auth_implementation": "cloud",
+          "token": {
+            "token_type": "bearer",
+            "expires_in": 3600,
+            "scope": "XboxLive.signin XboxLive.offline_access",
+            "access_token": "EwAwA+pvBAAUKods63Ys1fGlwiccIFJ+qE1hANsAAdINCsGmAVdHeL4591UsXWaUSHwaZPcyKLGu37p/jX/lQjutYlxZCYIxm2xq+7Mfz/Qz3gkTBMBhkZ40jUduc5J9Y8Ks916FJiuEKL0ZtItogdFAkm+OxD4r7B1QjOETX13Aqmm55JybrYUQy5W1hEuCPvI3apiNzi+sWugByZvSoTHcv5frpXMhCnuEqPWnXFfpXQ0JgvQ0HVursxjLDv/hV5qdH9bM7u06rLDfLcE0XO6O/bPBwIOjVe5tOToCRaE2+8rcUYQSsQHlROk+hc65eAifAtW0cvAcQJz+xk3z0uMVhNmOxLEB9/duXgrI554Qcym9eCQiAoHomZs8mowDZgAACOKWFs1gAPNVAALDqrr8ZTgLlsoK6PWTUshTnR6NAjRmfHReTwfEg+qfzzZ7tBN/oJVWefOI/YNZNtxqRzRTRhgoJau5EXo/1oMRRQ6qGhqeLy40KmUF4Igc6+92Zp1QadJlgO+muwDUErJ6d0AE+EPhssUat1Dqqzg1jLeD9jkNMhhwpoxlXOozuS4XuE7lQi39KXXkyTAgmZKUO2gPSpglPb3+m6bN/tCdNl6ErU0ea1xGxhSTsvwBtUxEyk/cgMe/2RRvfWOaoOCmqMvLrPW08yLpEMXNMI8IvmsQ98sHPVAlaQu1ONlw6QdJnC8TEi8+C5plqClLhEjeN/RtMwsDHB9ZFvHqqWnXxrbreW2FI9eJ/sXetFM4rO/PqBzLDFGMAtvJ7UIYoxLAaZEEYS/N6ng03faqQE1azvTeiAwHG6EVRlC55Xjun019ADu2Pdbs07Ulfr4KRSYHKDWlWHYtLLacCdBqrUBcoxiknfRDdDyGcpeh9mRi5+zsvaXQYHyxkw6g29xdVrWMivthrJXqWkBxGOOI5EyXavTe9Oq5qZzBofZqXJFYxvkP5xkDS0fjghrF9HqsyZzM3PkbolyLO4alQlw3xUYxc4yQ75xKvKbm+GWsFrpduGdF/lKjFM4n8ULSzJHlm/L+CpE+az+xBfpLczebVpXUiG6aT0QSwuq3XQK+mos51iYC",
+            "refresh_token": "M.C107_BL2.-CVfRmy6E3q0t9oCeJsc26Fri*28dD8ZHF7BZ5*GJjnbCWgPGUov*R4a!X5vqOxEh1yZ2vfDlLh5ptrfIcD*LDwtp!k4SwbOnx39lLDG7d7goeA4NsRnpZ1YxsYQbqsm8hZZCsaSo7fcz7YsWBHN8Ln6h8h4P71fsh8l5QY3d4fHjoqWfVBVDkUa*1ygUAa4OUiNNIeAnP*1gzi!WxubIBZqlCQlU1Ed32zDjrQlhatXZQxQV2*ljpsYjv0PU6RlcGOyI!biVDMbPt5sDeig0RXlkt4qq2XK6qhSILNarSFFIA28rmw4!4HyhQUTjqhfGxGTtxdGAoxOl*GXPh*9sDrEKfzyeCYCIP9wdrD6xwg0b",
+            "user_id": "AAAAAAAAAAAAAAAAAAAAAMx6-gEFm1EclRMCxUUYBRE",
+            "service": "xbox",
+            "expires_at": 1687844171.454107
+          }
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "xbox",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7d89b88038545d850e3a0f696da48049",
+        "version": 1,
+        "domain": "cert_expiry",
+        "title": "opsmart.duckdns.org",
+        "data": {
+          "host": "opsmart.duckdns.org",
+          "port": 443
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "opsmart.duckdns.org:443",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "63738a1e5b852da597efc3c810c0933f",
+        "version": 1,
+        "domain": "ios",
+        "title": "Home Assistant iOS",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "ios",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "368ddbcb8d1a5a76d3b625251d20c921",
+        "version": 1,
+        "domain": "moon",
+        "title": "Moon",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "00a9b7111e2ee4be02b0342103970f91",
+        "version": 1,
+        "domain": "vizio",
+        "title": "Living Room Vizio",
+        "data": {
+          "name": "Living Room Vizio",
+          "host": "192.168.1.27:9000",
+          "device_class": "tv",
+          "access_token": "bwmcmwyhzy",
+          "volume_step": 1
+        },
+        "options": {
+          "volume_step": 1
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "47LFTIUHBS00366",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9df6f1277fe9c8407204a6256d2b0a9d",
+        "version": 1,
+        "domain": "ipp",
+        "title": "EPSON WF-3520 Series",
+        "data": {
+          "host": "192.168.1.7",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/Epson_IPP_Printer",
+          "name": "EPSON WF-3520 Series",
+          "uuid": "7c47f900-67ff-11d4-9a7f-b0e8920aa645"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "7c47f900-67ff-11d4-9a7f-b0e8920aa645",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a56a8c256b1847aa7634a23a7f7accc7",
+        "version": 1,
+        "domain": "workday",
+        "title": "Work Day",
+        "data": {},
+        "options": {
+          "name": "Work Day",
+          "country": "US",
+          "platform": "workday",
+          "province": "PA",
+          "workdays": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "excludes": [
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "days_offset": 0,
+          "remove_holidays": [],
+          "add_holidays": []
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "875bf812af81dd4664765b1edbe42f85",
+        "version": 1,
+        "domain": "bluetooth",
+        "title": "DC:A6:32:37:A7:D8",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:A6:32:37:A7:D8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "caeb02b74acd9a5c40827ae10880bdef",
         "version": 1,
         "domain": "lifx",
-        "title": "Front Bathroom Ceiling 2",
+        "title": "Bedroom 1",
         "data": {
-          "host": "192.168.1.93"
+          "host": "192.168.1.96"
         },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "integration_discovery",
-        "unique_id": "d0:73:d5:5b:9a:ec",
+        "unique_id": "d0:73:d5:6b:4d:6c",
         "disabled_by": null
       },
       {
-        "entry_id": "4f16d92a9a6b987e9e7350e219c7e94e",
+        "entry_id": "0268de54c986125de850459bc02f457c",
         "version": 1,
         "domain": "lifx",
-        "title": "Front Bedroom 2",
+        "title": "Bedroom 4",
         "data": {
-          "host": "192.168.1.95"
+          "host": "192.168.1.97"
         },
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "integration_discovery",
-        "unique_id": "d0:73:d5:6c:ef:5f",
+        "unique_id": "d0:73:d5:6c:8d:4a",
         "disabled_by": null
       },
       {
-        "entry_id": "2edce100162eeed30ae2dcaf9c585ab5",
+        "entry_id": "469955e5e95a1acba3c32e418cd01854",
         "version": 1,
         "domain": "lifx",
-        "title": "Front Bedroom 1",
+        "title": "Bedroom 3",
         "data": {
           "host": "192.168.1.94"
         },
@@ -611,10 +707,10 @@
         "disabled_by": null
       },
       {
-        "entry_id": "22d472349461512d7b53bfcd829454a6",
+        "entry_id": "f30b42241a193541ea11957894a9275d",
         "version": 1,
         "domain": "lifx",
-        "title": "Front Bathroom Ceiling 1",
+        "title": "Bathroom 1",
         "data": {
           "host": "192.168.1.92"
         },
@@ -623,6 +719,71 @@
         "pref_disable_polling": false,
         "source": "integration_discovery",
         "unique_id": "d0:73:d5:5b:4b:99",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4305a3be69915b5fd5377f069658100e",
+        "version": 1,
+        "domain": "lifx",
+        "title": "Bathroom 2",
+        "data": {
+          "host": "192.168.1.93"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "d0:73:d5:5b:9a:ec",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "832744624ca2c8b69a9d7ee35a44ec89",
+        "version": 1,
+        "domain": "lifx",
+        "title": "Bedroom 2",
+        "data": {
+          "host": "192.168.1.95"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "d0:73:d5:6c:ef:5f",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "49d598a0fbb510c0ef1c1f7e8886bdba",
+        "version": 1,
+        "domain": "lifx",
+        "title": "Fan 1",
+        "data": {
+          "host": "192.168.1.98"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "d0:73:d5:62:bc:64",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "27dd3c064313ac27bc0c2f3dcc1c0dc2",
+        "version": 1,
+        "domain": "braviatv",
+        "title": "KDL-65W850A",
+        "data": {
+          "host": "192.168.1.80",
+          "use_psk": false,
+          "pin": "9759",
+          "client_id": "47ed3d2132364942a1a819bbfe9519ed",
+          "nickname": "Home Assistant 47ed3d",
+          "mac": "70:18:8B:D1:03:64"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "0c0d0709050d0b04090d07020f01040307000109",
         "disabled_by": null
       }
     ]
