@@ -57,32 +57,48 @@ cards:
             entity: switch.ceiling_right_switch
             icon_height: 25px
             name: Ceiling Right
-  # media controls
-  - type: entities
-    state_color: true
-    entities:
-      - select.841_home_activities
-    header:
-      type: buttons
-      entities:
-        - entity: remote.841_home
-          icon: mdi:power
-          show_icon: true
-          show_name: false
-          tap_action:
-            action: call-service
-            service: remote.turn_off
-  # media players
-  - type: media-control
-    entity: media_player.first_floor
-  # - type: media-control
-  #   entity: media_player.plex_plex_for_xbox_one_oneelite
-  - type: media-control
-    entity: media_player.public_broadcast
-  # - type: entities
-  #   entities:
-  #     - remote.harmony_hub
-  #   title: Entertainment Hub
+  # media
+  - type: vertical-stack
+    cards:
+      # controls
+      - type: entities
+        state_color: true
+        entities:
+          - select.841_home_activities
+        header:
+          type: buttons
+          entities:
+            - entity: remote.841_home
+              icon: mdi:power
+              name: Power Off
+              show_icon: true
+              show_name: false
+              tap_action:
+                action: call-service
+                service: remote.turn_off
+      # players
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Listen to Cast Audio"
+          - entity: media_player.first_floor
+            state: "on"
+        card:
+          type: media-control
+          entity: media_player.first_floor
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Listen to Cast Audio"
+        card:
+          type: media-control
+          entity: media_player.public_broadcast
+      # - type: media-control
+      #   entity: media_player.plex_plex_for_xbox_one_oneelite
+      # - type: entities
+      #   entities:
+      #     - remote.harmony_hub
+      #   title: Entertainment Hub
   # outlets
   - type: grid
     columns:
