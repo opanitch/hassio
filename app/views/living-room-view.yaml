@@ -58,13 +58,20 @@ cards:
             icon_height: 25px
             name: Ceiling Right
   # media controls
-  - type: entity
-    entity: select.841_home_activities
   - type: entities
+    state_color: true
     entities:
       - select.841_home_activities
-  - type: tile
-    entity: select.841_home_activities
+    header:
+      type: buttons
+      entities:
+        - entity: remote.841_home
+          icon: mdi:power
+          show_icon: true
+          show_name: false
+          tap_action:
+            action: call-service
+            service: remote.turn_off
   # media players
   - type: media-control
     entity: media_player.first_floor
