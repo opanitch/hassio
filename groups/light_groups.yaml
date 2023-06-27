@@ -42,7 +42,7 @@ front_bedroom_lights:
 
 living_room_ceiling_lights:
   all: false
-  name: Living  Ceiling Lights
+  name: Living Room Ceiling Lights
   entities:
     - light.living_room_left_1
     - light.living_room_left_2

@@ -36,6 +36,10 @@ cards:
       - type: horizontal-stack
         cards:
           - type: light
+            entity: light.living_room_ceiling_lights
+            icon: mdi:light-recessed
+            name: Ceiling Lights
+          - type: light
             entity: light.living_room_lamp_1
             icon: mdi:floor-lamp-outline
             name: Couch Lamp
