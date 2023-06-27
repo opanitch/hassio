@@ -53,22 +53,6 @@ cards:
             entity: switch.ceiling_right_switch
             icon_height: 25px
             name: Ceiling Right
-  # outlets
-  - type: entities
-    entities:
-      - switch.living_room_outlet_1
-    title: Living Room Outlets
-    show_header_toggle: false
-  # roomba controls
-  - type: tile
-    entity: vacuum.maria
-    show_entity_picture: true
-    features:
-      - type: vacuum-commands
-        commands:
-          - start_pause
-          - stop
-          - return_home
   # media controls
   # media players
   - type: media-control
@@ -81,3 +65,20 @@ cards:
   #   entities:
   #     - remote.harmony_hub
   #   title: Entertainment Hub
+  # outlets
+  - type: entities
+    entities:
+      - switch.right_outlet_1
+    title: Living Room Outlets
+    show_header_toggle: false
+  # roomba controls
+  - type: tile
+    entity: vacuum.maria
+    name: Robot Vacuum
+    show_entity_picture: true
+    features:
+      - type: vacuum-commands
+        commands:
+          - start_pause
+          - stop
+          - return_home
