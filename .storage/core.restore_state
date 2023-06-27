@@ -23,7 +23,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -45,7 +45,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -66,7 +66,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -88,7 +88,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -105,16 +105,16 @@
           "friendly_name": "Jose Vazquez",
           "entity_picture": "/local/images/profiles/home/jose_vazquez.jpg"
         },
-        "last_changed": "2023-06-27T06:17:34.493963+00:00",
-        "last_updated": "2023-06-27T06:17:34.493963+00:00",
+        "last_changed": "2023-06-27T06:31:35.357919+00:00",
+        "last_updated": "2023-06-27T06:31:35.357919+00:00",
         "context": {
-          "id": "01H3XR04GXVRK05B3AEXCAM0XX",
+          "id": "01H3XRSSNX4ZDAYT68RXWNQA61",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -136,7 +136,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -158,7 +158,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -183,7 +183,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -205,7 +205,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -233,7 +233,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -261,7 +261,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -289,7 +289,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -317,7 +317,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -345,7 +345,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -373,7 +373,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -401,7 +401,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -429,7 +429,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -457,7 +457,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -485,7 +485,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -513,7 +513,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -541,7 +541,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -569,7 +569,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -597,7 +597,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -615,7 +615,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -637,7 +637,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -659,7 +659,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -681,7 +681,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -703,7 +703,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -725,7 +725,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -747,7 +747,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -769,7 +769,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -791,7 +791,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -813,7 +813,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -835,7 +835,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -858,7 +858,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -880,7 +880,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -902,7 +902,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -924,7 +924,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -946,7 +946,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -968,7 +968,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -990,7 +990,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1008,7 +1008,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1032,7 +1032,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1056,7 +1056,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1080,7 +1080,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1104,7 +1104,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1128,7 +1128,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1152,7 +1152,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1176,7 +1176,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1200,7 +1200,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1224,7 +1224,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1248,7 +1248,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1272,7 +1272,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1296,7 +1296,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1320,7 +1320,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1342,7 +1342,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1364,7 +1364,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1382,7 +1382,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1408,7 +1408,7 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1431,7 +1431,7 @@
         "native_value": 1,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1453,7 +1453,7 @@
         "native_value": "3c:bd:c5:2:a8:f3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1477,7 +1477,7 @@
         "native_value": 7,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1500,7 +1500,7 @@
         "native_value": "Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1522,7 +1522,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1545,7 +1545,7 @@
         "native_value": 1819,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1568,7 +1568,7 @@
         "native_value": 7,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1591,7 +1591,7 @@
         "native_value": 6,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1634,7 +1634,7 @@
         "native_value": "841 N Fourth St\nPhiladelphia PA 19123\nUnited States",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1656,7 +1656,7 @@
         "native_value": "Signaled",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1685,7 +1685,7 @@
         "native_value": "AT&T",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1713,7 +1713,7 @@
         "native_value": "N/A",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1735,7 +1735,7 @@
         "native_value": "samurai jack",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1758,7 +1758,7 @@
         "native_value": 2781,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1785,7 +1785,7 @@
         "native_value": "40.54",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1804,27 +1804,28 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
         "entity_id": "device_tracker.jose_iphone",
         "state": "not_home",
         "attributes": {
-          "source_type": null,
+          "source_type": "router",
+          "scanner": "QuantumGatewayDeviceScanner",
           "icon": "mdi:cellphone",
           "friendly_name": "JoseiPhone"
         },
-        "last_changed": "2023-06-27T06:17:28.602306+00:00",
-        "last_updated": "2023-06-27T06:17:28.602306+00:00",
+        "last_changed": "2023-06-27T06:31:35.351151+00:00",
+        "last_updated": "2023-06-27T06:31:35.351151+00:00",
         "context": {
-          "id": "01H3XQZYRTSTJSMXY87EST9N0B",
+          "id": "01H3XRSSNQZMHNA695TYP86H53",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1850,7 +1851,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1873,7 +1874,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1900,7 +1901,7 @@
         "native_value": null,
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1924,7 +1925,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1946,7 +1947,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1968,7 +1969,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -1990,7 +1991,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2018,7 +2019,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2061,7 +2062,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2084,7 +2085,7 @@
         "native_value": null,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2107,7 +2108,7 @@
         "native_value": null,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2130,7 +2131,7 @@
         "native_value": null,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2153,7 +2154,7 @@
         "native_value": null,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2176,7 +2177,7 @@
         "native_value": null,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2198,7 +2199,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2217,7 +2218,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2243,7 +2244,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2267,7 +2268,7 @@
         "native_value": 43,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2289,7 +2290,7 @@
         "native_value": "discharging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2311,7 +2312,7 @@
         "native_value": "none",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2333,7 +2334,7 @@
         "native_value": "good",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2357,72 +2358,72 @@
         "native_value": 27.3,
         "native_unit_of_measurement": "°C"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_7_pro_battery_power",
-        "state": "-1.48",
+        "state": "-3.64",
         "attributes": {
-          "current": -0.385312,
-          "voltage": 3.848,
+          "current": -0.947187,
+          "voltage": 3.843,
           "unit_of_measurement": "W",
           "device_class": "power",
           "icon": "mdi:battery-minus",
           "friendly_name": "Pixel 7 Pro Battery Power"
         },
-        "last_changed": "2023-06-27T06:17:28.545245+00:00",
-        "last_updated": "2023-06-27T06:17:28.545245+00:00",
+        "last_changed": "2023-06-27T06:29:00.552823+00:00",
+        "last_updated": "2023-06-27T06:29:00.552823+00:00",
         "context": {
-          "id": "01H3XQZYQ1T0RPR4XREHBDDHWY",
+          "id": "01H3XRN2G81YYSYZFEJTRAHC0J",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": -1.48,
+        "native_value": -3.64,
         "native_unit_of_measurement": "W"
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.pixel_7_pro_geocoded_location",
-        "state": "841 N 4th St, Philadelphia, PA 19123, USA",
+        "state": "839 N 4th St, Philadelphia, PA 19123, USA",
         "attributes": {
           "administrative_area": "Pennsylvania",
           "country": "United States",
           "iso_country_code": "US",
           "locality": "Philadelphia",
           "location": [
-            39.964863099999995,
-            -75.1440145
+            39.964793,
+            -75.14400309999999
           ],
-          "name": "841",
+          "name": "839",
           "phone": "null",
           "postal_code": "19123",
           "premises": "null",
           "sub_administrative_area": "Philadelphia County",
           "sub_locality": "null",
-          "sub_thoroughfare": "841",
+          "sub_thoroughfare": "839",
           "thoroughfare": "North 4th Street",
           "url": "null",
           "icon": "mdi:map",
           "friendly_name": "Pixel 7 Pro Geocoded Location"
         },
-        "last_changed": "2023-06-27T06:17:28.545666+00:00",
-        "last_updated": "2023-06-27T06:17:28.545666+00:00",
+        "last_changed": "2023-06-27T06:29:00.554488+00:00",
+        "last_updated": "2023-06-27T06:29:00.554488+00:00",
         "context": {
-          "id": "01H3XQZYQ1A1H5S75CECYB4E5V",
+          "id": "01H3XRN2GAKVS1E9STRTC0AKZ8",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "841 N 4th St, Philadelphia, PA 19123, USA",
+        "native_value": "839 N 4th St, Philadelphia, PA 19123, USA",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2442,7 +2443,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2457,16 +2458,16 @@
           "icon": "mdi:cellphone",
           "friendly_name": "OrenPixelPro"
         },
-        "last_changed": "2023-06-27T06:17:34.239803+00:00",
-        "last_updated": "2023-06-27T06:17:34.239803+00:00",
+        "last_changed": "2023-06-27T06:29:39.888319+00:00",
+        "last_updated": "2023-06-27T06:29:46.807424+00:00",
         "context": {
-          "id": "01H3XR048ZB8VXDQN6K2P7AR7C",
+          "id": "01H3XRPFNQCK22WV107ZBJ5FJZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2485,7 +2486,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2503,7 +2504,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2522,7 +2523,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2540,7 +2541,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2559,7 +2560,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2577,7 +2578,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2596,7 +2597,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2614,7 +2615,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2633,7 +2634,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2651,7 +2652,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2670,7 +2671,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2688,7 +2689,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2707,7 +2708,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2725,7 +2726,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2744,7 +2745,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2762,7 +2763,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2780,7 +2781,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2798,7 +2799,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2816,7 +2817,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2834,7 +2835,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2852,7 +2853,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2870,7 +2871,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2888,7 +2889,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2906,7 +2907,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2924,7 +2925,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2942,7 +2943,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2960,7 +2961,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2978,7 +2979,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -2996,7 +2997,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3014,7 +3015,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3032,7 +3033,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3050,7 +3051,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3068,7 +3069,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3086,7 +3087,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3104,7 +3105,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3122,7 +3123,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3140,7 +3141,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3158,7 +3159,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3176,7 +3177,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3194,7 +3195,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3212,7 +3213,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3230,7 +3231,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3248,7 +3249,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3266,7 +3267,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3284,7 +3285,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3302,7 +3303,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3320,7 +3321,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3338,7 +3339,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3356,7 +3357,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3374,7 +3375,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3392,7 +3393,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3410,7 +3411,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3428,7 +3429,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3446,7 +3447,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3464,7 +3465,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3482,7 +3483,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3500,7 +3501,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3518,7 +3519,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3536,7 +3537,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3554,7 +3555,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3572,7 +3573,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3590,7 +3591,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3608,7 +3609,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3626,7 +3627,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3644,7 +3645,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3662,7 +3663,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3680,7 +3681,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3698,7 +3699,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3716,7 +3717,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3734,7 +3735,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3752,7 +3753,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3770,7 +3771,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3788,7 +3789,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3806,7 +3807,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3824,7 +3825,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3842,7 +3843,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3860,7 +3861,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3878,7 +3879,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3896,7 +3897,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3914,7 +3915,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3932,7 +3933,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3950,7 +3951,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3968,7 +3969,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -3986,7 +3987,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4004,7 +4005,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4022,7 +4023,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4040,7 +4041,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4058,7 +4059,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4076,7 +4077,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4094,7 +4095,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4112,7 +4113,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4130,7 +4131,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4148,7 +4149,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4166,7 +4167,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4184,7 +4185,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4202,7 +4203,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4220,7 +4221,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4238,7 +4239,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4256,7 +4257,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4274,7 +4275,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4292,7 +4293,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4310,7 +4311,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4328,7 +4329,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4346,7 +4347,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4364,7 +4365,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4382,7 +4383,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4400,7 +4401,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4418,7 +4419,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4449,7 +4450,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4480,7 +4481,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4511,7 +4512,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4542,7 +4543,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4573,7 +4574,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4604,7 +4605,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4635,7 +4636,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4666,7 +4667,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4697,7 +4698,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4728,7 +4729,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4759,7 +4760,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4790,7 +4791,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4821,7 +4822,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4852,7 +4853,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4883,7 +4884,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4914,7 +4915,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4945,7 +4946,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -4976,7 +4977,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5007,7 +5008,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5038,7 +5039,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5069,7 +5070,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5100,7 +5101,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5131,7 +5132,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5162,7 +5163,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5193,7 +5194,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5224,7 +5225,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5255,7 +5256,7 @@
       "extra_data": {
         "latest_version_firmware": null
       },
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
@@ -5296,7 +5297,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-06-27T06:17:34.504366+00:00"
+      "last_seen": "2023-06-27T06:32:34.498385+00:00"
     },
     {
       "state": {
