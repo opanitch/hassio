@@ -11074,35 +11074,6 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "ce929a96dc02851ae104cce4d51e1f46",
-        "device_class": null,
-        "device_id": "ca218aac54ea1d18d97e7167cf833c29",
-        "disabled_by": null,
-        "entity_category": "diagnostic",
-        "entity_id": "device_tracker.oren_iphone",
-        "hidden_by": null,
-        "icon": "mdi:apple-ios",
-        "id": "f8a818b1d800fe05cf5ee54d102ffb9f",
-        "has_entity_name": false,
-        "name": "Oren iPhone",
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Oren Panitch’s iPhone",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "767C79AF-7FBB-4106-B44C-5CD205739004",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
         "config_entry_id": null,
         "device_class": null,
         "device_id": null,
@@ -11323,7 +11294,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -12837,7 +12808,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -14293,7 +14264,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -15749,7 +15720,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -17205,7 +17176,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -18661,7 +18632,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -20117,7 +20088,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -21602,7 +21573,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -23058,7 +23029,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:eye",
+        "original_icon": "mdi:sleep",
         "original_name": "Node status",
         "platform": "zwave_js",
         "supported_features": 0,
@@ -59636,6 +59607,35 @@
         "supported_features": 40,
         "translation_key": null,
         "unique_id": "ef97e77f-261f-4b3b-aad2-0e480d5ccc57",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce929a96dc02851ae104cce4d51e1f46",
+        "device_class": null,
+        "device_id": "ca218aac54ea1d18d97e7167cf833c29",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.oren_iphone_app",
+        "hidden_by": null,
+        "icon": "mdi:apple-ios",
+        "id": "f8a818b1d800fe05cf5ee54d102ffb9f",
+        "has_entity_name": false,
+        "name": "Oren iPhone",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Oren Panitch’s iPhone",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "767C79AF-7FBB-4106-B44C-5CD205739004",
         "unit_of_measurement": null
       }
     ]

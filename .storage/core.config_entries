@@ -279,9 +279,9 @@
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
           "hostname": "192.168.1.1",
           "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
-          "mac_address": "3c:bd:c5:02:a8:f1",
-          "location": "http://192.168.1.1:38826/rootDesc.xml",
-          "host": "192.168.1.1"
+          "mac_address": null,
+          "location": "http://[fe80::3ebd:c5ff:fe02:a8f1%2]:38826/rootDesc.xml",
+          "host": "fe80::3ebd:c5ff:fe02:a8f1%2"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -517,11 +517,11 @@
             "token_type": "bearer",
             "expires_in": 3600,
             "scope": "XboxLive.signin XboxLive.offline_access",
-            "access_token": "EwAwA+pvBAAUKods63Ys1fGlwiccIFJ+qE1hANsAAUMwXyvZiqIDdB+8PNQmE/7sufC/U/JiLJMRBbI/KzLJ2xnQQIl7iEGnSrPqT/GbiWa1WoQAKRcFyUBpOuvBIDoOxRBaVaJPjnKCjuXjL34xkEp1/2rWvGoGZNCay9jqjcUYN8+UNPYRdRLyalHG47D21vxNwc08zI8H0vSrDAQCfj+9iumWSpKSOzk+ZmIcwbiIBGRaX2AAOLsXXlxRuClG7zBrGkv1XAGUKmkdnhr1F3q94/vLZuJnFhVzdhVJUqoltFbW++55Z0qugkW+tu8goMyHc2m7YJYtjwrMERueK1Jf+/UpOExHUAIRBbntdH6yuaoXwXwlIC6TOo5wa40DZgAACEm8AytH5AuYAAK+dOxfuQpORbL01jJmroc4uvuh3D9vrRhQVVz+CRwIyTntA8ZgEaAWN1kYEPvQBkRILIrchm1y6dzAH7XBfwNUkcTOIUCySaulGxSqOYVotfnyXxV00LFCUpuaHQfO8zYAZ671Llu6Vzgrbj1B/Tr6eNtCng4S4yjOFpgXAHh/+bZPD76vXcxWcTBd8WJ9wHXEk4np65IO7C131oAb0XWRq8TWVSH+/o7gcpAQrd82AG4QOlNA8xB7ulZQwGdu+PyXQTaD29Twz00D2XjCFfcl9xWznPJUHpgkX6/yoJL83SfVqe3S5+59aNRRl4WRYc6OjcvWok3tLGUaAulayZ2iQf75+timS3Fk32oUl30rz6HWPd5A0lWgwDOvCeY40ktea+4OGq1PcXqLfNcZXBRn0yZ5wKKki0sayiI4p70WU6RPUxWm5Da5UX/J743uBPt6pvI0K2Pjw2F/uzdKll8rpIutmvh9BsYuQvxrX93/dhvaTDI6Al750gNDDoibMQLHfSjjf+XQh4tLP7qavhD8IbNbFfPLb7iij+P1qdoNmWknzZaHwqyCMjJLcNvTnQo41kkXckfiZIl0fogusJQfcM9E2mKHSU58E5JSbpMIkGOjGsXcZMZqchMhWtPu9xAT+odLLMWvD1zS4VLv6u3WuSCG1MUj8rFSS0UISOSg5CYC",
-            "refresh_token": "M.C107_BL2.-CdpnyGAIN6kr19q3EsUBnTq0zHWMklGfstcQYqh!8tZ6!u8AmeXrINcvgoCXWFwdZ3M!UuUh*vTqpaW6YDkWAyEGGTummruFxfFcA1jEQCqfUq9mobt650*Gc0veGHz3Zl51j!W1an*iEMgA6t2o5wx6jYZEKz4ioSJIkS!E!NVDStcIkcGLtdDF57O8tlo7jTjHwXWZislfQOw!ZpR8PxjozJuzW6pghbAWTXPapElwUeVBQxnZAM6a7akTOAf2bkrKouPI!IsmhJS9ish05Z68Zs*Lz2t2bPTagnWZYNqBetv*h9PKMVGRgUYPkOTmpY8oBukk5ygZFOvQYuJEzn*NRnzjbN0jH3XDn7fNgKt5",
+            "access_token": "EwA4A+pvBAAUKods63Ys1fGlwiccIFJ+qE1hANsAATgYR1gWvGYujGGYgxxEhp4AWpKUbkOKdht83STwOZDuyEA7dwjCzTXY/vzUpyWhKcFhC+gBy7bq8YE88htw/8an6aYVr0BJJklP9Qb1VAshfpGZfVxZ+YB25UxKgjibMDTSuoIVOZTW6x1kEXeB17HRJuwPmwidap1UyG5MgzX0VT9cxF/juvNiyg66KbtxLl5WuHJRxCrfaFyoc19MgFepyNTe4SAQ7Yh7VqMem1lHoX837qhnsDRdqYOS5vE8qmtwoZ8BMYcefTLEeAmoTygo/X7nszUhJA7S3qAUOR6Sf4ov6P3xLxi7ryiXFNidfquJ7SKz335rYMBMPOLfyiQDZgAACME1EP6BCK8NCALf5ULB2XrVq/8UNIkUTsCJ8uIC254ToAgoWLGPwyhH8o69JYeSB1dy7vQLcw3r9cU+A9qRBp348OyitE+U39KnsOK2U4ARdB3ufDesDl+26rT3xud9UCXVNDQ2DEuvkz5a+Mv2EF8qEioVkoivH/J27MVHQeVho3F/FVs7U1qsay7AhrIRrlEa2tbsc+NTtljtZBkVe3TOfKad7EQlbAn4DXO2/uyYinyfc359re+lArgqp2eOW7EQBByaD6S5wYBrC2kxxPqzThuYKDcoW6GaWuKLQSk4uCHGRhMjy4HqQ6DKwekwx6rBo0bH9lHWgn7SS7QmnhsZjGBOFnn4pb1VzhWC1gptjpnZmyf3LbnSaQyMwJoImjWop3lheGGGIw2F28T96SsUAQ4A1XY/QRaj4cLafLVtPoglFYPrX/qGjb02V/2xPnGRYONZ0VEswz/VCd7PxWXfZUZI+mBZA6li489ci6WAzE5UWY9ZTE8a35AXkL/om7CYbEjPDWrfHN21mRxfv/HbPIjIKzGNmq0L33r7t5d6EH5bPiREWEk3ATydkB0u3rZ1iRzL5bINepPoq/VUwavz+WAtM7g3uhfIr8x3mS7qod8USfO3vUJjJfxfuJA/VSFFtZ1fpFOi469XlWL3jT/cJG4/V2e5HlntYkL4ISrDxXNTPE/69QwislqDiwYp4DaOJgI=",
+            "refresh_token": "M.C107_BAY.-CYn0yPlbCSKPWzuDqg2mnLg410b8prbluwovr1WfMyErHxHMGvML2iE25*zCsE!y1QUU6!cETyDx*T1Ugrh!otN*GCkiGR7MYMY*ufwr3xX7TmwQd289ywAp!j!HjOfsYFS6Nqc2HccT4CRfSMNHib0Xna7M8Ucwk5i!33UDGAsEXX71BYjw2*o8XXm9emXb4hhT3f5dqD3RGVq1RbbYzuV0EAcoAMBJYbkjHLaWqo3ZrifV80CGQyUXi0autGqwS9qeh3FkdBsV*nisjXMNEGd9JDiVN5o1ZrVjHD5hU!ZTspuCmtlMhhGhPAiMvqa5nI9KslaiUyPmitGDlK6cbJT7Jx3fiyLcfIDGM9233lbY",
             "user_id": "AAAAAAAAAAAAAAAAAAAAAMx6-gEFm1EclRMCxUUYBRE",
             "service": "xbox",
-            "expires_at": 1687851343.461476
+            "expires_at": 1687880019.5895503
           }
         },
         "options": {},
