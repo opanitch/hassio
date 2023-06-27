@@ -280,7 +280,7 @@
           "hostname": "192.168.1.1",
           "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
           "mac_address": "3c:bd:c5:02:a8:f1",
-          "location": "http://[2600:4040:7416:feff::1]:38826/rootDesc.xml",
+          "location": "http://192.168.1.1:38826/rootDesc.xml",
           "host": "192.168.1.1"
         },
         "options": {},

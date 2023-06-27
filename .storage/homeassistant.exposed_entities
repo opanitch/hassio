@@ -417,6 +417,20 @@
             "should_expose": false
           }
         }
+      },
+      "device_tracker.unknown_be_9a_b4_f5_21_77": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "device_tracker.unknown_be_ec_fd_78_5e_a7": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
   }
