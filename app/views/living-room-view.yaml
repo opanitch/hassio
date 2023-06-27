@@ -14,21 +14,27 @@ cards:
   # lights
   - type: vertical-stack
     cards:
+      - type: entities
+        entities:
+          - light.living_room
+        title: Living Room Lights
+        show_header_toggle: false
+        state_color: true
+        footer:
+          type: buttons
+          entities:
+            - entity: scene.living_room_natural_light
+              icon: mdi:brightness-6
+              name: Natural Light
+              show_icon: true
+              show_name: true
+            - entity: scene.living_room_theatre
+              icon: mdi:theater
+              name: Theatre
+              show_icon: true
+              show_name: true
       - type: horizontal-stack
         cards:
-          - type: entities
-            entities:
-              - light.living_room
-            title: Living Room Lights
-            show_header_toggle: false
-            state_color: true
-            footer:
-              type: buttons
-              entities:
-                - entity: scene.living_room_natural_light
-                  icon: mdi:brightness-6
-                - entity: scene.living_room_theatre
-                  icon: mdi:theater
           - type: light
             entity: light.living_room_lamp_1
             icon: mdi:floor-lamp-outline
