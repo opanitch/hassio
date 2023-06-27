@@ -18,7 +18,9 @@ cards:
         entity: light.living_room
         icon: mdi:brightness-6
         name: Living Room Lights
-        vertical: false
+        vertical:
+        tap_action:
+          action: toggle
         features:
           - type: "light-brightness"
       - type: grid
@@ -35,25 +37,6 @@ cards:
             icon: mdi:theater
             name: Theatre Lights
             vertical: true
-      - type: entities
-        entities:
-          - light.living_room
-        title: Living Room Lights
-        show_header_toggle: false
-        state_color: true
-        footer:
-          type: buttons
-          entities:
-            - entity: scene.living_room_natural_light
-              icon: mdi:brightness-6
-              name: Natural Light
-              show_icon: true
-              show_name: true
-            - entity: scene.living_room_theatre
-              icon: mdi:theater
-              name: Theatre
-              show_icon: true
-              show_name: true
       - type: horizontal-stack
         cards:
           - type: light
