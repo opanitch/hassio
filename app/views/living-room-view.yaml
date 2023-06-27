@@ -65,9 +65,10 @@ cards:
     show_entity_picture: true
     features:
       - type: vacuum-commands
-          commands:
-            - start_pause
-            - return_home
+        commands:
+          - start_pause
+          - stop
+          - return_home
   # media controls
   # media players
   - type: media-control
