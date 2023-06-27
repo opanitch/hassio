@@ -49,16 +49,15 @@ cards:
       - type: grid
         columns: 4
         square: true
-        title: Bathroom Lights
         cards:
           - type: light
             entity: light.bathroom_1
             icon: mdi:wall-sconce-round-variant
-            name: Bathroom 1
+            name: ""
           - type: light
             entity: light.bathroom_2
             icon: mdi:wall-sconce-round-variant
-            name: Bathroom 2
+            name: ""
   # - type: entities
   #   entities:
   #     - light.bedroom_1
