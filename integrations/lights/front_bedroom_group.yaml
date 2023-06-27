@@ -1,8 +1,8 @@
-platform: group
-name: "Front Bedroom Lights"
-entities:
-  - light.bedroom_1
-  - light.bedroom_2
-  - light.bedroom_3
-  - light.bedroom_4
-  - light.fan_1
+- platform: group
+  name: "Front Bedroom Lights"
+  entities:
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3
+    - light.bedroom_4
+    - light.fan_1

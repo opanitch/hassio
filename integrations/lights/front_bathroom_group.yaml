@@ -1,5 +1,5 @@
-platform: group
-name: "Front Bathroom Lights"
-entities:
-  - light.bathroom_1
-  - light.bathroom_2
+- platform: group
+  name: "Front Bathroom Lights"
+  entities:
+    - light.bathroom_1
+    - light.bathroom_2
