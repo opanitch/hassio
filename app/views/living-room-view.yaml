@@ -58,6 +58,8 @@ cards:
             icon_height: 25px
             name: Ceiling Right
   # media controls
+  - type: entity
+    entity: select.841_home_activities
   # media players
   - type: media-control
     entity: media_player.first_floor
