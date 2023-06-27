@@ -14,14 +14,17 @@ cards:
   # lights
   - type: vertical-stack
     cards:
+      - type: tile
+        entity: light.living_room
+        icon: mdi:brightness-6
+        name: Living Room Lights
+        vertical: false
+        features:
+          - type: "light-brightness"
       - type: grid
-        columns: 3
+        columns: 2
         square: false
         cards:
-          - type: tile
-            entity: light.living_room
-            name: Living Room Lights
-            vertical: true
           - type: tile
             entity: scene.living_room_natural_light
             icon: mdi:brightness-6
@@ -30,7 +33,7 @@ cards:
           - type: tile
             entity: scene.living_room_theatre
             icon: mdi:theater
-            name: Theatre
+            name: Theatre Lights
             vertical: true
       - type: entities
         entities:
