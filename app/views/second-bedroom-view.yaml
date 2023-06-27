@@ -14,6 +14,13 @@ cards:
     title: Lights
     cards:
       # bedroom lights
+      - type: tile
+        entity: group.front_bedroom_lights
+        name: Bedroom Lights
+        tap_action:
+          action: toggle
+        icon_tap_action:
+          action: more-info
       - type: grid
         columns: 4
         square: true
@@ -34,30 +41,6 @@ cards:
           - type: light
             entity: light.fan_1
             name: Fan 1
-      - type: entities
-        entities:
-          - group.front_bedroom_lights
-          - type: buttons
-            entities:
-              - light.bedroom_1
-              - light.bedroom_2
-              - light.bedroom_3
-              - light.bedroom_4
-              - light.fan_1
-              # - light.fan_2
-        title: Bedroom Lights
-        show_header_toggle: true
-      - type: light
-        entity: group.front_bedroom_lights
-        name: Bedroom Lights
-      - type: tile
-        entity: group.front_bedroom_lights
-        icon: mdi:light
-        name: Bedroom Lights
-        tap_action:
-          action: toggle
-        icon_tap_action:
-          action: more-info
       # bathroom lights
       - type: grid
         columns: 4
