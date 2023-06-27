@@ -16,9 +16,12 @@ cards:
     cards:
       - type: horizontal-stack
         cards:
-          - type: light
-            entity: light.living_room
-            name: Living Room
+          - type: entities
+            entities:
+              - light.living_room
+            title: Living Room Lights
+            show_header_toggle: false
+            state_color: true
             footer:
               type: buttons
               entities:
