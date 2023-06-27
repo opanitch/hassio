@@ -76,6 +76,8 @@ cards:
               tap_action:
                 action: call-service
                 service: remote.turn_off
+                target:
+                  entity_id: remote.841_home
       # players
       - type: conditional
         conditions:
