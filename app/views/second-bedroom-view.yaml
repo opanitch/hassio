@@ -20,22 +20,26 @@ cards:
       - type: grid
         columns: 4
         square: true
-        title: Bedroom Lights
         cards:
           - type: light
             entity: light.bedroom_1
-            name: Bedroom 1
+            icon: mdi:light-recessed
+            name: ""
           - type: light
             entity: light.bedroom_2
-            name: Bedroom 2
+            icon: mdi:light-recessed
+            name: ""
           - type: light
             entity: light.bedroom_3
+            icon: mdi:light-recessed
             name: Bedroom 3
           - type: light
             entity: light.bedroom_4
+            icon: mdi:light-recessed
             name: Bedroom 4
           - type: light
             entity: light.fan_1
+            icon: mdi:ceiling-light
             name: Fan 1
       # bathroom lights
       - type: grid
