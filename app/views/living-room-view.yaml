@@ -72,7 +72,7 @@ cards:
               icon: mdi:power
               name: Power Off
               show_icon: true
-              show_name: false
+              show_name: true
               tap_action:
                 action: call-service
                 service: remote.turn_off
