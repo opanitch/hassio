@@ -60,6 +60,11 @@ cards:
   # media controls
   - type: entity
     entity: select.841_home_activities
+  - type: entities
+    entities:
+      - select.841_home_activities
+  - type: tile
+    entity: select.841_home_activities
   # media players
   - type: media-control
     entity: media_player.first_floor
