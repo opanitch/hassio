@@ -130,7 +130,7 @@ cards:
           - entity: select.841_home_activities
             state: "Listen to Cast Audio"
           - entity: media_player.first_floor
-            state: "on"
+            state_not: "off"
         card:
           type: media-control
           entity: media_player.first_floor
@@ -140,7 +140,7 @@ cards:
           - entity: select.841_home_activities
             state: "Listen to Cast Audio"
           - entity: media_player.living_room_audio
-            state: "on"
+            state_not: "off"
           - entity: media_player.first_floor
             state_not: "on"
         card:
@@ -162,7 +162,7 @@ cards:
           - entity: select.841_home_activities
             state: "Play PS4"
           - entity: media_player.plex_plex_for_playstation_4_ps4_121
-            state: "on"
+            state_not: "off"
         card:
           type: media-control
           entity: media_player.plex_plex_for_playstation_4_ps4_121
