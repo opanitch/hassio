@@ -16,7 +16,7 @@ cards:
     cards:
       - type: horizontal-stack
         cards:
-          - type: entity
+          - type: light
             entity: light.living_room
             name: Living Room
             footer:
