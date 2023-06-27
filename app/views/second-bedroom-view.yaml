@@ -11,12 +11,11 @@ badges:
 cards:
   # lights
   - type: vertical-stack
-    title: Lights
     cards:
       # bedroom lights
       - type: light
         entity: light.front_bedroom_lights
-        name: Bedroom
+        name: Bedroom Lights
       - type: grid
         columns: 4
         square: true
@@ -32,16 +31,21 @@ cards:
           - type: light
             entity: light.bedroom_3
             icon: mdi:light-recessed
-            name: Bedroom 3
+            name: ""
           - type: light
             entity: light.bedroom_4
             icon: mdi:light-recessed
-            name: Bedroom 4
+            name: ""
           - type: light
             entity: light.fan_1
             icon: mdi:ceiling-light
-            name: Fan 1
+            name: ""
+  - type: vertical-stack
+    cards:
       # bathroom lights
+      - type: light
+        entity: light.front_bathroom_lights
+        name: Bathroom Lights
       - type: grid
         columns: 4
         square: true
@@ -49,27 +53,12 @@ cards:
         cards:
           - type: light
             entity: light.bathroom_1
+            icon: mdi:wall-sconce-round-variant
             name: Bathroom 1
           - type: light
             entity: light.bathroom_2
+            icon: mdi:wall-sconce-round-variant
             name: Bathroom 2
-      - type: entities
-        entities:
-          - group.front_bathroom_lights
-          - type: buttons
-            entities:
-              - light.bathroom_1
-              - light.bathroom_2
-        title: Bathroom Lights
-        show_header_toggle: true
-      - type: tile
-        entity: group.front_bathroom_lights
-        icon: mdi:light
-        name: Bathroom Lights
-        tap_action:
-          action: toggle
-        icon_tap_action:
-          action: more-info
   # - type: entities
   #   entities:
   #     - light.bedroom_1
