@@ -13,16 +13,23 @@ badges:
 cards:
   # lights
   - type: vertical-stack
-    title: Lights
     cards:
       - type: horizontal-stack
         cards:
+          - type: entity
+            entity: light.living_room
+            name: Living Room
+            footer:
+              type: buttons
+              entities:
+                - entity: scene.living_room_natural_light
+                  icon: mdi:brightness-6
+                - entity: scene.living_room_theatre
+                  icon: mdi:theater
           - type: light
-            entity: scene.living_room_relax
-            name: Relax
-          - type: light
-            entity: light.back_stoop
-            name: Rear Stoop Light
+            entity: light.living_room_lamp_1
+            icon: mdi:floor-lamp-outline
+            name: Couch Lamp
       - type: horizontal-stack
         cards:
           - type: button
@@ -50,14 +57,14 @@ cards:
       - switch.living_room_outlet_1
     title: Living Room Outlets
     show_header_toggle: false
-  # media controls
-  # media players
   # roomba controls
   - type: entities
     entities:
       - vacuum.maria
     title: "Roomba: Maria"
     show_header_toggle: false
+  # media controls
+  # media players
   - type: media-control
     entity: media_player.first_floor
   # - type: media-control
