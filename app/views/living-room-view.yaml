@@ -301,6 +301,25 @@ cards:
         card:
           type: media-control
           entity: media_player.living_room_tv
+      # Chromecast Plex
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Watch Cast"
+          - entity: media_player.plex_plex_cast_chromecast_2
+            state_not: "off"
+        card:
+          type: media-control
+          entity: media_player.plex_plex_cast_chromecast_2
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Watch Cast"
+          - entity: media_player.plex_plex_cast_chromecast_3
+            state_not: "off"
+        card:
+          type: media-control
+          entity: media_player.plex_plex_cast_chromecast_3
       # Playstation Plex
       - type: conditional
         conditions:
@@ -311,6 +330,16 @@ cards:
         card:
           type: media-control
           entity: media_player.plex_plex_for_playstation_4_ps4_121
+      # Xbox One Plex
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Play Xbox One"
+          - entity: media_player.plex_plex_for_xbox_oneelite
+            state_not: "off"
+        card:
+          type: media-control
+          entity: media_player.plex_plex_for_xbox_oneelite
   # outlets
   - type: grid
     columns: 2
