@@ -146,6 +146,128 @@ cards:
                   device: 75066400
               hold_action:
                 action: none
+      # device controls
+      - type: conditional
+        conditions:
+          - entity: select.841_home_activities
+            state: "Play PS4"
+        card:
+          type: grid
+          columns: 3
+          square: true
+          cards:
+            # PS button
+            - type: button
+              icon: mdi:sony-playstation
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: PS
+                  device: 79638202
+              hold_action:
+                action: none
+            # Up
+            - type: button
+              icon: mdi:arrow-up-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionUp
+                  device: 79638202
+              hold_action:
+                action: none
+            # menu/options
+            - type: button
+              icon: mdi:dots-horizontal-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Options
+                  device: 79638202
+              hold_action:
+                action: none
+            # left
+            - type: button
+              icon: mdi:arrow-left-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionLeft
+                  device: 79638202
+              hold_action:
+                action: none
+            # enter/confirm
+            - type: button
+              icon: mdi:square-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Ok
+                  device: 79638202
+              hold_action:
+                action: none
+            # right
+            - type: button
+              icon: mdi:arrow-right-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionRight
+                  device: 79638202
+              hold_action:
+                action: none
+            # back/return
+            - type: button
+              icon: mdi:arrow-left-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Circle
+                  device: 79638202
+              hold_action:
+                action: none
+            # down
+            - type: button
+              icon: mdi:arrow-down-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionDown
+                  device: 79638202
+              hold_action:
+                action: none
+            # spacer
+            - type: button
+              show_icon: false
+              show_name: false
+              tap_action:
+                action: none
+              hold_action:
+                action: none
       # players
       # Cast Audio Group
       - type: conditional
@@ -179,7 +301,7 @@ cards:
         card:
           type: media-control
           entity: media_player.living_room_tv
-      # Chromecast
+      # Playstation Plex
       - type: conditional
         conditions:
           - entity: select.841_home_activities
