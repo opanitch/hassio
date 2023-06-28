@@ -32,11 +32,15 @@ cards:
             icon: mdi:brightness-6
             name: Natural Light
             vertical: true
+            tap_action:
+              action: toggle
           - type: tile
             entity: scene.living_room_theatre
             icon: mdi:theater
             name: Theatre Lights
             vertical: true
+            tap_action:
+              action: toggle
       - type: horizontal-stack
         cards:
           - type: light
