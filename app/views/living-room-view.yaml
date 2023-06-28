@@ -320,6 +320,8 @@ cards:
         entity: switch.right_outlet_1
         name: Right Outlet
         vertical: true
+        tap_action:
+          action: toggle
   # roomba controls
   - type: tile
     entity: vacuum.maria
