@@ -84,4 +84,7 @@ sensor: !include_dir_merge_list integrations/sensors/
 # upnp: !include integrations/network/upnp_config.yaml
 # vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
-weather: !include_dir_list integrations/weather/
+# weather: !include_dir_list integrations/weather/
+### MQTT Config Section
+# mqtt: !include integrations/network/mqtt_config.yaml
+# lock: !include integrations/network/mqtt_lock.yaml
