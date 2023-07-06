@@ -1,16 +1,22 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 homeassistant:
+  name: 827 Pennlyn
+  # access
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
-  customize: !include_dir_named customizations/
   external_url: !secret external_url
   internal_url: !secret internal_url
+  # location
+  country: !secret zone_home_country
+  elevation: !secret zone_home_elev
   latitude: !secret zone_home_lat
   longitude: !secret zone_home_long
-  elevation: !secret zone_home_elev
-  unit_system: imperial
   time_zone: America/New_York
-  name: 827 Pennlyn
+  # measurement units
+  currency: !secret zone_home_currency
+  unit_system: imperial
+  # include person profiles
+  customize: !include_dir_named customizations/
 
 # External
 duckdns: !include authentication/duckdns_config.yaml
@@ -18,6 +24,7 @@ http: !include authentication/http_config.yaml
 
 # Enablers
 browser:
+cloud:
 config:
 conversation:
 # discovery: // prefer manual configuration
@@ -30,12 +37,8 @@ lovelace: !include app/config/ui-config.yaml
 map:
 mobile_app:
 sun:
+stream:
 system_health:
-logger:
-  default: info
-  logs:
-    pynetgear: debug
-    homeassistant.components.device_tracker: debug
 
 ## Text to speech
 tts: !include integrations/tts/tts_config.yaml
@@ -46,8 +49,8 @@ automation: !include automations.yaml
 group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml
-input_number: !include_dir_named app/inputs/number/
-input_select: !include_dir_named app/inputs/select/
+# input_number: !include_dir_named app/inputs/number/
+# input_select: !include_dir_named app/inputs/select/
 ###
 # Config file for People tracked in the House
 # https://www.home-assistant.io/integrations/person/
