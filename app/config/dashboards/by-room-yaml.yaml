@@ -1,6 +1,6 @@
 mode: yaml
-filename: ui-by-room.yaml
+filename: dashboard-user.yaml
 title: House by Room
-icon: mdi:script
+icon: mdi:house
 require_admin: false
-show_in_sidebar: true
+show_in_sidebar: false
