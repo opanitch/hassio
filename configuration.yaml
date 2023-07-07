@@ -81,6 +81,7 @@ media_player: !include_dir_merge_list integrations/media_players/
 #  - host: 192.168.1.32
 #    name: Samsung TV (Back Bedroom)
 sensor: !include_dir_merge_list integrations/sensors/
+template: !include_dir_merge_list integrations/templates/
 # upnp: !include integrations/network/upnp_config.yaml
 # vacuum: !include integrations/cleaning/vacuum_config.yaml
 # vera: !include integrations/zwave/vera_config.yaml
