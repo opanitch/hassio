@@ -132,7 +132,8 @@ cards:
               entity_id: lock.back_door_lock
             service: lock.lock
           hold_action:
-            action: more-info# date time
+            action: more-info
+  # date time
   - type: sensor
     entity: sensor.date_time_dashboard
     graph: none
