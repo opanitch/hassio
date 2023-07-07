@@ -85,9 +85,17 @@ cards:
           {% elif is_state("sensor.front_door_lock_alarmlevel", "1") %}
             {% set alarmUser = "Master" %}
           {% elif is_state("sensor.front_door_lock_alarmlevel", "2") %}
-            {% set alarmUser = "Jose" %}
+            {% set alarmUser = "Mary" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "3") %}
+            {% set alarmUser = "Howie" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "4") %}
+            {% set alarmUser = "Beck" %}
           {% elif is_state("sensor.front_door_lock_alarmlevel", "5") %}
-            {% set alarmUser = "Yariv" %}
+            {% set alarmUser = "John" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "6") %}
+            {% set alarmUser = "Lou" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "7") %}
+            {% set alarmUser = "Iris" %}
           {% else %}
             {% set alarmUser = state_attr("sensor.front_door_lock_alarmlevel", "value") %}
           {% endif %}
