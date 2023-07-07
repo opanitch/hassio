@@ -1,34 +1,136 @@
 path: exterior
 title: Exterior
 badges:
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
-  - entity: sensor.front_door_lock_alarm_type
-  - entity: >-
-      sensor.front_door_lock_alarm_level
-  - entity: >-
-      sensor.front_door_lock_power_management
+  # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
+  - entity: sensor.time
 cards:
-  - type: entities
-    entities:
-      - lock.front_door_lock
-    title: Front Door Lock
-  - type: entities
-    entities:
-      - switch.living_room_switch_1
-      - switch.hallway_switch_2
-    title: Outdoor Light Switches
-    show_header_toggle: false
-  # - type: entities
-  #   entities:
-  #     - light.exterior_rear
-  #     - light.back_stoop
-  #     - light.exterior_front
-  #     - light.front_stoop
-  #   title: Exterior Lights
-  #   show_header_toggle: false
+  # front door
+  - type: vertical-stack
+    title: Front Door
+    cards:
+      - type: conditional
+        conditions:
+          - entity: lock.front_door_lock
+            state: "locked"
+        card:
+          type: button
+          entity: lock.front_door_lock
+          tap_action:
+            action: call-service
+            data:
+              entity_id: lock.front_door_lock
+            service: lock.unlock
+          hold_action:
+            action: more-info
+      - type: conditional
+        conditions:
+          - entity: lock.front_door_lock
+            state: "unlocked"
+        card:
+          type: button
+          entity: lock.front_door_lock
+          tap_action:
+            action: call-service
+            data:
+              entity_id: lock.front_door_lock
+            service: lock.lock
+          hold_action:
+            action: more-info
+      - type: markdown
+        entity_id: sensor.last_action
+        content: >
+          {% set alarmType = "" %}
+          {% if is_state("sensor.front_door_lock_alarmtype", "17") %}
+            {% set alarmType = "Locked with keypad (jammed)" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "18") %}
+            {% set alarmType = "Locked with keypad" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "19") %}
+            {% set alarmType = "Unlocked with keypad" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "21") %}
+            {% set alarmType = "Locked inside or using key" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "22") %}
+            {% set alarmType = "Unlocked inside or using key" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "23") %}
+            {% set alarmType = "Locked with App (jammed)" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "24") %}
+            {% set alarmType = "Locked with App" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "25") %}
+            {% set alarmType = "Unlocked with App" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "26") %}
+            {% set alarmType = "Locked automatically (jammed)" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "27") %}
+            {% set alarmType = "Locked automatically" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "32") %}
+            {% set alarmType = "All User Codes deleted from lock" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "112") %}
+            {% set alarmType = "New User Code added to the lock" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "161") %}
+            {% set alarmType = "Failed User Code attempt at Keypad" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "162") %}
+            {% set alarmType = "Attempted access outside of scheduled" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "167") %}
+            {% set alarmType = "Low battery level" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "168") %}
+            {% set alarmType = "Critical battery level" %}
+          {% elif is_state("sensor.front_door_lock_alarmtype", "169") %}
+            {% set alarmType = "Battery level too low to operate lock" %}
+          {% else %}
+            {% set alarmType = "Unknown action: "%}{{state_attr("sensor.front_door_lock_alarmtype", "value") }}
+          {% endif %}
+          {% set alarmUser = "" %}
+          {% if is_state("sensor.front_door_lock_alarmlevel", "0") %}
+            {% set alarmUser = "System" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "1") %}
+            {% set alarmUser = "Master" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "2") %}
+            {% set alarmUser = "Jose" %}
+          {% elif is_state("sensor.front_door_lock_alarmlevel", "5") %}
+            {% set alarmUser = "Yariv" %}
+          {% else %}
+            {% set alarmUser = state_attr("sensor.front_door_lock_alarmlevel", "value") %}
+          {% endif %}
+          {{alarmType}} by {{alarmUser}}
+        title: Last action
+  # back door
+  - type: vertical-stack
+    title: Back Door
+    cards:
+      - type: conditional
+        conditions:
+          - entity: lock.back_door_lock
+            state: "locked"
+        card:
+          type: button
+          entity: lock.back_door_lock
+          tap_action:
+            action: call-service
+            data:
+              entity_id: lock.back_door_lock
+            service: lock.unlock
+          hold_action:
+            action: more-info
+      - type: conditional
+        conditions:
+          - entity: lock.back_door_lock
+            state: "unlocked"
+        card:
+          type: button
+          entity: lock.back_door_lock
+          tap_action:
+            action: call-service
+            data:
+              entity_id: lock.back_door_lock
+            service: lock.lock
+          hold_action:
+            action: more-info# date time
+  - type: sensor
+    entity: sensor.date_time_dashboard
+    graph: none
+    name: " "
+  # weather dashboard
   - type: weather-forecast
-    entity: weather.dark_sky
+    entity: weather.openweathermap
+    name: 841 Weather
+    show_forecast: true
