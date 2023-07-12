@@ -9,35 +9,212 @@ cards:
   - type: thermostat
     entity: climate.living_room_thermostat
     name: Living Room Thermostat
-  # - type: entities
-  #   entities:
-  #     - light.living_room
-  #     - light.living_room_left_1
-  #     - light.living_room_left_2
-  #     - light.living_room_right_1
-  #     - light.living_room_right_2
-  #     - light.living_room_right_3
-  #     - light.living_room_lamp_1
-  #     - light.living_room_lamp_2
-  #   title: Living Room Lights
-  #   show_header_toggle: false
-  # - type: entities
-  #   entities:
-  #     - switch.living_room_outlet_1
-  #   title: Living Room Outlets
-  #   show_header_toggle: false
-  # - type: entities
-  #   entities:
-  #     - vacuum.maria
-  #   title: "Roomba: Maria"
-  #   show_header_toggle: false
-  # - type: media-control
-  #   entity: media_player.first_floor
-  # - type: media-control
-  #   entity: media_player.plex_plex_for_xbox_one_oneelite
-  # - type: media-control
-  #   entity: media_player.public_broadcast
-  # - type: entities
-  #   entities:
-  #     - remote.harmony_hub
-  #   title: Entertainment Hub
+  # media
+  - type: vertical-stack
+    title: TV Controls
+    cards:
+      # controls
+      - type: entities
+        state_color: true
+        entities:
+          - select.oc_living_room_activities
+        header:
+          type: buttons
+          entities:
+            - entity: oc_living_room
+              icon: mdi:power
+              name: All Off
+              show_icon: true
+              show_name: true
+              tap_action:
+                action: call-service
+                service: remote.turn_off
+                target:
+                  entity_id: oc_living_room
+      # audio
+      - type: conditional
+        conditions:
+          - entity: oc_living_room
+            state_not: "off"
+        card:
+          type: grid
+          columns: 3
+          square: false
+          cards:
+            # volume
+            - type: button
+              icon: mdi:volume-medium
+              show_icon: true
+              show_name: false
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: oc_living_room
+                data:
+                  command: VolumeDown
+                  device: 37597360
+              hold_action:
+                action: none
+            - type: button
+              icon: mdi:volume-high
+              show_icon: true
+              show_name: false
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: oc_living_room
+                data:
+                  command: VolumeUp
+                  device: 37597360
+              hold_action:
+                action: none
+            - type: button
+              icon: mdi:volume-off
+              show_icon: true
+              show_name: false
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: oc_living_room
+                data:
+                  command: Mute
+                  device: 37597360
+              hold_action:
+                action: none
+      # device controls
+      - type: conditional
+        conditions:
+          - entity: select.oc_living_room_activities
+            state: "Watch Shield TV"
+        card:
+          type: grid
+          columns: 3
+          square: true
+          cards:
+            # spacer
+            - type: button
+              show_icon: false
+              show_name: false
+              tap_action:
+                action: none
+              hold_action:
+                action: none
+            # Up
+            - type: button
+              icon: mdi:arrow-up-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionUp
+                  device: 75044221
+              hold_action:
+                action: none
+            # menu/options
+            - type: button
+              icon: mdi:dots-horizontal-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Menu
+                  device: 75044221
+              hold_action:
+                action: none
+            # left
+            - type: button
+              icon: mdi:arrow-left-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionLeft
+                  device: 75044221
+              hold_action:
+                action: none
+            # enter/confirm
+            - type: button
+              icon: mdi:square-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Ok
+                  device: 75044221
+              hold_action:
+                action: none
+            # right
+            - type: button
+              icon: mdi:arrow-right-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionRight
+                  device: 75044221
+              hold_action:
+                action: none
+            # back/return
+            - type: button
+              icon: mdi:arrow-left-circle
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Back
+                  device: 75044221
+              hold_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: Exit
+                  device: 75044221
+            # down
+            - type: button
+              icon: mdi:arrow-down-bold
+              tap_action:
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.841_home
+                data:
+                  command: DirectionDown
+                  device: 75044221
+              hold_action:
+                action: none
+            # spacer
+            - type: button
+              show_icon: false
+              show_name: false
+              tap_action:
+                action: none
+              hold_action:
+                action: none
+      # players
+      # Android TV
+      - type: conditional
+        conditions:
+          - entity: select.oc_living_room_activities
+            state: "Watch Shield TV"
+          - entity: media_player.shield_tv
+            state_not: "off"
+        card:
+          type: media-control
+          entity: media_player.shield_tv
