@@ -21,7 +21,7 @@ cards:
         header:
           type: buttons
           entities:
-            - entity: oc_living_room
+            - entity: remote.oc_living_room
               icon: mdi:power
               name: All Off
               show_icon: true
@@ -30,11 +30,11 @@ cards:
                 action: call-service
                 service: remote.turn_off
                 target:
-                  entity_id: oc_living_room
+                  entity_id: remote.oc_living_room
       # audio
       - type: conditional
         conditions:
-          - entity: oc_living_room
+          - entity: remote.oc_living_room
             state_not: "off"
         card:
           type: grid
@@ -50,7 +50,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: oc_living_room
+                  entity_id: remote.oc_living_room
                 data:
                   command: VolumeDown
                   device: 37597360
@@ -64,7 +64,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: oc_living_room
+                  entity_id: remote.oc_living_room
                 data:
                   command: VolumeUp
                   device: 37597360
@@ -78,7 +78,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: oc_living_room
+                  entity_id: remote.oc_living_room
                 data:
                   command: Mute
                   device: 37597360
