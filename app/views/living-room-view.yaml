@@ -109,7 +109,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: DirectionUp
                   device: 75044221
@@ -122,7 +122,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: Menu
                   device: 75044221
@@ -135,7 +135,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: DirectionLeft
                   device: 75044221
@@ -148,7 +148,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: Ok
                   device: 75044221
@@ -161,7 +161,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: DirectionRight
                   device: 75044221
@@ -174,7 +174,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: Back
                   device: 75044221
@@ -182,7 +182,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: Exit
                   device: 75044221
@@ -193,7 +193,7 @@ cards:
                 action: call-service
                 service: remote.send_command
                 target:
-                  entity_id: remote.841_home
+                  entity_id: remote.oc_living_room
                 data:
                   command: DirectionDown
                   device: 75044221
