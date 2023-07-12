@@ -94,12 +94,17 @@ cards:
           columns: 3
           square: true
           cards:
-            # spacer
+            # home
             - type: button
-              show_icon: false
-              show_name: false
+              icon: mdi:home-circle
               tap_action:
-                action: none
+                action: call-service
+                service: remote.send_command
+                target:
+                  entity_id: remote.oc_living_room
+                data:
+                  command: Home
+                  device: 75044221
               hold_action:
                 action: none
             # Up
