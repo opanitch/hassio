@@ -5,6 +5,57 @@ badges:
   - entity: sun.sun
   - entity: sensor.moon_phase
   - entity: sensor.time
+  # front door
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.front_door_intrusion
+        name: Front Door
+        icon: mdi:door
+    state_filter:
+      - "off"
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.front_door_intrusion
+        name: Front Door
+        icon: mdi:door-open
+    state_filter:
+      - "on"
+  # back gate
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.back_door_intrusion
+        name: Back Door
+        icon: mdi:gate
+    state_filter:
+      - "off"
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.back_door_intrusion
+        name: Back Door
+        icon: mdi:gate-open
+    state_filter:
+      - "on"
+  # sliding door
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.front_sliding_glass_door_intrusion
+        name: Sliding Door
+        icon: mdi:door-sliding
+    state_filter:
+      - "off"
+  - type: entity-filter
+    entities:
+      - entity: >-
+          binary_sensor.front_sliding_glass_door_intrusion
+        name: Sliding Door
+        icon: mdi:door-sliding-open
+    state_filter:
+      - "on"
 cards:
   # front door
   - type: vertical-stack
