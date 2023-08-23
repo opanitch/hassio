@@ -1,16 +1,12 @@
 path: hallway
 title: Hallway
 badges:
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
-  - entity: sensor.front_door_lock_alarm_type
-  - entity: >-
-      sensor.front_door_lock_alarm_level
-  - entity: >-
-      sensor.front_door_lock_power_management
+  # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
+  - entity: sensor.time
+  # room stats
+  - entity: sensor.powder_room_multisensor_air_temperature
 cards:
   - type: entities
     entities:
