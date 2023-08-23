@@ -5,6 +5,8 @@ badges:
   - entity: sun.sun
   - entity: sensor.moon_phase
   - entity: sensor.time
+  # room stats
+  - entity: sensor.living_room_multisensor_air_temperature
   # plex stats
   - entity: sensor.plex_drobo5n
   # roomba
