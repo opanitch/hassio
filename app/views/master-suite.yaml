@@ -1,18 +1,16 @@
 path: master-suite
 title: Master Suite
 badges:
+  # time
+  - entity: sun.sun
+  - entity: sensor.moon_phase
+  - entity: sensor.time
+  # presence
+  - entity: person.jose
   - entity: person.oren
-  # - entity: sensor.home_to_destination
-  # - entity: sensor.to_ocean_city
+  # media/entertainment
   - entity: sensor.steam_76561197963476141
   - entity: sensor.plex_drobo5n
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
-  - entity: sensor.jewish_calendar_holiday
-  - entity: sensor.jewish_calendar_date
-  - entity: sun.sun
 cards:
   - type: weather-forecast
     entity: weather.dark_sky

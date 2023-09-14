@@ -7,7 +7,9 @@ badges:
   - entity: sun.sun
   - entity: sensor.moon_phase
   - entity: sensor.time
+  # presence
   - entity: person.jose
+  - entity: person.oren
 cards:
   # lights
   - type: vertical-stack
