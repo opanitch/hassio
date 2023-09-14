@@ -8,25 +8,56 @@ badges:
   # room stats
   - entity: sensor.powder_room_multisensor_air_temperature
 cards:
-  - type: entities
-    entities:
-      - lock.front_door_lock
-    title: Front Door Lock
-  - type: entities
-    entities:
-      - light.hallway_switch_1
-    title: Hallway Light Switches
-    show_header_toggle: false
-  - type: entities
-    entities:
-      - switch.hallway_outlet_2
-      - switch.hallway_outlet_3
-    title: Hallway Light Outlets
-    show_header_toggle: false
-  # - type: entities
-  #   entities:
-  #     - light.stairs
-  #     - light.stairs_1
-  #     - light.stairs_2
-  #   title: Stair Lights
-  #   show_header_toggle: false
+  # lights
+  - type: vertical-stack
+    cards:
+      # - type: tile
+      #   entity: light.kitchen
+      #   icon: mdi:brightness-6
+      #   name: Kitchen Lights
+      #   vertical:
+      #   tap_action:
+      #     action: toggle
+      #   features:
+      #     - type: "light-brightness"
+      - type: horizontal-stack
+        cards:
+          - type: light
+            entity: light.hallway_track_light_switch
+            icon: mdi:track-light
+            name: Track Lights
+          # - type: light
+          #   entity: light.kitchen_2
+          #   icon: mdi:dome-light
+          #   name: Ceiling 2
+          # - type: light
+          #   entity: light.kitchen_window
+          #   icon: mdi:light-recessed
+          #   name: Kitchen Window
+      # - type: horizontal-stack
+      #   cards:
+      # - type: button
+      #   entity: light.hallway_track_light_switch
+      #   icon_height: 25px
+      #   name: Track Lights
+      # - type: button
+      #   entity: switch.kitchen_passthrough_switch
+      #   icon_height: 25px
+      #   name: Kitchen Window
+  # outlets
+  - type: grid
+    columns: 2
+    square: false
+    cards:
+      - type: tile
+        entity: switch.hallway_outlet_2
+        name: 1st Fl Hallway
+        vertical: true
+        tap_action:
+          action: toggle
+      - type: tile
+        entity: switch.hallway_outlet_3
+        name: 2nd Fl Hallway
+        vertical: true
+        tap_action:
+          action: toggle
