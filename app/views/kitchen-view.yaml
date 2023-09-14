@@ -9,43 +9,29 @@ cards:
   # lights
   - type: vertical-stack
     cards:
-      # - type: tile
-      #   entity: light.living_room
-      #   icon: mdi:brightness-6
-      #   name: Living Room Lights
-      #   vertical:
-      #   tap_action:
-      #     action: toggle
-      #   features:
-      #     - type: "light-brightness"
-      # - type: grid
-      #   columns: 2
-      #   square: false
-      #   cards:
-      #     - type: tile
-      #       entity: scene.living_room_natural_light
-      #       icon: mdi:brightness-6
-      #       name: Natural Light
-      #       vertical: true
-      #       tap_action:
-      #         action: toggle
-      #     - type: tile
-      #       entity: scene.living_room_theatre
-      #       icon: mdi:theater
-      #       name: Theatre Lights
-      #       vertical: true
-      #       tap_action:
-      #         action: toggle
-      # - type: horizontal-stack
-      #   cards:
-      #     - type: light
-      #       entity: light.living_room_ceiling_lights
-      #       icon: mdi:light-recessed
-      #       name: Ceiling Lights
-      #     - type: light
-      #       entity: light.living_room_lamp_1
-      #       icon: mdi:floor-lamp-outline
-      #       name: Couch Lamp
+      - type: tile
+        entity: light.kitchen
+        icon: mdi:brightness-6
+        name: Kitchen Lights
+        vertical:
+        tap_action:
+          action: toggle
+        features:
+          - type: "light-brightness"
+      - type: horizontal-stack
+        cards:
+          - type: light
+            entity: light.kitchen_1
+            icon: mdi:light-recessed
+            name: Ceiling 1
+          - type: light
+            entity: light.kitchen_2
+            icon: mdi:light-recessed
+            name: Ceiling 2
+          - type: light
+            entity: light.kitchen_window
+            icon: mdi:floor-lamp-outline
+            name: Kitchen Window
       - type: horizontal-stack
         cards:
           - type: button
