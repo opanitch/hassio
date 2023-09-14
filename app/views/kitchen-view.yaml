@@ -22,15 +22,15 @@ cards:
         cards:
           - type: light
             entity: light.kitchen_1
-            icon: mdi:light-recessed
+            icon: mdi:dome-light
             name: Ceiling 1
           - type: light
             entity: light.kitchen_2
-            icon: mdi:light-recessed
+            icon: mdi:dome-light
             name: Ceiling 2
           - type: light
             entity: light.kitchen_window
-            icon: mdi:floor-lamp-outline
+            icon: mdi:light-recessed
             name: Kitchen Window
       - type: horizontal-stack
         cards:
@@ -53,10 +53,14 @@ cards:
         vertical: true
         tap_action:
           action: toggle
-  - type: media-control
-    entity: media_player.first_floor
-  - type: media-control
-    entity: media_player.kitchen_assistant
-  - type: media-control
-    entity: media_player.public_broadcast
-  # - !include ../components/presence.yaml
+  # media
+  - type: vertical-stack
+    title: Media Players
+    cards:
+      - type: media-control
+        entity: media_player.first_floor
+      - type: media-control
+        entity: media_player.kitchen_assistant
+      - type: media-control
+        entity: media_player.public_broadcast
+      # - !include ../components/presence.yaml
