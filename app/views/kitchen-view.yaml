@@ -1,31 +1,72 @@
 path: kitchen
 title: Kitchen
 badges:
-  - entity: sensor.us_coronavirus_recovered
-  - entity: sensor.us_coronavirus_current
-  - entity: sensor.us_coronavirus_deaths
-  - entity: sensor.us_coronavirus_confirmed
-  - entity: sensor.jewish_calendar_holiday
-  - entity: sensor.jewish_calendar_date
+  # time
   - entity: sun.sun
+  - entity: sensor.moon_phase
+  - entity: sensor.time
 cards:
-  - type: entities
-    entities:
-      - switch.kitchen_switch_1
-      - switch.kitchen_switch_2
-    title: Kitchen Light Switches
-  # - type: entities
-  #   entities:
-  #   - light.kitchen
-  #   - light.kitchen_1
-  #   - light.kitchen_2
-  #   - light.kitchen_window
-  #   title: Kitchen Lights
-  #   show_header_toggle: false
-  - type: entities
-    entities:
-      - lock.front_door_lock
-    title: Front Door Lock
+  # lights
+  - type: vertical-stack
+    cards:
+      # - type: tile
+      #   entity: light.living_room
+      #   icon: mdi:brightness-6
+      #   name: Living Room Lights
+      #   vertical:
+      #   tap_action:
+      #     action: toggle
+      #   features:
+      #     - type: "light-brightness"
+      # - type: grid
+      #   columns: 2
+      #   square: false
+      #   cards:
+      #     - type: tile
+      #       entity: scene.living_room_natural_light
+      #       icon: mdi:brightness-6
+      #       name: Natural Light
+      #       vertical: true
+      #       tap_action:
+      #         action: toggle
+      #     - type: tile
+      #       entity: scene.living_room_theatre
+      #       icon: mdi:theater
+      #       name: Theatre Lights
+      #       vertical: true
+      #       tap_action:
+      #         action: toggle
+      # - type: horizontal-stack
+      #   cards:
+      #     - type: light
+      #       entity: light.living_room_ceiling_lights
+      #       icon: mdi:light-recessed
+      #       name: Ceiling Lights
+      #     - type: light
+      #       entity: light.living_room_lamp_1
+      #       icon: mdi:floor-lamp-outline
+      #       name: Couch Lamp
+      - type: horizontal-stack
+        cards:
+          - type: button
+            entity: switch.kitchen_light_switch
+            icon_height: 25px
+            name: Kitchen Ceiling
+          - type: button
+            entity: switch.kitchen_passthrough_switch
+            icon_height: 25px
+            name: Kitchen Window
+  # outlets
+  - type: grid
+    columns: 2
+    square: false
+    cards:
+      - type: tile
+        entity: switch.counter_outlet_1
+        name: Left Oven Outlet
+        vertical: true
+        tap_action:
+          action: toggle
   - type: media-control
     entity: media_player.first_floor
   - type: media-control
