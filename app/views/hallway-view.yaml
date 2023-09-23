@@ -26,24 +26,24 @@ cards:
             entity: light.hallway_track_light_switch
             icon: mdi:track-light
             name: Track Lights
-          # - type: light
-          #   entity: light.kitchen_2
-          #   icon: mdi:dome-light
-          #   name: Ceiling 2
+          - type: light
+            entity: light.stairs
+            icon: mdi:dome-light
+            name: Stairs Lights
           # - type: light
           #   entity: light.kitchen_window
           #   icon: mdi:light-recessed
           #   name: Kitchen Window
-      # - type: horizontal-stack
-      #   cards:
-      # - type: button
-      #   entity: light.hallway_track_light_switch
-      #   icon_height: 25px
-      #   name: Track Lights
-      # - type: button
-      #   entity: switch.kitchen_passthrough_switch
-      #   icon_height: 25px
-      #   name: Kitchen Window
+      - type: horizontal-stack
+        cards:
+          - type: button
+            entity: light.hallway_track_light_switch
+            icon_height: 25px
+            name: Track Lights
+          - type: button
+            entity: switch.stairs_light_switch
+            icon_height: 25px
+            name: Stairs Light
   # outlets
   - type: grid
     columns: 2
