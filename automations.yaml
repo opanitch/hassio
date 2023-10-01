@@ -36,7 +36,7 @@
   - type: motion
     platform: device
     device_id: 25b27714c4400d63c2e62694f42181ef
-    entity_id: binary_sensor.multisensor_home_security_motion_detection
+    entity_id: binary_sensor.powder_room_multisensor_home_security_motion_detection
     domain: binary_sensor
   condition:
   - condition: device
@@ -63,7 +63,7 @@
   - type: no_motion
     platform: device
     device_id: 25b27714c4400d63c2e62694f42181ef
-    entity_id: binary_sensor.multisensor_home_security_motion_detection
+    entity_id: binary_sensor.powder_room_multisensor_home_security_motion_detection
     domain: binary_sensor
   condition:
   - condition: device
@@ -256,10 +256,9 @@
   condition: []
   action:
   - type: turn_on
-    device_id: 7da7691b5ae6f2a67737e0a70a3efe57
-    entity_id: light.utility_closet
+    device_id: 549cac0be87ec5edc7124985e60922b1
+    entity_id: light.utility_closet_light_group
     domain: light
-    brightness_pct: 100
   mode: single
 - id: '1656519388457'
   alias: Utility Closet Light Off
@@ -273,8 +272,8 @@
   condition: []
   action:
   - type: turn_off
-    device_id: 7da7691b5ae6f2a67737e0a70a3efe57
-    entity_id: light.utility_closet
+    device_id: 549cac0be87ec5edc7124985e60922b1
+    entity_id: light.utility_closet_light_group
     domain: light
   mode: single
 - id: '1659402951897'

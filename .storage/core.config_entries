@@ -39,11 +39,7 @@
         "title": "Google Cast",
         "data": {
           "ignore_cec": [],
-          "known_hosts": [
-            "192.168.1.28",
-            "192.168.1.31",
-            "192.168.1.38"
-          ],
+          "known_hosts": [],
           "uuid": [],
           "user_id": "c3644d153db942369f93d205dc5371e7"
         },
@@ -279,9 +275,9 @@
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
           "hostname": "192.168.1.1",
           "original_udn": "uuid:46dd8b89-a2c4-453e-8357-96098263dadc",
-          "mac_address": null,
-          "location": "http://[fe80::3ebd:c5ff:fe02:a8f1%2]:38826/rootDesc.xml",
-          "host": "fe80::3ebd:c5ff:fe02:a8f1%2"
+          "mac_address": "3c:bd:c5:02:a8:f1",
+          "location": "http://[2600:4040:7416:feff::1]:58347/rootDesc.xml",
+          "host": "192.168.1.1"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -319,7 +315,7 @@
           "app_name": "Home Assistant",
           "os_name": "iOS",
           "model": "iPhone14,2",
-          "os_version": "16.5.1",
+          "os_version": "16.6.1",
           "device_name": "Jose (2)",
           "manufacturer": "Apple",
           "supports_encryption": true,
@@ -453,37 +449,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "3388a71254134fdf727dd3c34b04b089",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "Pixel 7 Pro",
-        "data": {
-          "app_id": "io.homeassistant.companion.android",
-          "app_name": "Home Assistant",
-          "app_version": "2023.6.0-full (10170)",
-          "device_name": "Pixel 7 Pro",
-          "manufacturer": "Google",
-          "model": "Pixel 7 Pro",
-          "os_name": "Android",
-          "os_version": "33",
-          "supports_encryption": false,
-          "app_data": {
-            "push_websocket_channel": true,
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
-            "push_token": "cvvkZBA0TxqsWn9l6xlZCx:APA91bF79rkaheQLWLf8ptq1DgedaQcnI_gnfDz_9fFXm3z3GT0bUJPnPu5l6EiqXMCWwuK7r6aUH-XoKOgT99K6LZ6v6sPp0WfD-axeq_s7xD4vTParrQxxPeVmUqSDnl1JU7P6A0z2"
-          },
-          "device_id": "a93fc0adf2dddb31",
-          "webhook_id": "32f675504ac3fd97cb2688481b8885e51efba459f2514a3957946aec64f0caff",
-          "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "registration",
-        "unique_id": "io.homeassistant.companion.android-a93fc0adf2dddb31",
-        "disabled_by": null
-      },
-      {
         "entry_id": "7dbe653d11e7bdd397fd8748fcba66a8",
         "version": 2,
         "domain": "openweathermap",
@@ -517,11 +482,11 @@
             "token_type": "bearer",
             "expires_in": 3600,
             "scope": "XboxLive.signin XboxLive.offline_access",
-            "access_token": "EwA4A+pvBAAUKods63Ys1fGlwiccIFJ+qE1hANsAATgYR1gWvGYujGGYgxxEhp4AWpKUbkOKdht83STwOZDuyEA7dwjCzTXY/vzUpyWhKcFhC+gBy7bq8YE88htw/8an6aYVr0BJJklP9Qb1VAshfpGZfVxZ+YB25UxKgjibMDTSuoIVOZTW6x1kEXeB17HRJuwPmwidap1UyG5MgzX0VT9cxF/juvNiyg66KbtxLl5WuHJRxCrfaFyoc19MgFepyNTe4SAQ7Yh7VqMem1lHoX837qhnsDRdqYOS5vE8qmtwoZ8BMYcefTLEeAmoTygo/X7nszUhJA7S3qAUOR6Sf4ov6P3xLxi7ryiXFNidfquJ7SKz335rYMBMPOLfyiQDZgAACME1EP6BCK8NCALf5ULB2XrVq/8UNIkUTsCJ8uIC254ToAgoWLGPwyhH8o69JYeSB1dy7vQLcw3r9cU+A9qRBp348OyitE+U39KnsOK2U4ARdB3ufDesDl+26rT3xud9UCXVNDQ2DEuvkz5a+Mv2EF8qEioVkoivH/J27MVHQeVho3F/FVs7U1qsay7AhrIRrlEa2tbsc+NTtljtZBkVe3TOfKad7EQlbAn4DXO2/uyYinyfc359re+lArgqp2eOW7EQBByaD6S5wYBrC2kxxPqzThuYKDcoW6GaWuKLQSk4uCHGRhMjy4HqQ6DKwekwx6rBo0bH9lHWgn7SS7QmnhsZjGBOFnn4pb1VzhWC1gptjpnZmyf3LbnSaQyMwJoImjWop3lheGGGIw2F28T96SsUAQ4A1XY/QRaj4cLafLVtPoglFYPrX/qGjb02V/2xPnGRYONZ0VEswz/VCd7PxWXfZUZI+mBZA6li489ci6WAzE5UWY9ZTE8a35AXkL/om7CYbEjPDWrfHN21mRxfv/HbPIjIKzGNmq0L33r7t5d6EH5bPiREWEk3ATydkB0u3rZ1iRzL5bINepPoq/VUwavz+WAtM7g3uhfIr8x3mS7qod8USfO3vUJjJfxfuJA/VSFFtZ1fpFOi469XlWL3jT/cJG4/V2e5HlntYkL4ISrDxXNTPE/69QwislqDiwYp4DaOJgI=",
-            "refresh_token": "M.C107_BAY.-CYn0yPlbCSKPWzuDqg2mnLg410b8prbluwovr1WfMyErHxHMGvML2iE25*zCsE!y1QUU6!cETyDx*T1Ugrh!otN*GCkiGR7MYMY*ufwr3xX7TmwQd289ywAp!j!HjOfsYFS6Nqc2HccT4CRfSMNHib0Xna7M8Ucwk5i!33UDGAsEXX71BYjw2*o8XXm9emXb4hhT3f5dqD3RGVq1RbbYzuV0EAcoAMBJYbkjHLaWqo3ZrifV80CGQyUXi0autGqwS9qeh3FkdBsV*nisjXMNEGd9JDiVN5o1ZrVjHD5hU!ZTspuCmtlMhhGhPAiMvqa5nI9KslaiUyPmitGDlK6cbJT7Jx3fiyLcfIDGM9233lbY",
+            "access_token": "EwAwA+pvBAAUKods63Ys1fGlwiccIFJ+qE1hANsAAefXBeM7o1FaYN5MqTe0Pv0JZTWcaVdXrPbigbaM+YyjpBfz5OXIx+Gj4qD23/OJ+bgLwaChCVTVTsIiiI0UpB/Fa9BSh6zU5Am4rG78KDKBvogWQ+kXYKJss5FFA/oL152REbGJ9fiYO2HrW+ptYXXp7c8v2zSWNEPQy853O1dPN8QDS8LCBK4d/YiddEXwlMxo0LEex964VF7pFLRS77zmIz+DQ4+FtsYDpeTa9UR92KMYerPyuzt/QQx2bRloPmU0mMyzIBAoefNEQYGiuFIc+3PzlvbM26JUGVT5C3n7JDYRSClG991baHMSMjXxSxKOVGeuXXLap3vJVR9Gw1IDZgAACMI5GqftXFPCAALWUz3vlol1TcBnK53UhAsRXfhC+a9NZ5vE7VRer3uQ9n+qc06IOTWCarHoGxo/1qp9FnemiSwbmr+Wgx3JvQkJHBtqJxmZECUh+sAmGpZlaix0HZGMsFhaYmixXy3P8ngs1nSMdyfBKiin8agLJULMeV/hHedV4TdaR5MgvRrzNgaQj16xmXPXXm424aDSTK3Ui7z4IifoRUvgiJC+tw2jucSz93F5FPvZLLmMTs7BISjjq2EmiOsPblfX7wp/bdGQiInbLTaf1BhFqSP72sSQkyBzHsAyF5sIt7UN7/jLZBRURgSiArfbtTzffqjo00/PI+Y7cqWxpaLjQK4eC1N9FZYPWeveeki6PMAL4jTx+G56kr60HdThiVLehrBgStYRfvNuNGID7beCa/pCYsJ32KR2xno4g4BsWY4UaGtKhDKKoHVBRNFklgtlSVVjiD1h8bJQvkVPdPWbQz5yNf/vHrU1bOHbZKDTTurfGyNyWu6yGcN18dhzfLxl02HZar1jDfVWxBU81DvhsKSovjDMksanaRtNcBnZebLEzK4M4CYQNFlSSTmD4mgiQaRDFArG6Bvdl4DCFtmFBfA7tTiBwoBrvu8DfPiCNzECwUwQCgwAIgPoQyWWbEkE9ELuKTVNI9jSagI54sWagpftikQRgfJZtf1ooAzhPhOV/eoxYiYC",
+            "refresh_token": "M.C107_BL2.-CZTTwSYy9vrhnTfOFeXgWBRdGC1JgHhWOxrp!VM4Rlu7SHyCXR36Sqifwa2CeneE3tA4ZXhRnafHLZnMjNJlJeKws9!UstgqT8L5VpKV3LQ677!NHF8ykP1RuR3IpW7KWM8ZvnBunNQH5uGrzbKmm9X040FFjoFsK3lzg994hHNcLKDdV7ZuEsyN!kY9Wa3sboMp1ysLRbQlzBALI1E*ifvdg5vRMK2Ib7OVCVRrpYe2oU9oeROGmVIOLyAGps8BvmAMX4*C2i1Egp9x1VKudA!zUK0Tb6RdhO!48nGbep!BtlUNKGPYqMJYM1gTp6DXNwcGvSRTK*GEKCmxMrQh5NIngnIZZMBa8N*JLzypYcy8",
             "user_id": "AAAAAAAAAAAAAAAAAAAAAMx6-gEFm1EclRMCxUUYBRE",
             "service": "xbox",
-            "expires_at": 1687880019.5895503
+            "expires_at": 1696190775.3701158
           }
         },
         "options": {},
@@ -586,7 +551,9 @@
           "volume_step": 1
         },
         "options": {
-          "volume_step": 1
+          "volume_step": 1,
+          "include_or_exclude": "exclude",
+          "apps_to_include_or_exclude": []
         },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
@@ -784,6 +751,37 @@
         "pref_disable_polling": false,
         "source": "user",
         "unique_id": "0c0d0709050d0b04090d07020f01040307000109",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "de2961fe2e0e636b0ffd0e74293a47f8",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Oren's Pixel 7 Pro",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.9.2-full (11226)",
+          "device_name": "Oren's Pixel 7 Pro",
+          "manufacturer": "Google",
+          "model": "Pixel 7 Pro",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "cvvkZBA0TxqsWn9l6xlZCx:APA91bF79rkaheQLWLf8ptq1DgedaQcnI_gnfDz_9fFXm3z3GT0bUJPnPu5l6EiqXMCWwuK7r6aUH-XoKOgT99K6LZ6v6sPp0WfD-axeq_s7xD4vTParrQxxPeVmUqSDnl1JU7P6A0z2"
+          },
+          "device_id": "a93fc0adf2dddb31",
+          "webhook_id": "79da9a640ef63ad3f4050bd3e862ccbaf69a348e893b0649c21b3ccd922d00d8",
+          "user_id": "d321b8f6f85e4c89878cef0ee934f4a6"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-a93fc0adf2dddb31",
         "disabled_by": null
       }
     ]

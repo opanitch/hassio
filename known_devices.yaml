@@ -237,3 +237,206 @@ jose_iphone:
   icon: mdi:cellphone
   picture:
   track: true
+
+unknown_7a_9c_34_0a_51_0a:
+  name: unknown_7a:9c:34:0a:51:0a
+  mac: 7A:9C:34:0A:51:0A
+  icon:
+  picture:
+  track: true
+
+unknown_ca_37_22_1d_10_0f:
+  name: unknown_ca:37:22:1d:10:0f
+  mac: CA:37:22:1D:10:0F
+  icon:
+  picture:
+  track: true
+
+unknown_5c_0c_e6_f1_42_d8:
+  name: unknown_5c:0c:e6:f1:42:d8
+  mac: 5C:0C:E6:F1:42:D8
+  icon:
+  picture:
+  track: true
+
+02_37_24_e2_e0_13:
+  name: 02_37_24_e2_e0_13
+  mac: 02:37:24:E2:E0:13
+  icon:
+  picture:
+  track: true
+
+pixel_7_pro_2:
+  name: Pixel-7-Pro
+  mac: 0C:C4:13:42:8E:5B
+  icon:
+  picture:
+  track: true
+
+unknown_f2_29_5e_58_54_d0:
+  name: unknown_f2:29:5e:58:54:d0
+  mac: F2:29:5E:58:54:D0
+  icon:
+  picture:
+  track: true
+
+macbook_pro:
+  name: MacBook-Pro
+  mac: 5C:E9:1E:82:5E:09
+  icon:
+  picture:
+  track: true
+
+unknown_a2_b0_e3_60_29_8a:
+  name: unknown_a2:b0:e3:60:29:8a
+  mac: A2:B0:E3:60:29:8A
+  icon:
+  picture:
+  track: true
+
+unknown_56_66_a6_5a_8a_f8:
+  name: unknown_56:66:a6:5a:8a:f8
+  mac: 56:66:A6:5A:8A:F8
+  icon:
+  picture:
+  track: true
+
+unknown_a2_d4_af_d1_29_30:
+  name: unknown_a2:d4:af:d1:29:30
+  mac: A2:D4:AF:D1:29:30
+  icon:
+  picture:
+  track: true
+
+unknown_fe_1f_3e_08_67_d3:
+  name: unknown_fe:1f:3e:08:67:d3
+  mac: FE:1F:3E:08:67:D3
+  icon:
+  picture:
+  track: true
+
+unknown_b6_ab_5d_96_ce_39:
+  name: unknown_b6:ab:5d:96:ce:39
+  mac: B6:AB:5D:96:CE:39
+  icon:
+  picture:
+  track: true
+
+unknown_06_13_bc_b9_b6_d5:
+  name: unknown_06:13:bc:b9:b6:d5
+  mac: 06:13:BC:B9:B6:D5
+  icon:
+  picture:
+  track: true
+
+unknown_e6_f0_32_98_ad_01:
+  name: unknown_e6:f0:32:98:ad:01
+  mac: E6:F0:32:98:AD:01
+  icon:
+  picture:
+  track: true
+
+iphone:
+  name: iPhone
+  mac: 44:4A:DB:08:28:C4
+  icon:
+  picture:
+  track: true
+
+unknown_3a_dc_b3_52_58_7a:
+  name: unknown_3a:dc:b3:52:58:7a
+  mac: 3A:DC:B3:52:58:7A
+  icon:
+  picture:
+  track: true
+
+unknown_16_1b_c0_20_ac_f1:
+  name: unknown_16:1b:c0:20:ac:f1
+  mac: 16:1B:C0:20:AC:F1
+  icon:
+  picture:
+  track: true
+
+unknown_d4_f0_57_9f_12_1f:
+  name: unknown_d4:f0:57:9f:12:1f
+  mac: D4:F0:57:9F:12:1F
+  icon:
+  picture:
+  track: true
+
+unknown_ea_cb_a1_52_52_cc:
+  name: unknown_ea:cb:a1:52:52:cc
+  mac: EA:CB:A1:52:52:CC
+  icon:
+  picture:
+  track: true
+
+viziocastdisplay:
+  name: viziocastdisplay
+  mac: A4:8D:3B:38:CC:62
+  icon:
+  picture:
+  track: true
+
+unknown_7e_8a_0a_a2_31_c4:
+  name: unknown_7e:8a:0a:a2:31:c4
+  mac: 7E:8A:0A:A2:31:C4
+  icon:
+  picture:
+  track: true
+
+unknown_f2_df_9c_f3_36_d2:
+  name: unknown_f2:df:9c:f3:36:d2
+  mac: F2:DF:9C:F3:36:D2
+  icon:
+  picture:
+  track: true
+
+laptop_oddgqlks:
+  name: LAPTOP-ODDGQLKS
+  mac: 84:5C:F3:3C:D0:66
+  icon:
+  picture:
+  track: true
+
+unknown_ca_d4_06_2f_06_fa:
+  name: unknown_ca:d4:06:2f:06:fa
+  mac: CA:D4:06:2F:06:FA
+  icon:
+  picture:
+  track: true
+
+unknown_8a_20_c6_47_f4_9a:
+  name: unknown_8a:20:c6:47:f4:9a
+  mac: 8A:20:C6:47:F4:9A
+  icon:
+  picture:
+  track: true
+
+unknown_6a_e6_cf_27_77_b3:
+  name: unknown_6a:e6:cf:27:77:b3
+  mac: 6A:E6:CF:27:77:B3
+  icon:
+  picture:
+  track: true
+
+unknown_3a_cc_13_fe_e1_5c:
+  name: unknown_3a:cc:13:fe:e1:5c
+  mac: 3A:CC:13:FE:E1:5C
+  icon:
+  picture:
+  track: true
+
+rachelsiphone4:
+  name: RachelsiPhone4
+  mac: 30:D5:3E:13:7E:3C
+  icon:
+  picture:
+  track: true
+
+unknown_fe_7a_bc_53_12_6b:
+  name: unknown_fe:7a:bc:53:12:6b
+  mac: FE:7A:BC:53:12:6B
+  icon:
+  picture:
+  track: true

@@ -49,7 +49,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "10.3",
+        "sw_version": "10.5",
         "via_device_id": null
       },
       {
@@ -145,7 +145,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Terminal & SSH",
-        "sw_version": "9.6.1",
+        "sw_version": "9.7.1",
         "via_device_id": null
       },
       {
@@ -169,7 +169,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Z-Wave JS",
-        "sw_version": "0.1.84",
+        "sw_version": "0.1.90",
         "via_device_id": null
       },
       {
@@ -193,7 +193,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "NGINX Home Assistant SSL proxy",
-        "sw_version": "3.4.0",
+        "sw_version": "3.5.0",
         "via_device_id": null
       },
       {
@@ -241,7 +241,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "AppDaemon",
-        "sw_version": "0.12.1",
+        "sw_version": "0.13.5",
         "via_device_id": null
       },
       {
@@ -265,7 +265,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Z-Wave JS UI",
-        "sw_version": "1.11.0",
+        "sw_version": "1.16.0",
         "via_device_id": null
       },
       {
@@ -289,7 +289,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "AirCast",
-        "sw_version": "3.5.2",
+        "sw_version": "3.6.0",
         "via_device_id": null
       },
       {
@@ -381,11 +381,11 @@
             "7zgq7icgmalr8id3r9iw8nkl"
           ]
         ],
-        "manufacturer": "Plex",
+        "manufacturer": "Xbox",
         "model": "Plex for Xbox",
         "name_by_user": null,
         "name": "Plex (Plex for Xbox - ONEELITE)",
-        "sw_version": "5.59.3",
+        "sw_version": "5.67.2",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -433,7 +433,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (Stand_Up_Penguin - Plex for Android (TV) - Chromecast Google TV)",
-        "sw_version": "9.21.3.1621",
+        "sw_version": "9.30.0.3604",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -457,7 +457,7 @@
         "model": "Plex for Xbox",
         "name_by_user": null,
         "name": "Plex (Stand_Up_Penguin - Plex for Xbox - XBOXONE)",
-        "sw_version": "5.62.0",
+        "sw_version": "5.67.2",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -494,7 +494,7 @@
         "model": "BSB002",
         "name_by_user": null,
         "name": "841 N 4th",
-        "sw_version": "1.58.1958077010",
+        "sw_version": "1.60.1960062030",
         "via_device_id": null
       },
       {
@@ -523,7 +523,7 @@
         "model": "Hue white lamp (LWB006)",
         "name_by_user": null,
         "name": "Powder Room 1",
-        "sw_version": "130.1.30000",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -552,7 +552,7 @@
         "model": "Hue white lamp (LWB006)",
         "name_by_user": null,
         "name": "Powder Room 2",
-        "sw_version": "130.1.30000",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -581,7 +581,7 @@
         "model": "Hue white lamp (LWB006)",
         "name_by_user": null,
         "name": "Master Bedroom Lamp",
-        "sw_version": "130.1.30000",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -610,7 +610,7 @@
         "model": "Hue white lamp (LWB006)",
         "name_by_user": null,
         "name": "Master Bathroom 4",
-        "sw_version": "130.1.30000",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -639,7 +639,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Living Room Right 2",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -697,7 +697,7 @@
         "model": "Hue color lamp (LCT007)",
         "name_by_user": null,
         "name": "Master Bedroom 2",
-        "sw_version": "67.101.2",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -726,7 +726,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Living Room Right 3",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -755,7 +755,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Living Room Left 2",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -784,7 +784,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Living Room Right 1",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -813,7 +813,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Living Room Left 1",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -842,7 +842,7 @@
         "model": "Hue ambiance downlight (LTW011)",
         "name_by_user": null,
         "name": "Kitchen Window",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -871,7 +871,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Master Bedroom Fan 1",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -900,7 +900,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Master Bedroom Fan 2",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -929,7 +929,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Master Bedroom Fan 3",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1161,7 +1161,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Floor Lamp 1",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1190,7 +1190,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Floor Lamp 3",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1219,7 +1219,7 @@
         "model": "Hue color candle (LCT012)",
         "name_by_user": null,
         "name": "Floor Lamp 2",
-        "sw_version": "1.101.2",
+        "sw_version": "1.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -1243,7 +1243,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
-        "sw_version": "9.23.0.1746",
+        "sw_version": "9.29.1.3463",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1559,30 +1559,6 @@
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
-        "area_id": null,
-        "config_entries": [
-          "acc5f26c48a62e9ce4c91cc99869c118"
-        ],
-        "configuration_url": null,
-        "connections": [],
-        "disabled_by": null,
-        "entry_type": null,
-        "hw_version": null,
-        "id": "03ac9838f7e3970b7f4fca7b61905870",
-        "identifiers": [
-          [
-            "plex",
-            "df3c6a5674e79416-com-plexapp-android"
-          ]
-        ],
-        "manufacturer": "Plex",
-        "model": "Plex for Android (Mobile)",
-        "name_by_user": null,
-        "name": "Plex (Plex for Android (Mobile) - Pixel 3)",
-        "sw_version": "9.9.0.35519",
-        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
-      },
-      {
         "area_id": "b07e933677b74f6e8297b7447ea52bc5",
         "config_entries": [
           "bf072dbf8df9ee0438b9da47fdd3f6b6"
@@ -1693,7 +1669,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (ywolok - Plex for Android (TV) - BRAVIA 4K GB)",
-        "sw_version": "9.23.0.1746",
+        "sw_version": "9.30.0.3604",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1717,7 +1693,7 @@
         "model": "Plex for PlayStation 5",
         "name_by_user": null,
         "name": "Plex (ywolok - Plex for PlayStation 5 - PS5-YarivWolok)",
-        "sw_version": "5.59.3",
+        "sw_version": "5.69.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1837,7 +1813,7 @@
         "model": "Plex for iOS",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for iOS - iPad)",
-        "sw_version": "8.14",
+        "sw_version": "8.21",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -1908,7 +1884,7 @@
         "manufacturer": "Chromecast",
         "model": "Plex Cast",
         "name_by_user": null,
-        "name": "Plex (ben.ol1 - Plex Cast - Chromecast)",
+        "name": "Plex (roweh - Plex Cast - Chromecast)",
         "sw_version": "4.54.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
@@ -1981,7 +1957,7 @@
         "model": "Plex for LG",
         "name_by_user": null,
         "name": "Plex (gregory238 - Plex for LG - LG OLED65G1PUA)",
-        "sw_version": "5.62.0",
+        "sw_version": "5.67.2",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2029,7 +2005,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (SmoothJayP - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.18.1",
+        "sw_version": "8.25",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2077,7 +2053,7 @@
         "model": "Plex for Xbox",
         "name_by_user": null,
         "name": "Plex (daveyayoh - Plex for Xbox - XBOX)",
-        "sw_version": "5.62.0",
+        "sw_version": "5.67.2",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2124,8 +2100,8 @@
         "manufacturer": "iOS",
         "model": "Plex for iOS",
         "name_by_user": null,
-        "name": "Plex (jdyankee5 - Plex for iOS - John Fretta’s iPad)",
-        "sw_version": "7.27",
+        "name": "Plex (jdyankee5 - Plex for iOS - iPad)",
+        "sw_version": "8.24",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2197,7 +2173,7 @@
         "model": "Plex for Roku",
         "name_by_user": null,
         "name": "Plex (gregory238 - Plex for Roku - Roku Streaming Stick+)",
-        "sw_version": "7.0.24.8154-127760991-Plex",
+        "sw_version": "7.5.1.8478-3c6b7ee36-Plex",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -2249,7 +2225,7 @@
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
-        "area_id": null,
+        "area_id": "5d80fa964f644c86b663078bf886cab6",
         "config_entries": [
           "d7a79084aa65080d6b208a380754564b"
         ],
@@ -2365,7 +2341,7 @@
         "model": "iPhone14,2",
         "name_by_user": "Jose iPhone",
         "name": "Jose (2)",
-        "sw_version": "16.5.1",
+        "sw_version": "16.6.1",
         "via_device_id": null
       },
       {
@@ -2389,7 +2365,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.6.2",
+        "sw_version": "2023.9.2",
         "via_device_id": null
       },
       {
@@ -2413,7 +2389,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2023.06.2",
+        "sw_version": "2023.09.2",
         "via_device_id": null
       },
       {
@@ -2726,11 +2702,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-7"
+            "3841383369-7-99:18770:12595"
           ],
           [
             "zwave_js",
-            "3841383369-7-99:18770:12595"
+            "3841383369-7"
           ]
         ],
         "manufacturer": "GE",
@@ -2763,7 +2739,7 @@
         ],
         "manufacturer": "AEON Labs",
         "model": "ZW100",
-        "name_by_user": "MultiSensor",
+        "name_by_user": "Powder Room MultiSensor",
         "name": "MultiSensor 6",
         "sw_version": "1.7",
         "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
@@ -2810,11 +2786,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-13"
+            "3841383369-13-99:18756:12853"
           ],
           [
             "zwave_js",
-            "3841383369-13-99:18756:12853"
+            "3841383369-13"
           ]
         ],
         "manufacturer": "GE/Enbrighten",
@@ -2838,11 +2814,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-14-99:18770:12595"
+            "3841383369-14"
           ],
           [
             "zwave_js",
-            "3841383369-14"
+            "3841383369-14-99:18770:12595"
           ]
         ],
         "manufacturer": "GE",
@@ -2903,7 +2879,7 @@
         ],
         "manufacturer": "AEON Labs",
         "model": "ZW100",
-        "name_by_user": "MultiSensor",
+        "name_by_user": "Living Room MultiSensor",
         "name": "MultiSensor 6",
         "sw_version": "1.7",
         "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
@@ -2922,11 +2898,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-17-99:18770:12597"
+            "3841383369-17"
           ],
           [
             "zwave_js",
-            "3841383369-17"
+            "3841383369-17-99:18770:12597"
           ]
         ],
         "manufacturer": "GE/Enbrighten",
@@ -3158,7 +3134,7 @@
         "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
       },
       {
-        "area_id": null,
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
         "config_entries": [
           "d7a79084aa65080d6b208a380754564b"
         ],
@@ -3250,7 +3226,7 @@
         "model": "Plex for Roku",
         "name_by_user": null,
         "name": "Plex (halman1321 - Plex for Roku - Roku Ultra Boss Bitch)",
-        "sw_version": "7.1.1.8323-1967c5acb-Plex",
+        "sw_version": "7.8.4.8626-d8e2925463-Plex",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -3347,11 +3323,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-29"
+            "3841383369-29-838:513:769"
           ],
           [
             "zwave_js",
-            "3841383369-29-838:513:769"
+            "3841383369-29"
           ]
         ],
         "manufacturer": "Ring",
@@ -3375,11 +3351,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-30-838:513:769"
+            "3841383369-30"
           ],
           [
             "zwave_js",
-            "3841383369-30"
+            "3841383369-30-838:513:769"
           ]
         ],
         "manufacturer": "Ring",
@@ -3543,11 +3519,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-36"
+            "3841383369-36-271:3841:8192"
           ],
           [
             "zwave_js",
-            "3841383369-36-271:3841:8192"
+            "3841383369-36"
           ]
         ],
         "manufacturer": "Fibargroup",
@@ -3710,7 +3686,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (rpanitch - Plex for Android (TV) - AFTR)",
-        "sw_version": "9.6.2.34353",
+        "sw_version": "9.28.0.3162",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -3812,7 +3788,7 @@
       {
         "area_id": null,
         "config_entries": [
-          "3388a71254134fdf727dd3c34b04b089"
+          "de2961fe2e0e636b0ffd0e74293a47f8"
         ],
         "configuration_url": null,
         "connections": [],
@@ -3829,7 +3805,7 @@
         "manufacturer": "Google",
         "model": "Pixel 7 Pro",
         "name_by_user": null,
-        "name": "Pixel 7 Pro",
+        "name": "Oren's Pixel 7 Pro",
         "sw_version": "33",
         "via_device_id": null
       },
@@ -3854,7 +3830,7 @@
         "model": "Plex for Android (Mobile)",
         "name_by_user": null,
         "name": "Plex (Plex for Android (Mobile) - Pixel 7 Pro)",
-        "sw_version": "9.24.0.2105",
+        "sw_version": "10.0.0.4149",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -3882,7 +3858,7 @@
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
-        "area_id": null,
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
         "config_entries": [
           "d7a79084aa65080d6b208a380754564b"
         ],
@@ -3926,7 +3902,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (jdyankee5 - Plex for Android (TV) - AFTMM)",
-        "sw_version": "9.21.2.1271",
+        "sw_version": "9.31.0.3817",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -3949,8 +3925,8 @@
         "manufacturer": "Android",
         "model": "Plex for Android (Mobile)",
         "name_by_user": null,
-        "name": "Plex (jdyankee5 - Plex for Android (Mobile) - L ONE TOUCH 601)",
-        "sw_version": "9.12.2.36964",
+        "name": "Plex (jdyankee5 - Plex for Android (Mobile) - OnePlus)",
+        "sw_version": "9.27.0.2856",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4022,7 +3998,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (jules.s7 - Plex for Android (TV) - Smart TV Pro)",
-        "sw_version": "9.23.0.1746",
+        "sw_version": "9.31.0.3817",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4046,7 +4022,7 @@
         "model": "Plex for Android (TV)",
         "name_by_user": null,
         "name": "Plex (SmoothJayP - Plex for Android (TV) - Chromecast Google TV)",
-        "sw_version": "9.13.1.37459",
+        "sw_version": "9.31.0.3817",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4070,7 +4046,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.19",
+        "sw_version": "8.24",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4094,7 +4070,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.19.1",
+        "sw_version": "8.22",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4118,7 +4094,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.20",
+        "sw_version": "8.24",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4214,11 +4190,11 @@
         "model": "Plex for Roku",
         "name_by_user": null,
         "name": "Plex (gregory238 - Plex for Roku - Streaming Stick 4K)",
-        "sw_version": "7.0.23.8111-8c8a6a9b7-Plex",
+        "sw_version": "7.7.2.8556-536b352d0-Plex",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
-        "area_id": null,
+        "area_id": "b07e933677b74f6e8297b7447ea52bc5",
         "config_entries": [
           "d7a79084aa65080d6b208a380754564b"
         ],
@@ -4310,7 +4286,7 @@
         "model": "Plex for Roku",
         "name_by_user": null,
         "name": "Plex (halman1321 - Plex for Roku - Roku Premiere 3)",
-        "sw_version": "7.0.30.8287-6dae31a4f-Plex",
+        "sw_version": "7.8.4.8626-d8e2925463-Plex",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4358,7 +4334,7 @@
         "model": "Plex for PlayStation 4",
         "name_by_user": null,
         "name": "Plex (Plex for PlayStation 4 - PS4-121)",
-        "sw_version": "5.62.0",
+        "sw_version": "5.69.1",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4430,7 +4406,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Log Viewer",
-        "sw_version": "0.15.0",
+        "sw_version": "0.15.1",
         "via_device_id": null
       },
       {
@@ -4598,7 +4574,7 @@
         "model": "Plex for Apple TV",
         "name_by_user": null,
         "name": "Plex (jbarufkin - Plex for Apple TV - Apple TV)",
-        "sw_version": "8.20",
+        "sw_version": "8.25",
         "via_device_id": "1e466a5e51b31587b35f837d70d92336"
       },
       {
@@ -4691,7 +4667,7 @@
           ]
         ],
         "manufacturer": "python-holidays",
-        "model": "0.21.13",
+        "model": "0.28",
         "name_by_user": null,
         "name": "Work Day",
         "sw_version": null,
@@ -5003,7 +4979,7 @@
         "model": "Hue color lamp (LCT007)",
         "name_by_user": null,
         "name": "Master Bathroom 2",
-        "sw_version": "67.101.2",
+        "sw_version": "67.108.5",
         "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
       },
       {
@@ -5087,6 +5063,484 @@
         "name": "Sony KDL-65W850A",
         "sw_version": null,
         "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0b5e2858f4daa5f924079ab50dd12016",
+        "identifiers": [
+          [
+            "plex",
+            "6xv6gpjbx43x06706bhcnezj"
+          ]
+        ],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "name_by_user": null,
+        "name": "Plex (roweh - Plex Cast - Chromecast)",
+        "sw_version": "4.54.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": "2abdb45a3b684067855d330094e9b2e7",
+        "config_entries": [
+          "9e658fbed7b473c262a1bcac2adab678"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "90af7d8c2e8a0ba3f15f79fbb344b12a",
+        "identifiers": [
+          [
+            "zwave_js",
+            "3841383369-42-838:3073:769"
+          ],
+          [
+            "zwave_js",
+            "3841383369-42"
+          ]
+        ],
+        "manufacturer": "Ring",
+        "model": "B0923BK77S",
+        "name_by_user": "Shed Door",
+        "name": "Outdoor Contact Sensor",
+        "sw_version": "1.24.0",
+        "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2772bfed0944c3933c3088192b95724b",
+        "identifiers": [
+          [
+            "plex",
+            "707a6840-ec41-4d13-afc2-ce36e4ab524b"
+          ]
+        ],
+        "manufacturer": "Vizio SmartCast",
+        "model": "Plex for Vizio",
+        "name_by_user": null,
+        "name": "Plex (djbo723 - Plex for Vizio - Living Room TV)",
+        "sw_version": "5.64.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "77f7c0ac2ccf1e1f8f2afad624f30da8",
+        "identifiers": [
+          [
+            "plex",
+            "ar2agcc1le8b11ixxmx7i4ig"
+          ]
+        ],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "name_by_user": null,
+        "name": "Plex (jbarufkin - Plex Cast - Chromecast)",
+        "sw_version": "4.54.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "043dd194b3ba9a324a26021f29fb55d5",
+        "identifiers": [
+          [
+            "plex",
+            "wdys5ucpl4sd9ttxe8ktk2ll"
+          ]
+        ],
+        "manufacturer": "PlayStation",
+        "model": "Plex for PlayStation 5",
+        "name_by_user": null,
+        "name": "Plex (SmoothJayP - Plex for PlayStation 5 - PSmooth5)",
+        "sw_version": "5.64.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a1c46a972330d64200bf334b147a4674",
+        "identifiers": [
+          [
+            "plex",
+            "xctes3vu6p8f61anuzzdn9h9"
+          ]
+        ],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "name_by_user": null,
+        "name": "Plex (djbo723 - Plex Cast - Chromecast)",
+        "sw_version": "4.54.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "391572f1f8a7d7ef7751f2e34eada8bc",
+        "identifiers": [
+          [
+            "plex",
+            "4F10B4AC-CC07-46E3-9EB3-45EBCDD911F1"
+          ]
+        ],
+        "manufacturer": "iOS",
+        "model": "Plex for iOS",
+        "name_by_user": null,
+        "name": "Plex (djbo723 - Plex for iOS - iPhone)",
+        "sw_version": "8.22",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fd2c17ceddc517d3c33134029b736209",
+        "identifiers": [
+          [
+            "plex",
+            "41CA5B75-9240-4CBF-B05B-87A99D332B79"
+          ]
+        ],
+        "manufacturer": "iOS",
+        "model": "Plex for iOS",
+        "name_by_user": null,
+        "name": "Plex (JennyFretta - Plex for iOS - iPhone)",
+        "sw_version": "8.23",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "313ab92ed5df81a8a64e7eb55f89dde1",
+        "identifiers": [
+          [
+            "plex",
+            "fhskiuefbxjrj6rjoh7p4plc"
+          ]
+        ],
+        "manufacturer": "Chromecast",
+        "model": "Plex Cast",
+        "name_by_user": null,
+        "name": "Plex (Plex Cast - Chromecast)",
+        "sw_version": "4.54.1",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5ffd9ffdb36c5829e7584c0fe3d93a1c",
+        "identifiers": [
+          [
+            "plex",
+            "4E3DD2D4-39CD-41E7-8507-88EEDFC9B735"
+          ]
+        ],
+        "manufacturer": "iOS",
+        "model": "Plex for iOS",
+        "name_by_user": null,
+        "name": "Plex (halman1321 - Plex for iOS - iPhone)",
+        "sw_version": "8.24",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0101ac83f7c3b352d12c9636a379ae50",
+        "identifiers": [
+          [
+            "plex",
+            "252F8081-E4C1-4092-825B-4CC857912F13"
+          ]
+        ],
+        "manufacturer": "iOS",
+        "model": "Plex for iOS",
+        "name_by_user": null,
+        "name": "Plex (daveyayoh - Plex for iOS - iPhone)",
+        "sw_version": "8.24",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "d7a79084aa65080d6b208a380754564b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0ee85c108abf1b921158435bc0fa2c61",
+        "identifiers": [
+          [
+            "cast",
+            "f2b6ab47c3ac1df1def3de601d0dae14"
+          ]
+        ],
+        "manufacturer": "Unknown manufacturer",
+        "model": "E65u-D3",
+        "name_by_user": null,
+        "name": "VizioCastDisplay9678",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "97e7a51c924a49339cf6c2ce75f79f87",
+        "config_entries": [
+          "9e658fbed7b473c262a1bcac2adab678"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a2517bd2666e2ca4f2cb56f72b154094",
+        "identifiers": [
+          [
+            "zwave_js",
+            "3841383369-43"
+          ],
+          [
+            "zwave_js",
+            "3841383369-43-29:13313:1"
+          ]
+        ],
+        "manufacturer": "Leviton",
+        "model": "DZ15S",
+        "name_by_user": "Kitchen Light Switch",
+        "name": "Scene Capable Switch On/Off",
+        "sw_version": "1.15",
+        "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ea7d644b8f37bf5e39fe9f31a88874d3",
+        "identifiers": [
+          [
+            "plex",
+            "DE86614E-F09C-4AB8-AC3D-C93872D5B75B"
+          ]
+        ],
+        "manufacturer": "tvOS",
+        "model": "Plex for Apple TV",
+        "name_by_user": null,
+        "name": "Plex (jules.s7 - Plex for Apple TV - Apple TV)",
+        "sw_version": "8.25",
+        "via_device_id": "1e466a5e51b31587b35f837d70d92336"
+      },
+      {
+        "area_id": "5d80fa964f644c86b663078bf886cab6",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:02:10:43"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b93d652269b7c74f89ea10ebf05a73d1",
+        "identifiers": [
+          [
+            "hue",
+            "37495e51-bfae-4ece-a71c-662b8daacd81"
+          ]
+        ],
+        "manufacturer": "GE_Appliances",
+        "model": "Dimmable light (ZLL Light)",
+        "name_by_user": null,
+        "name": "Stairs 1",
+        "sw_version": "3.4.0",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "5d80fa964f644c86b663078bf886cab6",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "7c:e5:24:00:00:03:46:db"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f7c51914768c4c9806460187a9ca80ee",
+        "identifiers": [
+          [
+            "hue",
+            "4f61856f-31f9-409a-9757-9a12d618063a"
+          ]
+        ],
+        "manufacturer": "GE_Appliances",
+        "model": "Dimmable light (ZLL Light)",
+        "name_by_user": null,
+        "name": "Stairs 2",
+        "sw_version": "3.4.0",
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": "5d80fa964f644c86b663078bf886cab6",
+        "config_entries": [
+          "9e658fbed7b473c262a1bcac2adab678"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "329e362698f54065301cf496f5d9ac9f",
+        "identifiers": [
+          [
+            "zwave_js",
+            "3841383369-44"
+          ],
+          [
+            "zwave_js",
+            "3841383369-44-99:18770:12342"
+          ]
+        ],
+        "manufacturer": "GE",
+        "model": "14291 / ZW4005",
+        "name_by_user": "Stairs Light Switch",
+        "name": "In-Wall Paddle Switch, 500S",
+        "sw_version": "5.24",
+        "via_device_id": "b4b3fe4f28cd12d615d003abdc89c58c"
+      },
+      {
+        "area_id": "stairs",
+        "config_entries": [
+          "722f60d99596005e1c4a87fcf556da38"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f680e1c575462a1f4b15cd0a71558867",
+        "identifiers": [
+          [
+            "hue",
+            "0572926f-72cb-43bc-ad5c-913bdd120064"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Room",
+        "name_by_user": null,
+        "name": "Stairs",
+        "sw_version": null,
+        "via_device_id": "5e2e3ebdd9c58092565e741d5a39e6cb"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "7d89b88038545d850e3a0f696da48049"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "88143f98c1a78d285a5c412c931bd680",
+        "identifiers": [
+          [
+            "cert_expiry",
+            "opsmart.duckdns.org:443"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "opsmart.duckdns.org",
+        "sw_version": null,
+        "via_device_id": null
       }
     ],
     "deleted_devices": [
@@ -5098,11 +5552,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-20-144:3:1088"
+            "3841383369-20"
           ],
           [
             "zwave_js",
-            "3841383369-20"
+            "3841383369-20-144:3:1088"
           ]
         ],
         "id": "d9abe78400a506e7f3a893d6a12511f2",
@@ -5134,11 +5588,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-39-99:18770:12855"
+            "3841383369-39"
           ],
           [
             "zwave_js",
-            "3841383369-39"
+            "3841383369-39-99:18770:12855"
           ]
         ],
         "id": "c8e54bee4762c867c75ca31320dd58cb",
@@ -5152,11 +5606,11 @@
         "identifiers": [
           [
             "zwave_js",
-            "3841383369-6-99:18770:12342"
+            "3841383369-6"
           ],
           [
             "zwave_js",
-            "3841383369-6"
+            "3841383369-6-99:18770:12342"
           ]
         ],
         "id": "9893f53d888701a7923b505aeb91d81f",
@@ -5198,23 +5652,6 @@
         ],
         "id": "9c32ea96608a47fb133d86d037672383",
         "orphaned_timestamp": null
-      },
-      {
-        "config_entries": [],
-        "connections": [
-          [
-            "mac",
-            "d0:73:d5:3a:3c:40"
-          ]
-        ],
-        "identifiers": [
-          [
-            "lifx",
-            "d0:73:d5:3a:3c:40"
-          ]
-        ],
-        "id": "2a532b4dbcd94ac0ae576d4f087bb2da",
-        "orphaned_timestamp": 1687303136.0304956
       },
       {
         "config_entries": [
@@ -5290,6 +5727,38 @@
           ]
         ],
         "id": "7edee096addb640247693dad7e81dcc8",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "acc5f26c48a62e9ce4c91cc99869c118"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "plex",
+            "df3c6a5674e79416-com-plexapp-android"
+          ]
+        ],
+        "id": "03ac9838f7e3970b7f4fca7b61905870",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "9e658fbed7b473c262a1bcac2adab678"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "zwave_js",
+            "3841383369-41-838:3073:769"
+          ],
+          [
+            "zwave_js",
+            "3841383369-41"
+          ]
+        ],
+        "id": "aef1ab309578e58940263a48582dfd19",
         "orphaned_timestamp": null
       }
     ]

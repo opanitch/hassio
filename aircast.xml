@@ -19,6 +19,42 @@
 <ports>0:0</ports>
 <binding>?</binding>
 <device>
+<udn>f2b6ab47c3ac1df1def3de601d0dae14</udn>
+<name>VizioCastDisplay9678+</name>
+<mac>cc:cc:ee:7e:93:5e</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>65a9acea-2dbf-48de-8a11-aaa630706bd9</udn>
+<name>Kitchen Assistant + 1+</name>
+<mac>cc:cc:8e:e3:22:ee</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>63b6db38-ccbd-4c31-bbd6-d574eee4a2f3</udn>
+<name>Kitchen Assistant + 1+</name>
+<mac>cc:cc:c3:8c:ab:81</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>30b2b304-1d35-470c-b84d-2850774d0b3e</udn>
+<name>Living Room speaker + 1+</name>
+<mac>cc:cc:f5:ce:57:64</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>c3d3524e-a0f3-40d5-9a16-6779d55a2dc6</udn>
+<name>Kitchen Assistant + 1+</name>
+<mac>cc:cc:29:ec:2b:ca</mac>
+<enabled>1</enabled>
+</device>
+<device>
+<udn>87dfb539-ad4d-4633-be8e-92b708d9ea23</udn>
+<name>Kitchen Assistant + 1+</name>
+<mac>cc:cc:ba:5d:de:3e</mac>
+<enabled>1</enabled>
+</device>
+<device>
 <udn>61e6643c9b16eb2262eafddee16d3a31</udn>
 <name>Living Room speaker+</name>
 <mac>cc:cc:33:f2:7b:74</mac>
