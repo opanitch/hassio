@@ -152,7 +152,7 @@ cards:
       - type: conditional
         conditions:
           - entity: select.841_home_activities
-            state: "Play PS4"
+            state: "Play Xbox One"
         card:
           type: grid
           columns: 3
@@ -160,15 +160,15 @@ cards:
           cards:
             # PS button
             - type: button
-              icon: mdi:sony-playstation
+              icon: mdi:microsoft-xbox
               tap_action:
                 action: call-service
                 service: remote.send_command
                 target:
                   entity_id: remote.841_home
                 data:
-                  command: PS
-                  device: 79638202
+                  command: Xbox
+                  device: 75066375
               hold_action:
                 action: none
             # Up
@@ -181,7 +181,7 @@ cards:
                   entity_id: remote.841_home
                 data:
                   command: DirectionUp
-                  device: 79638202
+                  device: 75066375
               hold_action:
                 action: none
             # menu/options
@@ -193,8 +193,8 @@ cards:
                 target:
                   entity_id: remote.841_home
                 data:
-                  command: Options
-                  device: 79638202
+                  command: Menu
+                  device: 75066375
               hold_action:
                 action: none
             # left
@@ -207,7 +207,7 @@ cards:
                   entity_id: remote.841_home
                 data:
                   command: DirectionLeft
-                  device: 79638202
+                  device: 75066375
               hold_action:
                 action: none
             # enter/confirm
@@ -219,8 +219,8 @@ cards:
                 target:
                   entity_id: remote.841_home
                 data:
-                  command: Ok
-                  device: 79638202
+                  command: OK
+                  device: 75066375
               hold_action:
                 action: none
             # right
@@ -233,7 +233,7 @@ cards:
                   entity_id: remote.841_home
                 data:
                   command: DirectionRight
-                  device: 79638202
+                  device: 75066375
               hold_action:
                 action: none
             # back/return
@@ -245,8 +245,8 @@ cards:
                 target:
                   entity_id: remote.841_home
                 data:
-                  command: Circle
-                  device: 79638202
+                  command: Back
+                  device: 75066375
               hold_action:
                 action: none
             # down
@@ -259,7 +259,7 @@ cards:
                   entity_id: remote.841_home
                 data:
                   command: DirectionDown
-                  device: 79638202
+                  device: 75066375
               hold_action:
                 action: none
             # spacer
