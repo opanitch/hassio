@@ -4,7 +4,7 @@ home-assistant_v2.db*
 home-assistant.log
 pyozw.sqlite
 secrets.yaml
-.storage/auth*
+.storage/**/*
 # .storage/core.config*
 # .storage/core.device_registry
 # .storage/core.entity_registry
