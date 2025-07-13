@@ -440,3 +440,395 @@ unknown_fe_7a_bc_53_12_6b:
   icon:
   picture:
   track: true
+
+watch_6:
+  name: Watch
+  mac: 92:70:CE:71:F4:A8
+  icon:
+  picture:
+  track: true
+
+unknown_3a_27_b0_1b_ff_d8:
+  name: unknown_3a:27:b0:1b:ff:d8
+  mac: 3A:27:B0:1B:FF:D8
+  icon:
+  picture:
+  track: true
+
+watch_7:
+  name: Watch
+  mac: 62:33:9D:9B:44:EB
+  icon:
+  picture:
+  track: true
+
+unknown_02_8c_09_d1_0d_12:
+  name: unknown_02:8c:09:d1:0d:12
+  mac: 02:8C:09:D1:0D:12
+  icon:
+  picture:
+  track: true
+
+watch_8:
+  name: Watch
+  mac: C2:74:F4:97:34:65
+  icon:
+  picture:
+  track: true
+
+watch_9:
+  name: Watch
+  mac: 4A:38:19:02:70:A8
+  icon:
+  picture:
+  track: true
+
+watch_10:
+  name: Watch
+  mac: 36:1E:02:94:23:77
+  icon:
+  picture:
+  track: true
+
+unknown_ee_d4_0f_82_d1_8c:
+  name: unknown_ee:d4:0f:82:d1:8c
+  mac: EE:D4:0F:82:D1:8C
+  icon:
+  picture:
+  track: true
+
+unknown_04_09_86_01_0d_89:
+  name: unknown_04:09:86:01:0d:89
+  mac: 04:09:86:01:0D:89
+  icon:
+  picture:
+  track: true
+
+unknown_1c_98_c1_01_c4_3c:
+  name: unknown_1c:98:c1:01:c4:3c
+  mac: 1C:98:C1:01:C4:3C
+  icon:
+  picture:
+  track: true
+
+mac:
+  name: Mac
+  mac: 5A:36:C9:97:F4:67
+  icon:
+  picture:
+  track: true
+
+pixel_7_pro_3:
+  name: Pixel-7-Pro
+  mac: 62:C6:07:60:81:C6
+  icon:
+  picture:
+  track: true
+
+levoit_humidifier:
+  name: Levoit-Humidifier
+  mac: 78:EE:4C:2D:84:BC
+  icon:
+  picture:
+  track: true
+
+lgwebostv:
+  name: LGwebOSTV
+  mac: 84:A3:29:85:00:9E
+  icon:
+  picture:
+  track: true
+
+bedroom:
+  name: Bedroom
+  mac: A4:CF:99:AF:47:30
+  icon:
+  picture:
+  track: true
+
+iphone_2:
+  name: iPhone
+  mac: CE:BD:1C:34:50:16
+  icon:
+  picture:
+  track: true
+
+unknown_7e_77_b7_56_da_07:
+  name: unknown_7e:77:b7:56:da:07
+  mac: 7E:77:B7:56:DA:07
+  icon:
+  picture:
+  track: true
+
+iphone_3:
+  name: iPhone
+  mac: A6:48:67:BC:28:26
+  icon:
+  picture:
+  track: true
+
+watch:
+  name: Watch
+  mac: C6:E6:AD:18:68:C6
+  icon:
+  picture:
+  track: true
+
+iphone_4:
+  name: iPhone
+  mac: 76:AE:B2:3E:20:67
+  icon:
+  picture:
+  track: true
+
+watch_2:
+  name: Watch
+  mac: C6:1D:EB:65:37:4D
+  icon:
+  picture:
+  track: true
+
+unknown_1e_2d_86_1e_05_24:
+  name: unknown_1e:2d:86:1e:05:24
+  mac: 1E:2D:86:1E:05:24
+  icon:
+  picture:
+  track: true
+
+watch_3:
+  name: Watch
+  mac: 82:86:46:BE:F7:13
+  icon:
+  picture:
+  track: true
+
+watch_4:
+  name: Watch
+  mac: 42:03:19:FC:1E:47
+  icon:
+  picture:
+  track: true
+
+win_i5rj39tppoe:
+  name: WIN-I5RJ39TPPOE
+  mac: C0:4B:24:F0:9B:9E
+  icon:
+  picture:
+  track: true
+
+win_i5rj39tppoe_2:
+  name: WIN-I5RJ39TPPOE
+  mac: C8:FF:BF:00:27:F9
+  icon:
+  picture:
+  track: true
+
+garmin_edge_1040_0f03ce970f03:
+  name: garmin-Edge-1040-0f03ce970f03
+  mac: 38:F9:F5:5E:B5:55
+  icon:
+  picture:
+  track: true
+
+watch_5:
+  name: Watch
+  mac: F2:05:54:05:9A:15
+  icon:
+  picture:
+  track: true
+
+iphone_5:
+  name: iPhone
+  mac: E6:6A:20:19:FD:1A
+  icon:
+  picture:
+  track: true
+
+watch_11:
+  name: Watch
+  mac: A2:42:FC:15:8C:3F
+  icon:
+  picture:
+  track: true
+
+unknown_fe_35_0a_e9_47_ca:
+  name: unknown_fe:35:0a:e9:47:ca
+  mac: FE:35:0A:E9:47:CA
+  icon:
+  picture:
+  track: true
+
+watch_12:
+  name: Watch
+  mac: 42:A0:CE:47:69:86
+  icon:
+  picture:
+  track: true
+
+watch_13:
+  name: Watch
+  mac: 46:09:D4:CB:D4:57
+  icon:
+  picture:
+  track: true
+
+watch_14:
+  name: Watch
+  mac: C6:F5:F3:11:00:B4
+  icon:
+  picture:
+  track: true
+
+watch_15:
+  name: Watch
+  mac: EE:A6:FD:19:5D:68
+  icon:
+  picture:
+  track: true
+
+watch_16:
+  name: Watch
+  mac: 3A:ED:A7:D7:17:69
+  icon:
+  picture:
+  track: true
+
+watch_17:
+  name: Watch
+  mac: 4A:0C:DF:32:FC:4E
+  icon:
+  picture:
+  track: true
+
+watch_18:
+  name: Watch
+  mac: A2:B1:0A:BE:DA:E6
+  icon:
+  picture:
+  track: true
+
+unknown_9a_17_70_3c_1c_08:
+  name: unknown_9a:17:70:3c:1c:08
+  mac: 9A:17:70:3C:1C:08
+  icon:
+  picture:
+  track: true
+
+watch_19:
+  name: Watch
+  mac: 4E:9E:33:DE:40:9F
+  icon:
+  picture:
+  track: true
+
+watch_20:
+  name: Watch
+  mac: 7E:35:9F:B7:E5:F9
+  icon:
+  picture:
+  track: true
+
+watch_21:
+  name: Watch
+  mac: 2A:62:AB:70:93:86
+  icon:
+  picture:
+  track: true
+
+iphone_6:
+  name: iPhone
+  mac: 16:EC:D6:D2:2A:D8
+  icon:
+  picture:
+  track: true
+
+watch_22:
+  name: Watch
+  mac: 42:EF:27:21:C5:96
+  icon:
+  picture:
+  track: true
+
+watch_23:
+  name: Watch
+  mac: 1E:75:B6:79:14:37
+  icon:
+  picture:
+  track: true
+
+watch_24:
+  name: Watch
+  mac: 9E:CB:18:AE:7F:41
+  icon:
+  picture:
+  track: true
+
+watch_25:
+  name: Watch
+  mac: 22:96:3B:35:13:AE
+  icon:
+  picture:
+  track: true
+
+iphone_7:
+  name: iPhone
+  mac: AE:8F:A9:98:8D:7E
+  icon:
+  picture:
+  track: true
+
+unknown_3c_a9_ab_7b_03_b0:
+  name: unknown_3c:a9:ab:7b:03:b0
+  mac: 3C:A9:AB:7B:03:B0
+  icon:
+  picture:
+  track: true
+
+julians_mbp_2:
+  name: Julians-MBP-2
+  mac: 9C:3E:53:8C:E6:E7
+  icon:
+  picture:
+  track: true
+
+unknown_0a_ff_bd_89_d1_6b:
+  name: unknown_0a:ff:bd:89:d1:6b
+  mac: 0A:FF:BD:89:D1:6B
+  icon:
+  picture:
+  track: true
+
+iphone_8:
+  name: iPhone
+  mac: 5A:57:6F:C7:B3:71
+  icon:
+  picture:
+  track: true
+
+homeassistant_2:
+  name: homeassistant
+  mac: 20:F8:3B:01:70:2C
+  icon:
+  picture:
+  track: true
+
+ipad:
+  name: iPad
+  mac: 92:12:90:DD:8F:33
+  icon:
+  picture:
+  track: true
+
+unknown_a2_3c_2e_c3_f8_bd:
+  name: unknown_a2:3c:2e:c3:f8:bd
+  mac: A2:3C:2E:C3:F8:BD
+  icon:
+  picture:
+  track: true
+
+huesyncbox_c42996e1b600:
+  name: HueSyncBox-C42996E1B600
+  mac: C4:29:96:E1:B6:00
+  icon:
+  picture:
+  track: true

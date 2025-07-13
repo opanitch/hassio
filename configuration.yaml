@@ -5,7 +5,7 @@ homeassistant:
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
   external_url: !secret external_url
-  internal_url: !secret internal_url
+  internal_url: !secret external_url
   # location
   country: !secret zone_home_country
   elevation: !secret zone_home_elev

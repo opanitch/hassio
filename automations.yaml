@@ -374,3 +374,23 @@
       title: Alert
       message: Back gate has been opened
   mode: single
+- id: '1742312948319'
+  alias: Restart on Expiry
+  description: Restart HA Core to refresh DNS Cert
+  triggers:
+  - trigger: state
+    entity_id:
+    - sensor.opsmart_duckdns_org_cert_expiry
+    attribute: is_valid
+    to: false
+  conditions: []
+  actions:
+  - device_id: 8f834c195c589cd189cfcee4b99d93e0
+    domain: mobile_app
+    type: notify
+    message: DuckDNS Cert has expired.  System restart triggered.
+    title: System Restart
+  - action: homeassistant.restart
+    metadata: {}
+    data: {}
+  mode: single
