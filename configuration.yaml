@@ -14,7 +14,7 @@ homeassistant:
   time_zone: !secret zone_home_time_zone
   # measurement units
   currency: !secret zone_home_currency
-  unit_system: imperial
+  unit_system: us_customary
   # include person profiles
   customize: !include_dir_named customizations/
 
@@ -27,10 +27,10 @@ browser:
 cloud:
 config:
 conversation:
-# discovery: // prefer manual configuration
+# discovery: # prefer manual configuration
 frontend:
 # https://www.home-assistant.io/integrations/ios/
-# ios: // only need if more than 1 iPhone user needs the app. no use case now
+# ios: # only need if more than 1 iPhone user needs the app. no use case now
 ## UI Configuration
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
 lovelace: !include app/config/ui-config.yaml
@@ -72,7 +72,9 @@ nest: !include integrations/climate_control/nest_config.yaml
 sensor: !include_dir_merge_list integrations/sensors/
 template: !include_dir_merge_list integrations/templates/
 # upnp: !include integrations/network/upnp_config.yaml
+# weather: !include_dir_list integrations/weather/
 # zwave: !include integrations/zwave/zwave_config.yaml
+
 ### MQTT Config Section
 # mqtt: !include integrations/network/mqtt_config.yaml
 # lock: !include integrations/network/mqtt_lock.yaml
