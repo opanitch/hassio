@@ -35,6 +35,7 @@ frontend:
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
 lovelace: !include app/config/ui-config.yaml
 mobile_app:
+my:
 sun:
 stream:
 system_health:
