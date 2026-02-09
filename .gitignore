@@ -1,17 +1,145 @@
-# Individual File Ignores
-.HA_VERSION
-home-assistant_v2.db*
-home-assistant.log
-pyozw.sqlite
+# =============================================================================
+# Home Assistant .gitignore
+# =============================================================================
+# This file excludes all non-custom code, plugins, generated files, and 
+# sensitive data from git tracking. Only YOUR custom configuration should
+# be tracked.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# SENSITIVE DATA - NEVER COMMIT
+# -----------------------------------------------------------------------------
 secrets.yaml
-.storage/**/*
-# .storage/core.config*
-# .storage/core.device_registry
-# .storage/core.entity_registry
-# .storage/mobile_app
-# .storage/core.restore_state
-tts/*.mp3
+.xbox-token.json
+*.token
+*.key
+*.pem
+*.crt
+
+# -----------------------------------------------------------------------------
+# HOME ASSISTANT CORE FILES (Auto-generated)
+# -----------------------------------------------------------------------------
+.HA_VERSION
+home-assistant_v2.db
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+home-assistant.log
+home-assistant.log.*
+
+# Storage directory (contains runtime state, auth, registry)
+.storage/
+
+# -----------------------------------------------------------------------------
+# PYTHON ARTIFACTS
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+*.manifest
+*.spec
+
+# -----------------------------------------------------------------------------
+# PLUGINS & THIRD-PARTY INTEGRATIONS
+# -----------------------------------------------------------------------------
+# Exclude ALL custom_components by default (they're typically third-party)
+# If you have truly custom code YOU wrote, add an exception below
+custom_components/
+
+# Exception example - if you write your own integration:
+# !custom_components/my_custom_integration/
+
+# -----------------------------------------------------------------------------
+# STOCK BLUEPRINTS (Ship with Home Assistant)
+# -----------------------------------------------------------------------------
+blueprints/automation/homeassistant/
+blueprints/script/homeassistant/
+blueprints/template/homeassistant/
+
+# Keep custom blueprints - create your own directories like:
+# blueprints/automation/custom/
+# blueprints/script/custom/
+
+# -----------------------------------------------------------------------------
+# Z-WAVE GENERATED FILES
+# -----------------------------------------------------------------------------
+zwcfg_*.xml
+zwscene.xml
+OZW_Log.txt
+ozw*.log
+pyozw.sqlite
+
+# -----------------------------------------------------------------------------
+# DEVICE-SPECIFIC GENERATED FILES
+# -----------------------------------------------------------------------------
+# Harmony Hub
+harmony_*.conf
+
+# Aircast/Chromecast
+aircast.xml
+
+# Network discovery
+network_clients.json
+
+# IP Bans (runtime security)
+ip_bans.yaml
+
+# Known devices (auto-discovered)
+known_devices.yaml
+
+# OpenZWave options
+options.xml
+
+# -----------------------------------------------------------------------------
+# TTS CACHE
+# -----------------------------------------------------------------------------
+tts/
+*.mp3
+
+# -----------------------------------------------------------------------------
+# OPERATING SYSTEM FILES
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------------------------------------------------------
+# EDITOR/IDE FILES
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# -----------------------------------------------------------------------------
+# BACKUP FILES
+# -----------------------------------------------------------------------------
+*.backup
+*.old
+*copy*.*
 * copy*.*
 
-# Group Ignores
-# .storage
+# -----------------------------------------------------------------------------
+# OPTIONAL: Uncomment if you don't want to track these
+# -----------------------------------------------------------------------------
+# UI-managed automations (if you prefer UI-only management)
+# automations.yaml
+
+# UI-managed scripts
+# scripts.yaml
+
+# UI-managed scenes
+# scenes.yaml
