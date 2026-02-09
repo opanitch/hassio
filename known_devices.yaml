@@ -832,3 +832,269 @@ huesyncbox_c42996e1b600:
   icon:
   picture:
   track: true
+
+unknown_10_ae_60_ee_b8_3e:
+  name: unknown_10:ae:60:ee:b8:3e
+  mac: 10:AE:60:EE:B8:3E
+  icon:
+  picture:
+  track: true
+
+watch_26:
+  name: Watch
+  mac: AA:60:1B:EC:F4:D4
+  icon:
+  picture:
+  track: true
+
+watch_27:
+  name: Watch
+  mac: 1E:60:97:94:21:59
+  icon:
+  picture:
+  track: true
+
+iphone_9:
+  name: iPhone
+  mac: 68:EF:DC:51:F0:44
+  icon:
+  picture:
+  track: true
+
+iphone_10:
+  name: iPhone
+  mac: 76:FC:15:89:09:F8
+  icon:
+  picture:
+  track: true
+
+watch_28:
+  name: Watch
+  mac: 32:A9:DA:97:28:82
+  icon:
+  picture:
+  track: true
+
+watch_29:
+  name: Watch
+  mac: AA:75:EB:AE:05:62
+  icon:
+  picture:
+  track: true
+
+iphone_11:
+  name: iPhone
+  mac: 0A:38:5B:4E:AD:5D
+  icon:
+  picture:
+  track: true
+
+watch_30:
+  name: Watch
+  mac: 62:37:1E:DB:03:09
+  icon:
+  picture:
+  track: true
+
+unknown_de_1f_87_d1_b2_27:
+  name: unknown_de:1f:87:d1:b2:27
+  mac: DE:1F:87:D1:B2:27
+  icon:
+  picture:
+  track: true
+
+watch_31:
+  name: Watch
+  mac: 32:9D:36:90:85:D7
+  icon:
+  picture:
+  track: true
+
+watch_32:
+  name: Watch
+  mac: 9E:AA:77:E1:F3:26
+  icon:
+  picture:
+  track: true
+
+watch_33:
+  name: Watch
+  mac: 22:E4:B7:2C:C8:B2
+  icon:
+  picture:
+  track: true
+
+watch_34:
+  name: Watch
+  mac: 52:80:3D:0E:F1:72
+  icon:
+  picture:
+  track: true
+
+watch_35:
+  name: Watch
+  mac: FE:07:A5:68:66:17
+  icon:
+  picture:
+  track: true
+
+watch_36:
+  name: Watch
+  mac: 7E:31:AF:8F:1E:D8
+  icon:
+  picture:
+  track: true
+
+watch_37:
+  name: Watch
+  mac: 4E:EC:46:55:1A:E7
+  icon:
+  picture:
+  track: true
+
+iphone_12:
+  name: iPhone
+  mac: 72:B6:5D:69:2B:01
+  icon:
+  picture:
+  track: true
+
+watch_38:
+  name: Watch
+  mac: 86:11:0E:0D:AF:46
+  icon:
+  picture:
+  track: true
+
+watch_39:
+  name: Watch
+  mac: A6:9E:6D:64:67:9A
+  icon:
+  picture:
+  track: true
+
+unknown_de_0c_7d_a8_0d_b6:
+  name: unknown_de:0c:7d:a8:0d:b6
+  mac: DE:0C:7D:A8:0D:B6
+  icon:
+  picture:
+  track: true
+
+watch_40:
+  name: Watch
+  mac: 92:FB:B1:0D:60:4D
+  icon:
+  picture:
+  track: true
+
+watch_41:
+  name: Watch
+  mac: 46:30:1C:DE:66:76
+  icon:
+  picture:
+  track: true
+
+unknown_ae_a5_61_9d_08_2e:
+  name: unknown_ae:a5:61:9d:08:2e
+  mac: AE:A5:61:9D:08:2E
+  icon:
+  picture:
+  track: true
+
+unknown_7a_41_a1_5f_1e_44:
+  name: unknown_7a:41:a1:5f:1e:44
+  mac: 7A:41:A1:5F:1E:44
+  icon:
+  picture:
+  track: true
+
+pixel_10_pro_fold:
+  name: Pixel-10-Pro-Fold
+  mac: 0A:21:81:0D:B2:E1
+  icon:
+  picture:
+  track: true
+
+unknown_24_fd_fa_17_f6_45:
+  name: unknown_24:fd:fa:17:f6:45
+  mac: 24:FD:FA:17:F6:45
+  icon:
+  picture:
+  track: true
+
+watch_42:
+  name: Watch
+  mac: 9E:C3:14:C6:DE:2F
+  icon:
+  picture:
+  track: true
+
+watch_43:
+  name: Watch
+  mac: FA:55:A2:69:83:A6
+  icon:
+  picture:
+  track: true
+
+watch_44:
+  name: Watch
+  mac: 66:9F:12:00:CC:F8
+  icon:
+  picture:
+  track: true
+
+watch_45:
+  name: Watch
+  mac: 0A:99:B0:46:88:7D
+  icon:
+  picture:
+  track: true
+
+watch_46:
+  name: Watch
+  mac: EA:6C:63:98:F5:C4
+  icon:
+  picture:
+  track: true
+
+watch_47:
+  name: Watch
+  mac: AA:0C:8A:FA:4E:A8
+  icon:
+  picture:
+  track: true
+
+watch_48:
+  name: Watch
+  mac: 36:08:4F:CE:5C:95
+  icon:
+  picture:
+  track: true
+
+watch_49:
+  name: Watch
+  mac: 56:4D:2D:6D:88:0E
+  icon:
+  picture:
+  track: true
+
+watch_50:
+  name: Watch
+  mac: FA:D7:3A:B9:E5:57
+  icon:
+  picture:
+  track: true
+
+watch_51:
+  name: Watch
+  mac: 4E:0F:57:56:7E:97
+  icon:
+  picture:
+  track: true
+
+unknown_56_9f_6a_d1_cc_12:
+  name: unknown_56:9f:6a:d1:cc:12
+  mac: 56:9F:6A:D1:CC:12
+  icon:
+  picture:
+  track: true
