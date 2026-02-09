@@ -1,149 +1,27 @@
-#- platform: template
-# switches:
-#   # ZONE 1 MEDIA SWITCH
-#   zone_1:
-#     value_template: "{{ is_state('media_player.yamaha_receiver', 'on') }}"
-#     turn_on:
-#       service: media_player.turn_on
-#       entity_id: media_player.yamaha_receiver
-#     turn_off:
-#       service: media_player.turn_off
-#       entity_id: media_player.yamaha_receiver
-        
-#   # ZONE 2 MEDIA SWITCH
-#   zone_2:
-#     value_template: "{{ is_state('media_player.yamaha_receiver_zone_2', 'on') }}"
-#     turn_on:
-#       service: media_player.turn_on
-#       entity_id: media_player.yamaha_receiver_zone_2
-#     turn_off:
-#       service: media_player.turn_off
-#       entity_id: media_player.yamaha_receiver_zone_2
-  
-#   # XBOX HARMONY ACTIVITY
-#   xbox_one:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'Xbox One') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'Xbox One'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # PLAYSTATION HARMONY ACTIVITY
-#   ps4:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'PS4') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PS4'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # WII U HARMONY ACTIVITY
-#   wii_u:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'Wii U') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'Wii U'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # PC HARMONY ACTIVITY
-#   pc:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'PC') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PC'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # SWITCH HARMONY ACTIVITY
-#   switch:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'Switch') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'Switch'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # TV HARMONY ACTIVITY
-#   tv:
-#     value_template: "{{ is_state_attr('remote.living_room', 'current_activity', 'TV') }}"
-#     turn_on:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'TV'
-#     turn_off:
-#       service: remote.turn_on
-#       data:
-#         entity_id: remote.living_room
-#         activity: 'PowerOff'
-  
-#   # AUDIO 1, USED FOR ECHO AND MUSIC ZONE 1
-#   audio_1:
-#     value_template: "{{ is_state_attr('media_player.yamaha_receiver', 'source', 'Echo') and is_state('switch.floating_outlet_switch', 'on') }}"
-#     turn_on:
-#       - service: switch.turn_on
-#         entity_id: switch.floating_outlet_switch
-#       - service: media_player.turn_on
-#         entity_id: media_player.yamaha_receiver
-#       - service: media_player.select_source
-#         data:
-#           entity_id: media_player.yamaha_receiver
-#           source: Echo
-#       - service: media_player.volume_set
-#         data:
-#           entity_id: media_player.yamaha_receiver
-#           volume_level: 0.7
-#     turn_off:
-#       - service: switch.turn_off
-#         entity_id: switch.floating_outlet_switch
-#       - service: media_player.turn_off
-#         entity_id: media_player.yamaha_receiver
+###
+# Harmony Remote Template Switches - DISABLED
+# 
+# ⚠️ NOTE: Logitech Harmony has been discontinued.
+# If you still use Harmony, the template switch syntax below uses
+# the legacy format. Modern template switches should be defined
+# under the 'template:' integration.
+#
+# If you no longer use Harmony, this file can be deleted.
+###
 
-#   # AUDIO 2, USED FOR ECHO AND MUSIC ZONE 2
-#   audio_2:
-#     value_template: "{{ is_state_attr('media_player.yamaha_receiver_zone_2', 'source', 'Echo') and is_state('switch.floating_outlet_switch', 'on') }}"
-#     turn_on:
-#       - service: switch.turn_on
-#         entity_id: switch.floating_outlet_switch
-#       - service: media_player.turn_on
-#         entity_id: media_player.yamaha_receiver_zone_2
-#       - service: media_player.select_source
-#         data:
-#           entity_id: media_player.yamaha_receiver_zone_2
-#           source: Echo
-#       - service: media_player.volume_set
-#         data:
-#           entity_id: media_player.yamaha_receiver_zone_2
-#           volume_level: 0.7
-#     turn_off:
-#       - service: switch.turn_off
-#         entity_id: switch.floating_outlet_switch
-#       - service: media_player.turn_off
-#         entity_id: media_player.yamaha_receiver_zone_2
+# LEGACY CONFIG - Commented out
+# - platform: template
+#   switches:
+#     # ZONE 1 MEDIA SWITCH
+#     zone_1:
+#       value_template: "{{ is_state('media_player.yamaha_receiver', 'on') }}"
+#       turn_on:
+#         service: media_player.turn_on
+#         entity_id: media_player.yamaha_receiver
+#       turn_off:
+#         service: media_player.turn_off
+#         entity_id: media_player.yamaha_receiver
+#     # ... (additional switches commented out)
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

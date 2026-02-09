@@ -1,0 +1,11 @@
+###
+# Vacuum Cleaning Status Template
+# Migrated from legacy platform: template syntax to modern template syntax
+# Original location: integrations/binary_sensors/vacuums_cleaning_status.yaml
+###
+- binary_sensor:
+  - name: "Maria is Vacuuming"
+    unique_id: maria_vacuuming
+    state: >-
+      {{ is_state('vacuum.maria', 'cleaning') }}
+    icon: "mdi:robot-vacuum"

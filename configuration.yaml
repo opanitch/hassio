@@ -23,7 +23,6 @@ duckdns: !include authentication/duckdns_config.yaml
 http: !include authentication/http_config.yaml
 
 # Enablers
-browser:
 cloud:
 config:
 conversation:

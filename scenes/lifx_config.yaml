@@ -1,2 +1,25 @@
-- platform: lifx_cloud
-  token: !secret lifx_api_token
+###
+# LIFX Cloud Scenes - DEPRECATED
+# https://www.home-assistant.io/integrations/lifx_cloud/
+#
+# ⚠️ MIGRATION REQUIRED:
+# The lifx_cloud platform is deprecated and will be removed.
+#
+# RECOMMENDED REPLACEMENT:
+# 1. Use the native LIFX integration (configured via UI)
+#    Settings > Devices & Services > Add Integration > LIFX
+# 2. Create scenes directly in Home Assistant using the Scene editor
+#    Settings > Automations & Scenes > Scenes > Create Scene
+#
+# The native LIFX integration provides:
+# - Local control (no cloud dependency)
+# - Better reliability
+# - Full feature support
+###
+
+# LEGACY CONFIG - COMMENTED OUT (deprecated)
+# - platform: lifx_cloud
+#   token: !secret lifx_api_token
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

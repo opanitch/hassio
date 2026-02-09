@@ -1,4 +1,14 @@
-#### This appears to have been replaced by a built-in integration with no manual override
+###
+# Epson Projector Config - DISABLED
+# 
+# ⚠️ NOTE: The Epson integration should now be configured via UI:
+# Settings > Devices & Services > Add Integration > Epson
+###
+
+# LEGACY CONFIG - Use UI instead
 # - platform: epson
 #   host: !secret epson_printer_host
 #   name: Living Room Printer
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

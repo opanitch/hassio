@@ -1,0 +1,12 @@
+###
+# Maria Vacuum Last Clean Template
+# Migrated from legacy platform: template syntax to modern template syntax
+# Original location: integrations/sensors/last_changed_config.yaml
+###
+- sensor:
+  - name: "Maria's Last Sweep"
+    unique_id: maria_last_clean
+    device_class: timestamp
+    state: >-
+      {{ states.binary_sensor.maria_is_vacuuming.last_changed | default(none) }}
+    icon: "mdi:robot-vacuum"

@@ -1,4 +1,22 @@
+###
+# Workday Binary Sensor - DISABLED
+# https://www.home-assistant.io/integrations/workday/
+#
+# ⚠️ NOTE: The Workday integration should now be configured via UI:
+# Settings > Devices & Services > Add Integration > Workday
+#
+# To enable:
+# 1. Go to Settings > Devices & Services
+# 2. Click "Add Integration"
+# 3. Search for "Workday"
+# 4. Configure country (US) and province (PA)
+###
+
+# LEGACY CONFIG - Use UI instead
 # - platform: workday
 #   country: US
 #   name: Work Day
 #   province: PA
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

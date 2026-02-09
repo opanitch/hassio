@@ -1,27 +1,16 @@
-# - platform: template
-#   sensors:
-#     waze_dest_address:
-#       value_template: >-
-#         {%- if is_state("input_select.waze_destination", "Ocean City")  -%}
-#           827 Pennlyn Place, Ocean City, NJ 08226, USA
-#         {%- elif is_state("input_select.waze_destination", "Parents")  -%}
-#           649 Oak Shade Avenue, Elkins Park, PA 19027, USA
-#         {%- elif is_state("input_select.waze_destination", "Work")  -%}
-#           1800 Arch Street, Philadelpha, PA 19103, USA
-#         {%- else -%}
-#           Unknown
-#         {%- endif %}
+###
+# Waze Travel Time Config - DISABLED
+# 
+# ⚠️ NOTE: The Waze Travel Time integration should now be configured via UI:
+# Settings > Devices & Services > Add Integration > Waze Travel Time
+###
 
-# Tracking entity to entity
+# LEGACY CONFIG - Use UI instead
 # - platform: waze_travel_time
 #   name: Home to Destination
 #   origin: zone.home
 #   destination: sensor.waze_dest_address
 #   region: 'US'
 
-# Tracking Home to Ocean City
-# - platform: waze_travel_time
-#   name: to Ocean City
-#   origin: Home
-#   destination: Ocean City
-#   region: 'US'
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

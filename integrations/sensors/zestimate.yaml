@@ -1,4 +1,17 @@
+###
+# Zillow Zestimate Config - DISABLED
+# 
+# ⚠️ NOTE: The Zestimate integration has been removed from Home Assistant.
+# Zillow discontinued their public API.
+#
+# This file can be safely deleted.
+###
+
+# LEGACY CONFIG - No longer available
 # - platform: zestimate
 #   api_key: !secret zillow_api_key
 #   zpid:
 #     - !secret zillow_home_id
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]

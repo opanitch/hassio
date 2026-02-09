@@ -1,3 +1,18 @@
-- host: !secret roomba_host
-  blid: !secret roomba_username
-  password: !secret roomba_password
+###
+# Roomba Config - DEPRECATED
+# 
+# ⚠️ MIGRATION REQUIRED:
+# This configuration format is deprecated.
+# The iRobot Roomba integration should now be configured via UI:
+# Settings > Devices & Services > Add Integration > iRobot Roomba and Braava
+#
+# You will need your Roomba credentials:
+# - host: (from secrets - roomba_host)
+# - blid: (from secrets - roomba_username)
+# - password: (from secrets - roomba_password)
+###
+
+# LEGACY CONFIG - COMMENTED OUT (deprecated)
+# - host: !secret roomba_host
+#   blid: !secret roomba_username
+#   password: !secret roomba_password
