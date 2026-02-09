@@ -1,29 +1,52 @@
 ###
-# Flux Light Color Temp Integration
+# Flux Light Color Temp Integration - DEPRECATED
 # https://www.home-assistant.io/integrations/flux/
+#
+# ⚠️ MIGRATION REQUIRED:
+# The Flux integration is deprecated and will be removed in a future version.
+# 
+# RECOMMENDED REPLACEMENT:
+# Install "Adaptive Lighting" via HACS (Home Assistant Community Store)
+# https://github.com/basnijholt/adaptive-lighting
+#
+# Adaptive Lighting provides:
+# - Automatic color temperature adjustment based on time of day
+# - Sleep mode for nighttime
+# - Per-light configuration
+# - Much more granular control
+#
+# To migrate:
+# 1. Install HACS if not already installed
+# 2. Search for "Adaptive Lighting" in HACS
+# 3. Install and restart Home Assistant
+# 4. Configure via Settings > Devices & Services > Add Integration > Adaptive Lighting
+# 5. Add the lights listed below to your Adaptive Lighting configuration
+# 6. Delete this file once migration is complete
 ###
-- platform: flux
-  lights:
-    - light.kitchen_window
-    - light.lr_left_1
-    - light.lr_left_2
-    - light.lr_right_1
-    - light.lr_right_2
-    - light.lr_right_3
-    - light.master_bedroom_1
-    - light.master_bedroom_2
-    - light.master_bedroom_3
-    - light.floor_lamp_1
-    - light.floor_lamp_2
-    - light.floor_lamp_3
-  name: Flux Lights
-  # start_time: '7:00'
-  # stop_time: '23:00'
-  # start_colortemp: 4000
-  # sunset_colortemp: 3000
-  # stop_colortemp: 1900
-  # brightness: 200
-  # disable_brightness_adjust: true
-  # mode: xy
-  # transition: 30
-  # interval: 60
+
+# LEGACY CONFIG - COMMENTED OUT (deprecated)
+# - platform: flux
+#   lights:
+#     - light.kitchen_window
+#     - light.lr_left_1
+#     - light.lr_left_2
+#     - light.lr_right_1
+#     - light.lr_right_2
+#     - light.lr_right_3
+#     - light.master_bedroom_1
+#     - light.master_bedroom_2
+#     - light.master_bedroom_3
+#     - light.floor_lamp_1
+#     - light.floor_lamp_2
+#     - light.floor_lamp_3
+#   name: Flux Lights
+#   # start_time: '7:00'
+#   # stop_time: '23:00'
+#   # start_colortemp: 4000
+#   # sunset_colortemp: 3000
+#   # stop_colortemp: 1900
+#   # brightness: 200
+#   # disable_brightness_adjust: true
+#   # mode: xy
+#   # transition: 30
+#   # interval: 60

@@ -1,4 +1,16 @@
+###
+# Xbox Live Config - DISABLED
+# 
+# ⚠️ NOTE: The Xbox Live sensor platform is deprecated.
+# Use the official Xbox integration instead:
+# Settings > Devices & Services > Add Integration > Xbox
+###
+
+# LEGACY CONFIG - Use official Xbox integration instead
 # - platform: xbox_live
 #   api_key: !secret xbox_api_key
 #   xuid:
 #     - !secret xbox_account_oreokid200
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]
