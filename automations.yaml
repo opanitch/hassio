@@ -223,9 +223,12 @@
     entity_id: light.powder_room_2
     domain: light
   mode: single
+# DISABLED: epsonworkforce integration removed from Home Assistant
+# Re-enable if you set up IPP or alternative ink monitoring
 - id: '1654053995550'
   alias: Ink Low Notification
-  description: ''
+  description: 'DISABLED - epsonworkforce integration removed'
+  enabled: false
   trigger:
   - platform: numeric_state
     entity_id: sensor.ink_level_black

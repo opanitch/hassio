@@ -1,8 +1,27 @@
-- platform: epsonworkforce
-  host: !secret epson_printer_host
-  monitored_conditions:
-    - black
-    - clean
-    - cyan
-    - magenta
-    - yellow
+###
+# Epson Workforce Printer Sensor - REMOVED FROM HOME ASSISTANT
+# 
+# ⚠️ The epsonworkforce integration has been removed from Home Assistant.
+#
+# ALTERNATIVES:
+# 1. Use the IPP (Internet Printing Protocol) integration via UI:
+#    Settings > Devices & Services > Add Integration > Internet Printing Protocol (IPP)
+#    - Provides printer status and ink levels for compatible printers
+#
+# 2. Use SNMP integration if your printer supports it
+#
+# 3. Check HACS for community alternatives like "Epson Printer" integration
+###
+
+# LEGACY CONFIG - REMOVED (integration no longer exists)
+# - platform: epsonworkforce
+#   host: !secret epson_printer_host
+#   monitored_conditions:
+#     - black
+#     - clean
+#     - cyan
+#     - magenta
+#     - yellow
+
+# Empty list placeholder to prevent YAML errors with !include_dir_merge_list
+[]
