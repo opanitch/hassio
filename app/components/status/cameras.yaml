@@ -1,0 +1,33 @@
+# Reusable camera status card
+# Shows a compact overview of all community cameras
+# Include in any view with: !include ../components/status/cameras.yaml
+#
+# NOTE: Update entity IDs after UniFi Protect integration is configured.
+# The actual IDs depend on camera names set in the Protect UI.
+type: vertical-stack
+title: Community Cameras
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: picture-entity
+        entity: camera.east_high_resolution_channel
+        camera_view: auto
+        show_state: false
+        show_name: true
+      - type: picture-entity
+        entity: camera.south_high_resolution_channel
+        camera_view: auto
+        show_state: false
+        show_name: true
+  - type: horizontal-stack
+    cards:
+      - type: picture-entity
+        entity: camera.west_high_resolution_channel
+        camera_view: auto
+        show_state: false
+        show_name: true
+      - type: picture-entity
+        entity: camera.north_high_resolution_channel
+        camera_view: auto
+        show_state: false
+        show_name: true

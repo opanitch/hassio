@@ -1,0 +1,70 @@
+path: cameras
+title: Security Cameras
+icon: mdi:cctv
+badges: []
+cards:
+  # ── Camera Grid ─────────────────────────────────────────────
+  # Each picture-glance card shows a live camera feed with
+  # motion/person detection badges. Entity IDs are auto-created
+  # by the UniFi Protect integration using the camera name set
+  # in the Protect UI.
+  #
+  # Replace the entity IDs below with the actual IDs that appear
+  # in Developer Tools → States after the integration is added.
+  # Naming convention: camera.<protect_camera_name>
+  # ─────────────────────────────────────────────────────────────
+
+  # Row 1
+  - type: horizontal-stack
+    cards:
+      - type: picture-glance
+        title: Camera 1
+        camera_image: camera.east_high_resolution_channel
+        camera_view: live
+        entities:
+          - entity: binary_sensor.east_motion
+            icon: mdi:motion-sensor
+        tap_action:
+          action: more-info
+      - type: picture-glance
+        title: Camera 2
+        camera_image: camera.south_high_resolution_channel
+        camera_view: live
+        entities:
+          - entity: binary_sensor.south_motion
+            icon: mdi:motion-sensor
+        tap_action:
+          action: more-info
+
+  # Row 2
+  - type: horizontal-stack
+    cards:
+      - type: picture-glance
+        title: Camera 3
+        camera_image: camera.west_high_resolution_channel
+        camera_view: live
+        entities:
+          - entity: binary_sensor.west_motion
+            icon: mdi:motion-sensor
+        tap_action:
+          action: more-info
+      - type: picture-glance
+        title: Camera 4
+        camera_image: camera.north_high_resolution_channel
+        camera_view: live
+        entities:
+          - entity: binary_sensor.north_motion
+            icon: mdi:motion-sensor
+        tap_action:
+          action: more-info
+
+  # ── Motion Event Log ────────────────────────────────────────
+  # Shows recent motion/smart detection events across all cameras
+  - type: logbook
+    title: Recent Camera Events
+    hours_to_show: 24
+    entities:
+      - binary_sensor.east_motion
+      - binary_sensor.south_motion
+      - binary_sensor.west_motion
+      - binary_sensor.north_motion
