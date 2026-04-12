@@ -1,0 +1,5 @@
+name: CHOP
+icon: mdi:hospital-building
+latitude: !secret zone_chop_lat
+longitude: !secret zone_chop_long
+radius: 200

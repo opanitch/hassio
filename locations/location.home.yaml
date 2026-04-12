@@ -1,5 +1,5 @@
 name: Home
 icon: mdi:home-circle
-latitude: !secret zone_home_lat
-longitude: !secret zone_home_long
-radius: 140
+latitude: !secret zone_ocnj_lat
+longitude: !secret zone_ocnj_long
+radius: 50

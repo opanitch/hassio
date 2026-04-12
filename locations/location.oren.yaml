@@ -1,4 +1,5 @@
-name: Oren's Place
-icon: mdi:beach
-latitude: !secret zone_oren_lat
-longitude: !secret zone_oren_long
+name: Home
+icon: mdi:home-circle
+latitude: !secret zone_841n4th_lat
+longitude: !secret zone_841n4th_long
+radius: 50
