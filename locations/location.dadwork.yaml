@@ -2,4 +2,4 @@ name: CHOP
 icon: mdi:hospital-building
 latitude: !secret zone_chop_lat
 longitude: !secret zone_chop_long
-elevation: !secret zone_chop_elev
+radius: 200

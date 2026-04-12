@@ -2,4 +2,4 @@ name: 649 Oak Shade
 icon: mdi:home
 latitude: !secret zone_649oak_lat
 longitude: !secret zone_649oak_long
-elevation: !secret zone_649oak_elev
+radius: 100
