@@ -14,7 +14,7 @@ homeassistant:
   elevation: !secret zone_ocnj_elev
   latitude: !secret zone_ocnj_lat
   longitude: !secret zone_ocnj_long
-  time_zone: America/New_York
+  time_zone: !secret zone_home_time_zone
   # measurement units
   currency: !secret zone_home_currency
   unit_system: us_customary
