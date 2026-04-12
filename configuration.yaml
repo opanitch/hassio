@@ -10,9 +10,9 @@ homeassistant:
   internal_url: !secret external_url
   # location
   country: !secret zone_home_country
-  elevation: !secret zone_home_elev
-  latitude: !secret zone_home_lat
-  longitude: !secret zone_home_long
+  elevation: !secret zone_841n4th_elev
+  latitude: !secret zone_841n4th_lat
+  longitude: !secret zone_841n4th_long
   time_zone: !secret zone_home_time_zone
   # measurement units
   currency: !secret zone_home_currency
