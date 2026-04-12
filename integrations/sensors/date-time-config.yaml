@@ -1,6 +1,5 @@
 - platform: time_date
   display_options:
-    - "beat"
     - "date"
     - "date_time"
     - "date_time_iso"
