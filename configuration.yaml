@@ -14,7 +14,7 @@ homeassistant:
   time_zone: America/New_York
   # measurement units
   currency: !secret zone_home_currency
-  unit_system: imperial
+  unit_system: us_customary
   # include person profiles
   customize: !include_dir_named customizations/
 
@@ -63,7 +63,7 @@ switch: !include_dir_merge_list app/switches/
 zone: !include_dir_list locations/
 
 ### Integrations
-binary_sensor: !include_dir_merge_list integrations/binary_sensors/
+# binary_sensor: !include_dir_merge_list integrations/binary_sensors/ # Legacy templates migrated to integrations/templates/
 # cast: !include integrations/media/google_cast.yaml
 # device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
 # device_tracker: !include device_tracker_config.yaml
