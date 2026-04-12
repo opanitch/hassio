@@ -26,7 +26,6 @@ homeassistant:
 http: !include authentication/http_config.yaml
 
 # Enablers
-browser:
 cloud:
 config:
 conversation:
@@ -37,8 +36,8 @@ frontend:
 ## UI Configuration
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
 lovelace: !include app/config/ui-config.yaml
-map:
 mobile_app:
+my:
 sun:
 stream:
 system_health:
