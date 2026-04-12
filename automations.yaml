@@ -14,3 +14,22 @@
     entity_id: button.r7000_reboot
     type: press
   mode: single
+- id: '1701051473802'
+  alias: Restart on Expiry
+  description: Restart HA Core to refresh DNS Cert
+  triggers:
+  - trigger: state
+    entity_id:
+    - sensor.cert_expiry_timestamp_ocsmart_duckdns_org
+    attribute: is_valid
+    to: false
+  conditions: []
+  actions:
+  - device_id: 9149b5a71d1d5b5c4b5fe6ae7e9117e7
+    domain: mobile_app
+    type: notify
+    title: System Restart
+    message: DuckDNS Cert has expired.  System restart triggered.
+  - data: {}
+    action: homeassistant.restart
+  mode: single

@@ -22,7 +22,7 @@ homeassistant:
   customize: !include_dir_named customizations/
 
 # External
-duckdns: !include authentication/duckdns_config.yaml
+# duckdns: !include authentication/duckdns_config.yaml
 http: !include authentication/http_config.yaml
 
 # Enablers
