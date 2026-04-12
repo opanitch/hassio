@@ -1,4 +1,5 @@
 name: Ocean City
 icon: mdi:beach
-latitude: !secret zone_oc_lat
-longitude: !secret zone_oc_long
+latitude: !secret zone_ocnj_lat
+longitude: !secret zone_ocnj_long
+elevation: !secret zone_ocnj_elev
