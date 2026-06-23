@@ -223,11 +223,9 @@
     entity_id: light.powder_room_2
     domain: light
   mode: single
-# DISABLED: epsonworkforce integration removed from Home Assistant
-# Re-enable if you set up IPP or alternative ink monitoring
 - id: '1654053995550'
   alias: Ink Low Notification
-  description: 'DISABLED - epsonworkforce integration removed'
+  description: DISABLED - epsonworkforce integration removed
   enabled: false
   trigger:
   - platform: numeric_state
@@ -395,5 +393,100 @@
     title: System Restart
   - action: homeassistant.restart
     metadata: {}
+    data: {}
+  mode: single
+- id: '1776053672546'
+  alias: 2x LR Button Press Trigger
+  description: ''
+  triggers:
+  - device_id: c81f00dacadb6024d1d4113a80edb42b
+    domain: zwave_js
+    type: event.value_notification.central_scene
+    property: scene
+    property_key: '001'
+    endpoint: 0
+    command_class: 91
+    subtype: Endpoint 0 Scene 001
+    trigger: device
+    value: 3
+  conditions: []
+  actions:
+  - action: remote.toggle
+    metadata: {}
+    data: {}
+    target:
+      device_id: ce7f90f4d2e6f1ae6a0d6e2795c14bd6
+  mode: single
+- id: '1776054231993'
+  alias: 3x LR Button Trigger
+  description: ''
+  triggers:
+  - device_id: c81f00dacadb6024d1d4113a80edb42b
+    domain: zwave_js
+    type: event.value_notification.central_scene
+    property: scene
+    property_key: '001'
+    endpoint: 0
+    command_class: 91
+    subtype: Endpoint 0 Scene 001
+    trigger: device
+    value: 4
+  conditions:
+  - condition: device
+    device_id: f5a2197039f96d5e1455b27fa7f783e2
+    domain: lock
+    entity_id: 8c69e0bd8811108cff3db5f1529ad3a8
+    type: is_locked
+  actions:
+  - device_id: f5a2197039f96d5e1455b27fa7f783e2
+    domain: lock
+    entity_id: 8c69e0bd8811108cff3db5f1529ad3a8
+    type: unlock
+  mode: single
+- id: '1776054759097'
+  alias: 3x LR Lights Button Trigger Undo
+  description: ''
+  triggers:
+  - device_id: c81f00dacadb6024d1d4113a80edb42b
+    domain: zwave_js
+    type: event.value_notification.central_scene
+    property: scene
+    property_key: '001'
+    endpoint: 0
+    command_class: 91
+    subtype: Endpoint 0 Scene 001
+    trigger: device
+    value: 4
+  conditions:
+  - condition: device
+    device_id: f5a2197039f96d5e1455b27fa7f783e2
+    domain: lock
+    entity_id: 8c69e0bd8811108cff3db5f1529ad3a8
+    type: is_unlocked
+  actions:
+  - device_id: f5a2197039f96d5e1455b27fa7f783e2
+    domain: lock
+    entity_id: 8c69e0bd8811108cff3db5f1529ad3a8
+    type: lock
+  mode: single
+- id: '1776054839205'
+  alias: LR Lights Button Trigger
+  description: ''
+  triggers:
+  - device_id: c81f00dacadb6024d1d4113a80edb42b
+    domain: zwave_js
+    type: event.value_notification.central_scene
+    property: scene
+    property_key: '001'
+    endpoint: 0
+    command_class: 91
+    subtype: Endpoint 0 Scene 001
+    trigger: device
+  conditions: []
+  actions:
+  - action: light.toggle
+    metadata: {}
+    target:
+      entity_id: light.living_room
     data: {}
   mode: single
