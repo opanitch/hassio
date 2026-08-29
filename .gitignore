@@ -10,6 +10,9 @@
 # SENSITIVE DATA - NEVER COMMIT
 # -----------------------------------------------------------------------------
 secrets.yaml
+secrets
+secrets.*
+!secrets.example.yaml
 .xbox-token.json
 *.token
 *.key

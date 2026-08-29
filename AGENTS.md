@@ -1,45 +1,31 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
+## Authoring conventions live in BEST_PRACTICES.md
 
-- `configuration.yaml` is the root orchestrator that wires authentication, dashboards, automations, and integrations via `!include` directives.
-- UI artifacts live under `app/`: `config/` defines Lovelace dashboards, `views/` contains room-based panels, `components/` stores reusable cards, `switches/` merges YAML switch definitions, and `inputs/` keeps helper entities.
-- Hardware integrations are grouped in `integrations/` (e.g., `sensors/`, `lights/`, `media_players/`, `templates/`, `zwave/`), making it straightforward to scope changes to a device class.
-- Automations, scripts, and groups rely on top-level YAML (`automations.yaml`, `scripts.yaml`, `groups/`). Personas, locations, and customization metadata are split into `people/`, `locations/`, and `customizations/`.
-- Custom runtime code resides in `custom_components/` (first-party `xboxone`, bundled `hacs`). Static assets live under `www/`, while security settings are isolated in `authentication/`.
+All working guidance for this repo — structure & the `!include` model, secrets
+handling, naming, dashboards/Lovelace, integrations, templates, automations,
+groups/people/zones, validation, and the git workflow — is maintained in
+[`BEST_PRACTICES.md`](./BEST_PRACTICES.md). Read it before making changes.
 
-## Build, Test, and Development Commands
+**Quick reference:**
 
 ```bash
-# Validate the Home Assistant configuration from this repo root
-ha core check
-
-# Restart Home Assistant after deploying YAML changes
-ha core restart
-
-# Tail logs while iterating on automations or components
-ha core logs
+ha core check      # validate config from repo root (run before every commit)
+ha core restart    # apply changes that touch includes/integrations
+ha core logs       # tail logs while iterating
 ```
 
-## Coding Style & Naming Conventions
+- **Never commit secrets.** `secrets.yaml`, the bare `secrets` file, and
+  `secrets.*` are gitignored; use `!secret` for all sensitive values.
+- **Validate before committing** with `ha core check`; there is no unit-test
+  suite — config validation is the safety net.
+- **Keep entity IDs and automation `id`s stable**; commit atomically (YAML +
+  its view together).
 
-- **Indentation**: YAML uses two spaces per level (see `automations.yaml`), JSON sticks with two spaces, and Python modules under `custom_components/` follow 4-space PEP 8 blocks.
-- **File naming**: snake_case with descriptive scopes (`integrations/sensors/waze_drivetime_config.yaml`, `app/views/living-room-view.yaml`). Avoid spaces or camelCase.
-- **Function/variable naming**: Follows Home Assistant expectations—entity IDs are snake_case (e.g., `sensor.date_time_dashboard`), Python classes mirror platform names (`XboxOneDevice`).
-- **Linting**: Rely on `ha core check`/`homeassistant --script check_config -c .` for YAML validation; Python custom components should pass `flake8`/`pylint` if modified.
-
-## Testing Guidelines
-
-- **Framework**: Home Assistant’s config validation (`ha core check`) is the primary safety net; entity behavior can be dry-run with the Developer Tools UI once deployed.
-- **Test files**: No standalone test suite; instead, keep sample Lovelace cards in `app/components/` and narrow integration YAMLs for easy manual verification.
-- **Running tests**: `ha core check` (or `homeassistant --script check_config -c .`) before committing.
-- **Coverage**: Not enforced, but ensure each automation or template change is paired with an updated dashboard/view so it is exercised in the UI.
-
-## Commit & Pull Request Guidelines
-
-- **Commit format**: Follow the short, action-focused style seen in `git log` (e.g., `add My to config`, `update living room remote to new devices`). Reference impacted subsystems when possible.
-- **PR process**: Keep changes atomic—update YAML, associated Lovelace view, and secrets documentation in the same PR. Include screenshots for UI tweaks and mention any required `ha core restart`.
-- **Branch naming**: Prefer `feature/<area>-<summary>` or `fix/<device>-<issue>` to mirror the logical grouping already present in the filesystem.
+For anything not covered by this pointer, defer to `BEST_PRACTICES.md`. The
+contribution process (change workflow, validation gate, commit/branch conventions,
+secrets check) lives in `CONTRIBUTING.md`. See also `README.md` for setup and
+per-deployment (branch) details.
 
 ---
 
