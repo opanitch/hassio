@@ -24,7 +24,6 @@ homeassistant:
   packages: !include_dir_named packages/active/
 
 # External
-duckdns: !include authentication/duckdns_config.yaml
 http: !include authentication/http_config.yaml
 
 # Enablers
