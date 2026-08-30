@@ -1,3 +1,6 @@
+# ponytail: incomplete system user — never finished. `user_id` intentionally
+# left commented until the HA user account is created. Safe to load (person
+# needs only name+id); remove this file if the system user won't be created.
 name: Hermes
 id: !secret hermes_id
 # user_id: !secret hermes_user_id
