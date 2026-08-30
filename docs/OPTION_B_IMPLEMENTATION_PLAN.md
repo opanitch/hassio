@@ -34,7 +34,7 @@
 - [x] Commit pending docs on `master` as a checkpoint (`0b6415e`).
 - [x] Create `packages-migration` branch from `master`.
 
-## Phase 1 — Main-house package (`site_841n4th`)  ✅ built, ⏳ awaiting device check
+## Phase 1 — Main-house package (`site_841n4th`)  ✅ complete (device check passed 2026-08-30)
 
 - [x] Create `packages/site_841n4th/` and `packages/site_827pennlyn/` dirs.
 - [x] Move `people/`, `locations/`→`zones/`, `customizations/` into
@@ -50,10 +50,10 @@
 - [x] Mark `hermes` as intentionally-incomplete system user (`79f2c1d`).
 - [x] Structurally parse-validate all files + confirm symlink resolves
       (9 people / 5 zones / 8 customizations).
-- [ ] **Device check (owner):** on main-house device — pull branch, ensure
-      `secrets.yaml` has `site_*` keys (and `hermes_id`, or comment out hermes),
-      `ln -sfn site_841n4th packages/active`, run `ha core check`, share output.
-- [ ] Fix anything the device check surfaces.
+- [x] **Device check (owner):** on main-house device — pulled branch, set
+      `secrets.yaml` `site_*` keys, `ln -sfn site_841n4th packages/active`,
+      **`ha core check` completed successfully (2026-08-30).**
+- [x] Fix anything the device check surfaces. *(nothing surfaced — clean pass.)*
 
 ## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ⛔ not started
 
@@ -97,6 +97,10 @@
 | `0b6415e` | docs checkpoint (on `master`): README, BEST_PRACTICES, CONTRIBUTING, secrets template, recommendation |
 | `e3ab89f` | migrate main-house site config into `packages/site_841n4th`; site-neutral config; symlink selection |
 | `79f2c1d` | mark hermes as intentionally-incomplete system user |
+| `d9dd5d5` | keep coordinates as placeholders; document site_* vs zone catalog |
+
+**Phase 1 validated on real hardware:** `ha core check` passed on the main-house
+device on 2026-08-30 with the packages layout + symlink + `site_*` secrets.
 
 ## Known risks / notes
 
