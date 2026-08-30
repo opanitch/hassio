@@ -2,7 +2,9 @@
 default_config:
 
 homeassistant:
-  name: 841 N 4th
+  # Site identity/location are per-machine via secrets (see packages/README.md).
+  # The active site's people/zones/customizations load via packages/active.
+  name: !secret site_name
   # access
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
@@ -10,15 +12,16 @@ homeassistant:
   internal_url: !secret external_url
   # location
   country: !secret zone_home_country
-  elevation: !secret zone_841n4th_elev
-  latitude: !secret zone_841n4th_lat
-  longitude: !secret zone_841n4th_long
+  elevation: !secret site_elevation
+  latitude: !secret site_latitude
+  longitude: !secret site_longitude
   time_zone: !secret zone_home_time_zone
   # measurement units
   currency: !secret zone_home_currency
   unit_system: us_customary
-  # include person profiles
-  customize: !include_dir_named customizations/
+  # Per-site config (people, zones, customizations, site devices).
+  # packages/active is a per-machine symlink -> packages/site_<home>/
+  packages: !include_dir_named packages/active/
 
 # External
 duckdns: !include authentication/duckdns_config.yaml
@@ -52,15 +55,11 @@ history:
 # history_graph: !include history_graph_config.yaml
 # input_number: !include_dir_named app/inputs/number/
 # input_select: !include_dir_named app/inputs/select/
-###
-# Config file for People tracked in the House
-# https://www.home-assistant.io/integrations/person/
-###
-person: !include_dir_list people/
+# NOTE: person: and zone: are now provided per-site via packages/active
+# (see packages/README.md). Do not re-add them here.
 scene: !include_dir_merge_list scenes/
 # script: !include scripts.yaml
 switch: !include_dir_merge_list app/switches/
-zone: !include_dir_list locations/
 
 ### Integrations
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/

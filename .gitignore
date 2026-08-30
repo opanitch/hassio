@@ -146,3 +146,6 @@ Desktop.ini
 
 # UI-managed scenes
 # scenes.yaml
+
+# Per-machine active site selection (symlink -> packages/site_<home>/)
+packages/active
