@@ -7,7 +7,10 @@ badges:
   # - entity: binary_sensor.living_room_monitor
   # - entity: binary_sensor.powder_room_monitor
   - entity: person.oren
-  - entity: person.jose
+  - entity: person.rebecca
+  - entity: person.john
+  - entity: person.howie
+  - entity: person.mary
   # - entity: sensor.home_to_destination
   # - entity: sensor.to_ocean_city
   - entity: sensor.time_online
