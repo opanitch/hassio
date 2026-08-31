@@ -1,7 +1,8 @@
 # Option B Implementation Plan — Single Branch + HA Packages
 
-> Status: **in progress** · Updated: 2026-08-30 · Branch: `packages-migration`
-> (cut from `master`; `master` is the safe fallback).
+> Status: **complete** · Updated: 2026-08-31 · Branch: `master`
+> (migration merged and live; `packages-migration` retained locally, `shore-house`
+> kept as a temporary safety net).
 >
 > Migrates the multi-home setup from branch-per-home to one branch where each
 > home's site-specific config lives in `packages/site_<home>/`, selected per
@@ -141,15 +142,22 @@ per-machine symlink `app/active -> app/site_<home>/`.
       passes on shore with `site_827pennlyn` (2026-08-30).
 - [ ] Future (only when needed): add `app/shared/` for truly-shared views/cards.
 
-## Phase 4 — Cutover  ~ merged locally, push pending
+## Phase 4 — Cutover  ✅ complete (both homes live on master 2026-08-31)
 
 - [x] Both homes validated on the single branch (`ha core check` passes on both).
 - [x] Update `README.md` deployment section (branches → packages).
-- [x] Merge `packages-migration` → `master` (`--no-ff`, local; not pushed).
-      No rename (owner: keep `master`).
-- [ ] **Push `master`** (owner to run/approve — not pushed automatically).
+- [x] Merge `packages-migration` → `master` (`--no-ff`).
+- [x] **Push `master`** — done by owner 2026-08-31.
+- [x] **Both machines switched to `master`, pulled, restarted — working fine.**
 - [ ] Retire `shore-house` branch — **deferred** (owner: leave for now as safety net).
-- [ ] Optional cleanup: delete local `packages-migration` after push confirms `master`.
+- [ ] Optional cleanup: delete local `packages-migration` after a settling period.
+
+---
+
+**MIGRATION COMPLETE.** Both homes (841 N 4th, 827 Pennlyn) run the single `master`
+branch with per-site packages + per-machine symlinks, validated live on hardware.
+Remaining items are optional housekeeping (retire `shore-house`, delete the local
+migration branch) plus the tracked follow-ups below.
 
 ## Phase 5 — Third home  ⛔ not started (later, per owner)
 
