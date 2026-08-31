@@ -2,39 +2,44 @@
 default_config:
 
 homeassistant:
-  name: 841 N 4th
+  # Site identity/location are per-machine via secrets (see packages/README.md).
+  # The active site's people/zones/customizations load via packages/active.
+  name: !secret site_name
   # access
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
   external_url: !secret external_url
-  internal_url: !secret external_url
+  internal_url: !secret internal_url
   # location
   country: !secret zone_home_country
-  elevation: !secret zone_841n4th_elev
-  latitude: !secret zone_841n4th_lat
-  longitude: !secret zone_841n4th_long
+  elevation: !secret site_elevation
+  latitude: !secret site_latitude
+  longitude: !secret site_longitude
   time_zone: !secret zone_home_time_zone
   # measurement units
   currency: !secret zone_home_currency
   unit_system: us_customary
-  # include person profiles
-  customize: !include_dir_named customizations/
+  # Per-site config (people, zones, customizations, site devices).
+  # packages/active is a per-machine symlink -> packages/site_<home>/
+  packages: !include_dir_named packages/active/
 
 # External
-duckdns: !include authentication/duckdns_config.yaml
 http: !include authentication/http_config.yaml
 
 # Enablers
+browser:
 cloud:
 config:
 conversation:
 # discovery: # prefer manual configuration
 frontend:
+map:
+schedule:
 # https://www.home-assistant.io/integrations/ios/
 # ios: # only need if more than 1 iPhone user needs the app. no use case now
-## UI Configuration
+## UI Configuration — per-site via the app/active symlink (see packages/README.md)
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
-lovelace: !include app/config/ui-config.yaml
+lovelace: !include app/active/config/ui-config.yaml
 mobile_app:
 my:
 sun:
@@ -46,36 +51,15 @@ tts: !include integrations/tts/tts_config.yaml
 
 ### House Settings
 # areas: !include area_config.yaml
-automation: !include automations.yaml
-group: !include_dir_merge_named groups/
+# NOTE: automations and groups are site-specific and live in the active site
+# package (packages/site_<home>/). Not shared here.
 history:
 # history_graph: !include history_graph_config.yaml
-# input_number: !include_dir_named app/inputs/number/
-# input_select: !include_dir_named app/inputs/select/
-###
-# Config file for People tracked in the House
-# https://www.home-assistant.io/integrations/person/
-###
-person: !include_dir_list people/
-scene: !include_dir_merge_list scenes/
-# script: !include scripts.yaml
-switch: !include_dir_merge_list app/switches/
-zone: !include_dir_list locations/
+# NOTE: person:, zone:, switch:, input_number:, input_select: are now provided
+# per-site via packages/active (see packages/README.md). Do not re-add here.
+# scene: removed — no live scenes on either home; add per-site if needed later.
 
 ### Integrations
-binary_sensor: !include_dir_merge_list integrations/binary_sensors/
-# device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
-device_tracker: !include device_tracker_config.yaml
-# hacs: !include integrations/environment/hacs_config.yaml
-light: !include_dir_merge_list integrations/lights/
-media_player: !include_dir_merge_list integrations/media_players/
-nest: !include integrations/climate_control/nest_config.yaml
-sensor: !include_dir_merge_list integrations/sensors/
-template: !include_dir_merge_list integrations/templates/
-# upnp: !include integrations/network/upnp_config.yaml
-# weather: !include_dir_list integrations/weather/
-# zwave: !include integrations/zwave/zwave_config.yaml
-
-### MQTT Config Section
-# mqtt: !include integrations/network/mqtt_config.yaml
-# lock: !include integrations/network/mqtt_lock.yaml
+# All device/site integrations (lights, sensors, templates, etc.) are per-site —
+# see the active site package. Only tts (generic, identical across homes) is shared.
+# device_tracker is per-site too (router hardware differs per home).

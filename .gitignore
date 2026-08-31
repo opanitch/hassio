@@ -57,15 +57,10 @@ custom_components/
 # !custom_components/my_custom_integration/
 
 # -----------------------------------------------------------------------------
-# STOCK BLUEPRINTS (Ship with Home Assistant)
+# BLUEPRINTS
 # -----------------------------------------------------------------------------
-blueprints/automation/homeassistant/
-blueprints/script/homeassistant/
-blueprints/template/homeassistant/
-
-# Keep custom blueprints - create your own directories like:
-# blueprints/automation/custom/
-# blueprints/script/custom/
+# Blueprints (incl. stock HA ones) are now tracked so both homes share them.
+# (Previously the stock homeassistant/ blueprint dirs were ignored.)
 
 # -----------------------------------------------------------------------------
 # Z-WAVE GENERATED FILES
@@ -146,3 +141,9 @@ Desktop.ini
 
 # UI-managed scenes
 # scenes.yaml
+
+# Per-machine active site selection (symlink -> packages/site_<home>/)
+packages/active
+
+# Per-machine active UI selection (symlink -> app/site_<home>/)
+app/active

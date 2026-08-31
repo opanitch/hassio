@@ -127,17 +127,19 @@ directory isn't already wired in** (most are).
 ### Pattern
 
 ```yaml
-# configuration.yaml
+# configuration.yaml (site-neutral — same on every home)
 homeassistant:
-  latitude: !secret zone_841n4th_lat
-  longitude: !secret zone_841n4th_long
+  name: !secret site_name
+  latitude: !secret site_latitude
+  longitude: !secret site_longitude
   external_url: !secret external_url
 ```
 
 ```yaml
-# secrets.yaml  (GITIGNORED — never committed)
-zone_841n4th_lat: 39.9xxxxx
-zone_841n4th_long: -75.1xxxxx
+# secrets.yaml  (GITIGNORED — never committed; values from LastPass catalog)
+site_name: "841 N 4th"
+site_latitude: 39.9xxxxx
+site_longitude: -75.1xxxxx
 external_url: "https://example.duckdns.org"
 ```
 
@@ -147,9 +149,23 @@ Maintain a committed `secrets.example.yaml` listing every required key with a
 placeholder value. It doubles as the bootstrap checklist when standing up a new
 deployment (or the shore house). Keys — not values.
 
+### Site location vs. known-location catalog
+
+- **`site_*`** (`site_name`, `site_latitude`, `site_longitude`, `site_elevation`)
+  always describe **the machine you are setting up**. The shared
+  `configuration.yaml` and each home's "Home" zone read these, so the same config
+  runs every home — you just point `site_*` at that home's coordinates.
+- **`zone_<name>_*`** keys are a **catalog of known locations** (residences,
+  workplaces). Each home defines only the zones it cares about — a new home need
+  not carry every zone.
+- **Real coordinates are never committed.** The template ships placeholders only;
+  the authoritative coordinate values live in the **LastPass coordinate catalog**.
+  When standing up a machine, copy the relevant numbers from LastPass into that
+  machine's gitignored `secrets.yaml`.
+
 > Site-specific secrets are the natural seam between deployments. Keeping *only*
-> the values different between houses (while sharing structure) is what makes a
-> multi-branch setup manageable. See [Multi-Deployment Notes](#13-multi-deployment-notes).
+> the values different between homes (while sharing structure) is what makes the
+> multi-home setup manageable. See [Multi-Deployment Notes](#13-multi-deployment-notes).
 
 ---
 

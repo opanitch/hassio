@@ -1,0 +1,48 @@
+# =============================================================================
+# Site package: 841 N 4th (main house)
+# =============================================================================
+# Loaded when `packages/active` -> `site_841n4th` (per-machine symlink).
+# See packages/README.md. Only site-specific config belongs here; anything
+# shared across homes stays in the top-level config.
+#
+# Domains here are supported package domains (person, zone, homeassistant.customize).
+# Lovelace dashboards are NOT packages and are handled separately.
+# =============================================================================
+
+# Include paths are resolved RELATIVE TO THIS FILE's directory (packages/active/),
+# so use bare paths here — NOT packages/active/... (that would double the prefix).
+
+# People tracked at this home
+person: !include_dir_list people/
+
+# Zones relevant to this home
+zone: !include_dir_list zones/
+
+# Per-entity UI customizations for this home's people
+homeassistant:
+  customize: !include_dir_named customizations/
+
+# Site-only devices/integrations (this home has a Nest; shore uses a UI-configured
+# Honeywell Lyric with no YAML). Keeping nest here means shore never loads it and
+# never needs nest_* secrets.
+nest: !include nest_config.yaml
+
+# Automations are site-specific (each home has its own). Package-relative path.
+automation: !include automations.yaml
+
+# Site-specific helper entities and switches (device-tied).
+switch: !include_dir_merge_list switches/
+input_number: !include_dir_named inputs/number/
+
+# Site-specific integrations (light groups, sensors, templates). Declared only
+# here (not in configuration.yaml) to avoid cross-file duplicate-key merges.
+light: !include_dir_merge_list integrations/lights/
+sensor: !include_dir_merge_list integrations/sensors/
+template: !include_dir_merge_list integrations/templates/
+
+# Site-specific entity groups (this home's lights + household people).
+group: !include_dir_merge_named groups/
+
+# Device tracker — router hardware differs per home (841 Verizon quantum_gateway,
+# shore Netgear), so it's site-specific.
+device_tracker: !include device_tracker_config.yaml

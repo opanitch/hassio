@@ -1,0 +1,41 @@
+# =============================================================================
+# Site package: 827 Pennlyn (shore house / Ocean City)
+# =============================================================================
+# Loaded when `packages/active` -> `site_827pennlyn` (per-machine symlink).
+# See packages/README.md. Only site-specific config belongs here; anything
+# shared across homes stays in the top-level config.
+#
+# Domains here are supported package domains (person, zone, homeassistant.customize).
+# Lovelace dashboards are NOT packages and are handled separately.
+# =============================================================================
+
+# Include paths are resolved RELATIVE TO THIS FILE's directory (packages/active/),
+# so use bare paths here — NOT packages/active/... (that would double the prefix).
+
+# People tracked at this home
+person: !include_dir_list people/
+
+# Zones relevant to this home
+zone: !include_dir_list zones/
+
+# Per-entity UI customizations for this home's people
+homeassistant:
+  customize: !include_dir_named customizations/
+
+# Automations are site-specific (each home has its own). Package-relative path.
+automation: !include automations.yaml
+
+# Site-specific helper entities and switches (device-tied).
+switch: !include_dir_merge_list switches/
+input_number: !include_dir_named inputs/number/
+input_select: !include_dir_named inputs/select/
+
+# Site-specific integrations (sensors, templates). Declared only here (not in
+# configuration.yaml) to avoid cross-file duplicate-key merges. No light groups
+# or media_player YAML at this home (media players are UI-configured).
+sensor: !include_dir_merge_list integrations/sensors/
+template: !include_dir_merge_list integrations/templates/
+
+# Device tracker: none in YAML at this home — the Netgear router tracker is
+# UI-configured (Settings > Devices & Services); the netgear YAML platform was
+# removed from HA. 841 still uses a YAML quantum_gateway tracker.

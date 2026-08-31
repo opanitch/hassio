@@ -1,0 +1,5 @@
+name: Home
+icon: mdi:home-circle
+latitude: !secret site_latitude
+longitude: !secret site_longitude
+radius: 50

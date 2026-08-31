@@ -1,0 +1,9 @@
+# default
+title: 841 N 4th by Room
+views:
+  - !include /config/app/active/views/exterior-view.yaml
+  - !include /config/app/active/views/cameras-view.yaml
+  - !include /config/app/active/views/second-bedroom-view.yaml
+  - !include /config/app/active/views/living-room-view.yaml
+  - !include /config/app/active/views/kitchen-view.yaml
+  - !include /config/app/active/views/hallway-view.yaml

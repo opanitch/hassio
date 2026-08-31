@@ -1,0 +1,6 @@
+name: Zone 1 Volume
+initial: -80
+min: -80
+max: 0
+step: 5
+unit_of_measurement: dB
