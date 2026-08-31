@@ -141,13 +141,15 @@ per-machine symlink `app/active -> app/site_<home>/`.
       passes on shore with `site_827pennlyn` (2026-08-30).
 - [ ] Future (only when needed): add `app/shared/` for truly-shared views/cards.
 
-## Phase 4 — Cutover  ⛔ not started
+## Phase 4 — Cutover  ~ merged locally, push pending
 
-- [ ] Both homes validated on the single branch.
-- [ ] Merge `packages-migration` → `master` (rename to `main` optional).
-- [ ] Retire `shore-house` branch.
-- [ ] Update `README.md` deployment section (branches → packages) and remove the
-      "open question" note.
+- [x] Both homes validated on the single branch (`ha core check` passes on both).
+- [x] Update `README.md` deployment section (branches → packages).
+- [x] Merge `packages-migration` → `master` (`--no-ff`, local; not pushed).
+      No rename (owner: keep `master`).
+- [ ] **Push `master`** (owner to run/approve — not pushed automatically).
+- [ ] Retire `shore-house` branch — **deferred** (owner: leave for now as safety net).
+- [ ] Optional cleanup: delete local `packages-migration` after push confirms `master`.
 
 ## Phase 5 — Third home  ⛔ not started (later, per owner)
 
