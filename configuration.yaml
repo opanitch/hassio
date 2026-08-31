@@ -27,11 +27,14 @@ homeassistant:
 http: !include authentication/http_config.yaml
 
 # Enablers
+browser:
 cloud:
 config:
 conversation:
 # discovery: # prefer manual configuration
 frontend:
+map:
+schedule:
 # https://www.home-assistant.io/integrations/ios/
 # ios: # only need if more than 1 iPhone user needs the app. no use case now
 ## UI Configuration — per-site via the app/active symlink (see packages/README.md)
