@@ -69,7 +69,7 @@
 - [x] **Shore device check (owner):** `ha core check` passed on shore with
       `site_827pennlyn` — no nest-secret error (2026-08-30).
 
-## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ✅ reconciled (final both-homes device check pending)
+## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ✅ complete (both homes pass ha core check 2026-08-30)
 
 **Which branch is the newer shared baseline?** Both were last actively worked on
 2026-04-12. `shore-house`'s last real work is slightly later that day and includes
@@ -179,6 +179,12 @@ omitted here.
       Reduces the two-symlink setup to one command.
 
 ## Known risks / notes
+
+- **Valid YAML ≠ still-supported platform.** File audits (active-line count +
+  "DEPRECATED" notes) miss well-formed YAML for a platform HA has since removed
+  from YAML config (e.g. `device_tracker: platform: netgear` → now UI-only). Only
+  a real `ha core check`/restart on-device surfaces these. shore's netgear tracker
+  hit this; 841's `quantum_gateway` is still YAML-valid. Watch for it on any home.
 
 - **Include paths inside a package are relative to the including file's dir**
   (`packages/active/`), confirmed on-device. Use bare paths (`people/`,
