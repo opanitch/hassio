@@ -183,10 +183,11 @@ omitted here.
       as legacy and slated for removal (~2026.8). Migrate the dashboard-definition
       mechanism separately from this migration; the per-site UI layout above is
       unaffected by how dashboards are *declared*.
-- [ ] **Per-machine setup script.** Add a shell helper (e.g. `hass-site <home>` in
-      `.zshrc`/`.bashrc`) that sets both symlinks at once:
-      `ln -sfn site_<home> packages/active && ln -sfn site_<home> app/active`.
-      Reduces the two-symlink setup to one command.
+- [x] **Per-machine setup script.** `scripts/hass-site.sh <home>` sets both
+      symlinks at once, auto-discovers available sites, validates the site exists
+      under both `packages/` and `app/`, and rejects unknown input. Self-check:
+      `scripts/hass-site.test.sh` (non-destructive; restores real symlink state).
+      Optional `.zshrc`/`.bashrc` function documented in `packages/README.md`.
 
 ## Known risks / notes
 

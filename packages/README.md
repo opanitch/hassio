@@ -46,26 +46,34 @@ is reached through the `packages/active` symlink.
 
 ## Per-machine setup (run once on each home's device)
 
-Two per-machine symlinks select this home's config and UI. Both are gitignored
-and must be created **before** validating:
+Two per-machine symlinks select this home's config and UI (`packages/active` for
+the backend, `app/active` for the UI). Both are gitignored and must exist
+**before** validating. Use the helper script:
 
 ```bash
-# from the config root — point BOTH at this machine's home
-ln -sfn site_841n4th        packages/active   # backend: people/zones/customize/switches/inputs/automations/site devices
-ln -sfn site_841n4th        app/active        # UI: views/components/dashboards
-# shore house would use site_827pennlyn for both
+scripts/hass-site.sh 841n4th        # main house  (827pennlyn for the shore house)
+scripts/hass-site.sh                # show current selection + available sites
 ```
 
-> A small shell helper (e.g. a `hass-site <home>` function in `.zshrc`) to set both
-> symlinks at once is a planned follow-up — see docs/OPTION_B_IMPLEMENTATION_PLAN.md.
+Optionally add a shell function to `~/.zshrc` / `~/.bashrc`:
+
+```bash
+hass-site() { "$HOME/config/scripts/hass-site.sh" "$@"; }   # adjust path to your config dir
+```
+
+Equivalent manual form (what the script does):
+
+```bash
+ln -sfn site_841n4th packages/active && ln -sfn site_841n4th app/active
+```
 
 Then create `secrets.yaml` (see `secrets.example.yaml`) with this machine's
 `site_name`, `site_latitude`, `site_longitude`, `site_elevation`, and the rest.
 
 ## Validation order
 
-1. `ln -sfn site_<home> packages/active` **and** `ln -sfn site_<home> app/active`
-   (both symlinks must exist first, or the includes resolve to nothing).
+1. `scripts/hass-site.sh <home>` to set both symlinks (must exist first, or the
+   includes resolve to nothing).
 2. Ensure `secrets.yaml` has the site keys.
 3. `ha core check`.
 4. `ha core restart` — a **full restart is required** when dashboard `filename:`
@@ -82,5 +90,6 @@ Then create `secrets.yaml` (see `secrets.example.yaml`) with this machine's
    `site_<home>.yaml` entry file (copy an existing one; filenames must be
    globally unique across the packages tree). Add `app/site_<home>/` for its UI.
 2. Fill in that home's people/zones/customizations/automations and views.
-3. On that home's device: `ln -sfn site_<home> packages/active` **and**
-   `ln -sfn site_<home> app/active`, create `secrets.yaml`, then `ha core check`.
+3. On that home's device: `scripts/hass-site.sh <home>`, create `secrets.yaml`,
+   then `ha core check`. The new site is auto-discovered by the script (no edit
+   needed) once `packages/site_<home>/` and `app/site_<home>/` both exist.

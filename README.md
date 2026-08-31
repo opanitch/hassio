@@ -56,9 +56,9 @@ Full details of the packages/symlink model and each directory are in
    ```
 2. **Point this machine at its home** with both gitignored symlinks:
    ```bash
-   ln -sfn site_841n4th packages/active && ln -sfn site_841n4th app/active
-   # beach house: use site_827pennlyn for both
+   scripts/hass-site.sh 841n4th      # beach house: scripts/hass-site.sh 827pennlyn
    ```
+   (or manually: `ln -sfn site_841n4th packages/active && ln -sfn site_841n4th app/active`)
 3. **Create `secrets.yaml`** at the repo root (gitignored, never committed):
    ```bash
    cp secrets.example.yaml secrets.yaml   # then fill in real values
