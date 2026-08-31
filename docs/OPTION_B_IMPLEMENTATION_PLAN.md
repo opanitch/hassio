@@ -37,7 +37,7 @@
 - [x] Commit pending docs on `master` as a checkpoint (`0b6415e`).
 - [x] Create `packages-migration` branch from `master`.
 
-## Phase 1 — Main-house package (`site_841n4th`)  ✅ complete (device check passed 2026-08-30)
+## Phase 1 — Main-house package (`site_841n4th`)  ✅ complete (validated 2026-08-30, incl. include-path fix)
 
 - [x] Create `packages/site_841n4th/` and `packages/site_827pennlyn/` dirs.
 - [x] Move `people/`, `locations/`→`zones/`, `customizations/` into
@@ -59,8 +59,9 @@
       the buggy `packages/active/...` include paths made `!include_dir_*` resolve to
       a missing dir (silently empty), so people/zones likely loaded empty while the
       check still passed. Include paths fixed in `5196ec6`.
-- [ ] **Re-verify 841 (owner):** pull fix, `ha core check`, and confirm people +
-      zones actually populate (e.g. `person.oren`, `zone.home` in Developer Tools).
+- [x] **Re-verify 841 (owner):** pulled fix, `ha core check` passed (2026-08-30).
+- [x] **Shore device check (owner):** `ha core check` passed on shore with
+      `site_827pennlyn` — no nest-secret error (2026-08-30).
 
 ## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ~ in progress
 
@@ -74,11 +75,10 @@ the automations delta specifically.
 - [x] Build `packages/site_827pennlyn/` from shore's people/zones/customizations
       (Home zone auto-follows host via `site_*`; keeps site-only `location.oren.yaml`).
       Parse-validated; symlink resolution confirmed.
-- [ ] **Device check (owner):** on shore device — `ln -sfn site_827pennlyn
-      packages/active`, ensure `secrets.yaml` has OCNJ `site_*` values, `ha core check`.
-- [ ] **Step 0 cleanup:** the generated files are only *added* on `shore-house`;
-      they won't come to the packages branch unless merged, so they're simply not
-      brought over. (`.gitignore` already covers them for the future.)
+- [x] **Device check (owner):** shore `ha core check` passed with `site_827pennlyn`
+      and OCNJ `site_*` values (2026-08-30). Nest correctly not loaded on shore.
+- [x] **Step 0 cleanup:** the generated files are only *added* on `shore-house`;
+      not brought over to the packages branch. (`.gitignore` already covers them.)
 - [ ] **Shared-drift reconciliation:** produce a per-file classification table
       (improvement to adopt / site-specific → move to package / divergence → pick
       one) for the ~40 differing shared files, get owner sign-off, then apply.
