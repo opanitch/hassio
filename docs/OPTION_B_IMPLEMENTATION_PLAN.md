@@ -105,8 +105,14 @@ per-machine symlink `app/active -> app/site_<home>/`.
       `../components/…` unchanged (already correct).
 - [x] Parse + full include-chain validated for both sites (lovelace → ui-config →
       dashboards metadata → filename targets → views → components all resolve).
-- [ ] **Device check (owner):** both homes — set BOTH symlinks (`packages/active`
-      + `app/active`), `ha core check`, and confirm dashboards render + views load.
+- [x] **Device check — 841 (owner):** dashboards + views load (2026-08-30).
+      Gotcha found: dashboard `filename:` changes need a **full `ha core restart`**
+      (a config check/reload keeps the old in-memory mapping → `FileNotFoundError`
+      on the pre-migration path). `filename:` must be **config-relative, no leading
+      slash** (`app/active/dashboard-admin.yaml`) — an absolute `/config/...` form
+      is wrong. Symlinked subdir works.
+- [ ] **Device check — shore (owner):** set both symlinks to `site_827pennlyn`,
+      `ha core restart` (not just check), confirm dashboards + views load.
 - [ ] Future (only when needed): add `app/shared/` for truly-shared views/cards.
 
 ## Phase 4 — Cutover  ⛔ not started

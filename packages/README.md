@@ -68,7 +68,10 @@ Then create `secrets.yaml` (see `secrets.example.yaml`) with this machine's
    (both symlinks must exist first, or the includes resolve to nothing).
 2. Ensure `secrets.yaml` has the site keys.
 3. `ha core check`.
-4. `ha core restart`.
+4. `ha core restart` — a **full restart is required** when dashboard `filename:`
+   mappings change (a config check/reload keeps the old in-memory mapping and
+   throws `FileNotFoundError` on the old path). Dashboard `filename:` values are
+   **config-relative, no leading slash** (e.g. `app/active/dashboard-admin.yaml`).
 5. Confirm entities actually populate (Developer Tools → States: `person.*`,
    `zone.home`, and dashboards in the sidebar) — `ha core check` tolerates a
    missing `!include_dir_*` silently, so a passing check alone is not proof.
