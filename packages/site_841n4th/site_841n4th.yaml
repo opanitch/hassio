@@ -39,3 +39,6 @@ input_number: !include_dir_named inputs/number/
 light: !include_dir_merge_list integrations/lights/
 sensor: !include_dir_merge_list integrations/sensors/
 template: !include_dir_merge_list integrations/templates/
+
+# Site-specific entity groups (this home's lights + household people).
+group: !include_dir_merge_named groups/
