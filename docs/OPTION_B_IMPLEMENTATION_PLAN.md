@@ -55,8 +55,12 @@
       (9 people / 5 zones / 8 customizations).
 - [x] **Device check (owner):** on main-house device — pulled branch, set
       `secrets.yaml` `site_*` keys, `ln -sfn site_841n4th packages/active`,
-      **`ha core check` completed successfully (2026-08-30).**
-- [x] Fix anything the device check surfaces. *(nothing surfaced — clean pass.)*
+      `ha core check` passed (2026-08-30) — **but this was a partial false positive:**
+      the buggy `packages/active/...` include paths made `!include_dir_*` resolve to
+      a missing dir (silently empty), so people/zones likely loaded empty while the
+      check still passed. Include paths fixed in `5196ec6`.
+- [ ] **Re-verify 841 (owner):** pull fix, `ha core check`, and confirm people +
+      zones actually populate (e.g. `person.oren`, `zone.home` in Developer Tools).
 
 ## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ~ in progress
 
