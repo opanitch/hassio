@@ -69,7 +69,7 @@
 - [x] **Shore device check (owner):** `ha core check` passed on shore with
       `site_827pennlyn` — no nest-secret error (2026-08-30).
 
-## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ~ in progress
+## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ✅ reconciled (final both-homes device check pending)
 
 **Which branch is the newer shared baseline?** Both were last actively worked on
 2026-04-12. `shore-house`'s last real work is slightly later that day and includes
@@ -104,6 +104,16 @@ the automations delta specifically.
         desired). Site-specific keys handled per-site; kept `my:`.
   - [x] **Blueprints** — added shore's 4 stock HA blueprints at root (shared) and
         removed the stock-blueprint `.gitignore` rules so both homes track them.
+  - [x] **device_tracker** — per-site (841 Verizon quantum_gateway, shore Netgear);
+        moved into each package, removed shared include, added `router_user` to
+        secrets template.
+  - [x] **scenes** — dead on both homes (`[]` shell); deleted, dropped shared
+        `scene:` include. Add per-site later if needed.
+  - [x] **profile images (`www/`)** — no action: referenced via `!secret
+        *_profile_home` paths, already per-machine.
+  - **Shared-drift reconciliation COMPLETE.** Shared config now = `default_config`,
+    `homeassistant` (site-neutral), `http`, enablers, `tts`, `frontend`/`lovelace`
+    wiring, `packages`. Everything else is per-site or deleted.
 
 ## Phase 3 — Per-site UI / dashboards (Design B)  ✅ complete (both homes validated 2026-08-30)
 
