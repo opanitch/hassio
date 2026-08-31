@@ -27,6 +27,12 @@
   `.../packages/active/packages/active/nest_config.yaml: unable to read file`).
 - **`configuration.yaml` is site-neutral**: `name`/`latitude`/`longitude`/
   `elevation` read `site_*` secrets; each machine's `secrets.yaml` carries values.
+- **Site-specific integrations live in the site package, not shared config.**
+  Confirmed cases moved out of `configuration.yaml`: `nest:` (841 only; shore uses
+  a UI-configured Honeywell Lyric) and `automation:` (each home has its own
+  automations — 841 has 22, shore has 2). Rule for the shared-drift pass: anything
+  that references a device/entity/secret only one home has belongs in that home's
+  package.
 - **`auth_providers` stays in `configuration.yaml`** (HA processes it before
   packages — per HA docs).
 - **Lovelace dashboards are NOT packages** (separate `lovelace:` system); per-site
