@@ -1,0 +1,5 @@
+name: 504 Shoemaker
+icon: mdi:home
+latitude: !secret zone_504shoe_lat
+longitude: !secret zone_504shoe_long
+radius: 100
