@@ -89,7 +89,7 @@ the automations delta specifically.
       (improvement to adopt / site-specific → move to package / divergence → pick
       one) for the ~40 differing shared files, get owner sign-off, then apply.
 
-## Phase 3 — Per-site UI / dashboards (Design B)  ~ built, ⏳ awaiting device check
+## Phase 3 — Per-site UI / dashboards (Design B)  ✅ complete (both homes validated 2026-08-30)
 
 Whole `app/` tree is per-site today (no shared UI yet). Implemented via a second
 per-machine symlink `app/active -> app/site_<home>/`.
@@ -111,8 +111,8 @@ per-machine symlink `app/active -> app/site_<home>/`.
       on the pre-migration path). `filename:` must be **config-relative, no leading
       slash** (`app/active/dashboard-admin.yaml`) — an absolute `/config/...` form
       is wrong. Symlinked subdir works.
-- [ ] **Device check — shore (owner):** set both symlinks to `site_827pennlyn`,
-      `ha core restart` (not just check), confirm dashboards + views load.
+- [x] **Device check — shore (owner):** dashboards + views load and `ha core check`
+      passes on shore with `site_827pennlyn` (2026-08-30).
 - [ ] Future (only when needed): add `app/shared/` for truly-shared views/cards.
 
 ## Phase 4 — Cutover  ⛔ not started
