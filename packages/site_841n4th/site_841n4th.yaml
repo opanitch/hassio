@@ -26,3 +26,6 @@ homeassistant:
 # Honeywell Lyric with no YAML). Keeping nest here means shore never loads it and
 # never needs nest_* secrets.
 nest: !include nest_config.yaml
+
+# Automations are site-specific (each home has its own). Package-relative path.
+automation: !include automations.yaml

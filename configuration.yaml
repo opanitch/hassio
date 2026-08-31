@@ -48,7 +48,8 @@ tts: !include integrations/tts/tts_config.yaml
 
 ### House Settings
 # areas: !include area_config.yaml
-automation: !include automations.yaml
+# NOTE: automations are site-specific and live in the active site package
+# (packages/site_<home>/automations.yaml). Not shared here.
 group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml

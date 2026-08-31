@@ -21,3 +21,6 @@ zone: !include_dir_list zones/
 # Per-entity UI customizations for this home's people
 homeassistant:
   customize: !include_dir_named customizations/
+
+# Automations are site-specific (each home has its own). Package-relative path.
+automation: !include automations.yaml
