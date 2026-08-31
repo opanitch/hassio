@@ -55,19 +55,26 @@
       **`ha core check` completed successfully (2026-08-30).**
 - [x] Fix anything the device check surfaces. *(nothing surfaced — clean pass.)*
 
-## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ⛔ not started
+## Phase 2 — Shore-house reconciliation (`site_827pennlyn`)  ~ in progress
 
-- [ ] **Step 0 cleanup:** `git rm --cached` committed generated files that live on
-      `shore-house` (`.xbox-token.json`, `OZW_Log.txt`, `aircast.xml`,
-      `harmony_*.conf`, `ip_bans.yaml`, `known_devices.yaml`).
-- [ ] Classify shore-house files: shared-config drift vs site-specific.
-- [ ] Fold shore's **shared** improvements into the single branch (the one
-      genuinely fiddly step — resolve where the branches drifted on shared files).
-- [ ] Populate `packages/site_827pennlyn/` (people/zones/customizations + shore-only
-      devices: Lyric, LIFX, Google Cast) with a `site_827pennlyn.yaml` entry file.
-- [ ] Ensure shore's `secrets.yaml` maps `site_*` keys to `827 Pennlyn` / OCNJ.
-- [ ] **Device check (owner):** on shore device — symlink to `site_827pennlyn`,
-      `ha core check`.
+**Which branch is the newer shared baseline?** Both were last actively worked on
+2026-04-12. `shore-house`'s last real work is slightly later that day and includes
+"update to new OS" + template modernizations (e.g. `vacuums-cleaning-status.yaml`),
+so **bias toward shore's version on HA-compat/integration/template files**.
+`master` has a later "automation backups" commit (2026-06-23) shore lacks — flag
+the automations delta specifically.
+
+- [x] Build `packages/site_827pennlyn/` from shore's people/zones/customizations
+      (Home zone auto-follows host via `site_*`; keeps site-only `location.oren.yaml`).
+      Parse-validated; symlink resolution confirmed.
+- [ ] **Device check (owner):** on shore device — `ln -sfn site_827pennlyn
+      packages/active`, ensure `secrets.yaml` has OCNJ `site_*` values, `ha core check`.
+- [ ] **Step 0 cleanup:** the generated files are only *added* on `shore-house`;
+      they won't come to the packages branch unless merged, so they're simply not
+      brought over. (`.gitignore` already covers them for the future.)
+- [ ] **Shared-drift reconciliation:** produce a per-file classification table
+      (improvement to adopt / site-specific → move to package / divergence → pick
+      one) for the ~40 differing shared files, get owner sign-off, then apply.
 
 ## Phase 3 — Per-site dashboards (Lovelace)  ⛔ not started
 
