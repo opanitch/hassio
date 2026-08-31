@@ -33,3 +33,9 @@ automation: !include automations.yaml
 # Site-specific helper entities and switches (device-tied).
 switch: !include_dir_merge_list switches/
 input_number: !include_dir_named inputs/number/
+
+# Site-specific integrations (light groups, sensors, templates). Declared only
+# here (not in configuration.yaml) to avoid cross-file duplicate-key merges.
+light: !include_dir_merge_list integrations/lights/
+sensor: !include_dir_merge_list integrations/sensors/
+template: !include_dir_merge_list integrations/templates/

@@ -1,0 +1,9 @@
+- binary_sensor:
+  - name: Maria is Vacuuming
+    default_entity_id: binary_sensor.maria_vacuuming
+    state: "{{ is_state('vacuum.maria', 'cleaning') }}"
+  sensor:
+  - name: Maria's Last Sweep
+    default_entity_id: sensor.maria_last_clean
+    device_class: timestamp
+    state: "{{ states.binary_sensor.maria_vacuuming.last_changed }}"

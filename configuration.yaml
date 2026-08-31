@@ -59,18 +59,6 @@ scene: !include_dir_merge_list scenes/
 # script: !include scripts.yaml
 
 ### Integrations
-binary_sensor: !include_dir_merge_list integrations/binary_sensors/
-# device_sun_light_trigger: !include integrations/environment/tracker_sun_light_config.yaml # Needs more customization
+# All device/site integrations (lights, sensors, templates, etc.) are per-site —
+# see the active site package. Only tts (generic, identical across homes) is shared.
 device_tracker: !include device_tracker_config.yaml
-# hacs: !include integrations/environment/hacs_config.yaml
-light: !include_dir_merge_list integrations/lights/
-media_player: !include_dir_merge_list integrations/media_players/
-sensor: !include_dir_merge_list integrations/sensors/
-template: !include_dir_merge_list integrations/templates/
-# upnp: !include integrations/network/upnp_config.yaml
-# weather: !include_dir_list integrations/weather/
-# zwave: !include integrations/zwave/zwave_config.yaml
-
-### MQTT Config Section
-# mqtt: !include integrations/network/mqtt_config.yaml
-# lock: !include integrations/network/mqtt_lock.yaml
