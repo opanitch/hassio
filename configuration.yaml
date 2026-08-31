@@ -9,7 +9,7 @@ homeassistant:
   auth_providers: !include authentication/default.yaml
   auth_mfa_modules: !include authentication/mfa_config.yaml
   external_url: !secret external_url
-  internal_url: !secret external_url
+  internal_url: !secret internal_url
   # location
   country: !secret zone_home_country
   elevation: !secret site_elevation
@@ -67,7 +67,6 @@ device_tracker: !include device_tracker_config.yaml
 # hacs: !include integrations/environment/hacs_config.yaml
 light: !include_dir_merge_list integrations/lights/
 media_player: !include_dir_merge_list integrations/media_players/
-nest: !include integrations/climate_control/nest_config.yaml
 sensor: !include_dir_merge_list integrations/sensors/
 template: !include_dir_merge_list integrations/templates/
 # upnp: !include integrations/network/upnp_config.yaml

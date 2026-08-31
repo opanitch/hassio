@@ -18,3 +18,8 @@ zone: !include_dir_list packages/active/zones/
 # Per-entity UI customizations for this home's people
 homeassistant:
   customize: !include_dir_named packages/active/customizations/
+
+# Site-only devices/integrations (this home has a Nest; shore uses a UI-configured
+# Honeywell Lyric with no YAML). Keeping nest here means shore never loads it and
+# never needs nest_* secrets.
+nest: !include packages/active/nest_config.yaml
