@@ -28,8 +28,12 @@ templates, reusable dashboard cards) stays in the top-level config. Lovelace
 dashboards are not part of the package system and are handled separately.
 
 The site package entry file (e.g. `site_841n4th/site_841n4th.yaml`) references its
-subdirs by config-root path through the symlink (`packages/active/people/`), so
-the same file works for whichever site is active.
+subdirs by **package-relative** path (`people/`, `zones/`, `customizations/`,
+`nest_config.yaml`). HA resolves `!include` inside a package relative to the
+including file's own directory (`packages/active/`), so do **not** prefix paths
+with `packages/active/` — that doubles to `packages/active/packages/active/…` and
+fails to load. The same entry file works for whichever site is active because it
+is reached through the `packages/active` symlink.
 
 ## Per-machine setup (run once on each home's device)
 

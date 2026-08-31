@@ -19,9 +19,12 @@
 - **Site selection = per-machine symlink** `packages/active -> packages/site_<home>/`
   (gitignored). HA `!secret` can't be interpolated into an `!include` path, which
   rules out a secret-driven path; the symlink is the least-code option that works.
-- **Site package includes use config-root paths through the symlink**
-  (`packages/active/people/`), not relative-to-file paths — avoids ambiguity in
-  how HA resolves relative includes through a symlinked dir.
+- **Site package includes use package-relative paths** (bare `people/`, `zones/`,
+  `nest_config.yaml`). HA resolves `!include` inside a package **relative to the
+  including file's directory** (`packages/active/`), so a `packages/active/…`
+  prefix would double to `packages/active/packages/active/…` and fail. Verified on
+  the 841 device (a `packages/active/nest_config.yaml` include produced
+  `.../packages/active/packages/active/nest_config.yaml: unable to read file`).
 - **`configuration.yaml` is site-neutral**: `name`/`latitude`/`longitude`/
   `elevation` read `site_*` secrets; each machine's `secrets.yaml` carries values.
 - **`auth_providers` stays in `configuration.yaml`** (HA processes it before
@@ -111,9 +114,11 @@ device on 2026-08-30 with the packages layout + symlink + `site_*` secrets.
 
 ## Known risks / notes
 
-- Relative-include-through-symlink behavior was avoided rather than relied on
-  (config-root paths). If the device check ever shows empty person/zone loading,
-  re-examine this first.
+- **Include paths inside a package are relative to the including file's dir**
+  (`packages/active/`), confirmed on-device. Use bare paths (`people/`,
+  `nest_config.yaml`); never prefix with `packages/active/`. If person/zone lists
+  ever load empty, check this first — `!include_dir_*` tolerates a missing dir
+  silently (no error, just no entities), whereas a single-file `!include` errors.
 - `hermes` references `!secret hermes_id`; `secrets.yaml` must define it or the
   check fails on a missing secret.
 - No config has been applied to a live HA instance yet — Phase 1 device check is

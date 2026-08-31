@@ -9,17 +9,20 @@
 # Lovelace dashboards are NOT packages and are handled separately.
 # =============================================================================
 
+# Include paths are resolved RELATIVE TO THIS FILE's directory (packages/active/),
+# so use bare paths here — NOT packages/active/... (that would double the prefix).
+
 # People tracked at this home
-person: !include_dir_list packages/active/people/
+person: !include_dir_list people/
 
 # Zones relevant to this home
-zone: !include_dir_list packages/active/zones/
+zone: !include_dir_list zones/
 
 # Per-entity UI customizations for this home's people
 homeassistant:
-  customize: !include_dir_named packages/active/customizations/
+  customize: !include_dir_named customizations/
 
 # Site-only devices/integrations (this home has a Nest; shore uses a UI-configured
 # Honeywell Lyric with no YAML). Keeping nest here means shore never loads it and
 # never needs nest_* secrets.
-nest: !include packages/active/nest_config.yaml
+nest: !include nest_config.yaml
