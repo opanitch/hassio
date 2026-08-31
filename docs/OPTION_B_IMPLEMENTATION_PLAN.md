@@ -94,8 +94,10 @@ the automations delta specifically.
         check on both homes.**
   - [ ] **Templates** — folded into integrations move above (front-lock, maria,
         vacuums per-site; date-time shared-but-duplicated). Confirm on device check.
-  - [ ] **Groups** — `groups/` (light_groups, person_group, presence_devices,
-        front_door_lock) still shared + reference per-home entities; classify next.
+  - [x] **Groups** — per-site. 841 has `light_groups` + `person_group` (moved to
+        its package, `group:` declared there); shore uses no groups. Deleted dead
+        shells (`front_door_lock` fully commented, `presence_devices` empty).
+        Removed shared `group:` from root. Parse/resolution validated.
   - [ ] **Switches/inputs** — already moved to packages (Phase 3).
   - [ ] **`configuration.yaml` enablers** (browser:, internal_url, comment diffs) —
         reconcile shore's improvements; classify next.
