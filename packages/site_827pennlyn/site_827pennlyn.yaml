@@ -35,3 +35,7 @@ input_select: !include_dir_named inputs/select/
 # or media_player YAML at this home (media players are UI-configured).
 sensor: !include_dir_merge_list integrations/sensors/
 template: !include_dir_merge_list integrations/templates/
+
+# Device tracker — router hardware differs per home (841 Verizon quantum_gateway,
+# shore Netgear), so it's site-specific.
+device_tracker: !include device_tracker_config.yaml

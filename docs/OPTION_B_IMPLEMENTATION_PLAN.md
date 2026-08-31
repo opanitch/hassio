@@ -99,9 +99,11 @@ the automations delta specifically.
         shells (`front_door_lock` fully commented, `presence_devices` empty).
         Removed shared `group:` from root. Parse/resolution validated.
   - [ ] **Switches/inputs** — already moved to packages (Phase 3).
-  - [ ] **`configuration.yaml` enablers** (browser:, internal_url, comment diffs) —
-        reconcile shore's improvements; classify next.
-  - [ ] **Blueprints** — shore added stock blueprints; decide track/ignore.
+  - [x] **`configuration.yaml` enablers** — adopted shore's shared additions:
+        `browser:`, `map:`, `schedule:` (`internal_url` already set by owner as
+        desired). Site-specific keys handled per-site; kept `my:`.
+  - [x] **Blueprints** — added shore's 4 stock HA blueprints at root (shared) and
+        removed the stock-blueprint `.gitignore` rules so both homes track them.
 
 ## Phase 3 — Per-site UI / dashboards (Design B)  ✅ complete (both homes validated 2026-08-30)
 

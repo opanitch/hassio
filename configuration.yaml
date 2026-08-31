@@ -57,10 +57,9 @@ history:
 # history_graph: !include history_graph_config.yaml
 # NOTE: person:, zone:, switch:, input_number:, input_select: are now provided
 # per-site via packages/active (see packages/README.md). Do not re-add here.
-scene: !include_dir_merge_list scenes/
-# script: !include scripts.yaml
+# scene: removed — no live scenes on either home; add per-site if needed later.
 
 ### Integrations
 # All device/site integrations (lights, sensors, templates, etc.) are per-site —
 # see the active site package. Only tts (generic, identical across homes) is shared.
-device_tracker: !include device_tracker_config.yaml
+# device_tracker is per-site too (router hardware differs per home).
