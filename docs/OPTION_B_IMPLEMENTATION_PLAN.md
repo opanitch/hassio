@@ -178,11 +178,12 @@ omitted here.
 
 ## Follow-ups (tracked, not blocking the migration)
 
-- [ ] **`mode: yaml` dashboard deprecation.** The dashboard definitions in
-      `app/site_*/config/dashboards/*.yaml` use `mode: yaml`, which HA has flagged
-      as legacy and slated for removal (~2026.8). Migrate the dashboard-definition
-      mechanism separately from this migration; the per-site UI layout above is
-      unaffected by how dashboards are *declared*.
+- [x] **`mode: yaml` dashboard deprecation — N/A (verified 2026-08-31).** The
+      2026.8 removal targets only **top-level `lovelace: mode: yaml`**. This config
+      doesn't use that: the `lovelace:` body (`app/site_*/config/ui-config.yaml`)
+      uses `resource_mode: yaml` + `dashboards: !include_dir_named dashboards/`,
+      and every `mode: yaml` lives **inside a `dashboards/` entry**, which is the
+      supported (already-migrated) form. No change needed.
 - [x] **Per-machine setup script.** `scripts/hass-site.sh <home>` sets both
       symlinks at once, auto-discovers available sites, validates the site exists
       under both `packages/` and `app/`, and rejects unknown input. Self-check:
