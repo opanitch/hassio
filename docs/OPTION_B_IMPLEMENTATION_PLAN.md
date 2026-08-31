@@ -89,13 +89,25 @@ the automations delta specifically.
       (improvement to adopt / site-specific → move to package / divergence → pick
       one) for the ~40 differing shared files, get owner sign-off, then apply.
 
-## Phase 3 — Per-site dashboards (Lovelace)  ⛔ not started
+## Phase 3 — Per-site UI / dashboards (Design B)  ~ built, ⏳ awaiting device check
 
-- [ ] Design the dashboard symlink seam (packages don't cover `lovelace:`).
-- [ ] Split site-specific views from shared reusable cards.
-- [ ] Wire per-site dashboards through a `dashboards/active` (or equivalent)
-      symlink; document per-machine setup.
-- [ ] Device check on both homes.
+Whole `app/` tree is per-site today (no shared UI yet). Implemented via a second
+per-machine symlink `app/active -> app/site_<home>/`.
+
+- [x] Move switches (flux/harmony) + inputs (yamaha, waze) into each site package
+      as `switch:`/`input_number:`/`input_select:`; drop shared `switch:` include.
+- [x] Restructure UI into `app/site_841n4th/` and `app/site_827pennlyn/`
+      (views, components, config/ui-config, dashboard metadata, dashboard entry files).
+- [x] `lovelace: !include app/active/config/ui-config.yaml`; `app/active` symlink
+      created + gitignored.
+- [x] Fix internal paths: dashboard entry `!include views/…` (relative-to-file);
+      metadata `filename: app/active/…` (config-root through symlink); view→component
+      `../components/…` unchanged (already correct).
+- [x] Parse + full include-chain validated for both sites (lovelace → ui-config →
+      dashboards metadata → filename targets → views → components all resolve).
+- [ ] **Device check (owner):** both homes — set BOTH symlinks (`packages/active`
+      + `app/active`), `ha core check`, and confirm dashboards render + views load.
+- [ ] Future (only when needed): add `app/shared/` for truly-shared views/cards.
 
 ## Phase 4 — Cutover  ⛔ not started
 
@@ -112,15 +124,27 @@ the automations delta specifically.
 
 ## Commits on this branch
 
-| Commit | Summary |
-|--------|---------|
-| `0b6415e` | docs checkpoint (on `master`): README, BEST_PRACTICES, CONTRIBUTING, secrets template, recommendation |
-| `e3ab89f` | migrate main-house site config into `packages/site_841n4th`; site-neutral config; symlink selection |
-| `79f2c1d` | mark hermes as intentionally-incomplete system user |
-| `d9dd5d5` | keep coordinates as placeholders; document site_* vs zone catalog |
+See `git log master..packages-migration` for the full, authoritative list (the
+migration spans many commits: docs checkpoint, site_841n4th, site_827pennlyn,
+nest + automations + switches/inputs moves, the include-path fix, and the app/
+per-site restructure). A hand-maintained table drifts, so it's intentionally
+omitted here.
 
-**Phase 1 validated on real hardware:** `ha core check` passed on the main-house
-device on 2026-08-30 with the packages layout + symlink + `site_*` secrets.
+**Validated on real hardware:** `ha core check` passed on both the main-house
+(841) and shore (827 Pennlyn) devices on 2026-08-30 for the site packages
+(Phase 1 + 2 backend). Phase 3 (UI) awaits its device check.
+
+## Follow-ups (tracked, not blocking the migration)
+
+- [ ] **`mode: yaml` dashboard deprecation.** The dashboard definitions in
+      `app/site_*/config/dashboards/*.yaml` use `mode: yaml`, which HA has flagged
+      as legacy and slated for removal (~2026.8). Migrate the dashboard-definition
+      mechanism separately from this migration; the per-site UI layout above is
+      unaffected by how dashboards are *declared*.
+- [ ] **Per-machine setup script.** Add a shell helper (e.g. `hass-site <home>` in
+      `.zshrc`/`.bashrc`) that sets both symlinks at once:
+      `ln -sfn site_<home> packages/active && ln -sfn site_<home> app/active`.
+      Reduces the two-symlink setup to one command.
 
 ## Known risks / notes
 

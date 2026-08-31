@@ -21,11 +21,20 @@ packages/
 - `person:` (this home's residents) — `packages/active/people/`
 - `zone:` (this home's zones) — `packages/active/zones/`
 - `homeassistant.customize:` (per-entity UI for those people) — `packages/active/customizations/`
-- Site-only devices (a thermostat/receiver only this home has).
+- `automation:` (each home's own automations) — `packages/active/automations.yaml`
+- `switch:` / `input_number:` / `input_select:` (device-tied helpers) —
+  `packages/active/{switches,inputs}/`
+- Site-only devices/integrations (e.g. `nest:` at 841; shore's Lyric is UI-only).
 
-**Not** in packages: anything shared across homes (shared integrations,
-templates, reusable dashboard cards) stays in the top-level config. Lovelace
-dashboards are not part of the package system and are handled separately.
+**UI is separate:** Lovelace is not part of the package system, so per-site views,
+components, and dashboards live under `app/site_<home>/`, selected by a second
+per-machine symlink `app/active` (loaded via
+`lovelace: !include app/active/config/ui-config.yaml`). No shared UI exists today;
+a future `app/shared/` can hold truly-shared views/cards that a site view
+`!include`s explicitly.
+
+**Not** in a site package: anything shared across homes (shared integrations,
+templates) stays in the top-level config.
 
 The site package entry file (e.g. `site_841n4th/site_841n4th.yaml`) references its
 subdirs by **package-relative** path (`people/`, `zones/`, `customizations/`,
@@ -37,31 +46,38 @@ is reached through the `packages/active` symlink.
 
 ## Per-machine setup (run once on each home's device)
 
-`packages/active` is per-machine and gitignored. After cloning/pulling, point it
-at this machine's home **before** validating:
+Two per-machine symlinks select this home's config and UI. Both are gitignored
+and must be created **before** validating:
 
 ```bash
-# from the config root
-ln -sfn site_841n4th   packages/active   # main house
-# ln -sfn site_827pennlyn packages/active # shore house
+# from the config root — point BOTH at this machine's home
+ln -sfn site_841n4th        packages/active   # backend: people/zones/customize/switches/inputs/automations/site devices
+ln -sfn site_841n4th        app/active        # UI: views/components/dashboards
+# shore house would use site_827pennlyn for both
 ```
+
+> A small shell helper (e.g. a `hass-site <home>` function in `.zshrc`) to set both
+> symlinks at once is a planned follow-up — see docs/OPTION_B_IMPLEMENTATION_PLAN.md.
 
 Then create `secrets.yaml` (see `secrets.example.yaml`) with this machine's
 `site_name`, `site_latitude`, `site_longitude`, `site_elevation`, and the rest.
 
 ## Validation order
 
-1. `ln -sfn site_<home> packages/active` (symlink must exist first, or
-   `packages/active/` resolves to nothing).
+1. `ln -sfn site_<home> packages/active` **and** `ln -sfn site_<home> app/active`
+   (both symlinks must exist first, or the includes resolve to nothing).
 2. Ensure `secrets.yaml` has the site keys.
 3. `ha core check`.
 4. `ha core restart`.
+5. Confirm entities actually populate (Developer Tools → States: `person.*`,
+   `zone.home`, and dashboards in the sidebar) — `ha core check` tolerates a
+   missing `!include_dir_*` silently, so a passing check alone is not proof.
 
 ## Adding a new home
 
 1. `mkdir -p packages/site_<home>/{people,zones,customizations}` and add a
    `site_<home>.yaml` entry file (copy an existing one; filenames must be
-   globally unique across the packages tree).
-2. Fill in that home's people/zones/customizations.
-3. On that home's device: `ln -sfn site_<home> packages/active`, create
-   `secrets.yaml`, then `ha core check`.
+   globally unique across the packages tree). Add `app/site_<home>/` for its UI.
+2. Fill in that home's people/zones/customizations/automations and views.
+3. On that home's device: `ln -sfn site_<home> packages/active` **and**
+   `ln -sfn site_<home> app/active`, create `secrets.yaml`, then `ha core check`.
