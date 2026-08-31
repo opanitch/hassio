@@ -85,9 +85,21 @@ the automations delta specifically.
       and OCNJ `site_*` values (2026-08-30). Nest correctly not loaded on shore.
 - [x] **Step 0 cleanup:** the generated files are only *added* on `shore-house`;
       not brought over to the packages branch. (`.gitignore` already covers them.)
-- [ ] **Shared-drift reconciliation:** produce a per-file classification table
-      (improvement to adopt / site-specific → move to package / divergence → pick
-      one) for the ~40 differing shared files, get owner sign-off, then apply.
+- [ ] **Shared-drift reconciliation** (by category, owner sign-off per category):
+  - [x] **Integrations** — per-device, none shared. Moved live device integrations
+        into each site package (`light:`/`sensor:`/`template:` declared per-site,
+        not root; `tts:` is the only shared integration). Deleted all deprecated /
+        UI-migrated / unwired / 0-active-line files per `configuration.yaml` as the
+        source of truth (~20 files). Parse + resolution validated; **awaiting device
+        check on both homes.**
+  - [ ] **Templates** — folded into integrations move above (front-lock, maria,
+        vacuums per-site; date-time shared-but-duplicated). Confirm on device check.
+  - [ ] **Groups** — `groups/` (light_groups, person_group, presence_devices,
+        front_door_lock) still shared + reference per-home entities; classify next.
+  - [ ] **Switches/inputs** — already moved to packages (Phase 3).
+  - [ ] **`configuration.yaml` enablers** (browser:, internal_url, comment diffs) —
+        reconcile shore's improvements; classify next.
+  - [ ] **Blueprints** — shore added stock blueprints; decide track/ignore.
 
 ## Phase 3 — Per-site UI / dashboards (Design B)  ✅ complete (both homes validated 2026-08-30)
 
