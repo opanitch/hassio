@@ -29,3 +29,7 @@ nest: !include nest_config.yaml
 
 # Automations are site-specific (each home has its own). Package-relative path.
 automation: !include automations.yaml
+
+# Site-specific helper entities and switches (device-tied).
+switch: !include_dir_merge_list switches/
+input_number: !include_dir_named inputs/number/

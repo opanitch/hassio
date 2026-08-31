@@ -34,9 +34,9 @@ conversation:
 frontend:
 # https://www.home-assistant.io/integrations/ios/
 # ios: # only need if more than 1 iPhone user needs the app. no use case now
-## UI Configuration
+## UI Configuration — per-site via the app/active symlink (see packages/README.md)
 # https://www.home-assistant.io/lovelace/dashboards-and-views/
-lovelace: !include app/config/ui-config.yaml
+lovelace: !include app/active/config/ui-config.yaml
 mobile_app:
 my:
 sun:
@@ -53,13 +53,10 @@ tts: !include integrations/tts/tts_config.yaml
 group: !include_dir_merge_named groups/
 history:
 # history_graph: !include history_graph_config.yaml
-# input_number: !include_dir_named app/inputs/number/
-# input_select: !include_dir_named app/inputs/select/
-# NOTE: person: and zone: are now provided per-site via packages/active
-# (see packages/README.md). Do not re-add them here.
+# NOTE: person:, zone:, switch:, input_number:, input_select: are now provided
+# per-site via packages/active (see packages/README.md). Do not re-add here.
 scene: !include_dir_merge_list scenes/
 # script: !include scripts.yaml
-switch: !include_dir_merge_list app/switches/
 
 ### Integrations
 binary_sensor: !include_dir_merge_list integrations/binary_sensors/

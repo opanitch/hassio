@@ -1,0 +1,6 @@
+mode: yaml
+filename: app/active/dashboard-user.yaml
+title: House by Room
+icon: mdi:house
+require_admin: false
+show_in_sidebar: false

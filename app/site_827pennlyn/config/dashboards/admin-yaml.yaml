@@ -1,5 +1,5 @@
 mode: yaml
-filename: dashboard-admin.yaml
+filename: app/active/dashboard-admin.yaml
 title: Admin Panel
 icon: mdi:home-account
 require_admin: true

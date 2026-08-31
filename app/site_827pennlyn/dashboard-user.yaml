@@ -1,0 +1,8 @@
+# default
+title: 827 Pennlyn by Room
+views:
+  - !include views/exterior-view.yaml
+  # - !include views/second-bedroom-view.yaml
+  - !include views/living-room-view.yaml
+  # - !include views/kitchen-view.yaml
+  # - !include views/hallway-view.yaml

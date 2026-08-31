@@ -149,3 +149,6 @@ Desktop.ini
 
 # Per-machine active site selection (symlink -> packages/site_<home>/)
 packages/active
+
+# Per-machine active UI selection (symlink -> app/site_<home>/)
+app/active
