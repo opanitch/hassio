@@ -32,4 +32,4 @@ cards:
     entity: media_player.kitchen_assistant
   - type: media-control
     entity: media_player.public_broadcast
-  # - !include ../components/presence.yaml
+  # - !include /config/app/active/components/presence.yaml

@@ -1,5 +1,5 @@
 title: Admin Panel
 views:
-  - !include views/overview-view.yaml
-  - !include views/playroom-view.yaml
-  - !include views/master-suite.yaml
+  - !include /config/app/active/views/overview-view.yaml
+  - !include /config/app/active/views/playroom-view.yaml
+  - !include /config/app/active/views/master-suite.yaml

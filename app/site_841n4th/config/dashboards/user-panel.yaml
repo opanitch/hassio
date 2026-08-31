@@ -1,5 +1,5 @@
 mode: yaml
-filename: app/active/dashboard-user.yaml
+filename: /config/app/active/dashboard-user.yaml
 title: House by Room
 icon: mdi:house
 require_admin: false

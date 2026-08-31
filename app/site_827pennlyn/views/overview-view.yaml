@@ -75,7 +75,7 @@ badges:
   - entity: sensor.living_room_monitor_battery_level
   - entity: sun.sun
 cards:
-  - !include ../components/presence.yaml
+  - !include /config/app/active/components/presence.yaml
   - type: picture-glance
     entity: person.oren
     entities:

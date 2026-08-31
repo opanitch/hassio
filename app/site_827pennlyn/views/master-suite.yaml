@@ -48,4 +48,4 @@ cards:
     entities:
       - input_select.waze_destination
     title: Select Destination
-  # - !include ../components/presence.yaml
+  # - !include /config/app/active/components/presence.yaml
