@@ -36,6 +36,6 @@ input_select: !include_dir_named inputs/select/
 sensor: !include_dir_merge_list integrations/sensors/
 template: !include_dir_merge_list integrations/templates/
 
-# Device tracker — router hardware differs per home (841 Verizon quantum_gateway,
-# shore Netgear), so it's site-specific.
-device_tracker: !include device_tracker_config.yaml
+# Device tracker: none in YAML at this home — the Netgear router tracker is
+# UI-configured (Settings > Devices & Services); the netgear YAML platform was
+# removed from HA. 841 still uses a YAML quantum_gateway tracker.
