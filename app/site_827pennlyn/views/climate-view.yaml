@@ -1,0 +1,31 @@
+path: climate
+title: Climate
+icon: mdi:thermometer
+badges:
+  - entity: sensor.tstat_00fbbd_current_temperature
+  - entity: weather.827_pennlyn
+cards:
+  - type: thermostat
+    entity: climate.living_room_thermostat
+    name: Living Room (Lyric T6 Pro)
+
+  # Door-mounted temperature readings (populate when the Z-Wave sensors wake)
+  - type: entities
+    title: Door Temperatures
+    entities:
+      - entity: sensor.front_door_temperature
+        name: Front Door
+      - entity: sensor.back_door_temperature
+        name: Back Door
+      - entity: sensor.front_sliding_glass_door_temperature
+        name: Sliding Glass Door
+      - entity: sensor.laundry_room_door_temperature
+        name: Laundry Room Door
+      - entity: sensor.tool_closet_door_temperature
+        name: Tool Closet Door
+
+  # Site forecast for planning
+  - type: weather-forecast
+    entity: weather.827_pennlyn
+    name: 827 Pennlyn Forecast
+    show_forecast: true

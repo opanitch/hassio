@@ -1,0 +1,56 @@
+###
+# Lock "last action" template sensors for 827 Pennlyn.
+#
+# The two locks are DIFFERENT Z-Wave generations:
+#   * Front door  -> legacy alarm sensors (alarmtype = what happened,
+#                    alarmlevel = which user). Full human-readable decode below,
+#                    mirroring the 841n4th front-lock pattern.
+#   * Back door   -> newer Z-Wave JS notification model; it exposes NO
+#                    alarmtype/alarmlevel (and no per-user id). Best available
+#                    signal is select.back_door_lock_current_lock_mode plus the
+#                    jam binary_sensor, so its "last action" is coarser.
+# ponytail: back door has no per-user data on the wire; we report mode+jam only.
+###
+- sensor:
+    - name: "Front Door Last Action"
+      unique_id: front_door_last_action_827
+      icon: "mdi:lock"
+      state: >
+        {% set t = states("sensor.front_door_lock_alarmtype") %}
+        {% set l = states("sensor.front_door_lock_alarmlevel") %}
+        {% set action = {
+          "17":"Locked with keypad (jammed)",
+          "18":"Locked with keypad",
+          "19":"Unlocked with keypad",
+          "21":"Locked inside or using key",
+          "22":"Unlocked inside or using key",
+          "23":"Locked with App (jammed)",
+          "24":"Locked with App",
+          "25":"Unlocked with App",
+          "26":"Locked automatically (jammed)",
+          "27":"Locked automatically",
+          "32":"All User Codes deleted from lock",
+          "112":"New User Code added to the lock",
+          "161":"Failed User Code attempt at Keypad",
+          "162":"Attempted access outside of scheduled",
+          "167":"Low battery level",
+          "168":"Critical battery level",
+          "169":"Battery level too low to operate lock"
+        }.get(t, "Unknown action (" ~ t ~ ")") %}
+        {% set user = {
+          "0":"System","1":"Master","2":"Mary","3":"Howie",
+          "4":"Beck","5":"John","6":"Lou","7":"Iris"
+        }.get(l, l) %}
+        {{ action }} by {{ user }}
+
+    - name: "Back Door Last Action"
+      unique_id: back_door_last_action_827
+      icon: "mdi:lock"
+      state: >
+        {% set mode = states("select.back_door_lock_current_lock_mode") %}
+        {% set jammed = is_state("binary_sensor.back_door_lock_access_control_lock_jammed", "on") %}
+        {% if jammed %}
+          Jammed ({{ mode }})
+        {% else %}
+          {{ mode }}
+        {% endif %}

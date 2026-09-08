@@ -1,0 +1,60 @@
+path: security
+title: Security
+icon: mdi:shield-home
+badges:
+  - entity: lock.front_door_lock
+  - entity: lock.back_door_lock
+cards:
+  # Locks — quick toggle
+  - type: entities
+    title: Locks
+    state_color: true
+    entities:
+      - entity: lock.front_door_lock
+        name: Front Door
+      - entity: lock.back_door_lock
+        name: Back Door
+      - type: divider
+      - entity: sensor.front_door_last_action
+        name: Front — last action
+      - entity: sensor.back_door_last_action
+        name: Back — last action
+
+  # Doors / intrusion sensors
+  - type: entities
+    title: Doors
+    state_color: true
+    entities:
+      - entity: binary_sensor.front_door_intrusion
+        name: Front Door
+      - entity: binary_sensor.back_door_intrusion
+        name: Back Door
+      - entity: binary_sensor.front_sliding_glass_door_intrusion
+        name: Sliding Glass Door
+      - entity: binary_sensor.laundry_room_door_intrusion
+        name: Laundry Room Door
+      - entity: binary_sensor.tool_closet_door_intrusion
+        name: Tool Closet Door
+
+  # Lock health — jams and batteries
+  - type: entities
+    title: Lock Health
+    state_color: true
+    entities:
+      - entity: binary_sensor.front_door_lock_access_control_lock_jammed
+        name: Front — jammed
+      - entity: binary_sensor.back_door_lock_access_control_lock_jammed
+        name: Back — jammed
+      - type: divider
+      - entity: sensor.front_door_lock_battery_level
+        name: Front — battery
+      - entity: sensor.back_door_lock_battery_level
+        name: Back — battery
+      - entity: binary_sensor.front_door_lock_power_management_replace_battery_soon
+        name: Front — replace battery soon
+      - entity: binary_sensor.front_door_lock_power_management_replace_battery_now
+        name: Front — replace battery now
+      - entity: binary_sensor.back_door_lock_power_management_replace_battery_soon
+        name: Back — replace battery soon
+      - entity: binary_sensor.back_door_lock_power_management_replace_battery_now
+        name: Back — replace battery now

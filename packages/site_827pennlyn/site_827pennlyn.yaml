@@ -25,9 +25,9 @@ homeassistant:
 # Automations are site-specific (each home has its own). Package-relative path.
 automation: !include automations.yaml
 
-# Site-specific helper entities and switches (device-tied).
-switch: !include_dir_merge_list switches/
-input_number: !include_dir_named inputs/number/
+# Site-specific helper entities. No YAML switches or input_number helpers at
+# this home (no Z-Wave switches/lights or Yamaha receiver here); the Harmony
+# remote is UI-configured. input_select drives the Waze destination picker.
 input_select: !include_dir_named inputs/select/
 
 # Site-specific integrations (sensors, templates). Declared only here (not in

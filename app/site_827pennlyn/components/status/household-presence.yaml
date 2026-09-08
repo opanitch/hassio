@@ -1,6 +1,14 @@
 type: entities
 entities:
-  - device_tracker.oren_pixel_3
-  - device_tracker.jose_iphone
+  - entity: device_tracker.oren_pixel_10_pro_fold
+    name: Oren
+  - entity: device_tracker.mary_s_pixel_7_pro
+    name: Mary
+  - entity: device_tracker.johns_iphone
+    name: John
+  - entity: device_tracker.howies_iphone_wifi
+    name: Howie
+  - entity: device_tracker.rebecca_s_iphone
+    name: Rebecca
 title: Household Presence
 show_header_toggle: false
