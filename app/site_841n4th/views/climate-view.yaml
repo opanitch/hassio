@@ -1,0 +1,31 @@
+path: climate
+title: Climate
+icon: mdi:thermometer
+badges:
+  - entity: climate.living_room
+  - entity: sensor.living_room_multisensor_air_temperature
+cards:
+  - type: thermostat
+    entity: climate.living_room
+    name: Living Room (Nest)
+
+  # Living Room MultiSensor — mounted across the room from the Nest,
+  # next to the back door (a useful second reading of the space).
+  - type: entities
+    title: Living Room MultiSensor (by back door)
+    entities:
+      - entity: sensor.living_room_multisensor_air_temperature
+        name: Temperature
+      - entity: sensor.living_room_multisensor_humidity
+        name: Humidity
+      - entity: sensor.living_room_multisensor_illuminance
+        name: Illuminance
+      - entity: sensor.living_room_multisensor_ultraviolet
+        name: UV
+      - entity: binary_sensor.living_room_multisensor_home_security_motion_detection
+        name: Motion
+
+  - type: weather-forecast
+    entity: weather.forecast_home
+    name: 841 Forecast
+    show_forecast: true

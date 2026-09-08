@@ -173,6 +173,6 @@ cards:
     name: " "
   # weather dashboard
   - type: weather-forecast
-    entity: weather.openweathermap
-    name: 841 Weather
+    entity: weather.forecast_home
+    name: 841 Forecast
     show_forecast: true

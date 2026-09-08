@@ -2,6 +2,8 @@
 title: 841 N 4th by Room
 views:
   - !include /config/app/active/views/exterior-view.yaml
+  - !include /config/app/active/views/security-view.yaml
+  - !include /config/app/active/views/climate-view.yaml
   - !include /config/app/active/views/cameras-view.yaml
   - !include /config/app/active/views/second-bedroom-view.yaml
   - !include /config/app/active/views/living-room-view.yaml
