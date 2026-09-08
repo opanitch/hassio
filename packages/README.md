@@ -1,17 +1,27 @@
 # Per-site packages
 
 Each home's site-specific config lives in its own package directory here. The
-shared `configuration.yaml` loads exactly one via a **per-machine symlink**:
+shared `configuration.yaml` loads exactly one via a **per-machine symlink**,
+pulling in only that site's orchestrator file (fixed name `_site_package.yaml`):
 
 ```
 homeassistant:
-  packages: !include_dir_named packages/active/
+  packages:
+    active_site: !include packages/active/_site_package.yaml
 ```
+
+> Do **not** use `!include_dir_named packages/active/` here: that walks the site
+> directory and treats every leaf file (`people/*.yaml`, `zones/*.yaml`, the
+> lock templates, etc.) as its own package, which fails package-schema
+> validation and spams "Invalid package definition" warnings. Load the single
+> `_site_package.yaml` orchestrator instead — it `!include`s the rest.
 
 ```
 packages/
   site_841n4th/          # main house — people, zones, customizations
+    _site_package.yaml   #   site orchestrator (fixed name, loaded by config)
   site_827pennlyn/       # shore house
+    _site_package.yaml
   site_<third>/          # add a home = add a dir (no new branch)
   active -> site_841n4th # per-machine symlink, GITIGNORED (never committed)
 ```
@@ -36,7 +46,9 @@ a future `app/shared/` can hold truly-shared views/cards that a site view
 **Not** in a site package: anything shared across homes (shared integrations,
 templates) stays in the top-level config.
 
-The site package entry file (e.g. `site_841n4th/site_841n4th.yaml`) references its
+The site package entry file (`site_<home>/_site_package.yaml`, a fixed name so
+the shared config can load it through the `packages/active` symlink) references
+its
 subdirs by **package-relative** path (`people/`, `zones/`, `customizations/`,
 `nest_config.yaml`). HA resolves `!include` inside a package relative to the
 including file's own directory (`packages/active/`), so do **not** prefix paths
@@ -87,8 +99,9 @@ Then create `secrets.yaml` (see `secrets.example.yaml`) with this machine's
 ## Adding a new home
 
 1. `mkdir -p packages/site_<home>/{people,zones,customizations}` and add a
-   `site_<home>.yaml` entry file (copy an existing one; filenames must be
-   globally unique across the packages tree). Add `app/site_<home>/` for its UI.
+   `_site_package.yaml` entry file (copy an existing one; the entry file uses
+   this fixed name in every site so the shared `configuration.yaml` loads it via
+   the `packages/active` symlink). Add `app/site_<home>/` for its UI.
 2. Fill in that home's people/zones/customizations/automations and views.
 3. On that home's device: `scripts/hass-site.sh <home>`, create `secrets.yaml`,
    then `ha core check`. The new site is auto-discovered by the script (no edit

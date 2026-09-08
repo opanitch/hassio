@@ -20,8 +20,13 @@ homeassistant:
   currency: !secret zone_home_currency
   unit_system: us_customary
   # Per-site config (people, zones, customizations, site devices).
-  # packages/active is a per-machine symlink -> packages/site_<home>/
-  packages: !include_dir_named packages/active/
+  # packages/active is a per-machine symlink -> packages/site_<home>/.
+  # Load ONLY the site orchestrator (fixed filename _site_package.yaml), which
+  # in turn !includes that site's people/zones/etc. Using !include here (not
+  # !include_dir_named) is deliberate: !include_dir_named would treat every leaf
+  # file under the site dir as its own package and fail schema validation.
+  packages:
+    active_site: !include packages/active/_site_package.yaml
 
 # External
 http: !include authentication/http_config.yaml
@@ -33,7 +38,6 @@ config:
 conversation:
 # discovery: # prefer manual configuration
 frontend:
-map:
 schedule:
 # https://www.home-assistant.io/integrations/ios/
 # ios: # only need if more than 1 iPhone user needs the app. no use case now
